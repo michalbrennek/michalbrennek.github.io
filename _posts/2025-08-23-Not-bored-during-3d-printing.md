@@ -17,6 +17,7 @@ description: "How trying to keep kids entertained leads to babysitting a 3D prin
 image:
   path: /assets/images/terraforming-mars-cities-3d-print.jpg
   alt: "A nice set of 3d printed cities for Terraforming Mars."
+featured_image: /assets/images/terraforming-mars-cities-3d-print.jpg
 ---
 
 ### The Mission: To Terraform Mars - on the Kitchen Table (for now)
