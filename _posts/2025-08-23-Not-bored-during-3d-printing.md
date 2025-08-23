@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Filament Jam Prevention to First Post: A GitHub Pages Fun"
-date: 2025-08-23 23:45:00 +0200 
+date: 2025-08-23 23:45:00 +0200
 author: Yours Truly
 category: tech-diary
 tags: 
@@ -14,15 +14,14 @@ tags:
   - PLA
   - Terraforming Mars
 description: "How trying to keep kids entertained leads to babysitting a 3D printer, which in turn leads to a new blog built while troubleshooting on two fronts."
-image:
-  path: /assets/images/terraforming-mars-cities-3d-print.jpg
-  alt: "A nice set of 3d printed cities for Terraforming Mars."
-featured_image: /assets/images/terraforming-mars-cities-3d-print.jpg
+# The 'image' and 'featured_image' variables are removed as the Minima theme does not use them.
 ---
 
 ### The Mission: To Terraform Mars - on the Kitchen Table (for now)
 
 The plan was simple: load up the model, hit print, and come back in a few hours to some shiny new tiles for the kids (and us too). Of course, simple plans rarely survive contact with reality. There was just one problem: the spool of dark grey PLA was looking suspiciously light. The thought of a potential AMS jam meant one thing: I wasn't going anywhere. I was on printer babysitting duty.
+
+![A nice set of 3d printed cities for Terraforming Mars.](/assets/images/terraforming-mars-cities-3d-print.jpg)
 
 Staring at a printer for an hour is a special kind of meditative boredom. It's also the perfect incubator for those 'you know what I should finally do?' ideas. For me, it was time to brush up on my GitHub skills, have a look at this Ruby thing, learn the basics of Jekyll, and get a blog running on GitHub Pages. 
 
@@ -36,8 +35,6 @@ So here I am. The kids have their nice new tiles—or they will, once this last 
 
 It’s not like I needed another blog. I already have one for teaching navigation and high-latitude sailing. Another that's somewhat personal, PM'y stuff. And now... this one. So the question is, what shall I do with it? Maybe - eventually - during 'mythical free time', so around two thousand thirty never - I'll write an aggregator. A tool to collect all my `stdout` from everywhere and pipe it to a single domain. One blog to rule them all.
 
-Then again, with blogs, it's like... ~~hoarding~~ no, wait. It was *herding* cats. Wasn't it?  
-
-And it's official I'm hoarding blogs. I guess I'll just keep trying new things and writing about the chaotic journey it takes to get them done. Welcome to the workshop. Oh, wait. It's "the lab" these days.
+Then again, with blogs, it's like... ~~hoarding~~ no, wait. It was *herding* cats. Wasn't it? And it's official I'm hoarding blogs. I guess I'll just keep trying new things and writing about the chaotic journey it takes to get them done. Welcome to the workshop. Oh, wait. It's "the lab" these days.
 
 Welcome to the LAB.
