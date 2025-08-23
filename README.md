@@ -2,7 +2,7 @@
 
 A personal blog about everything linux, open-source, hpc, python, raspberrypi and being a geek dad.
 
-[![Deploy GitHub Pages](https://github.com/michalbrennek/michalbrennek.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/michalbrennek/michalbrennek.github.io/actions/workflows/pages.yml)
+[![Deploy GitHub Pages](https://github.com/michalbrennek/michalbrennek.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/michalbrennek/michalbrennek.github.io/actions/workflows/jekyll.yml)
 
 ### [➡️ View Live Site: https://michalbrennek.github.io](https://michalbrennek.github.io)
 
