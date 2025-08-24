@@ -28,7 +28,7 @@ Well, as it is with quick "great ideas," before the printer finished its job, I 
 
 The next hour was a focused deep dive into the digital engine room. No frantic multitasking, just a methodical attack on a chain of frustrating errors. It was a quick tour of wrestling with system variables in Windows, untangling the mess of failed Actions on GitHub, deleting the custom workflows that were causing all the havoc, and finally, the satisfying brutality of a single `git push --force`. And then, silence. It worked.
 
-What about the DigitalOcean project, you ask? The panicked fix involved three commits that now allow the process to be safely restarted exactly where it has left off. I guess you could call that a feature now - and a much-needed one, since a day without a crashing Python kernel is a day lost.
+What about the DigitalOcean project, you ask? The deeply focused fix involved three commits that now allow the process to be safely restarted exactly where it has left off. I guess you could call that a feature now - and a much-needed one, since a day without a crashing Python kernel is a day lost.
 
 ### The Final Boss: The Capital
 
