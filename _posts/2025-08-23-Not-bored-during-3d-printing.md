@@ -24,7 +24,7 @@ The plan was simple: load up the model, hit print, and come back in a few hours 
 
 Staring at a printer for an hour is a special kind of meditative boredom. It's also the perfect incubator for those 'you know what I should finally do?' ideas. For me, it was time to brush up on my GitHub skills, have a look at this Ruby thing, learn the basics of Jekyll, and get a blog running on GitHub Pages. 
 
-Well, as it is with quick "great ideas," before the printer finished its job, I checked the loads my Windows 11 workstation (which already runs at 75% of 2 CPUs load calculating my Digital Ocean project, which ~~is~~ was somewhat non restartable), installed Ruby, Jekyll, and Git, and promptly drove the whole project off a cliff.
+Well, as it is with quick "great ideas," before the printer finished its job, I checked the loads on my Windows 11 workstation (which already runs at 75% of 2 CPUs calculating my Digital Ocean project, which ~~is~~ was somewhat non restartable), installed Ruby, Jekyll, and Git, and promptly drove the whole project off a cliff.
 
 The next hour was a focused deep dive into the digital engine room. No frantic multitasking, just a methodical attack on a chain of frustrating errors. It was a quick tour of wrestling with system variables in Windows, untangling the mess of failed Actions on GitHub, deleting the custom workflows that were causing all the havoc, and finally, the satisfying brutality of a single `git push --force`. And then, silence. It worked.
 
