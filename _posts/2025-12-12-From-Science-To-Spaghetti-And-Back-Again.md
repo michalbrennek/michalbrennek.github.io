@@ -60,5 +60,3 @@ So, here I sit with a perfectly printed black-and-red ThinkPad stand, a printer 
 Was the €400 overhaul a waste? Let's call it... preventative maintenance for a machine that's survived two years of my P1-pushing. But let this be a lesson to you all: sometimes the solution isn't a new extruder assembly. Sometimes, it’s just a little checkbox you forgot about.
 
 Happy printing (and purge the hell out of it)!
-
-Welcome to the LAB.
