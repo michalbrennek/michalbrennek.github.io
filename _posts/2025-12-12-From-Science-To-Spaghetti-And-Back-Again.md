@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Filament Jam Prevention to First Post: A GitHub Pages Fun"
+title: "From Science to Spaghetti (and Back Again)"
 date: 2025-12-12 23:49:00 +0100
 author: Yours Truly
 category: tech-diary
