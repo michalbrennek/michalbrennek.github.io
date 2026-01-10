@@ -65,8 +65,6 @@ The Acronyms:
 
 FLOPS (Floating Point Operations Per Second): The "Floating Point" refers to the decimal point moving around to handle massive precision (e.g., 3.14159...). This is the language of physics. However, not all floating-point numbers are created equal. We can have single or double precision. Single precision is roughly 7 decimal digits of accuracy (measuring a room with a tape measure), while double precision is roughly 16 decimal digits (measuring that same room with a laser to the width of a hair). Atmospheric physics needs **Double Precision (FP64)**. Weather is chaotic; if you lose precision, a rounding error in the Equatorial Atlantic becomes a hurricane in Central Europe.
 
-TOPS (Tera Operations Per Second): The "Tera" just means "Trillion." The word "Operations" is suspiciously vague. In the AI world, it usually means adding simple integers (like 1 + 1). This is the language of guessing.
-
 FLOPS became the gold standard in the 1970s thanks to Frank McMahon at Lawrence Livermore National Labs. He didn't care about theoretical speed; he needed a brutal metric to see if a supercomputer could actually simulate nuclear physics or weather patterns. He needed to know if the machine could handle the math where 10.00001 is critically different from 10.00002.
 
 Recently, the AI boom gave birth to the TOPS metric. Marketing teams love TOPS because the numbers are huge (100 TOPS! 500 TOPS! Well, yes, for your Artificial quarterIntelligence those are *Int8* (8-bit integer)). But comparing scientific FLOPS to AI TOPS is dangerously misleading. FLOPS is calculating the precise ballistic trajectory of a rocket to Mars. TOPS is counting how many hotdogs are in a photo.
