@@ -25,7 +25,7 @@ I cannot code with a turbine screaming at me. So, I did what any self-respecting
 
 But a premium fan needs a premium home. I can't just zip-tie this masterpiece; it requires a custom enclosure.
 
-The Execution: Enter the Honeycomb
+### The Execution: Enter the Honeycomb build plate
 I fired up the slicer with a sick honeycomb designer plate. The material of choice? PLA Tough +. I want this case to be durable. I want it to feel premium.
 
 I also apparently want to lose my mind.
