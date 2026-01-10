@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Bending the nerves during another 3d print"
@@ -10,7 +9,7 @@ tags:
   - github-pages
   - troubleshooting
   - PLA-tough-plus
-description: "New plate, new filament, new challenge."
+description: "New plate, new filament, new challenge"
 ---
 
 ### Status update: It all starts quietly - the idea to build Sipeed Nano Cluster of 7 RPI CM5 is one of those starts
