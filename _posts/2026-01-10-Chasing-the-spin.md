@@ -59,9 +59,17 @@ I looked up the specs for the **Samsung Galaxy S25 Ultra** and **iPhone 17 Pro**
 * **iPhone 17 Pro (A19 Pro):** ~300 GFLOPS (FP64 CPU est.)
 
 ### What the "FLOPS"?!
-You will see marketing slides claiming these phones have **"100 TOPS!"**. Well yes, for your Artificial quarterIntelligence.
-**Do not believe the hype.**
-Those are *Int8* (8-bit integer) numbers meant for AI guessing games. Atmospheric physics needs **Double Precision (FP64)**. Weather is chaotic; if you lose precision, a rounding error in the Equatorial Atlantic becomes a hurricane in Central Europe. Mobile GPUs also hate FP64—they are built for flashy graphics, not science.
+If FLOPS are the "scientists," TOPS are the "marketers."
+
+The Acronyms:
+
+FLOPS (Floating Point Operations Per Second): The "Floating Point" refers to the decimal point moving around to handle massive precision (e.g., 3.14159...). This is the language of physics. However, not all floating-point numbers are created equal. We can have single or double precision. Single precision is roughly 7 decimal digits of accuracy (measuring a room with a tape measure), while double precision is roughly 16 decimal digits (measuring that same room with a laser to the width of a hair). Atmospheric physics needs **Double Precision (FP64)**. Weather is chaotic; if you lose precision, a rounding error in the Equatorial Atlantic becomes a hurricane in Central Europe.
+
+TOPS (Tera Operations Per Second): The "Tera" just means "Trillion." The word "Operations" is suspiciously vague. In the AI world, it usually means adding simple integers (like 1 + 1). This is the language of guessing.
+
+FLOPS became the gold standard in the 1970s thanks to Frank McMahon at Lawrence Livermore National Labs. He didn't care about theoretical speed; he needed a brutal metric to see if a supercomputer could actually simulate nuclear physics or weather patterns. He needed to know if the machine could handle the math where 10.00001 is critically different from 10.00002.
+
+Recently, the AI boom gave birth to the TOPS metric. Marketing teams love TOPS because the numbers are huge (100 TOPS! 500 TOPS! Well, yes, for your Artificial quarterIntelligence those are *Int8* (8-bit integer)). But comparing scientific FLOPS to AI TOPS is dangerously misleading. FLOPS is calculating the precise ballistic trajectory of a rocket to Mars. TOPS is counting how many hotdogs are in a photo.
 
 ### So where does a cluster of 7 x CM5s land?
 The CM5 uses the **Broadcom BCM2712** (Quad-core Cortex-A76).
@@ -77,4 +85,4 @@ Well, Thomas Watson, I think we beat the market cap.
 
 ---
 
-Current status (as a note to self): Bed temp 70°C, extruder 245°C, no aux fan. We're going slow. 
+Current status (as a note to self): Bed temp 70°C, extruder 245°C, no aux fan. We're going slow.
