@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "# Chasing the Spin: From ENIAC to the Pocket Supercomputers"
+title: "Chasing the Spin: From ENIAC to the Pocket Supercomputers"
 date: 2026-01-10 21:30:00 +0100
 categories: [HPC, Raspberry Pi, Weather, 3D Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
