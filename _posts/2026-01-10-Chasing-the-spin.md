@@ -40,7 +40,7 @@ It took the ENIAC team (led by Charney and von Neumann) about **24 hours to calc
 
 But here is the kicker. Fast forward to **2008**. Two researchers, Peter and Owen Lynch, created the **Phoniac**. It was a tiny Java app that ran the *exact same* ENIAC forecast code.
 
-They didn't run it on a server. They ran it on a **Nokia 6300**.
+They didn't run it on a fancy server farm. They ran it on a **Nokia 6300**.
 
 Yes, that little brick phone you used to play *Snake* on? It crunched the entire forecast in **less than a second**. The calculations that took a room-sized machine 24 hours in 1950 were done instantly by a phone that lived in your pocket. And that was *2008*.
 
