@@ -33,9 +33,9 @@ I also apparently want to lose my mind.
 The Warping Saga: Man vs. Thermodynamics
 I should have known better. I already wasted an entire kilogram of this filament printing a box for my drone (which, due to a design flaw, is now a very expensive paperweight). I have officially forgotten how to print with this stuff.
 
-The "Stock Settings" Fail Standard PLA settings laughed in my face. Underextrusion everywhere.
+The "Stock Settings": laughed in my face. Underextrusion everywhere.
 
-The "Scorched Earth" Experiment I decided to fight fire with fire. I cranked the heat to dangerous levels:
+The "Scorched Earth" Experiment: I decided to fight fire with fire. I cranked the heat to dangerous levels:
 
 Bed: 65°C
 
