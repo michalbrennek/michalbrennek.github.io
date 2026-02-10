@@ -28,7 +28,7 @@ The main reason I’ve been MIA is **Cyclone Senyar**. It demanded our full scie
 
 We’ve been analyzing the event from **November 25, 2025**. Here is the weird part: There was no $f$. No Coriolis parameter. By all rights, this thing should have been as straight as an arrow, yet it spun nicely.
 
-We deep-dived into the environmental conditions. They were "favorable," which is scientific code for *"we think we know why, but don't quote us yet."* However, the real hero seems to be the **mechanical contributions**.
+We deep-dived into the environmental conditions. They were "favorable," which is scientific code for *"we have a better explanation."* However, the real hero seems to be the **mechanical contributions**.
 
 After melting our processors for way too long, we moved on to the "algorithmic programming of figures" (Translation: I spent 40 hours fighting with plotting libraries to make the graphs look cool).
 
@@ -40,11 +40,11 @@ Finally, because I clearly didn't have enough frustration in my life, I decided 
 
 It failed. Beautifully. Spectacularly.
 
-We didn't want to rewrite the legacy code (because we value our sanity), so we tried some parallel implementation. The result? **We managed to get 3 seconds lower run times.**
+We didn't want to rewrite the legacy code (because we value our sanity), so we tried a parallel implementation. The result? **We managed to get 3 seconds lower run times.**
 
 Yes, you read that correctly. Three. Whole. Seconds. I can almost take a sip of coffee in the time we saved.
 
-However, we found the culprit: **Input/Output**. The bottleneck is real. I’m currently applying some "quick and dirty" fixes to the I/O handling. I will let you know if these dirty fixes perform better than the clean ones (spoiler: they usually do).
+However, we found another candidate for optimization (we are not touching complicated functions): **Input/Output**. The bottleneck is real. I’m currently applying some "quick and dirty" fixes to the I/O handling. I will let you know if these dirty fixes perform better than the clean ones (spoiler: they usually do).
 
 ---
 **Current status:** Full preventive maintenance of the printer and AMS hub install.
