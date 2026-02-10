@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brim is the answer - especially when analyzing the cyclone Senyar"
+title: "Brim is the answer - Especially when you are busy with tropical cyclogenesis"
 date: 2026-02-10 14:30:00 +0100
 categories: [Raspberry-Pi, Weather, 3D Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
