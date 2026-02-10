@@ -20,7 +20,7 @@ So, I changed tactics. I kept the first layers slow, but I introduced a new poli
 
 I slapped on a **1cm brim**. That is not a brim; that is a sombrero. But you know what? It worked just fine. The warping didn't stand a chance against that much surface area.
 
-![Sipeed Nanocluster with original fan (Noctua underway - I need to do some soldering)](/assets/images/sipeed-nanocluster-w-case.jpg)
+![Sipeed Nanocluster with original fan. Noctua underway - I need to do some soldering](assets/images/sipeed-nanocluster-w-case.jpg)
 
 ## 2. We Need to Talk About Cyclone Senyar
 
