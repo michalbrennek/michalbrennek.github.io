@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GeoBOTTOM Chronicles: When ADHD Rolls a Nat 20 on OpenMP (and a Nat 1 on Architecture)"
-date: 2026-02-22 21:10:00 +0100
+date: 2026-02-22 07:10:00 +0100
 categories: [Weather, HPC, Code]
 tags: [GeoTOP, OpenMP, Cpp, Hackathon, ADHD, Cluster, I-O]
 ---
