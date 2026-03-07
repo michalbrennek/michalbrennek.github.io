@@ -28,15 +28,25 @@ You open the script. You stare at this strange, alien piece of code.
 
 ### From Grinding Code to Herding Agents
 
-This brings me back to the GeoTOP hackathon and why, exactly, I approached a massive C++ architecture problem not with a compiler and a prayer, but with a team of synthetic brains. 
+This brings me back to the GeoTOP hackathon and why, exactly, I approached a massive C++ architecture problem not with a compiler and a prayer, but with knowlegde and a team of synthetic brains. 
 
 Here is the truth: **I am rusty in C++.** Somewhere along the line, my career shifted. I went from grinding code in the trenches to managing teams. My mental compiler for C++ is covered in cobwebs. But while my syntax memory has faded, my grasp of *process* and *solid architecture* hasn't. I know how a system should be built, even if I no longer want to manually type out every pointer allocation.
 
-So, when a colleague lost hope staring down the barrel of an impossible simulation timeline, I didn't sit down to write C. I sat down to manage.
+So, when a colleague lost hope staring down the barrel of an impossible simulation timeline, I didn't sit down to write C++. I sat down to manage.
+
+### The Real Loot Drop
+
+Honestly, though? It has been a genuinely cool side project. It kept my brain running at high efficiency between the iterations of my own primary project. Having to digest a stack of interesting papers just to internalize the underlying hydrological algorithms turned out to be a surprisingly fun and enriching exercise. It was a chaotic detour, but a highly profitable one for the intellect. For yer enjoyment, find the references:
+
+### References
+
+* Bui, M. T., Lu, J., & Nie, L. (2020). A Review of Hydrological Models Applied in the Permafrost-Dominated Arctic Region. *Geosciences, 10*(10), 401. https://doi.org/10.3390/geosciences10100401
+* Formetta, G., Capparelli, G., David, O., Green, T., & Rigon, R. (2016). Integration of a Three-Dimensional Process-Based Hydrological Model into the Object Modeling System. *Water, 8*(1), 12. https://doi.org/10.3390/w8010012
+* Giuseppe, F., Simoni, S., Godt, J. W., Lu, N., & Rigon, R. (2016). Geomorphological control on variably saturated hillslope hydrology and slope instability. *Water Resources Research, 52*, 4590-4607. https://doi.org/10.1002/2015wr017626
 
 ### Enter the AI Task Force
 
-Considering AI models like Claude are currently writing a 4% of the code on GitHub anyway (the projections say 20% end of 2026), why not speed things up? 
+Having no spare second, and considering AI models like Claude are currently writing a 4% of the code on GitHub anyway (the projections say 20% end of 2026), why not speed things up? We are brute forcing hope here, remember?
 
 I didn't just ask a chatbot to fix a script. I spun up a **team of Claude agents** with strict, unbending rules of engagement and an MCP server. I treated them exactly like a team of junior developers. 
 
