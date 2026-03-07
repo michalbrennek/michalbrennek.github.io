@@ -28,7 +28,7 @@ You open the script. You stare at this strange, alien piece of code.
 
 ### From Grinding Code to Herding Agents
 
-This brings me back to the GeoTOP hackathon and why, exactly, I approached a massive C++ architecture problem not with a compiler and a prayer, but with knowlegde and a team of synthetic brains. 
+This brings me back to the GeoTOP hackathon and why, exactly, I approached a massive C++ architecture problem not with a compiler and a prayer, but with knowledge and a team of synthetic brains. 
 
 Here is the truth: **I am rusty in C++.** Somewhere along the line, my career shifted. I went from grinding code in the trenches to managing teams. My mental compiler for C++ is covered in cobwebs. But while my syntax memory has faded, my grasp of *process* and *solid architecture* hasn't. I know how a system should be built, even if I no longer want to manually type out every pointer allocation.
 
@@ -36,7 +36,7 @@ So, when a colleague lost hope staring down the barrel of an impossible simulati
 
 ### The Real Loot Drop
 
-Honestly, though? It has been a genuinely cool side project. It kept my brain running at high efficiency between the iterations of my own primary project. Having to digest a stack of interesting papers just to internalize the underlying hydrological algorithms turned out to be a surprisingly fun and enriching exercise. It was a chaotic detour, but a highly profitable one for the intellect. For yer enjoyment, find the references:
+Honestly, though? It has been a genuinely cool side project. It kept my brain running at high efficiency between the iterations of my own primary project. Having to digest a stack of interesting papers just to internalize the underlying hydrological algorithms turned out to be a surprisingly fun and enriching exercise. It was a chaotic detour, but a highly profitable one for the intellect. And also remember what the proverb says - architecture first, so I had to get intimate with the flow (of work, of course, what else). For yer enjoyment, find the references:
 
 ### References
 
