@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Man Who Forecasted Weather with a Pencil and a Pile of Hay"
-date: 2026-03-24 20:00:00 +0100
+date: 2026-03-24 14:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Richardson, NWP, ENIAC, Forecast, Quaker, History, Cluster]
 ---
