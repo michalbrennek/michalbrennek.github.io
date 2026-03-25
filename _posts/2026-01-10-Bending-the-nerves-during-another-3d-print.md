@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Bending the nerves during another 3d print"
 date: 2026-01-10 19:49:00 +0100
 author: Yours Truly
@@ -10,6 +10,9 @@ tags:
   - troubleshooting
   - PLA-tough-plus
 description: "New plate, new filament, new challenge"
+header:
+  teaser: /assets/images/another-day-another-print-sipeed-nano-cluster-noctua-case.png
+excerpt: "Printing a custom Noctua fan case for the Sipeed Nano Cluster. PLA Tough + fought back with warping so aggressive the result could double as a rocking chair. Me: 0, Physics: 5."
 ---
 
 ### Status update: It all starts quietly - the idea to build Sipeed Nano Cluster of 7 RPI CM5 is one of those starts

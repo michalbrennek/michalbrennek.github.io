@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Chasing the Spin: From ENIAC to the Pocket Supercomputers"
 date: 2026-01-10 21:30:00 +0100
 categories: [HPC, Raspberry-Pi, Weather, 3D-Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
+header:
+  teaser: /assets/images/Reprogramming_ENIAC.png
+excerpt: "From ENIAC's 24-hour forecast to a Nokia running it in under a second. Now I'm building a Raspberry Pi cluster that outguns your phone."
 ---
 
 ![This US Army photo is from the archives of the ARL Technical Library: Two women wiring the right side of the ENIAC with a new program, in the "pre- von Neumann" days. "U.S. Army Photo" from the archives of the ARL Technical Library. Standing: Ester Gerston Crouching: Gloria Gordon Bolotsky. Public Domain: ARL Technical Library, 1946. Source: Wikimedia.](/assets/images/Reprogramming_ENIAC.png)

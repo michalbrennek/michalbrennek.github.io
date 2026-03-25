@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: single
 title: "GeoBOTTOM Chronicles: When ADHD Rolls a Nat 20 on OpenMP (and a Nat 1 on Architecture)"
 date: 2026-02-22 07:10:00 +0100
 categories: [Weather, HPC, Code]
 tags: [GeoTOP, OpenMP, Cpp, Hackathon, ADHD, Cluster, I-O]
+excerpt: "I told myself I had one job: finish the Senyar paper. Then my ADHD brain saw a side quest. From 53 hours to 22 - by muting a lying progress bar."
 ---
 
 I told myself I had *one job*: finish writing the Cyclone Senyar paper.

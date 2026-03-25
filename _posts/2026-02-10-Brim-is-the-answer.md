@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Brim is the answer - Especially when you are busy with tropical cyclogenesis"
 date: 2026-02-10 14:30:00 +0100
 categories: [Raspberry-Pi, Weather, 3D-Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
+header:
+  teaser: /assets/images/sipeed-nanocluster-w-case.jpg
+excerpt: "A 1cm brim finally tamed the warping beast on the Sipeed Nanocluster case. Meanwhile, Cyclone Senyar had no Coriolis parameter yet spun anyway -- so we melted our CPUs figuring out why."
 ---
 
 Long time no see. If you’re wondering why this blog has been quieter than a library after closing time, it’s not because I’ve been on a beach sipping mai tais. It’s because I have been trapped in a Bermuda Triangle of melting plastic, spinning fluids, and code that refuses to cooperate.

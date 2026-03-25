@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "From Filament Jam Prevention to First Post: A GitHub Pages Fun"
 date: 2025-08-23 23:45:00 +0200
 author: Yours Truly
@@ -14,6 +14,9 @@ tags:
   - PLA
   - Terraforming Mars
 description: "How trying to keep kids entertained leads to babysitting a 3D printer, which in turn leads to a new blog built while troubleshooting on two fronts."
+header:
+  teaser: /assets/images/terraforming-mars-cities-3d-print.jpg
+excerpt: "Babysitting a 3D printer on its last centimeters of filament is boring -- until you decide to spin up a Jekyll blog on GitHub Pages, crash your workstation, and git push --force your way to victory."
 ---
 
 ### The Mission: To Terraform Mars - on the Kitchen Table (for now)

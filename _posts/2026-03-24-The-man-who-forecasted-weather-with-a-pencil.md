@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "The Man Who Forecasted Weather with a Pencil and a Pile of Hay"
 date: 2026-03-24 14:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Richardson, NWP, ENIAC, Forecast, Quaker, History, Cluster]
+header:
+  teaser: /assets/images/Richardson_Computing_Form_1922.jpg
+excerpt: "Before ENIAC, before computers, before punch cards - one Quaker ambulance driver tried to forecast the weather by hand, on a pile of hay, in a war."
 ---
 
 ![Computing Form P II from Richardson's "Weather Prediction by Numerical Process" (1922), p. 189. The actual tabular calculation for the forecast of May 20th, 1910, 7h G.M.T. - six weeks of arithmetic, by hand. Public Domain. Source: Internet Archive.](/assets/images/Richardson_Computing_Form_1922.jpg)
