@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: single
 title: "Silver Tape, God’s Glory, and AI Agents: Surviving the Academic Code Thunderdome"
 date: 2026-03-07 14:30:00 +0100
 categories: [Academia, AI, Management, Code]
 tags: [AcademicCode, Claude, Agents, C, Reviewer2, Architecture]
+excerpt: "799 panicked tweaks held together by silver tape and the glory of God. I managed a team of AI agents like junior developers. Rule one: explain yourself."
 ---
 
 There is an old, revered software engineering proverb: *“Think twice, or maybe thrice, then code.”*

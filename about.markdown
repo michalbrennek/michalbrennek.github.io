@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 I'm **Michal Brennek** - researcher at the [Institute of Geophysics, Polish Academy of Sciences](https://www.igf.edu.pl/), where I work on atmospheric physics, tropical meteorology, and the kind of problems that require both a good dataset and a strong coffee.

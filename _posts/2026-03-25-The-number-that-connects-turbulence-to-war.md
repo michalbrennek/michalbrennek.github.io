@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: single
 title: "The Number That Connects Turbulence to War"
 date: 2026-03-25 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Richardson, Turbulence, Aviation, Peace, War, Fractals, History]
+header:
+  teaser: /assets/images/Richardson_Turbulence_Diagram_1922_p78.jpg
+excerpt: "A single dimensionless number that predicts turbulence in the atmosphere, keeps pilots safe at 35,000 feet, and - Richardson believed - follows the same mathematics as war."
 ---
 
 ![Eddy-viscosity diagram from Richardson's "Weather Prediction by Numerical Process" (1922), p. 78. Observations of turbulence at different heights in the atmosphere - the data behind the Richardson number. Public Domain. Source: Internet Archive.](/assets/images/Richardson_Turbulence_Diagram_1922_p78.jpg)

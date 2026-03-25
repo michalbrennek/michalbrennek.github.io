@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "From Science to Spaghetti (and Back Again)"
 date: 2025-12-12 23:49:00 +0100
 author: Yours Truly
@@ -10,6 +10,9 @@ tags:
   - troubleshooting
   - PLA
 description: "600m of filament later, I'm still trying to figure out how to set the print properly"
+header:
+  teaser: /assets/images/terraforming-mars-cities-3d-print.jpg
+excerpt: "I bought 400 EUR in spare parts and rebuilt three-quarters of the printer. The actual fix? One checkbox: Enable Prime Tower. Sometimes the solution is not a new extruder assembly."
 ---
 
 ### From Science to Spaghetti (and Back Again)
