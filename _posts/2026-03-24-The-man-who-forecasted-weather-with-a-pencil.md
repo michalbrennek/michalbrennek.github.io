@@ -195,17 +195,18 @@ And honestly? Next time GeoTOP gives me a runtime that insults my ancestors, I'm
 
 ### References
 
-* Richardson, L. F. (1922). *Weather Prediction by Numerical Process*. Cambridge University Press. [Available on Internet Archive](https://archive.org/details/weatherpredictio00richrich)
-* Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biographical Memoirs of Fellows of the Royal Society*, 9, 217-235.
-* Lynch, P. (1992). Richardson's Barotropic Forecast: A Reappraisal. *Bull. Amer. Meteor. Soc.*, 73, 35-47.
-* Hayes, B. (2001). The Weatherman. *American Scientist*, 89(1), 10. [DOI:10.1511/2001.14.10](https://doi.org/10.1511/2001.14.10)
-* Lynch, P. (2006). *The Emergence of Numerical Weather Prediction: Richardson's Dream*. Cambridge University Press.
-* Lynch, P. & Lynch, O. (2008). Forecasts by PHONIAC. *Weather*, 63(11), 324-326.
-* Vulpiani, A. (2014). Lewis Fry Richardson: scientist, visionary and pacifist. *Lett Mat Int*, 2, 121-128.
-* Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences*. Springer. [Open Access (CC BY 4.0)](https://doi.org/10.1007/978-3-030-31589-4)
-* Schultz, D. M. & Lynch, P. (2022). 100 Years of L. F. Richardson's *Weather Prediction by Numerical Process*. *Monthly Weather Review*, 150(4), 693-695.
-* Lynch, P. (2022). Richardson's Forecast: the Dream and the Fantasy. [arXiv:2210.01674](https://arxiv.org/abs/2210.01674)
+* Richardson, L. F. (1922). *Weather Prediction by Numerical Process*. Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich) / [Cambridge](https://www.cambridge.org/core/books/weather-prediction-by-numerical-process/209AB84257409CF1BB624F97EC9CCA79)
+* Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biographical Memoirs of Fellows of the Royal Society*, 9, 217-235. [Royal Society](https://royalsocietypublishing.org/rsbm/article/9/1/216/34536/Lewis-Fry-Richardson-1881-1953)
+* Lynch, P. (1992). Richardson's Barotropic Forecast: A Reappraisal. *Bull. Amer. Meteor. Soc.*, 73, 35-47. [DOI](https://doi.org/10.1175/1520-0477(1992)073<0035:RBFAR>2.0.CO;2)
+* Hayes, B. (2001). The Weatherman. *American Scientist*, 89(1), 10. [DOI](https://doi.org/10.1511/2001.14.10)
+* Lynch, P. (2006). *The Emergence of Numerical Weather Prediction: Richardson's Dream*. Cambridge University Press. [Ch. 7 PDF](https://maths.ucd.ie/~plynch/Dream/Book/CHAP07.pdf)
+* Lynch, P. & Lynch, O. (2008). Forecasts by PHONIAC. *Weather*, 63(11), 324-326. [HTML](https://maths.ucd.ie/~plynch/Publications/PHONIAC.html) / [PDF](https://maths.ucd.ie/~plynch/Publications/PHONIAC.pdf)
+* Vulpiani, A. (2014). Lewis Fry Richardson: scientist, visionary and pacifist. *Lett Mat Int*, 2, 121-128. [Springer](https://link.springer.com/article/10.1007/s40329-014-0063-z)
+* Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences*. Springer. [Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4)
+* Schultz, D. M. & Lynch, P. (2022). 100 Years of L. F. Richardson. *Monthly Weather Review*, 150(4), 693-695. [AMS](https://journals.ametsoc.org/view/journals/mwre/150/4/MWR-D-22-0068.1.xml)
+* Lynch, P. (2022). Richardson's Forecast: the Dream and the Fantasy. [arXiv](https://arxiv.org/abs/2210.01674)
 * European Meteorological Society. [Richardson's Fantastic Forecast Factory](https://www.emetsoc.org/resources/rff/)
+* Met Office. [Celebrating Lewis Fry Richardson](https://www.metoffice.gov.uk/about-us/who-we-are/our-history/celebrating-100-years-of-scientific-forecasting)
 
 ---
 

@@ -191,18 +191,22 @@ But both are running, right now, as you read this.
 
 ### References
 
-* Richardson, L. F. (1920). The Supply of Energy from and to Atmospheric Eddies. *Proc. Roy. Soc. London A*, 97, 354-373. [DOI:10.1098/rspa.1920.0039](https://royalsocietypublishing.org/doi/10.1098/rspa.1920.0039)
+* Richardson, L. F. (1920). The Supply of Energy from and to Atmospheric Eddies. *Proc. Roy. Soc. London A*, 97, 354-373. [DOI](https://doi.org/10.1098/rspa.1920.0039) / [ADS](https://ui.adsabs.harvard.edu/abs/1920RSPSA..97..354R)
 * Richardson, L. F. (1922). *Weather Prediction by Numerical Process*. Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich)
 * Richardson, L. F. (1939). *Generalized Foreign Politics*. Cambridge University Press.
+* Richardson, L. F. (1948). Variation of the frequency of fatal quarrels with magnitude. *JASA*, 43(244), 523-546. [JSTOR](https://www.jstor.org/stable/2280704)
 * Richardson, L. F. (1960). *Arms and Insecurity*. Ed. N. Rashevsky & E. Trucco. Boxwood Press.
 * Richardson, L. F. (1960). *Statistics of Deadly Quarrels*. Ed. Q. Wright & C. C. Lienau. Boxwood Press.
-* Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biog. Memoirs FRS*, 9, 217-235.
-* Hayes, B. (2001). The Weatherman. *American Scientist*, 89(1), 10. [DOI:10.1511/2001.14.10](https://doi.org/10.1511/2001.14.10)
-* Vulpiani, A. (2014). Lewis Fry Richardson: scientist, visionary and pacifist. *Lett Mat Int*, 2, 121-128.
+* Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biog. Memoirs FRS*, 9, 217-235. [Royal Society](https://royalsocietypublishing.org/rsbm/article/9/1/216/34536/Lewis-Fry-Richardson-1881-1953)
+* Hayes, B. (2001). The Weatherman. *American Scientist*, 89(1), 10. [DOI](https://doi.org/10.1511/2001.14.10)
+* Vulpiani, A. (2014). Lewis Fry Richardson: scientist, visionary and pacifist. *Lett Mat Int*, 2, 121-128. [Springer](https://link.springer.com/article/10.1007/s40329-014-0063-z)
 * Berreby, D. (2014). Cloudy With a Chance of War. *Nautilus*, Issue 15. [nautil.us](https://nautil.us/cloudy-with-a-chance-of-war-234998)
-* Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences*. Springer. [Open Access](https://doi.org/10.1007/978-3-030-31589-4)
-* SKYbrary Aviation Safety. Richardson Number. [skybrary.aero](https://skybrary.aero/articles/richardson-number)
-* Miles, J. W. (1961). On the stability of heterogeneous shear flows. *J. Fluid Mech.*, 10, 496-508.
+* Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences*. Springer. [Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4)
+* Clauset, A. (2018). Trends and fluctuations in the severity of interstate wars. *Science Advances*, 4(2). [DOI](https://doi.org/10.1126/sciadv.aao3580)
+* SKYbrary Aviation Safety. [Richardson Number](https://skybrary.aero/articles/richardson-number)
+* NOAA Aviation Weather Center. [Graphical Turbulence Guidance](https://aviationweather.gov/gfa/)
+* Miles, J. W. (1961). On the stability of heterogeneous shear flows. *J. Fluid Mech.*, 10, 496-508. [DOI](https://doi.org/10.1017/S0022112061000305)
+* MacTutor History of Mathematics. [Lewis Fry Richardson](https://mathshistory.st-andrews.ac.uk/Biographies/Richardson/)
 
 ---
 
