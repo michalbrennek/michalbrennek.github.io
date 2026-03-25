@@ -13,7 +13,7 @@ baseurl: ""
 author:
   name: "Michal Brennek"
   # avatar: "/assets/images/bio-photo.jpg"  # Add your photo here
-  bio: "Atmospheric physicist, project manager, sailor, maker. Researcher at the Institute of Geophysics, Polish Academy of Sciences."
+  bio: "Meteorologist, oceanographer, Python problem solver, experimenter, Raspberry Pi tinkerer, geek dad, manager, space enthusiast, ham radio lover, science columnist, ADHDer, synthetic intellect curious, linux admin cosplayer."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
