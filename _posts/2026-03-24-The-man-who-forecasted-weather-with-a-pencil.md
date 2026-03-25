@@ -6,6 +6,8 @@ categories: [Weather, HPC, History]
 tags: [Richardson, NWP, ENIAC, Forecast, Quaker, History, Cluster]
 header:
   teaser: /assets/images/Richardson_Computing_Form_1922.jpg
+  overlay_image: /assets/images/Richardson_Computing_Form_1922.jpg
+  overlay_filter: "0.6"
 excerpt: "Before ENIAC, before computers, before punch cards - one Quaker ambulance driver tried to forecast the weather by hand, on a pile of hay, in a war."
 ---
 

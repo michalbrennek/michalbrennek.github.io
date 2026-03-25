@@ -16,6 +16,8 @@ tags:
 description: "How trying to keep kids entertained leads to babysitting a 3D printer, which in turn leads to a new blog built while troubleshooting on two fronts."
 header:
   teaser: /assets/images/terraforming-mars-cities-3d-print.jpg
+  overlay_image: /assets/images/terraforming-mars-cities-3d-print.jpg
+  overlay_filter: "0.6"
 excerpt: "Babysitting a 3D printer on its last centimeters of filament is boring -- until you decide to spin up a Jekyll blog on GitHub Pages, crash your workstation, and git push --force your way to victory."
 ---
 

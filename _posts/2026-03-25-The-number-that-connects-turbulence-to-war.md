@@ -6,6 +6,8 @@ categories: [Weather, HPC, History]
 tags: [Richardson, Turbulence, Aviation, Peace, War, Fractals, History]
 header:
   teaser: /assets/images/Richardson_Turbulence_Diagram_1922_p78.jpg
+  overlay_image: /assets/images/Richardson_Turbulence_Diagram_1922_p78.jpg
+  overlay_filter: "0.6"
 excerpt: "A single dimensionless number that predicts turbulence in the atmosphere, keeps pilots safe at 35,000 feet, and - Richardson believed - follows the same mathematics as war."
 ---
 

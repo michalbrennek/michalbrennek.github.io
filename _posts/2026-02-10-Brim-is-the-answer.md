@@ -6,6 +6,8 @@ categories: [Raspberry-Pi, Weather, 3D-Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
 header:
   teaser: /assets/images/sipeed-nanocluster-w-case.jpg
+  overlay_image: /assets/images/header-cyclone.jpg
+  overlay_filter: "0.6"
 excerpt: "A 1cm brim finally tamed the warping beast on the Sipeed Nanocluster case. Meanwhile, Cyclone Senyar had no Coriolis parameter yet spun anyway -- so we melted our CPUs figuring out why."
 ---
 

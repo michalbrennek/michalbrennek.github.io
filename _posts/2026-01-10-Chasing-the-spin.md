@@ -6,6 +6,8 @@ categories: [HPC, Raspberry-Pi, Weather, 3D-Printing]
 tags: [CM5, Cluster, ENIAC, Vorticity, Maker]
 header:
   teaser: /assets/images/Reprogramming_ENIAC.png
+  overlay_image: /assets/images/header-eniac.jpg
+  overlay_filter: "0.6"
 excerpt: "From ENIAC's 24-hour forecast to a Nokia running it in under a second. Now I'm building a Raspberry Pi cluster that outguns your phone."
 ---
 
