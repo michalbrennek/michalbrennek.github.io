@@ -4,6 +4,9 @@ title: "Silver Tape, God’s Glory, and AI Agents: Surviving the Academic Code T
 date: 2026-03-07 14:30:00 +0100
 categories: [Academia, AI, Management, Code]
 tags: [AcademicCode, Claude, Agents, C, Reviewer2, Architecture]
+header:
+  overlay_image: /assets/images/header-eniac.jpg
+  overlay_filter: "0.6"
 excerpt: "799 panicked tweaks held together by silver tape and the glory of God. I managed a team of AI agents like junior developers. Rule one: explain yourself."
 ---
 

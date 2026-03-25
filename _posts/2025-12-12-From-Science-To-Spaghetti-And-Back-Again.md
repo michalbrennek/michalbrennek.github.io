@@ -12,6 +12,8 @@ tags:
 description: "600m of filament later, I'm still trying to figure out how to set the print properly"
 header:
   teaser: /assets/images/terraforming-mars-cities-3d-print.jpg
+  overlay_image: /assets/images/terraforming-mars-cities-3d-print.jpg
+  overlay_filter: "0.6"
 excerpt: "I bought 400 EUR in spare parts and rebuilt three-quarters of the printer. The actual fix? One checkbox: Enable Prime Tower. Sometimes the solution is not a new extruder assembly."
 ---
 

@@ -12,6 +12,8 @@ tags:
 description: "New plate, new filament, new challenge"
 header:
   teaser: /assets/images/another-day-another-print-sipeed-nano-cluster-noctua-case.png
+  overlay_image: /assets/images/another-day-another-print-sipeed-nano-cluster-noctua-case.png
+  overlay_filter: "0.6"
 excerpt: "Printing a custom Noctua fan case for the Sipeed Nano Cluster. PLA Tough + fought back with warping so aggressive the result could double as a rocking chair. Me: 0, Physics: 5."
 ---
 
