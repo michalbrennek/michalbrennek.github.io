@@ -4,14 +4,14 @@ minimal_mistakes_skin: "dark"
 
 title: "I'm about to kernel panic."
 subtitle: "Weather, HPC, and the occasional 3D printing disaster."
-name: "Michal Brennek"
+name: "Micha&#322; Brennek"
 description: "Atmospheric physics, HPC, history of science, and maker projects."
 url: "https://michalbrennek.github.io"
 baseurl: ""
 
 # Author
 author:
-  name: "Michal Brennek"
+  name: "Micha&#322; Brennek"
   # avatar: "/assets/images/bio-photo.jpg"  # Add your photo here
   bio: "Meteorologist, oceanographer, Python solvem probler, experimenter, Raspberry Pi tinkerer, geek dad, manager, space enthusiast, ham radio lover, science columnist, ADHDer, synthetic intellect curious, linux admin cosplayer."
   links:
