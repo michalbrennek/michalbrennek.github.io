@@ -1,0 +1,97 @@
+Lewis Richardson, father of numerical weather prediction and of fractals
+Posted on January 17, 2015 9:43 AM by Andrew
+Lee Sechrest writes:
+
+If you get a chance, Wiki this guy: Lewis Fry Richardson.
+
+I [Sechrest] did and was gratifyingly reminded that I read some bits of his work in graduate school 60 years ago. Specifically, about his math models for predicting wars and his work on fractals to arrive at better estimates of the lengths of common boundaries between nations. Pretty remarkable.
+
+Cool indeed.
+
+Lots and lots of great stuff in this mini-bio, for example:
+
+One of Richardson’s most celebrated achievements is his retroactive attempt to forecast the weather during a single day—20 May 1910—by direct computation. At the time, meteorologists performed forecasts principally by looking for similar weather patterns from past records, and then extrapolating forward. Richardson attempted to use a mathematical model of the principal features of the atmosphere, and use data taken at a specific time (7 AM) to calculate the weather six hours later ab initio. As Lynch makes clear, Richardson’s forecast failed dramatically, predicting a huge 145 hectopascals (4.3 inHg) rise in pressure over six hours when the pressure actually was more or less static. However, detailed analysis by Lynch has shown that the cause was a failure to apply smoothing techniques to the data, which rule out unphysical surges in pressure. When these are applied, Richardson’s forecast is revealed to be essentially accurate—a remarkable achievement considering the calculations were done by hand, and while Richardson was serving with the Quaker ambulance unit in northern France.
+
+It also mentions his statistical modeling of international disputes. I wonder what today’s international relations scholars think of this work. I’m sure they’ve gone much farther along in sophistication, but I wonder whether they see Richardson’s work as an interesting precursor or as a dead end.
+
+He also appears to have come up with the idea of fractal dimension in the length of coastlines, inspiring the famous writings of Mandelbrot on the topic:
+
+At the time, Richardson’s research was ignored by the scientific community. Today, it is considered an element of the beginning of the modern study of fractals. Richardson’s research was quoted by mathematician Benoît Mandelbrot in his 1967 paper How Long Is the Coast of Britain? Richardson identified a value (between 1 and 2) that would describe the changes (with increasing measurement detail) in observed complexity for a particular coastline; this value served as a model for the concept of fractal dimension.
+
+I’d never heard of this guy but apparently he’s pretty well known. For one thing, he has this long wikipedia page; for another, it says that the European Geosciences Union has an award named after him. But perhaps his closest connection to fame is that he’s the uncle of actor Ralph Richardson. Which is a little bit like me being famous because my distant relation to Marge Simpson (apparently, she’s married to a cousin of mine in L.A. whom I’ve never met).
+
+P.S. I gave the post this title (which I adapted from the link to the above Wikipedia image) because it reminds me of the song, “Cezanne, father of cubism,” which I only heard once, on the radio many years ago, but which Google and Youtube assure me actually exists.
+
+This entry was posted in Miscellaneous Statistics, Statistical Computing by Andrew. Bookmark the permalink.
+11 thoughts on “Lewis Richardson, father of numerical weather prediction and of fractals”
+Bob on January 17, 2015 12:11 PM at 12:11 pm said:
+For a recent discussion of his work see.
+http://www.americanscientist.org/issues/pub/statistics-of-deadly-quarrels
+
+Bob
+
+Reply ↓
+Paul on January 17, 2015 3:54 PM at 3:54 pm said:
+Glad you came across Lewis Fry Richardson, who was way ahead of his time in many areas.
+
+“The Distribution of Wars in Time” (J. Royal Statistical Society 1944 107(3/4):242-250) is one of Richardson’s most well-known papers. He posed the hypothesis that the outbreak of war in the international system followed a Poisson distribution, and was unable to reject this hypothesis via chi-square test on annual data. He concluded that “The agreement with Poisson’s law of improbable events draws our attention to the existence of a persistent background of probability.”
+
+Later, in Statistics of Deadly Quarrels (1960, p. 137) Richardson stated a different conclusion: “… it is idle to discuss [alternative explanations] if the difference between [observed numbers of war outbreaks] can be explained by chance.”
+
+Subsequently, International Relations researchers appear to have followed this latter interpretation. H.W. Houweling and J.B. Kuné reported in 1984 — “Do Outbreaks of War Follow a Poisson Processs” J. of Conflict Resolution 28(1): 51-61 — that “uncritical acceptance of Richardson’s model of the war generating process has discouraged researchers from focusing on the number of outbreaks and their causes” because of “the impression […] that the Richardson model rules out meaningful causal questions for research on war outbreaks”.
+
+Houweling and Kuné then used a more powerful statistical test to reject the simple Poisson process hypothesis.
+
+Oddly enough in his 1944 paper, Richardson had already rejected the Poisson distribution when aggregating the data in ‘cells’ of 9, 27 and 54 years, while accepting the hypothesis for cells of 1 & 3 years.
+
+In my dissertation I showed how to accurately predict the rate of war outbreak from the preceding daily time series of war outbreaks.
+
+I was surprised to observe that episodes where the rate of war outbreak was relatively high coincided almost precisely with periods of rising prices (categorized independently by Joshua Goldstein, Long Cycles: Prosperity and War in the Modern Age), while episodes with low rate of war outbreak coincided as precisely with periods of falling or stable prices.
+
+Separately, I had developed a dynamic model for a verbal theory that Goldstein proposed to explain the long cycle phenomenon. My model showed that perturbing the process changed the cycle’s period, addressing the criticism that ‘long cycles’ were not periodic and thus merely arbitrary fluctuations.
+
+My model also displayed the same phase relationships between prices and war that Goldstein reported. (Contrast this with the application of the Lotka-Volterra predator-prey model to the Canadian Lynx-Hare data, where the empirical phase relationship is the reverse of that predicted by the model: “Do Hares Eat Lynx?”.)
+
+Reply ↓
+Jim Hatton on January 17, 2015 6:06 PM at 6:06 pm said:
+Lewis Richardson was a devout pacifist. A good description of the research choices he made and their costs can be found in The Pleasures of Counting by T. W. Korner. http://www.amazon.com/The-Pleasures-Counting-246-rner/dp/0521568234
+
+Reply ↓
+darf ferrara on January 17, 2015 7:24 PM at 7:24 pm said:
+I’ll second this recommendation. This was the first I’d read about Richardson, and it motivated me to buy some of Richardsons works. There’s lots of other interesting statistical discussions as well.
+
+I first read about Richardson extrapolation in the Book 100 Digit Algorithms. It seemed like magic at first.
+
+Reply ↓
+Steve Sailer on January 17, 2015 8:34 PM at 8:34 pm said:
+I am surprised to learn that neither Natasha Richardson (the late wife of Liam Neeson, daughter of actress Vanessa Redgrave and director Tony Richardson) nor fellow actress Miranda Richardson seem to be closely related to Lewis and Ralph Richardson. Generally, famous English people with the same last names are relatives.
+
+Reply ↓
+Andrew on January 17, 2015 9:16 PM at 9:16 pm said:
+Steve:
+
+Along the same lines, Stanislaw Ulam’s wife was named Françoise Aron. When I found out that the two of them were buried together in the same cemetery as Raymond Aron, I thought for a moment—cool, Stanislaw Ulam married Raymond Aron’s sister! But I think it’s just a coincidence, I’ve not seen any claim of a direct relation between the two Arons in question. Too bad—it would’ve represented an excellent link between statistics and political science.
+
+Reply ↓
+Steve Sailer on January 18, 2015 7:57 PM at 7:57 pm said:
+The number of famous people (movie stars, statisticians, politicians, economists, golf writers, Nobel Prize-winners, etc.) related to Charles Darwin by blood or marriage is absurd.
+
+Reply ↓
+Rahul on January 18, 2015 2:41 AM at 2:41 am said:
+That bit about post hoc analysis by Lynch proving that Richardson’s forecast as essentially accurate if only he had used smoothing. Isn’t that just hindsight & forking paths?
+
+There could be a lot of reasonable predictive strategies but when Lynch took them he had the luxury of comparing against the right answer.
+
+Reply ↓
+Bill Jefferys on January 18, 2015 10:36 AM at 10:36 am said:
+Thanks for posting this, Andrew. Following up I found that my colleague Harry Swinney is a recent recipient of the Richardson prize, for his work on dynamical systems. I probably would have been aware of this if I still lived in Austin where I would run into Harry quite frequently (his lab was four floors below my office) but we left Austin almost 10 years ago so I miss stuff like this.
+
+Reply ↓
+mark Girolami on January 18, 2015 10:48 AM at 10:48 am said:
+Richardson was principal of Paisley College in Scotland for many years — not a lot of people know that….
+
+Reply ↓
+Øystein on January 19, 2015 4:54 AM at 4:54 am said:
+I have seen his work referenced several times in the “peace and conflict” subgenre of IR. My guess is that some view his work as a dead end because of its sort of black box nature (i.e. not modeling choices explicitly), while those comfortable with such an approach are more favorable.
+
+Reply ↓
