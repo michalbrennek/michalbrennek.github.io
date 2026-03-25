@@ -81,6 +81,10 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# Include
+include:
+  - _pages
+
 # Exclude
 exclude:
   - Gemfile
