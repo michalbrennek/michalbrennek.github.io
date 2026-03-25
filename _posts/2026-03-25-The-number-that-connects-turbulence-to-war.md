@@ -6,7 +6,7 @@ categories: [Weather, HPC, History]
 tags: [Richardson, Turbulence, Aviation, Peace, War, Fractals, History]
 ---
 
-![Page 66 of Richardson's "Weather Prediction by Numerical Process" (1922) - where the famous "Big whorls have little whorls" verse first appeared in print. The turbulent cascade, described in four lines of poetry buried in a wall of equations. Public Domain. Source: Internet Archive.](/assets/images/Richardson_Big_Whorls_1922_p66.jpg)
+![Chapter 4/9 of Richardson's "Weather Prediction by Numerical Process" (1922), p. 65 - "Turbulence: The Effects of Eddy Motion." Where Richardson first laid out the observations of smoke, wind and dandelion seeds that led to his criterion for turbulence. Public Domain. Source: Internet Archive.](/assets/images/Richardson_Turbulence_Chapter_1922.jpg)
 
 In my [last post](/weather/hpc/history/2026/03/24/The-man-who-forecasted-weather-with-a-pencil.html), I told you about a Quaker ambulance driver who tried to forecast the weather with a pencil and a pile of hay. Lewis Fry Richardson's magnificent failure, his vindication, and his vision of 64,000 human computers.
 
