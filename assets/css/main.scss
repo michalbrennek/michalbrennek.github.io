@@ -1,0 +1,14 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Increase gap between sidebar and content */
+.sidebar {
+  padding-right: 2em;
+}
+
+.page {
+  padding-left: 2em;
+}
