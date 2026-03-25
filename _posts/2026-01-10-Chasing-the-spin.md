@@ -128,16 +128,19 @@ We are living in an era where you can have an equivalent of 280 Cray-2 supercomp
 
 ### References
 
-* Charney, J. G., Fjortoft, R. & von Neumann, J. (1950). Numerical Integration of the Barotropic Vorticity Equation. *Tellus*, 2(4), 237-254. [PDF at UCD](https://maths.ucd.ie/~plynch/eniac/CFvN-1950.pdf)
-* Platzman, G. W. (1979). The ENIAC Computations of 1950 - Gateway to Numerical Weather Prediction. *Bull. Amer. Meteor. Soc.*, 60(4), 302-312.
-* Lynch, P. (2006). *The Emergence of Numerical Weather Prediction: Richardson's Dream*. Cambridge University Press.
-* Lynch, P. (2008). The ENIAC Forecasts: A Re-creation. *Bull. Amer. Meteor. Soc.*, 89(1), 45-55.
-* Lynch, P. & Lynch, O. (2008). Forecasts by PHONIAC. *Weather*, 63(11), 324-326. [UCD](https://maths.ucd.ie/~plynch/Publications/PHONIAC.html)
-* Kleiman, K. (2022). *Proving Ground: The Untold Story of the Six Women Who Programmed the World's First Modern Computer*. Grand Central Publishing.
-* Computer History Museum. [Hollerith's Punched Card Solution](https://www.computerhistory.org/revolution/punched-cards/2/2). [Jacquard Loom](https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/)
-* Army Ordnance Corps. [Electronic Computers Within The Ordnance Corps](https://ftp.arl.army.mil/~mike/comphist/61ordnance/chap2.html)
+* Charney, J. G., Fjortoft, R. & von Neumann, J. (1950). Numerical Integration of the Barotropic Vorticity Equation. *Tellus*, 2(4), 237-254. [PDF](https://maths.ucd.ie/~plynch/eniac/CFvN-1950.pdf)
+* Platzman, G. W. (1979). The ENIAC Computations of 1950 - Gateway to Numerical Weather Prediction. *Bull. Amer. Meteor. Soc.*, 60(4), 302-312. [PDF](https://maths.ucd.ie/~plynch/eniac/Platzman-1979.pdf)
+* Lynch, P. (2006). *The Emergence of Numerical Weather Prediction: Richardson's Dream*. Cambridge University Press. [Ch. 10 PDF](https://maths.ucd.ie/~plynch/Dream/Book/CHAP10.pdf)
+* Lynch, P. (2008). The ENIAC Forecasts: A Re-creation. *Bull. Amer. Meteor. Soc.*, 89(1), 45-55. [AMS](https://journals.ametsoc.org/view/journals/bams/89/1/bams-89-1-45.xml)
+* Lynch, P. & Lynch, O. (2008). Forecasts by PHONIAC. *Weather*, 63(11), 324-326. [HTML](https://maths.ucd.ie/~plynch/Publications/PHONIAC.html) / [PDF](https://maths.ucd.ie/~plynch/Publications/PHONIAC.pdf)
+* Kleiman, K. (2022). *Proving Ground: The Untold Story of the Six Women Who Programmed the World's First Modern Computer*. Grand Central Publishing. [Publisher](https://www.grandcentralpublishing.com/titles/kathy-kleiman/proving-ground/9781538718292/)
+* Computer History Museum. [Hollerith's Punched Card Solution](https://www.computerhistory.org/revolution/punched-cards/2/2) / [Jacquard Loom](https://www.computerhistory.org/storageengine/punched-cards-control-jacquard-loom/)
+* Encyclopaedia Britannica. [ENIAC](https://www.britannica.com/technology/ENIAC)
+* Army Ordnance Corps. [Electronic Computers Within The Ordnance Corps](https://ftp.arl.army.mil/~mike/comphist/61ordnance/chap2.html) / [Historic Computer Images](https://ftp.arl.army.mil/ftp/historic-computers/)
 * ENIAC Programmers Project. [eniacprogrammers.org](https://eniacprogrammers.org/)
 * Smithsonian Magazine. [The Unheralded Contributions of Klara Dan von Neumann](https://www.smithsonianmag.com/science-nature/meet-computer-scientist-you-should-thank-your-phone-weather-app-180963716/)
+* Geek History. [Urban Legend: Watson and Five Computers](https://geekhistory.com/content/urban-legend-i-think-there-world-market-maybe-five-computers)
+* U.S. Census Bureau. [Hollerith and the 1890 Census](https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html)
 
 ---
 
