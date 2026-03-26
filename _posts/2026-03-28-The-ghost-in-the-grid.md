@@ -15,9 +15,33 @@ excerpt: "Richardson's 200 km grid couldn't see a front. ENIAC's 736 km grid was
 
 ### Why the Models Cannot Draw the Line
 
-Every NWP model - ECMWF's Integrated Forecasting System, NOAA's GFS, the WRF model used for research - solves the same basic set of **primitive equations** that Bjerknes wrote down in 1904. Seven variables, seven equations. The model integrates them forward on a three-dimensional grid.
+Every NWP model - ECMWF's Integrated Forecasting System, NOAA's GFS, the WRF model used for research - still has Bjerknes' original **seven equations** at its core:
 
-**Nowhere in those equations does the word "front" appear.**
+- **3 momentum equations** (Newton's second law applied to air - one each for the eastward, northward, and vertical wind components)
+- **1 continuity equation** (mass is neither created nor destroyed)
+- **1 thermodynamic energy equation** (heat changes temperature)
+- **1 equation of state** (the ideal gas law - linking pressure, density, and temperature)
+- **1 moisture equation** (water vapor is carried by the wind and can condense or evaporate)
+
+Seven equations, seven unknowns: u, v, w, T, p, rho, q. That's the Bjerknes core. Richardson tried to solve them by hand. The ENIAC team solved a simplified version. They are still there, unchanged, inside every model running today.
+
+But a modern operational model is **far more than seven equations**. Over a century of atmospheric science has piled on top of Bjerknes' foundation:
+
+**Water species**: Bjerknes had one moisture variable - water vapor. A modern microphysics scheme in WRF tracks **five or six species separately**: vapor, cloud liquid water, cloud ice, rain, snow, and graupel. Each has its own prognostic equation describing how it is created, transported, and converted into other species. That's 5-6 equations replacing Bjerknes' single moisture equation.
+
+**Radiation**: The atmosphere absorbs and emits radiation at every level - shortwave from the sun, longwave from the Earth and clouds. Bjerknes didn't model this. Modern models solve **radiative transfer equations** through dozens of spectral bands, accounting for absorption by water vapor, CO2, ozone, and aerosols. ECMWF's radiation scheme alone is one of the most expensive parts of the model.
+
+**Turbulence**: The grid can't resolve individual turbulent eddies (that would require meter-scale resolution). So models use **turbulence closure schemes** - additional equations that parameterize the effect of subgrid-scale mixing on momentum, heat, and moisture. The planetary boundary layer scheme in WRF adds its own set of equations to represent how the lowest 1-2 km of the atmosphere churns during the day and stabilizes at night.
+
+**Convection**: At grid spacings larger than about 4 km, individual thunderstorms can't be resolved. Models use **cumulus parameterization schemes** - statistical representations of what convection does to the column of air above a grid point. These schemes trigger, produce rainfall, redistribute heat vertically, and detrain moisture into the environment - all based on equations that Bjerknes never imagined.
+
+**Land surface**: The ground matters. Soil moisture, vegetation, snow cover, urban heat islands - all affect the atmosphere from below. Modern models couple to **land surface models** with their own prognostic equations for soil temperature, soil moisture at multiple depths, snow depth, and canopy processes.
+
+**Chemistry and aerosols**: ECMWF's IFS carries **ozone and aerosol tracers** with their own transport and reaction equations. Some configurations run full atmospheric chemistry - hundreds of chemical species interacting.
+
+So Bjerknes' 7 equations have grown into **dozens of coupled prognostic equations** wrapped in parameterization schemes that would fill a textbook. But the core - the momentum, the mass, the energy, the gas law - is still Bjerknes 1904, still recognizable, still doing the heavy lifting.
+
+**And nowhere in any of those equations - old or new - does the word "front" appear.**
 
 The model computes temperature at grid point A and temperature at grid point B. If there's a 15-degree difference between them across 100 km, the model doesn't think "oh, that's a front." It just has two numbers. The **sharp gradient** is there in the data, but the model has no concept of what it means.
 
