@@ -114,6 +114,11 @@ That's not a failure of computation. It's a reminder that some of the most impor
 * Niebler, S. et al. (2022). Automated detection and classification of synoptic-scale fronts. *Weather Clim. Dynam.*, 3, 113-137. [CC BY 4.0](https://wcd.copernicus.org/articles/3/113/2022/)
 * Crespo, J. A. et al. (2023). 3D fronts and associated precipitation. *Geosci. Model Dev.*, 16, 4427-4450. [CC BY 4.0](https://gmd.copernicus.org/articles/16/4427/2023/)
 * Justin, T., McGovern, A. & Allen, J. T. (2025). FrontFinder AI. *AI for the Earth Systems*, 4(1). [AMS](https://journals.ametsoc.org/view/journals/aies/4/1/AIES-D-24-0043.1.xml)
+* Crespo, J. A. et al. (2024). Frontal climatologies. *Geosci. Model Dev.*, 17, 6137-6171. [CC BY 4.0](https://gmd.copernicus.org/articles/17/6137/2024/)
+* Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416)
+* Skamarock, W. C. et al. (2019). A Description of the Advanced Research WRF Model Version 4. *NCAR Technical Note* NCAR/TN-556+STR. [NCAR](https://doi.org/10.5065/1dfh-6p97)
+* Stull, R. (2017). *Practical Meteorology: An Algebra-based Survey of Atmospheric Science*. Ch. 20: NWP. [CC BY-NC-SA](https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/20:_Numerical_Weather_Prediction_(NWP))
+* ECMWF. [IFS Documentation](https://www.ecmwf.int/en/publications/ifs-documentation)
 * MetPy. [Frontogenesis](https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.frontogenesis.html)
 
 ---
