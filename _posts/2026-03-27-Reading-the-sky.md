@@ -68,11 +68,13 @@ Tomorrow: [why the models still can't do what the human does](/weather/hpc/histo
 
 ### References
 
-* Browning, K. A. (1986). Conceptual Models of Precipitation Systems. *Weather and Forecasting*, 1(1), 23-41.
-* Harrold, T. W. (1973). Mechanisms influencing the distribution of precipitation within baroclinic disturbances. *Q. J. R. Meteorol. Soc.*, 99, 232-251.
+* Browning, K. A. (1986). Conceptual Models of Precipitation Systems. *Weather and Forecasting*, 1(1), 23-41. [AMS](https://journals.ametsoc.org/view/journals/wefo/1/1/1520-0434_1986_001_0023_cmops_2_0_co_2.xml)
+* Harrold, T. W. (1973). Mechanisms influencing the distribution of precipitation within baroclinic disturbances. *Q. J. R. Meteorol. Soc.*, 99, 232-251. [DOI](https://doi.org/10.1002/qj.49709942003)
+* Dacre, H. (2020). A review of extratropical cyclones: observations and conceptual models over the past 100 years. *Weather*, 75(4). [RMetS](https://rmets.onlinelibrary.wiley.com/doi/10.1002/wea.3653)
 * EUMeTrain. [Conveyor Belt Model](https://resources.eumetrain.org/satmanu/conveyor_belt_model/index.html)
 * EUMeTrain. [Comma Cloud](https://resources.eumetrain.org/satmanu/CMs/Comma/print.htm)
 * Met Office. [Satellite Pictures](https://weather.metoffice.gov.uk/learn-about/how-forecasts-are-made/observations/satellite-pictures)
+* EUMETSAT. [MSG/SEVIRI](https://www.eumetsat.int/meteosat-second-generation)
 * WPC/NCEP. [Unified Surface Analysis Manual](https://www.wpc.ncep.noaa.gov/sfc/UASfcManualVersion1.pdf)
 
 ---
