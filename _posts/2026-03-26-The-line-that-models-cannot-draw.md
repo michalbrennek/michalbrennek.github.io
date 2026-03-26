@@ -19,7 +19,7 @@ Here's the thing nobody tells you: **no numerical weather prediction model has a
 
 Not ECMWF's IFS. Not GFS. Not WRF. Not any model, anywhere, ever.
 
-The models solve equations for pressure, temperature, wind, and moisture. Fronts are not in those equations. They are not predicted. They are not computed. They **emerge** - as sharp gradients in the solution - like a face appearing in static. The model doesn't know what a front is. It just solves physics, and fronts appear.
+The models solve equations for pressure, temperature, wind, and moisture. Fronts are not in those equations. They are not predicted. They are not computed. They **emerge** - as sharp gradients in the solution - like lightning in a cloud - you see it, but the cloud didn't plan it. The model doesn't know what a front is. It just solves physics, and fronts appear.
 
 This is the story of where fronts came from. Tomorrow, [how we read them](/weather/hpc/history/2026/03/27/Reading-the-sky.html). The day after, [why models still can't draw them](/weather/hpc/history/2026/03/28/The-ghost-in-the-grid.html).
 
