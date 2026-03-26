@@ -24,7 +24,7 @@ A front reveals itself through a combination of signals:
 - **Temperature**: Sharp gradient. Isotherms packed tightly together.
 - **Dew point**: Often more reliable than temperature. A dew point plunging 10C behind a cold front passage is unmistakable.
 - **Wind shift**: Abrupt change in direction. Cold front passage in the Northern Hemisphere: wind swings from southwest to northwest.
-- **Pressure tendency**: Fronts lie in pressure troughs. Pressure falls ahead, then rises sharply after passage.
+- **Pressure tendency**: Both front types lie in pressure troughs, but the signature differs. Cold front: pressure falls ahead, then **rises sharply** after passage. Warm front: pressure falls steadily as the front approaches, then **levels off** after passage.
 - **Cloud sequence**: Before a warm front: cirrus, then cirrostratus, then altostratus, then nimbostratus - a textbook progression that takes 12-24 hours to unfold.
 - **Precipitation**: Narrow band of heavy showers behind a cold front. Broad shield of steady rain ahead of a warm front.
 
