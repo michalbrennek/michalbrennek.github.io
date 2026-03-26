@@ -8,6 +8,7 @@ name: "Micha&#322; Brennek"
 description: "Atmospheric physics, HPC, history of science, and maker projects."
 url: "https://michalbrennek.github.io"
 baseurl: ""
+future: true
 
 # Author
 author:
