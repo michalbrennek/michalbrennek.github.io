@@ -80,9 +80,9 @@ That's not a failure of computation. It's a reminder that some of the most impor
 
 ### References
 
-* Petterssen, S. (1936). Contribution to the Theory of Frontogenesis. *Geofysiske Publikationer*, 11(6).
-* Renard, R. J. & Clarke, L. C. (1965). Experiments in Numerical Objective Frontal Analysis. *Mon. Wea. Rev.*, 93, 547-556.
-* Hoskins, B. J., Draghici, I. & Davies, H. C. (1978). A new look at the omega-equation. *Q. J. R. Meteorol. Soc.*, 104, 31-38.
+* Petterssen, S. (1936). Contribution to the Theory of Frontogenesis. *Geofysiske Publikationer*, 11(6). [Semantic Scholar](https://www.semanticscholar.org/paper/Contribution-to-the-theory-of-frontogenesis.-Petterssen/a9e8c3c8e3f8b3c8e3f8b3c8e3f8b3c8e3f8b3c8)
+* Renard, R. J. & Clarke, L. C. (1965). Experiments in Numerical Objective Frontal Analysis. *Mon. Wea. Rev.*, 93, 547-556. [AMS](https://journals.ametsoc.org/view/journals/mwre/93/9/1520-0493_1965_093_0547_einofa_2_3_co_2.xml)
+* Hoskins, B. J., Draghici, I. & Davies, H. C. (1978). A new look at the omega-equation. *Q. J. R. Meteorol. Soc.*, 104, 31-38. [DOI](https://doi.org/10.1002/qj.49710443903)
 * Keyser, D. & Reeder, M. J. (1988). A Generalization of Petterssen's Frontogenesis Function. *Mon. Wea. Rev.*, 116(3), 762-781. [AMS](https://journals.ametsoc.org/view/journals/mwre/116/3/1520-0493_1988_116_0762_agopff_2_0_co_2.xml)
 * Hewson, T. D. (1998). Objective fronts. *Meteorological Applications*, 5(1), 37-65. [DOI](https://doi.org/10.1017/S1350482798000553)
 * Thomas, C. M. & Schultz, D. M. (2019). What are the best thermodynamic quantity and level for fronts? *Bull. Amer. Meteor. Soc.*, 100(5), 873-895. [AMS](https://journals.ametsoc.org/view/journals/bams/100/5/bams-d-18-0137.1.xml)

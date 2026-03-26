@@ -60,11 +60,11 @@ Clouds and rainfall focused along these convergence zones. Between them lay the 
 
 Jacob had described the **anatomy of a mid-latitude cyclone**. And he needed a word for those convergence lines - those sharp boundaries where air masses clashed.
 
-He and his colleagues borrowed the word from the war that was still echoing through Europe. They called them **"fronts"** - lifting the term directly from the battle fronts of World War I (Encyclopedia.com). The squall line became the **cold front**. The steering line became the **warm front**. The hemispheric boundary between polar and tropical air became the **polar front**. The process of a cold front catching a warm front became **occlusion**, discovered by their Swedish colleague **Tor Bergeron**.
+He and his colleagues borrowed the word from the war that was still echoing through Europe. They called them **"fronts"** - lifting the term directly from the battle fronts of World War I. The squall line became the **cold front**. The steering line became the **warm front**. The hemispheric boundary between polar and tropical air became the **polar front**. The process of a cold front catching a warm front became **occlusion**, discovered by their Swedish colleague **Tor Bergeron**.
 
 Bergeron himself had a knack for observing nature. During the winter of 1922, while walking through the woods, he noticed that on days when the temperature was below freezing, the stratus cloud deck covering the hillside **stopped at the top of the tree canopy** instead of extending to the ground. He realized that ice crystals on the branches were scavenging moisture from the supercooled cloud droplets - a process now known as the **Wegener-Bergeron-Findeisen process**, which explains how most mid-latitude rain forms.
 
-As Arnt Eliassen, Jacob's biographer, wrote: "More than any other atmospheric scientist, Jack Bjerknes managed to create order and system in a seemingly disorderly atmosphere."
+But it was Jacob who had given the Bergen School its core insight - the cyclone model that tied all of it together. Fronts, air masses, occlusion, precipitation - they were all parts of a single three-dimensional machine, and Jacob had drawn the blueprint. As Arnt Eliassen, his biographer, wrote: "More than any other atmospheric scientist, Jack Bjerknes managed to create order and system in a seemingly disorderly atmosphere."
 
 ### A School of Thought, Not a Building
 
@@ -84,8 +84,9 @@ Tomorrow: [how synopticists and satellites actually read fronts](/weather/hpc/hi
 
 * Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416)
 * Bjerknes, J. (1919). On the Structure of Moving Cyclones. *Geofysiske Publikationer*, 1(2), 1-8. [Internet Archive](https://archive.org/details/onstructureofmov00bjerrich)
-* Bjerknes, J. & Solberg, H. (1922). Life Cycle of Cyclones and the Polar Front Theory. *Geofysiske Publikationer*, 3(1).
-* Bjerknes, J. (1969). Atmospheric teleconnections from the equatorial Pacific. *Mon. Wea. Rev.*, 97(3), 163-172.
+* Bjerknes, J. & Solberg, H. (1922). Life Cycle of Cyclones and the Polar Front Theory. *Geofysiske Publikationer*, 3(1). [PDF](https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/BjsijerknesSolberg22.pdf)
+* Bjerknes, J. (1969). Atmospheric teleconnections from the equatorial Pacific. *Mon. Wea. Rev.*, 97(3), 163-172. [AMS](https://journals.ametsoc.org/view/journals/mwre/97/3/1520-0493_1969_097_0163_atftep_2_3_co_2.xml)
+* NOAA JetStream. [Norwegian Cyclone Model](https://www.noaa.gov/jetstream/synoptic/norwegian-cyclone-model)
 * Atlas Obscura. [How a Father and Son Created Weather Forecasting](https://www.atlasobscura.com/articles/how-a-father-and-son-helped-create-weather-forecasting-as-we-know-it)
 * Encyclopedia.com. [Bergen School of Dynamic Meteorology](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/bergen-school-dynamic-meteorology-and-its-dissemination)
 * Smithsonian Magazine. [How WWI Changed Weather Forecasting](https://www.smithsonianmag.com/history/how-world-war-i-changed-weather-good-180963360/)
