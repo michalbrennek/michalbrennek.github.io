@@ -144,7 +144,7 @@ He tried adding lateral diffusion to smooth things out. It helped a little, but 
 
 It took him three more years to figure it out.
 
-In 1959, Phillips published a short but devastating paper: "An example of non-linear computational instability." The problem was **aliasing**. When two waves interact through the nonlinear advection terms, they produce new waves at the sum and difference of their wavenumbers. On a discrete grid, waves shorter than twice the grid spacing cannot be represented. Those phantom short waves get folded back - "aliased" - into longer waves, contaminating the solution with fictitious energy.
+In 1959, Phillips published a short but devastating paper: "An example of non-linear computational instability." The problem was **aliasing**. When two waves interact through the nonlinear advection terms (the parts of the equations where the wind carries itself - velocity times velocity, which means the output depends on the square of the input rather than the input alone), they produce new waves at the sum and difference of their wavenumbers. On a discrete grid, waves shorter than twice the grid spacing cannot be represented. Those phantom short waves get folded back - "aliased" - into longer waves, contaminating the solution with fictitious energy.
 
 Phillips' solution: transform the data into Fourier space, chop off the upper half of the spectrum, and transform back. With that filter in place, the model could run **indefinitely**.
 
