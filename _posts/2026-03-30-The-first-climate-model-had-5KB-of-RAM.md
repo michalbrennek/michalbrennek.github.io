@@ -29,7 +29,7 @@ Then the war came.
 
 Phillips enlisted in the U.S. Army Air Corps in March 1942. After training at the University of Michigan and Chanute Field in Illinois, he was commissioned as a Second Lieutenant on **June 5, 1944** - the day before D-Day. He was deployed to the **Azores**, where he created daily weather forecasts for Allied trans-Atlantic flights. Not a desk job. Not a training exercise. Real forecasts for real pilots flying real missions across an ocean where getting the weather wrong meant people didn't come home.
 
-He was discharged as a First Lieutenant in August 1946, went back to Chicago, and tore through a B.S. (1947), an M.S. (1948, under Erik Palmen), and a Ph.D. (1951, under George Platzman) in meteorology. His dissertation? A two-layer baroclinic model - the exact kind of mathematical framework that would, four years later, become the skeleton of the first climate simulation.
+He was discharged as a First Lieutenant in August 1946, went back to Chicago, and tore through a B.S. (1947), an M.S. (1948, under Erik Palmen), and a Ph.D. (1951, under George Platzman, a mathematical meteorologist who later wrote the definitive history of the ENIAC forecasts) in meteorology. His dissertation? A two-layer baroclinic model - the exact kind of mathematical framework that would, four years later, become the skeleton of the first climate simulation.
 
 Chicago in the late 1940s was the place to be if you cared about atmospheric dynamics. Carl-Gustaf Rossby was there. Platzman was there. The intellectual ferment was extraordinary. And in 1948, a paper arrived that grabbed Phillips by the collar: Jule Charney's "On the scale of atmospheric motions." Phillips later said it was this paper that awakened his interest in dynamic meteorology.
 
