@@ -5,8 +5,8 @@ date: 2026-03-28 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Fronts, NWP, ECMWF, WRF, MachineLearning, Diagnostics, Resolution]
 header:
-  teaser: /assets/images/header-front-satellite.jpg
-  overlay_image: /assets/images/header-front-satellite.jpg
+  teaser: /assets/images/header-model-clouds.jpg
+  overlay_image: /assets/images/header-model-clouds.jpg
   overlay_filter: "0.5"
 excerpt: "Richardson's 200 km grid couldn't see a front. ENIAC's 736 km grid was hopeless. At 9 km, ECMWF starts to see them. A neural network at NOAA is learning to draw them. Humans are still better."
 ---

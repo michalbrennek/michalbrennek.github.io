@@ -5,8 +5,8 @@ date: 2026-03-26 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Fronts, Bergen, Bjerknes, NWP, History]
 header:
-  teaser: /assets/images/header-front-satellite.jpg
-  overlay_image: /assets/images/header-front-satellite.jpg
+  teaser: /assets/images/header-front-textbook.jpg
+  overlay_image: /assets/images/header-front-textbook.jpg
   overlay_filter: "0.5"
 excerpt: "Fronts are the most recognizable feature on any weather map. The word was stolen from World War I by a 21-year-old in an attic in Norway."
 ---
