@@ -182,7 +182,7 @@ Eady added something profound about the experimental design:
 
 In other words: the simplicity was the point. By stripping away everything except the essential dynamics, Phillips revealed what the atmosphere does when nothing else gets in the way.
 
-**Joseph Smagorinsky**, who would go on to found GFDL:
+**Joseph Smagorinsky** - readers who follow this series [already know him](/hpc/raspberry-pi/weather/3d-printing/2026/01/10/Chasing-the-spin.html) from the ENIAC team - who would go on to found GFDL:
 
 > "A new era had been opened."
 
