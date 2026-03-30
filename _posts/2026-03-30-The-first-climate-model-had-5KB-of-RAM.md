@@ -172,7 +172,7 @@ The reactions from the meteorological community tell you everything you need to 
 
 Think about what Rossby grasped in that moment. Fronts - those sharp boundaries where air masses collide, the lines that forecasters draw on weather maps, the features that the Bergen School had spent decades studying - were not caused by moisture or clouds or precipitation. They were a **pure dynamical consequence** of differential heating and baroclinic instability. Phillips' dry, cloudless, mountainless, featureless model proved it.
 
-**Eric Eady**, at the Napier Shaw lecture in 1956:
+**Eric Eady** said at the Napier Shaw lecture in 1956:
 
 > "I think Dr. Phillips has presented a really brilliant paper which deserves detailed study from many different aspects."
 
