@@ -259,7 +259,7 @@ All of it - from 0.506 to 0.506127.
 **Current status:**
 - The butterfly: Still flapping. Still breaking forecasts.
 - The LGP-30: 800 pounds, 60 calculations per second, and it changed everything.
-- My cluster: 0.54 TFLOPS across 7 Raspberry Pi CM5s. Lorenz's LGP-30 did 60 operations per second. That's 9,000,000,000 times faster. I still can't predict next Tuesday.
+- My cluster: 0.54 TFLOPS across 7 Raspberry Pi CM5s. Lorenz's LGP-30 did 60 operations per second. That's 9×10⁹ times faster. I still can't predict next Tuesday.
 - The two-week wall: Still standing. No amount of FLOPS will knock it down.
 
 Yours Truly
