@@ -13,7 +13,10 @@ excerpt: "In 1940, a Swedish mathematician cracked the German Geheimschreiber ci
 
 ### The Man Behind the Machine
 
-![Arne Beurling in the 1940s — around the time of his cryptanalytic triumph. Photo: TT News Agency, public domain.](/assets/images/Beurling_1940s.jpg)
+<figure style="max-width: 500px; margin: 0 auto 1.5em;">
+  <img src="/assets/images/Beurling_1940s.jpg" alt="Arne Beurling in the 1940s" style="width: 100%;">
+  <figcaption style="font-size: 0.8em; text-align: center;">Arne Beurling in the 1940s — around the time of his cryptanalytic triumph. Photo: TT News Agency, public domain.</figcaption>
+</figure>
 
 [Yesterday](/weather/hpc/history/2026/04/03/The-swedes-got-there-first.html) I told you about BESK — the bitter schnapps computer that ran the world's first operational weather forecasts. I told you that FRA, Sweden's signals intelligence agency, was BESK's most urgent customer, running classified cryptanalysis sessions every night while meteorologists and aircraft engineers used the machine by day.
 
