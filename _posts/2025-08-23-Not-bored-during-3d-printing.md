@@ -37,9 +37,9 @@ What about the DigitalOcean project, you ask? The deeply focused fix involved th
 
 ### The Final Boss: The Capital
 
-So here I am. The kids have their nice new tiles—or they will, once this last piece is done. I'm writing this while waiting for the "capital" to print. It's the only tile that needs that last bit of dark grey, and the printer is back on the final, dwindling centimeters of filament. The risk of a jam is back, a tiny bit of suspense to cap off the project.
+So here I am. The kids have their nice new tiles--or they will, once this last piece is done. I'm writing this while waiting for the "capital" to print. It's the only tile that needs that last bit of dark grey, and the printer is back on the final, dwindling centimeters of filament. The risk of a jam is back, a tiny bit of suspense to cap off the project.
 
-It’s not like I needed another blog. I already have one for teaching navigation and high-latitude sailing. Another that's somewhat personal, PM'y stuff. And now... this one. So the question is, what shall I do with it? Maybe - eventually - during 'mythical free time', so around two thousand thirty never - I'll write an aggregator. A tool to collect all my `stdout` from everywhere and pipe it to a single domain. One blog to rule them all.
+It's not like I needed another blog. I already have one for teaching navigation and high-latitude sailing. Another that's somewhat personal, PM'y stuff. And now... this one. So the question is, what shall I do with it? Maybe - eventually - during 'mythical free time', so around two thousand thirty never - I'll write an aggregator. A tool to collect all my `stdout` from everywhere and pipe it to a single domain. One blog to rule them all.
 
 Then again, with blogs, it's like... ~~hoarding~~ no, wait. It was *herding* cats. Wasn't it? And it's official I'm hoarding blogs. I guess I'll just keep trying new things and writing about the chaotic journey it takes to get them done. Welcome to the workshop. Oh, wait. It's "the lab" these days.
 

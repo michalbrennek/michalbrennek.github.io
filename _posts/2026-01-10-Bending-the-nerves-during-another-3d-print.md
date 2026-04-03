@@ -50,7 +50,7 @@ Extruder: 255°C
 
 The Result? The "Banana Effect" Surprisingly... it flowed! The higher temps solved the underextrusion. The first layers went down smooth. I got confident. I walked away.
 
-But physics does not take hostages. Because I was printing so hot, the plastic contracted violently as it cooled. The warping didn't happen immediately—it waited until the print was 50% done, then lifted the corners so hard the bottom of the case is now curved like a rocking chair.
+But physics does not take hostages. Because I was printing so hot, the plastic contracted violently as it cooled. The warping didn't happen immediately--it waited until the print was 50% done, then lifted the corners so hard the bottom of the case is now curved like a rocking chair.
 
 So now we are at...
 Me: 0 Physics: 5

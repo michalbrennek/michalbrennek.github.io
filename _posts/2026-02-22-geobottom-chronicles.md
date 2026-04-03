@@ -13,16 +13,16 @@ excerpt: "I told myself I had one job: finish the Senyar paper. Then my ADHD bra
 
 I told myself I had *one job*: finish writing the Cyclone Senyar paper.
 
-Then my brain—brought to you by **ADhD**, not **ADnD** (although yes, I used to play)—looked at the GeoTOP hydrological model and said:
+Then my brain--brought to you by **ADhD**, not **ADnD** (although yes, I used to play)--looked at the GeoTOP hydrological model and said:
 
-> “Side quest available.”
+> "Side quest available."
 
 And like any responsible adult, I accepted immediately. The Setup: A Tiny Hackathon, a Huge Deadline, and One Rusty Coder
 
-Here’s the reality checkpoint:
+Here's the reality checkpoint:
 
 - **Priority #1:** Cyclone Senyar paper (excellent team, real science, real deadlines).
-- **Available personal bandwidth:** ~**15 minutes per day**, plus occasional bursts of “why is it 2:47 AM”.
+- **Available personal bandwidth:** ~**15 minutes per day**, plus occasional bursts of "why is it 2:47 AM".
 - **Emergency:** my fellow PhD student is at serious risk of not making his defense timeline.
 
 So we did what any calm, mature researchers do in a crisis:
@@ -39,13 +39,13 @@ GeoTOP feels like a **castle built out of spaghetti**, with load-bearing comment
 **If GeoTOP were a house, the stairs would be optional and the roof would be a global variable.**
 
 Also, I am rusty at C++.
-My last serious compile was about **20 years ago**, which means my muscle memory is from the era when we thought “design patterns” were something you printed on t-shirts.
+My last serious compile was about **20 years ago**, which means my muscle memory is from the era when we thought "design patterns" were something you printed on t-shirts.
 
-But it’s fine, right?
+But it's fine, right?
 
 Coding in C++ is like riding a bike.
 
-A bike that’s on fire.
+A bike that's on fire.
 
 Downhill.
 
@@ -64,15 +64,15 @@ Did anyone act surprised?
 
 No.
 
-The codebase didn’t crash angrily.  
+The codebase didn't crash angrily.  
 It crashed *quietly*, like it had been waiting decades for someone to try that.
 
 At this point, I did the only reasonable thing: summon the undead!
 
 I spun up a **team of Claude code agents** to help with this task.
 
-Full transparency: I’m still writing Senyar with an excellent human team and that remains the main quest.  
-This was a **support raid**: get a proof-of-concept, get a researcher in need unblocked, and see if there’s a path to “this model finishes before the heat death of the universe.”
+Full transparency: I'm still writing Senyar with an excellent human team and that remains the main quest.  
+This was a **support raid**: get a proof-of-concept, get a researcher in need unblocked, and see if there's a path to "this model finishes before the heat death of the universe."
 
 We agreed on a strict rule:
 
@@ -95,20 +95,20 @@ Hours.
 
 Longer.
 
-This is the part where you stare at the runtime like it’s personally insulting your ancestors.
+This is the part where you stare at the runtime like it's personally insulting your ancestors.
 
 At this moment we named the branch:
 
 **GeoBOTTOM**
 
-Because that’s where:
+Because that's where:
 - my C++ skills were,
 - performance went,
 - and hope decided to take a nap.
 
-**“You Don’t Forget C++ — It’s Like Riding a Bike!”** I refused to believe the universe. I refused to believe *me*. I had been “fermenting code in Python” for so long that my brain thought semicolons were optional lifestyle choices.
+**"You Don't Forget C++ -- It's Like Riding a Bike!"** I refused to believe the universe. I refused to believe *me*. I had been "fermenting code in Python" for so long that my brain thought semicolons were optional lifestyle choices.
 
-So I went back in, read the key functions, and—somewhere between coffee #3 and coffee #4—  
+So I went back in, read the key functions, and--somewhere between coffee #3 and coffee #4--  
 **I saw the light.**
 
 Next compile: **Meaningful improvement:** about **half an hour faster** than the original.
@@ -136,24 +136,24 @@ Another iteration. This time:
 So yes, it got faster.
 
 But for context: this simulation has to run **~10,000 times** to optimize parameters.  
-We’re testing on **3 months** of data. It needs to scale to **3 full years**, maybe **10**.
+We're testing on **3 months** of data. It needs to scale to **3 full years**, maybe **10**.
 
 At this rate, Abhishek finishes his PhD around **2456**, give or take a leap year.
 
-**The Realization: Parallelization Isn’t a Spell, It’s a Contract**
+**The Realization: Parallelization Isn't a Spell, It's a Contract**
 
 We tried the classic approach: parallelize everything without mercy.
 
-But some loops are too small to benefit. That’s the double penalty:
+But some loops are too small to benefit. That's the double penalty:
 
 1. You pay **OpenMP overhead**
 2. You gain **nothing** because the loop has like 17 iterations and 18 existential crises
 
-So we scrapped the “pragma carpet bombing” strategy.
+So we scrapped the "pragma carpet bombing" strategy.
 
-And that’s when the real villain walked onto the screen:
+And that's when the real villain walked onto the screen:
 
-**🔥 Recomputing constants… constantly.** The original authors were calculating the same “constants” every timestep like they were afraid slopes might evolve overnight.
+**🔥 Recomputing constants… constantly.** The original authors were calculating the same "constants" every timestep like they were afraid slopes might evolve overnight.
 
 Slopes do not change.  
 Radians do not change.  
@@ -163,7 +163,7 @@ So why are we doing this **dozens of times per loop**?
 
 Then it clicked.
 
-The solution wasn’t “more threads.”
+The solution wasn't "more threads."
 
 The solution was:
 
@@ -174,7 +174,7 @@ The solution was:
 ** Cut I/O like it owes you money.** I have **~1 TB of RAM** sitting there, quietly judging me.
 
 So we decided:  
-**If the model wants data, it can have data—served hot, from memory, like a buffet.**
+**If the model wants data, it can have data--served hot, from memory, like a buffet.**
 
 We keep most things in RAM and skip the worst I/O churn.
 
@@ -183,15 +183,15 @@ And then:
 **BOOM.**
 
 From **53 hours** down to **22 hours, 2 minutes, and 26 seconds**.
-That’s not a speedup. That’s an exorcism. **2 humans, 1 synthetic intellect, and 1 TB of RAM walk into a bar... what could go wrong**  
+That's not a speedup. That's an exorcism. **2 humans, 1 synthetic intellect, and 1 TB of RAM walk into a bar... what could go wrong**  
 
-The cherry at the top... GeoTOP has a “nice” progress timer that tells you how many hours remain.
+The cherry at the top... GeoTOP has a "nice" progress timer that tells you how many hours remain.
 
 **It is a liar.**
 
 It starts at something like **78 hours**, slides down to **8**, and then the real heavy lifting starts and you land back at **a day**.
 
-It’s not a progress bar. It’s an emotional manipulation device.
+It's not a progress bar. It's an emotional manipulation device.
 
 So I did the most reasonable thing possible:
 
@@ -203,12 +203,12 @@ Result?
 
 Yes. Turning off the *lying motivational speaker* saved **3 hours** on a powerful machine.
 
-That’s performance engineering at your homestead.
+That's performance engineering at your homestead.
 
-We’re not done.
+We're not done.
 
 There are still subfunctions with suspiciously expensive patterns.  
-Still not touching the math—just the scaffolding, data movement, and repeated work.
+Still not touching the math--just the scaffolding, data movement, and repeated work.
 
 But the direction is now clear:
 
@@ -220,7 +220,7 @@ And yes…
 
 I should probably learn clustering.
 
-Because if this thing needs to run **10,000 times**, we’re going to need either:
+Because if this thing needs to run **10,000 times**, we're going to need either:
 - a cluster, or
 - a time machine, or
 - a very understanding thesis committee.
