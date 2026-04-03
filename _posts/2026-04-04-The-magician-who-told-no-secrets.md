@@ -11,13 +11,6 @@ header:
 excerpt: "In 1940, a Swedish mathematician cracked the German Geheimschreiber cipher in two weeks with pen and paper. When asked how, he replied: 'A magician does not reveal his secrets.' His work created the signals intelligence agency that needed BESK built in the first place."
 ---
 
-### The Man Behind the Machine
-
-<figure style="max-width: 500px; margin: 0 auto 1.5em;">
-  <img src="/assets/images/Beurling_1940s.jpg" alt="Arne Beurling in the 1940s" style="width: 100%;">
-  <figcaption style="font-size: 0.8em; text-align: center;">Arne Beurling in the 1940s — around the time of his cryptanalytic triumph. Photo: TT News Agency, public domain.</figcaption>
-</figure>
-
 [Yesterday](/weather/hpc/history/2026/04/03/The-swedes-got-there-first.html) I told you about BESK — the bitter schnapps computer that ran the world's first operational weather forecasts. I told you that FRA, Sweden's signals intelligence agency, was BESK's most urgent customer, running classified cryptanalysis sessions every night while meteorologists and aircraft engineers used the machine by day.
 
 But I didn't tell you **why** FRA existed in the first place.
@@ -25,6 +18,11 @@ But I didn't tell you **why** FRA existed in the first place.
 This is the story of the man who created the need for Swedish code-breaking computers — and who did it with nothing but a pencil.
 
 ### A Merchant Captain's Son
+
+<figure style="max-width: 500px; margin: 0 auto 1.5em;">
+  <img src="/assets/images/Beurling_1940s.jpg" alt="Arne Beurling in the 1940s" style="width: 100%;">
+  <figcaption style="font-size: 0.8em; text-align: center;">Arne Beurling in the 1940s — around the time of his cryptanalytic triumph. Photo: TT News Agency, public domain.</figcaption>
+</figure>
 
 **Arne Carl-August Beurling** was born on 3 February 1905 in Gothenburg, Sweden. His father, Konrad Beurling, captained merchant ships. His mother, Baroness Elsa Raab, came from Swedish nobility. From his father, Arne inherited an explosive temperament, a love of hunting and sailing, and an absolute refusal to explain himself to anyone.
 
