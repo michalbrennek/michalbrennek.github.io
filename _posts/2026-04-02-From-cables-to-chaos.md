@@ -108,6 +108,18 @@ But even in its converted form, the ENIAC had a fatal limitation: its internal m
 
 For that, you needed a machine designed around a different principle entirely.
 
+### The Missing Link: EDVAC
+
+Before the IAS machine, there was the **EDVAC** — the Electronic Discrete Variable Automatic Computer. Where the ENIAC was decimal, EDVAC was **binary**. Where the ENIAC stored its program in patch cables, EDVAC would store it in **memory**. Where the ENIAC used 17 468 vacuum tubes, EDVAC needed only about 3 500 — because binary arithmetic is inherently simpler than decimal.
+
+Von Neumann laid out the EDVAC's design in his famous "First Draft of a Report on the EDVAC" (June 1945) — the document that introduced the stored-program concept to the world. But here's the irony: EDVAC itself was **plagued by delays**. Eckert and Mauchly left the Moore School in March 1946, bitter over patent disputes with von Neumann. The remaining team struggled. Construction dragged on for years.
+
+EDVAC's memory was another innovation: **mercury delay lines**. The idea was almost absurdly physical — electrical signals were converted to sound pulses, sent through a tube filled with liquid mercury, received at the other end, converted back to electrical signals, and recirculated in a loop. Data literally traveled as sound waves through heavy metal. Each tube was about five feet long and held roughly 1 000 bits. It worked, but it was slow (serial access only) and required precise temperature control — the speed of sound in mercury changes with temperature.
+
+By the time EDVAC finally became operational at Aberdeen in **1951**, other machines inspired by its design had already beaten it into service. Most famously, **EDSAC** at Cambridge University (built by Maurice Wilkes) ran its first program on **May 6, 1949** — becoming the first practical stored-program computer in the world. Wilkes had attended the Moore School Lectures in the summer of 1946, gone home to England, and built his own version faster than the original team could finish theirs.
+
+EDVAC served at Aberdeen from 1951 to 1962, running ballistic calculations and military research. It never achieved the fame of the ENIAC or the IAS machine. But its **design** — binary, stored-program, with instructions and data sharing the same memory — was the template for everything that followed. Von Neumann took those principles and built the IAS machine. And the IAS machine changed the world.
+
 ---
 
 ## Machine 2: The IAS Machine — The Architecture (1952)
@@ -295,9 +307,11 @@ And it's still here. The ECMWF's Integrated Forecasting System, the model that p
 
 ### The Science: Weather Prediction Becomes Routine
 
-In my [Charney post](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html), I mentioned that the **Joint Numerical Weather Prediction Unit (JNWPU)** was established in 1954 in Suitland, Maryland. An **IBM 701** was installed in March 1955, and by May of that year, the first routine real-time operational numerical weather forecasts began.
+In my [Charney post](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html), I mentioned that the **Joint Numerical Weather Prediction Unit (JNWPU)** was established in 1954 in Suitland, Maryland. An **IBM 701** was installed in March 1955, and by May of that year, the first routine real-time operational numerical weather forecasts in the United States began.
 
-But it was the **IBM 704** that turned operational NWP from a struggle into a system. With 144 kilobytes of reliable core memory, hardware floating point, and eventually FORTRAN, the JNWPU could run more complex models, add more vertical levels, increase the resolution, and — crucially — **run twice daily on a schedule that never slipped**.
+But the US was not first. In **1954**, Rossby's group in Stockholm had already been running operational barotropic forecasts on the **BESK** — a Swedish IAS-clone computer. Sweden beat America to operational NWP by roughly a year. That is a story for its own post.
+
+It was the **IBM 704** that turned American operational NWP from a struggle into a system. With 144 kilobytes of reliable core memory, hardware floating point, and eventually FORTRAN, the JNWPU could run more complex models, add more vertical levels, increase the resolution, and — crucially — **run twice daily on a schedule that never slipped**.
 
 By 1958, the IBM 704 at the JNWPU was producing operational forecasts using Charney's three-level quasi-geostrophic model. The forecasts were good enough that the U.S. Weather Bureau began distributing them to field offices. Weather prediction by computer was no longer an experiment. It was infrastructure.
 
@@ -309,7 +323,7 @@ And because the 704 ran FORTRAN, the code could be **shared**. A model developed
 
 The 704 was also where **John McCarthy** implemented **Lisp** in 1958 — the second-oldest high-level programming language still in use (after FORTRAN). Lisp became the language of artificial intelligence research for three decades.
 
-At Bell Labs, **Max Mathews** used an IBM 704 in 1957 to produce the first computer-generated music: a rendition of "Daisy Bell" (also known as "A Bicycle Built for Two"). When Stanley Kubrick needed the HAL 9000 computer to sing a song as it was being shut down in *2001: A Space Odyssey* (1968), he chose "Daisy Bell" — a direct reference to the IBM 704 recording.
+At Bell Labs, **Max Mathews** created the MUSIC program on the IBM 704 in 1957 — the first software for digital audio synthesis. His work led to the famous 1961 recording of "Daisy Bell" (also known as "A Bicycle Built for Two"), performed on the **IBM 7094** with vocals synthesized by John Kelly's speech program and accompaniment by Mathews' MUSIC IV. When Stanley Kubrick needed the HAL 9000 computer to sing a song as it was being shut down in *2001: A Space Odyssey* (1968), he chose "Daisy Bell" — Arthur C. Clarke had visited Bell Labs and heard the 7094 sing it in person.
 
 ### The People to Remember
 

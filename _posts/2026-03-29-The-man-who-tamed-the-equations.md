@@ -128,7 +128,7 @@ By 1954, the dream was no longer a research project. It was a **daily routine**.
 
 The **Joint Numerical Weather Prediction Unit (JNWPU)** was formally established on July 1, 1954 - a joint project of the U.S. Weather Bureau, the U.S. Air Force, and the U.S. Navy, located in Suitland, Maryland, under George Cressman. An **IBM 701** was installed in March 1955, and by May 1955, the first routine real-time operational numerical weather forecasts began. They used Charney's Princeton three-level quasi-geostrophic model, issuing forecasts twice daily.
 
-(Sweden actually got there first - Rossby's group at SMHI produced the first operational NWP forecast in the world in 1954, using the same barotropic model.)
+(Sweden actually got there first. Rossby had returned to Stockholm and assembled a team that ran the world's first operational NWP forecasts on the **BESK** computer in **1954** - a full year before the Americans. That story deserves its own post.)
 
 Here's what I find remarkable: Charney's simple barotropic vorticity equation - the one from the ENIAC run - "continued to provide useful guidance for almost a decade" (Lynch, 2008). More complex baroclinic models actually performed **worse** at first. The simple model, born of necessity and brilliant filtering, refused to be outclassed.
 
