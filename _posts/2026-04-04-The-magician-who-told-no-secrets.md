@@ -93,47 +93,17 @@ The secret eventually leaked through two channels — a Soviet agent named Allan
 
 But Beurling himself was not there to see the end of it. In spring 1942, his explosive temperament caught up with him. Conflicts with FRA management led to his dismissal from the code-breaking effort. The magician was shown the door.
 
-### The Poles Who Started It All
+### The Poles Who Did It First
 
-There is a parallel story here that I cannot tell without telling you about three Polish mathematicians. Because if Beurling's achievement is remarkable, what happened in Poland a decade earlier is nothing short of extraordinary.
+Beurling was not the first mathematician to break an "unbreakable" cipher with a pencil. Eight years before his triumph, three Polish mathematicians at the Biuro Szyfrów (Cipher Bureau) in Warsaw had done something even more extraordinary.
 
-In **December 1932** — seven years before World War II — a 27-year-old mathematician from Bydgoszcz named **Marian Rejewski** sat down at the Biuro Szyfrów (Cipher Bureau) in Warsaw and cracked the German military Enigma cipher. He applied **permutation group theory** to cryptanalysis — the first time anyone had used pure mathematics for code-breaking. It has been called "the theorem that won World War II."
+In **December 1932**, **Marian Rejewski** — a 27-year-old from Bydgoszcz — cracked the German military Enigma. He applied **permutation group theory** to cryptanalysis, the first time anyone had used pure mathematics for code-breaking. Together with **Jerzy Różycki** and **Henryk Zygalski**, he read German Enigma traffic through most of the 1930s. They built the **bomba kryptologiczna** — the first electromechanical cryptanalytic machine in history — and in **July 1939**, five weeks before Germany invaded their country, they handed everything to the British and French at a secret meeting in the Pyry forest near Warsaw. Turing's Bombe was directly inspired by the Polish bomba.
 
-Rejewski did not work entirely without help. French intelligence provided documents obtained from a German spy, Hans-Thilo Schmidt (codename "Asche"), that gave the Poles crucial information about the machine's internal wiring tables. But the mathematical breakthrough — deducing the rotor connections from intercepted traffic — was Rejewski's alone.
+The Biuro Szyfrów made one revolutionary decision that enabled all of this: they recruited **mathematicians** from Poznań University rather than linguists. Every code-breaking bureau in the world hired language experts. The Poles hired mathematicians. That single choice changed the course of the war.
 
-He recalled the moment: after correctly guessing that the military Enigma used alphabetical wiring for the entry drum, "from my pencil, as by magic, began to issue numbers designating the connections in rotor N."
+The parallels with Beurling are haunting. Small countries. Pure mathematics. Pencils before machines. And both stories were buried for decades — overshadowed by Bletchley Park, which got all the credit.
 
-As by magic. Another magician, another pencil.
-
-Together with **Jerzy Różycki** (who invented the "clock" method for determining rotor positions) and **Henryk Zygalski** (who designed the perforated "Zygalski sheets" for finding daily keys), Rejewski read German Enigma traffic through most of the 1930s. The three mathematicians built the **bomba kryptologiczna** — the first electromechanical cryptanalytic machine in history.
-
-Then, on **25 July 1939** — five weeks before Germany invaded Poland — the three Poles met their British and French counterparts at a secret facility in the **Pyry forest** near Warsaw. They revealed everything: the mathematics, the techniques, the machines. They handed the Allies the keys to Enigma.
-
-Dilly Knox, one of Britain's top codebreakers, was simultaneously **furious** (the solution was one he had previously rejected) and **grateful**. When Alan Turing built his improved **Bombe** at Bletchley Park, it was directly inspired by the Polish bomba. Turing himself acknowledged the debt.
-
-The Biuro Szyfrów made a deliberate, revolutionary decision that set this in motion: they recruited **mathematicians** rather than linguists. Every previous code-breaking bureau in the world had hired language experts. The Poles hired mathematicians from Poznań University. That single decision changed the course of the war.
-
-### Two Small Countries, Two Pencils
-
-The parallels between the Polish and Swedish stories are haunting:
-
-| | **Poland (Rejewski)** | **Sweden (Beurling)** |
-|---|---|---|
-| **Cipher** | Enigma | Geheimschreiber T52 |
-| **Year cracked** | 1932 | 1940 |
-| **Method** | Permutation group theory | Unknown (intuition + analysis) |
-| **Tools** | Pen and paper (later bomba) | Pen and paper |
-| **Team size** | Three mathematicians | One mathematician |
-| **Time** | Weeks | Two weeks |
-| **Recognition** | Suppressed for decades | Barely known outside Sweden |
-
-Both were small countries. Both used pure mathematics where larger powers used brute force and machines. Both were overshadowed by the British and American narratives. Both paid a personal price.
-
-Rejewski escaped Poland after the invasion, spent the war doing intelligence work in France, attempted to cross the Pyrenees into Spain (where his guide **robbed him**), was eventually interned, and after the war returned to communist Poland. He was **harassed by the Polish secret police** from 1949 to 1958. He spent the rest of his career as an accountant and supervisor in a factory. The man who cracked Enigma managed inventory records.
-
-Zygalski, bound by the British Official Secrets Act, spent his remaining decades teaching statistics at a polytechnic in Surrey, unable to tell anyone what he had done. He died in 1978.
-
-Różycki drowned when his ship sank in the Mediterranean in 1942. He was 32.
+But that is a story that deserves its own post. The Polish codebreakers — Rejewski, Różycki, Zygalski — and the price they paid for being right too early and too quietly. That one is personal for me. It's coming.
 
 ### From Ciphers to Computers
 
@@ -169,9 +139,9 @@ There is a memorial to him in Uppsala. There is a short opera about him (*Krypto
 
 But mostly, there is silence. The magician does not reveal his secrets. And the world has mostly not asked.
 
-In Poland, the Enigma Cipher Centre opened in Poznań in **2021** — a museum dedicated to Rejewski, Różycki, and Zygalski. It took 89 years from the day Rejewski cracked Enigma to the day his country built a museum about it.
+Some magicians are forgotten. Some are remembered too late. And some — like Beurling — changed the world with a pencil and were thanked with silence.
 
-Some magicians are forgotten. Some are remembered too late. And some — like Beurling, like Rejewski — changed the world with a pencil and were thanked with silence.
+In Poland, three other magicians are waiting for their story to be told properly. Soon.
 
 ---
 
@@ -209,9 +179,9 @@ Some magicians are forgotten. Some are remembered too late. And some — like Be
 
 **Current status:**
 - The Geheimschreiber: Cracked in two weeks. With a pencil. By one man.
-- The Enigma: Cracked by three Polish mathematicians. Seven years before the war. With group theory.
-- Bletchley Park: Built Colossus and the Bombe. Got all the credit.
-- The magicians: Beurling died in Einstein's office. Rejewski died an accountant. Różycki died at sea. Zygalski died in silence.
+- The Enigma: Cracked by three Polish mathematicians in 1932. That story is coming.
+- Bletchley Park: Built Colossus and the Bombe. Got all the credit. As usual.
+- The magician: Died in Einstein's office. Room 115. Still not explaining how he did it.
 - My cluster: Still can't crack anything. But it runs weather models. And that's Beurling's fault too.
 
 Yours Truly
