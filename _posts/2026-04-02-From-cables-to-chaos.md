@@ -309,7 +309,7 @@ And it's still here. The ECMWF's Integrated Forecasting System, the model that p
 
 In my [Charney post](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html), I mentioned that the **Joint Numerical Weather Prediction Unit (JNWPU)** was established in 1954 in Suitland, Maryland. An **IBM 701** was installed in March 1955, and by May of that year, the first routine real-time operational numerical weather forecasts in the United States began.
 
-But the US was not first. In **1954**, Rossby's group in Stockholm had already been running operational barotropic forecasts on the **BESK** — a Swedish IAS-clone computer. Sweden beat America to operational NWP by roughly a year. That is a story for its own post.
+But were the Americans really first? Rossby had returned to Stockholm. He had access to a computer. And he was not the kind of man who waited for someone else to go first. More on that soon.
 
 It was the **IBM 704** that turned American operational NWP from a struggle into a system. With 144 kilobytes of reliable core memory, hardware floating point, and eventually FORTRAN, the JNWPU could run more complex models, add more vertical levels, increase the resolution, and — crucially — **run twice daily on a schedule that never slipped**.
 
