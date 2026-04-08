@@ -75,6 +75,8 @@ On July 7, 1958, the Office of Naval Research held a press conference in Washing
 
 **"NEW NAVY DEVICE LEARNS BY DOING: Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser"**
 
+![The New York Times coverage of the Perceptron, July 1958. The Navy's promise of a machine that could "walk, talk, see, write, reproduce itself and be conscious of its existence" would haunt AI for decades.](/assets/images/NYT_perceptron_1958.jpg)
+
 The Times reported the perceptron to be "the embryo of an electronic computer that the Navy expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."
 
 Rosenblatt himself was bold but not quite that reckless. He called it "the first machine which is capable of having an original idea." He said future perceptrons would be able to recognize people and call out their names. He even said that "in principle, it would be possible to have perceptrons that would reproduce themselves on an assembly line and that would be conscious of their existence."
