@@ -266,4 +266,52 @@ Von Neumann would not have minded. He had already given it away.
 
 ---
 
+### References
+
+**The IAS Design and Its Distribution:**
+* Burks, A.W., Goldstine, H.H. & von Neumann, J. (1946). Preliminary Discussion of the Logical Design of an Electronic Computing Instrument. IAS Report. [PDF](https://www.ias.edu/sites/default/files/library/Prelim_Disc_Logical_Design.pdf)
+* Dyson, G. (2012). *Turing's Cathedral: The Origins of the Digital Universe*. Pantheon. [Publisher](https://www.penguinrandomhouse.com/books/44425/turings-cathedral-by-george-dyson/)
+* Aspray, W. (1990). *John von Neumann and the Origins of Modern Computing*. MIT Press.
+
+**MANIAC:**
+* Los Alamos National Laboratory (2022). The 70th Anniversary of the MANIAC. [OSTI](https://www.osti.gov/biblio/1853907)
+* Computer History Museum. MANIAC. [CHM](https://www.computerhistory.org/revolution/supercomputers/10/28/46)
+* Metropolis, N. & Ulam, S. (1949). The Monte Carlo Method. *Journal of the American Statistical Association*, 44(247), 335-341.
+
+**JOHNNIAC:**
+* Gruenberger, F. (1968). The History of the JOHNNIAC. RAND Corporation. [RAND](https://www.rand.org/pubs/research_memoranda/RM5654.html)
+* Newell, A. & Simon, H.A. (1956). The Logic Theory Machine. *IRE Transactions on Information Theory*, 2(3), 61-79.
+* Computer History Museum. JOHNNIAC. [CHM](https://www.computerhistory.org/revolution/birth-of-the-computer/4/94)
+
+**ILLIAC and ORDVAC:**
+* University of Illinois Distributed Museum. ILLIAC and ORDVAC. [Exhibit](https://distributedmuseum.illinois.edu/exhibit/illiac_and_ordvac/)
+* Hiller, L. & Isaacson, L. (1959). *Experimental Music: Composition with an Electronic Computer*. McGraw-Hill.
+
+**WEIZAC:**
+* IEEE Milestone. WEIZAC Computer, 1955. [ETHW](https://ethw.org/Milestones:WEIZAC_Computer,_1955)
+* Weizmann Institute. How Israel's First Computer Was Built in a Bike-Repair Shop. [Weizmann USA](https://www.weizmann-usa.org/news-media/in-the-news/how-israel-s-first-computer-was-built-in-a-bike-repair-shop/)
+* National Library of Israel. WEIZAC and GOLEM. [NLI Blog](https://blog.nli.org.il/en/hoi_weizac/)
+
+**SILLIAC:**
+* University of Sydney (2021). SILLIAC: The Machine That Brought Australia into the Computer Age. [Sydney News](https://www.sydney.edu.au/news-opinion/news/2021/05/05/silliac-the-machine-that-brought-australia-into-the-computer-age.html)
+* Australian Computer Society. ACS Heritage Project, Chapter 19. [ACS](https://50years.acs.org.au/heritage-projects/acs-heritage-project--chapter-19.html)
+
+**BESM:**
+* IEEE. S.A. Lebedev and the Birth of Soviet Computing. [IEEE Annals](https://ieeexplore.ieee.org/document/251852/)
+* Science Museum Group. BESM-6 Supercomputer. [Collection](https://collection.sciencemuseumgroup.org.uk/objects/co8357980/besm-6-supercomputer-1968-1987)
+* Russian Virtual Computer Museum. BESM-6. [Museum](https://www.computer-museum.ru/english/besm6.htm)
+
+**Image Credits:**
+* MANIAC operators (1952): Los Alamos National Laboratory. Public domain. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Operators_in_front_of_the_MANIAC.jpg)
+* MANIAC chess (1956): Los Alamos National Laboratory. Public domain. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Paul_Stein_and_Nicholas_Metropolis_play_%E2%80%9CLos_Alamos%E2%80%9D_chess_against_the_MANIAC.jpg)
+* JOHNNIAC: Indolences, Computer History Museum. Public domain. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:JOHNNIAC.JPG)
+* ILLIAC I: SystemBuilder. CC BY-SA 4.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Donald_Betsy_Gillies_Illiac_I.jpg)
+* ORDVAC: U.S. Army photo A76795. Public domain. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ARL_ORDVAC.png)
+* WEIZAC: Yuval Madar. CC BY 2.5. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Weizac_(1954-1964)_Front.jpg)
+* Gerald and Thelma Estrin: Achituv. CC BY-SA 3.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thelma_and_gerald_estrin.jpg)
+* SILLIAC: DrTune. CC BY-SA 4.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SILLIAC_being_services.jpg)
+* BESM-6: Kristopher Doern, Science Museum London. CC BY-SA 4.0. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BESM-6_Science_Museum_London_2018.jpg)
+
+---
+
 *Previously in this series: [The Man Who Forecasted Weather with a Pencil](/weather/hpc/history/2026/03/24/The-man-who-forecasted-weather-with-a-pencil.html) -- [The Number That Connects Turbulence to War](/weather/hpc/history/2026/03/25/The-number-that-connects-turbulence-to-war.html) -- [The Line That Models Cannot Draw (Part 1)](/weather/hpc/history/2026/03/26/The-line-that-models-cannot-draw.html) -- [Reading the Sky](/weather/hpc/history/2026/03/27/Reading-the-sky.html) -- [The Ghost in the Grid](/weather/hpc/history/2026/03/28/The-ghost-in-the-grid.html) -- [The Man Who Tamed the Equations](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) -- [The First Climate Model Had 5 KB of RAM](/weather/hpc/history/2026/03/30/The-first-climate-model-had-5KB-of-RAM.html) -- [The Butterfly That Broke the Forecast](/weather/hpc/history/2026/03/31/The-butterfly-that-broke-the-forecast.html) -- [From Cables to Chaos](/weather/hpc/history/2026/04/02/From-cables-to-chaos.html) -- [The Swedes Got There First](/weather/hpc/history/2026/04/03/The-swedes-got-there-first.html) -- [The Magician Who Told No Secrets](/weather/hpc/history/2026/04/04/The-magician-who-told-no-secrets.html)*
