@@ -41,7 +41,7 @@ Smagorinsky was among the jubilant meteorologists photographed in front of the E
 
 ### Creation (1955)
 
-At **John von Neumann's instigation**, the U.S. Weather Bureau created the **General Circulation Research Section** in 1955 and appointed Smagorinsky to direct it -- at age **29**. Smagorinsky felt that his charge was to continue with the final step of the von Neumann/Charney computer modeling program: a three-dimensional, global, primitive-equation general circulation model of the atmosphere.
+At **John von Neumann's instigation**, the U.S. Weather Bureau created the **General Circulation Research Section** in 1955 and appointed Smagorinsky to direct it -- at age **31** (he joined the Weather Bureau at age 29 in 1953; the Section was created two years later). Smagorinsky felt that his charge was to continue with the final step of the von Neumann/Charney computer modeling program: a three-dimensional, global, primitive-equation general circulation model of the atmosphere.
 
 ### Initial Location
 
@@ -321,7 +321,7 @@ He became a **U.S. citizen**, explaining with disarming honesty that he found Am
 | **April 1950** | First successful numerical weather forecast on ENIAC, Aberdeen, MD | Charney, Fjortoft, Freeman, Platzman, **Smagorinsky** |
 | **1950** | Publication of ENIAC results in *Tellus* | Charney, Fjortoft, von Neumann |
 | **1953** | Smagorinsky completes Ph.D. at NYU, joins U.S. Weather Bureau | Smagorinsky |
-| **1955** | Von Neumann instigates creation of General Circulation Research Section; Smagorinsky appointed director at age 29 | von Neumann, **Smagorinsky** |
+| **1955** | Von Neumann instigates creation of General Circulation Research Section; Smagorinsky appointed director at age 31 | von Neumann, **Smagorinsky** |
 | **1955** | Norman Phillips publishes first GCM experiment | Phillips |
 | **1957** | Von Neumann dies (8 February) | von Neumann |
 | **1958** | Manabe completes D.Sc. at University of Tokyo; arrives in Washington, D.C. | **Manabe** |
