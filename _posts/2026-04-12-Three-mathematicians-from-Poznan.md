@@ -115,7 +115,7 @@ Gordon Welchman, who would build Bletchley Park's Hut 6 Ultra operation, wrote l
 
 The RUSI described the Pyry disclosure as "the most consequential intelligence-sharing arrangement of World War Two."
 
-Alan Turing visited the Polish cryptologists in France in early 1940. His Bombe -- the electromechanical device that would break Enigma at industrial scale -- was directly inspired by the Polish bomba. Over 200 British Bombes were eventually built. The Polish foundation made Bletchley Park possible.
+Alan Turing visited the Polish cryptologists in France in early 1940. His Bombe -- the electromechanical device that would break Enigma at industrial scale -- was directly inspired by the Polish bomba. More than 350 Bombes were eventually built -- 224 British and over 130 American. The Polish foundation made Bletchley Park possible.
 
 ---
 
