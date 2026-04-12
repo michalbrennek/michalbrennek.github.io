@@ -55,12 +55,29 @@ Manabe's model results were among those evaluated by Jule Charney's Ad Hoc Study
 
 On 5 October 2021, Manabe was awarded one half of the Nobel Prize in Physics (shared with Klaus Hasselmann), "for the physical modeling of Earth's climate, quantifying variability and reliably predicting global warming." The other half went to Giorgio Parisi for work on disordered systems.
 
-When told about the prize, Manabe responded with characteristic understatement, speaking repeatedly of the "great fun" of modeling Earth's climate.
+When told about the prize, Manabe responded:
+- "I was really happy and surprised."
+- "I never dreamed I would win the Nobel physics prize. If you look at the list of past winners, they are amazing people who have done marvelous work. In contrast, what I have been doing looks trivial to me."
+- After wondering whether his work deserved comparison with previous laureates, he considered that climate change is now a major crisis: "For that reason, I thought, maybe it's ok!" -- said with a laugh.
+- "It is great fun to use a model to study how climate change over the last 400 million years has evolved." (This became the "great fun" headline of Princeton's press release.)
+
+He delivered his Nobel lecture, "Physical Modeling of Earth's Climate," on 8 December 2021 in Stockholm, acknowledging Joseph Smagorinsky as the GFDL director who made his career possible. Published in *Reviews of Modern Physics* (2023). Full PDF: https://www.nobelprize.org/uploads/2021/11/manabe-lecture.pdf
+
+## Recruitment to GFDL
+
+Smagorinsky read one of Manabe's papers and invited him to the United States. Manabe was drawn by:
+- **Computing power:** Japan had negligible computing resources; in America he had free use of a supercomputer.
+- **Salary:** His American salary was reportedly 25 times what he had earned in Japan.
+- **Research freedom:** Smagorinsky had assembled a young international team with an ambitious plan.
+- Manabe recalled: "Smagorinsky's and my role were complementary. He had the ambitious plan, and my job was to make it work. The computer was so feeble at the time... if we put everything into the model at once, the computer couldn't handle it."
 
 ## Personality and Working Style
 
 - Described himself as a child who preferred "to gaze at the sky and get lost in thoughts" rather than pursue practical medical work. In elementary school he "usually stayed at home, laid down and thought about something endlessly."
 - Said that "Japanese people don't want to say no" but emphasized that "in science this is not a very good thing, you have to say very clearly you disagree with each other."
+- On Japanese communication: "In Japan, if you ask a question you get 'yes' or 'no.' However, when the Japanese say 'yes' it doesn't necessarily mean 'yes.' It could mean 'no.'"
+- On why he didn't return permanently: "I don't want to go back to Japan, because I am not able to live harmoniously."
+- On American freedom: "In America, I can do whatever I want. I don't care how other people feel."
 - "Curiosity is the thing which drives all my research activity."
 - "I did these experiments out of pure scientific curiosity. I never realized that it would become a problem of such wide-ranging concern for all of human society."
 - "I spent a major fraction of my life thinking about the same thing. I really didn't do much else. Now at 90, I finally decided to stop doing active research."

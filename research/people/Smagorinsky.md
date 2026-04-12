@@ -58,9 +58,12 @@ He recognized early that increasing computer power would enable climate simulati
 ## Personality and Anecdotes
 
 - Jerry Mahlman described Smagorinsky's "almost relentless pursuit of excellence" and his rejection of publication-counting academic culture in favor of solving significant scientific problems.
+- Smagorinsky exhibited an "authoritarian style of rule tempered by protection of the scientists from disrupting outside influence" while celebrating the elitism and esprit de corps that characterized GFDL (BAMS 2008).
 - He brought Japanese scientists (Manabe, Kurihara, Miyakoda) to GFDL shortly after WWII despite lingering xenophobic attitudes, valuing scientific merit over nationalism.
-- He repeatedly secured the world's fastest computers for GFDL through what colleagues described as unexplained influence in competitive resource allocation.
-- His wife Margaret (nee Knoepfel) was the first female statistician hired by the Weather Bureau. She programmed the ENIAC and co-authored weather balloon demonstrations at children's schools.
+- He repeatedly secured the world's fastest computers for GFDL through what colleagues described as unexplained influence in competitive resource allocation. GFDL used the IBM Stretch (world's fastest 1961--1964) and the CDC 6600 (world's fastest 1964--1969).
+- His wife Margaret (nee Knoepfel) was the first female statistician hired by the Weather Bureau. She was one of the computer operators for the 1950 ENIAC forecast experiment, though her name was absent from the journal article.
+- As a boy in Depression-era New York, he would visit the top of the New York Daily News building to look at the weather instruments.
+- During WWII he flew in the nose of bombers as a weather observer, making forecasts based on wave size, air temperature, and wind velocity. He provided flight forecasts for B-29 squadrons in Nebraska and served as a weather reconnaissance officer in the North Atlantic.
 
 ## Key Quotes
 
