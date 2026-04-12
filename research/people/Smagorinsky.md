@@ -27,7 +27,7 @@ During WWII he joined the U.S. Air Force mid-sophomore year. He trained in mathe
 
 - **1950:** Participated in the landmark ENIAC computation at Aberdeen, Maryland, with Jule Charney, Ragnar Fjortoft, John Freeman, and George Platzman -- the first successful numerical weather forecast.
 - **1953:** Joined the U.S. Weather Bureau; participated in the Joint Numerical Weather Prediction Unit (JNWPU).
-- **1955:** At von Neumann's instigation, the Weather Bureau created the General Circulation Research Section under Smagorinsky's direction (age 29).
+- **1955:** At von Neumann's instigation, the Weather Bureau created the General Circulation Research Section under Smagorinsky's direction (age 31; he was 29 when he joined the Weather Bureau in 1953).
 - **1959:** Section renamed the General Circulation Research Laboratory.
 - **1963:** Renamed again as the Geophysical Fluid Dynamics Laboratory (GFDL).
 - **1968:** GFDL relocated to Princeton University campus.

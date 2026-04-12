@@ -8,10 +8,10 @@ header:
   teaser: /assets/images/header-cray2.jpg
   overlay_image: /assets/images/header-cray2.jpg
   overlay_filter: "0.6"
-excerpt: "In 1950, a young weather observer from the Bronx helped run the first computer forecast on the ENIAC. He founded a laboratory, recruited a village doctor's son from Japan, and that recruit's climate model won the Nobel Prize 71 years later. This is the chain from ENIAC to Stockholm."
+excerpt: "In 1950, a young weather observer from New York City helped run the first computer forecast on the ENIAC. He founded a laboratory, recruited a village doctor's son from Japan, and that recruit's climate model won the Nobel Prize 71 years later. This is the chain from ENIAC to Stockholm."
 ---
 
-On a spring day in **April 1950**, a group of young meteorologists gathered at Aberdeen Proving Ground in Maryland, around the room-sized ENIAC, and ran [the first successful computer weather forecast](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html). Among them was a 26-year-old weather observer from the Bronx named **Joseph Smagorinsky**. He had flown in the nose of bombers during the war, staring at clouds and estimating wind speeds from wave heights. Now he was watching numbers pour out of 17 468 vacuum tubes.
+On a spring day in **April 1950**, a group of young meteorologists gathered at Aberdeen Proving Ground in Maryland, around the room-sized ENIAC, and ran [the first successful computer weather forecast](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html). Among them was a 26-year-old weather observer from New York City named **Joseph Smagorinsky**. He had flown in the nose of bombers during the war, staring at clouds and estimating wind speeds from wave heights. Now he was watching numbers pour out of 17 468 vacuum tubes.
 
 On **October 5, 2021**, the Royal Swedish Academy of Sciences called a man named **Syukuro Manabe** at his home in Princeton, New Jersey, to inform him that he had won the **Nobel Prize in Physics** -- for the physical modeling of Earth's climate, quantifying variability and reliably predicting global warming.
 
@@ -21,13 +21,13 @@ From the ENIAC to the Nobel Prize. **Seventy-one years.** Two men. One chain.
 
 ---
 
-## The Boy from the Bronx
+## The Boy from New York City
 
 ![Joseph Smagorinsky (1924-2005). Son of Belarusian Jewish immigrants, he flew as a weather observer in WWII bombers, helped run the first ENIAC forecast in 1950, and founded the laboratory that would produce the Nobel Prize in climate science. NOAA/Wikimedia.](/assets/images/Smagorinsky_portrait.jpg)
 
 Joseph Smagorinsky was born on January 29, 1924, in New York City. His parents, Nathan and Dina Azaroff, were Belarusian Jewish immigrants who had fled pogroms in **Gomel**. Nathan arrived in 1913 via Finland and Ellis Island and settled on the Lower East Side, where he worked first as a house painter, then built a paint store into a hardware business. Joseph was the youngest of five sons.
 
-As a boy in Depression-era New York, Smagorinsky would visit the top of the **Daily News building** on East 42nd Street to look at the weather instruments displayed there. He took the entrance exam for **Stuyvesant High School** -- one of New York's elite public science schools -- and passed. He enrolled at NYU to study meteorology but was interrupted mid-sophomore year by the war.
+As a boy in Depression-era New York, Smagorinsky would visit the lobby of the **Daily News building** on East 42nd Street to look at the weather instruments displayed there. He took the entrance exam for **Stuyvesant High School** -- one of New York's elite public science schools -- and passed. He enrolled at NYU to study meteorology but was interrupted mid-sophomore year by the war.
 
 The Army Air Corps selected him for an elite cadet program. He studied math and physics at **Brown University**, then trained in dynamical meteorology at **MIT** -- where his instructor was a quiet man named **Edward Lorenz**, who would later discover [chaos theory on an LGP-30](/weather/hpc/history/2026/03/31/The-butterfly-that-broke-the-forecast.html). After training, Smagorinsky flew as a weather observer in the nose of B-29 bombers over Nebraska, then served as a weather reconnaissance officer in the North Atlantic.
 
@@ -47,7 +47,7 @@ That day in April 1950 was the founding moment of everything that followed.
 
 In 1955, **John von Neumann** proposed that the U.S. Weather Bureau create a dedicated unit to tackle the general circulation of the atmosphere -- not just tomorrow's forecast, but the climate system itself. The Weather Bureau agreed and established the **General Circulation Research Section**. They needed someone to run it.
 
-They chose Smagorinsky. He was 29 years old.
+They chose Smagorinsky. He was 31 years old.
 
 The Section started in Suitland, Maryland, near the [JNWPU](/weather/hpc/history/2026/04/10/The-machine-that-built-IBM.html) where Cressman was struggling with the IBM 701's disappointing weather forecasts. But Smagorinsky's mandate was different. He was not making daily forecasts. He was building a **model of the climate**.
 
@@ -164,7 +164,7 @@ Step back and look at what happened.
 - **2011:** Wetherald dies in Trenton, New Jersey, age 75. He does not live to see the Nobel.
 - **2021:** Manabe receives the Nobel Prize in Physics, age 90.
 
-Seventy-one years from vacuum tubes to Stockholm. Two men from opposite sides of the world -- a Belarusian immigrant's son from the Bronx, and a village doctor's son from Ehime -- connected by a single thread: the idea that if you could simulate the atmosphere on a computer, you could understand the climate. And if you could understand the climate, you could predict its future.
+Seventy-one years from vacuum tubes to Stockholm. Two men from opposite sides of the world -- a Belarusian immigrant's son from New York City, and a village doctor's son from Ehime -- connected by a single thread: the idea that if you could simulate the atmosphere on a computer, you could understand the climate. And if you could understand the climate, you could predict its future.
 
 They could. And they did. And the planet is warmer by exactly the amount they said it would be.
 
@@ -190,7 +190,7 @@ The most important forecast in the history of science started with curiosity. It
 **The Nobel Prize:**
 * Nobel Prize (2021). The Nobel Prize in Physics 2021: Syukuro Manabe. [Nobel](https://www.nobelprize.org/prizes/physics/2021/manabe/biographical/)
 * Nobel Prize (2022). Interview with Syukuro Manabe, March 2022. [Nobel](https://www.nobelprize.org/prizes/physics/2021/manabe/185163-manabe-interview-march-2022/)
-* Carbon Brief. The Most Influential Climate Science Paper of All Time. [Carbon Brief](https://theconversation.com/the-most-influential-climate-science-paper-of-all-time-169382)
+* Carbon Brief. The Most Influential Climate Change Papers of All Time. [Carbon Brief](https://www.carbonbrief.org/the-most-influential-climate-change-papers-of-all-time/)
 
 **GFDL and Context:**
 * Edwards, P.N. GFDL: The General Circulation Research Section. [U Michigan](https://pne.people.si.umich.edu/sloan/center_descriptions/i.GFDL.html)
