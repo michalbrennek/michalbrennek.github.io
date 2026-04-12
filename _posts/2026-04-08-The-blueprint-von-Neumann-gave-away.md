@@ -152,7 +152,7 @@ Components were ordered through a company called Landseas Import-Export and ship
 
 The budget was $50 000 -- 20% of the Weizmann Institute's entire annual budget. For a country that was still rationing food, this was an extraordinary bet.
 
-WEIZAC ran its first calculation in late 1955. It was the **first computer in the Middle East** and the **first in Asia**.
+WEIZAC ran its first calculation in late 1955. It was the **first computer in the Middle East**.
 
 ### The Amphidromic Point
 
@@ -188,7 +188,7 @@ The gamble paid off. SILLIAC achieved an average of 11 hours between failures --
 
 ### Bob May's First Computation
 
-The very first scientific calculation on SILLIAC was run by a PhD student named **Bob May**. He was 24 years old, working on bosons and superconductivity under physicist Robbie Schafroth.
+The very first scientific calculation on SILLIAC was run by a PhD student named **Bob May**. He was 20 years old, working on bosons and superconductivity under physicist Robbie Schafroth.
 
 That same Bob May became **Robert May, Baron May of Oxford** -- one of the most influential scientists of the 20th century. He became President of the Royal Society, Chief Scientific Adviser to the UK Government, and a pioneer of chaos theory in ecology. His work on population dynamics (the logistic map, the period-doubling route to chaos) is taught in every university in the world.
 
