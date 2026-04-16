@@ -6,7 +6,7 @@ The Cray-1 was the **first supercomputer to successfully implement vector proces
 
 ## Key People
 
-- **Seymour Cray** -- architect and primary designer
+- **Seymour Cray** -- architect and primary designer (see `Seymour_Cray.md`)
 - **Lester Davis** -- chief engineer, Cray Research co-founder
 
 ## Technical Specifications
@@ -54,7 +54,7 @@ The Cray-1 was the **first supercomputer to successfully implement vector proces
 
 The C-shaped cylindrical cabinet was not merely aesthetic -- it was a **functional design**. The entire chassis was deliberately bent to minimize wire lengths on speed-critical components, enabling the aggressive 12.5 ns cycle time. Each module cable was twisted pair, cut to a specific length to "guarantee the signals arrived at precisely the right time."
 
-The **ring of padded benches** around the outside covered the power supplies and the Freon-based cooling system. *Computerworld* magazine described the Cray-1 as "the world's most expensive love seat" (1976).
+The **ring of padded benches** around the outside covered the power supplies and the Freon-based cooling system. The phrase **"the world's most expensive love seat"** first appeared in a **1976** article; it has been attributed to *Computerworld* and to Richard M. Russell's editor at Auerbach, **Steve Callahan**.
 
 ## Vector Processing Architecture
 
@@ -66,6 +66,16 @@ The Cray-1 was the first successful vector supercomputer. Key architectural feat
 - **Twelve pipelined functional units** for add, logical, shift, and other operations
 
 A 1978 Argonne National Laboratory evaluation showed vectorized code achieved 2.5x to 10x performance improvements. One FFT benchmark improved from IBM's 47 milliseconds to 3 milliseconds on the Cray-1.
+
+### Why Vector Processing Was Perfect for Weather Models
+
+The Cray-1's vector architecture was ideally suited to NWP because atmospheric models are fundamentally **grid-based**: the same mathematical operation (solving differential equations for temperature, pressure, wind, moisture) must be performed at **every grid point** in the model domain. This maps directly to vector operations:
+
+- A FORTRAN DO loop like `Z(I) = X(I) * Y(I)` across all grid points could be replaced by a **single vector instruction**
+- The Cray FORTRAN compiler (**CFT**) -- the **"first automatically vectorizing Fortran compiler"** -- automatically vectorized innermost DO loops, compatible with the ANSI 1966 Fortran Standard, without requiring source code modifications
+- Vectors processed up to **64 elements** at once; longer vectors were processed in 64-element segments
+- During the 1980s and early 1990s, climate simulation benefited enormously from vector computing. It was the **vector capabilities of Cray processors** combined with a memory subsystem that could **stream data at processor-clock speeds** which allowed NCAR applications to achieve a high percentage of the system's peak processing rate.
+- Loops containing branches (GO TO, IF, CALL statements) were **not vectorized** -- this incentivized atmospheric modelers to restructure their codes for maximum vectorization, leading to cleaner, more efficient atmospheric FORTRAN codes
 
 ### Seymour Cray's Design Philosophy
 Cray studied the failures of the CDC STAR-100 (which had poor scalar performance) and the abandoned CDC 8600 (which pursued brute-force speed). He chose to balance "excellent all-around scalar performance" with vector capability. The Cray-1 beat the CDC 7600 and the STAR despite having a slower clock than the abandoned 8600's theoretical 8 ns cycle.
@@ -94,9 +104,77 @@ NCAR estimated "overall throughput on the system was 4.5 times that of the CDC 7
 
 NCAR ran its own operating system (**NCAROS**) on the machine.
 
+### NCAR History and Context
+
+- NCAR was **founded in 1960** by the University Corporation for Atmospheric Research (UCAR), sponsored by the **National Science Foundation (NSF)**
+- **Walter Orr Roberts** was appointed as NCAR's **founding director** in 1960
+- The site: **Table Mesa**, below the **Flatirons** sandstone cliffs, just south of Boulder, Colorado
+- The Colorado Legislature appropriated **$250000** to buy **500 acres** for the new center
+- Architect **I.M. Pei** was selected in **1961** to design the **Mesa Laboratory**; Pei based his design on the **Anasazi cliff dwellings of Mesa Verde**
+- Ground broken **April 1964**; building completed **1966** and dedicated **1967**
+- NCAR's supercomputing lineage: CDC 3600 (early 1960s) --> CDC 6600 (late 1965) --> CDC 7600 (May 1971) --> Cray-1 (July 1977) --> Cray X-MP --> Cray Y-MP --> and onward
+
+### The CDC 7600 Predecessor at NCAR
+
+The Cray-1 replaced the **CDC 7600** at NCAR (also designed by Seymour Cray, at CDC):
+
+- NCAR received CDC 7600 serial #12 on **May 24, 1971**; installed by June 25, 1971
+- The CDC 7600 had a clock speed of **27 ns** and a small-core memory of **65536 60-bit words**
+- It ran approximately **five times faster** than the CDC 6600 it replaced
+- Served NCAR from **1971 to 1983**
+- Both LLNL and NCAR reported the CDC 7600 would **break down at least once a day**, often four or five times
+- NCAR estimated the Cray-1 delivered **4.5x throughput improvement** over the CDC 7600; in vector mode the Cray-1 was up to **five times faster** than the 7600
+- NCAR developed its own **FORTRAN 70 compiler** for the 7600, and because the operating system was NCAR-developed, users had a uniform software environment across both the CDC 6600 and 7600
+
+### Scientific Breakthroughs on the NCAR Cray-1
+
+Scientists wasted no time putting the Cray-1 to work. Within a year of installation:
+
+- **Peter Gilman** carried out pioneering simulations of the **solar dynamo**, including the Sun's rotation, its magnetic fields, and the zone of convection beneath its surface
+- **Albert Semtner** and **William Holland** explored the **large-scale circulation of ocean basins**
+- Newly detailed **thunderstorm models** were produced by scientists from the University of Illinois at Urbana-Champaign, Colorado State University, and the University of Hawaii
+- **Richard Anthes** (Penn State) worked on the pioneering **Penn State--NCAR Mesoscale Model** series, which evolved through five generations (MM1 through MM5) and became one of the most widely used mesoscale weather models in the world
+- **Warren Washington** (NCAR, see `Warren_Washington.md`) continued climate modeling work that began in the 1960s, eventually transitioning from the Kasahara-Washington GCM to the **Community Climate Model (CCM)**
+
+### The Community Climate Model (CCM)
+
+In the late 1970s, NCAR gradually abandoned the Kasahara-Washington GCM. In its place, NCAR developed the **Community Climate Model (CCM)**, designed to serve not only NCAR modelers but the large university constituency associated with UCAR:
+
+- **CCM0** publicly released **1982**
+- **CCM1** released **1987** -- the first version to use **multitasking** (early 1987), adapted for multiple processors on Cray systems. The parallel version ran **3.7x faster** on the full Cray X-MP than on a single processor.
+- **CCM2** released **1992** -- major improvements to cloud, radiation, convection, and boundary layer physics
+- The CCM evolved into the **Community Climate System Model (CCSM)** and then the **Community Earth System Model (CESM)**
+
 ### Other Installations Timeline
 - **Serial number 1:** Los Alamos National Laboratory, 1976 (six-month trial)
 - **NSA:** Purchased a Cray-1 for cryptanalysis research, based on William Perry's recommendation (possibly the first actual customer, though Los Alamos's trial predated formal purchase)
+
+## ECMWF and the Cray-1
+
+The **European Centre for Medium-Range Weather Forecasts (ECMWF)** was a crucial early Cray-1 customer:
+
+### ECMWF Founding
+- The **ECMWF Convention** was signed in **1975** by European member states
+- Headquartered in **Reading, UK** -- selected for proximity to the UK Met Office and the University of Reading
+- First Director: **Aksel Wiin-Nielsen** (Danish; served **January 1, 1974 -- December 31, 1979**) -- trained under Rossby at Stockholm, had participated in the 1954 BESK forecasts in Sweden (see `Swedish_NWP.md`)
+- First Head of Research: **Lennart Bengtsson** (Swedish; served **1975--1981**); later became Director-General (**1982--1990**)
+- Bengtsson's work on **data assimilation** laid the foundation for ECMWF having the world's best data assimilation system
+- After ECMWF, Bengtsson directed the **Max Planck Institute for Meteorology** in Hamburg (1991--2000), where the ECHAM climate model became world-leading
+
+### Cray-1A at ECMWF
+- Installed at the new **Shinfield Park site** on **October 24, 1978**
+- The **first Cray in Europe**
+- **Operational forecasting** (experimental basis) began **August 1, 1979**: forecasts to **10 days ahead**, five days per week, using the **N48 grid model**
+- Model resolution: **210 km** with **15 levels** in the vertical direction
+- A single **10-day forecast** required about **5 hours of CPU time** on the Cray-1A
+- **Full operational forecasting** (7 days per week) began **August 1, 1980**
+- Only the first 7 days of the 10-day forecast were initially disseminated to Member States
+- On some occasions forecasts were **"remarkably good" up to 10 days**; in other situations the practical limit of predictability was less than a week
+
+### ECMWF's Rise to World Leadership
+- Bengtsson's leadership and the Cray-1's computational power contributed to ECMWF becoming the **world leader** in medium-range weather prediction
+- The combination of a multinational scientific staff, cutting-edge computing, and a focus on data assimilation gave ECMWF advantages that individual national weather services could not match
+- This represented a shift: European NWP went from following the Americans (GFDL, NMC, NCAR) to leading the field
 
 ## Reliability
 
@@ -138,11 +216,12 @@ For perspective: a typical 2013 smartphone processor ran at ~1 GFLOPS. An Apple 
 
 ## Notable Anecdotes
 
-- *Computerworld* called it "the world's most expensive love seat" in 1976, referring to the padded benches.
-- Seymour Cray was famously reclusive and eccentric. He built the Cray-1 with a small team in Chippewa Falls, Wisconsin, far from Silicon Valley.
+- The phrase **"the world's most expensive love seat"** appeared in a 1976 article attributed to *Computerworld* / Richard M. Russell's editor Steve Callahan at Auerbach, referring to the padded benches covering the power supplies and cooling system.
+- Seymour Cray was famously reclusive and eccentric. He built the Cray-1 with a small team in Chippewa Falls, Wisconsin, far from Silicon Valley. (See `Seymour_Cray.md` for the tunnel and elves anecdotes.)
 - The six-month cooling system delay at the first installation nearly sank the young company.
 - Cray used only four IC types in the entire machine -- a triumph of simplicity in a complex design.
 - Every twisted-pair cable was cut to a specific length to guarantee precise signal timing.
+- NCAR was not only the first paying customer for the Cray-1 (1977) but also received the only production Cray-3 (1993) -- Cray's first and last commercial deliveries bookended at the same institution.
 
 ## Current Status
 
@@ -168,3 +247,15 @@ Surviving Cray-1 units are displayed at numerous museums worldwide:
 - [Cray History - HPE](https://www.hpe.com/us/en/compute/hpc/cray.html) -- Accessed: 2026-04-02
 - [Cray-1 Machines - Cray-History.net](https://cray-history.net/cray-history-front/fom-home/fom-cray-1/) -- Accessed: 2026-04-02
 - [Historic Cray-1A moved from Boulder to Cheyenne - CISL/UCAR](https://www.cisl.ucar.edu/news/historic-cray-1a-moved-boulder-cheyenne) -- Accessed: 2026-04-02
+- [The Cray-1: Not your ordinary supercomputer | NCAR News](https://news.ucar.edu/3266/cray-1-not-your-ordinary-supercomputer) -- Accessed: 2026-04-16
+- [CDC 7600 | NCAR/CISL](https://www.cisl.ucar.edu/ncar-supercomputing-history/cdc7600) -- Accessed: 2026-04-16
+- [NCAR supercomputing history | CISL](https://www.cisl.ucar.edu/ncar-supercomputing-history) -- Accessed: 2026-04-16
+- [ECMWF History](https://www.ecmwf.int/en/about/who-we-are/history) -- Accessed: 2026-04-16
+- [ECMWF celebrates 40 years of operational medium-range forecasting](https://www.ecmwf.int/en/about/media-centre/news/2019/ecmwf-celebrates-40-years-operational-medium-range-forecasting) -- Accessed: 2026-04-16
+- [50 years of weather forecasting at the ECMWF | Nature Communications](https://www.nature.com/articles/s41467-025-65837-2) -- Accessed: 2026-04-16
+- [NCAR founding / Mesa Laboratory - Wikipedia](https://en.wikipedia.org/wiki/Mesa_Laboratory) -- Accessed: 2026-04-16
+- [Walter Orr Roberts - Wikipedia](https://en.wikipedia.org/wiki/Walter_Orr_Roberts) -- Accessed: 2026-04-16
+- [Atmosphere in a box: NCAR's first GCM | NCAR News](https://news.ucar.edu/3256/atmosphere-box-ncars-first-gcm) -- Accessed: 2026-04-16
+- [Community Climate System Model - Wikipedia](https://en.wikipedia.org/wiki/Community_Climate_System_Model) -- Accessed: 2026-04-16
+- [Computational design of the NCAR community climate model | Parallel Computing](https://dl.acm.org/doi/10.1016/0167-8191(95)00036-6) -- Accessed: 2026-04-16
+- [NCAR/UCAR - Cray-History.net](https://cray-history.net/2022/01/08/ncar-ucar-a-research-site-with-a-long-association-with-cray-supercomputers/) -- Accessed: 2026-04-16
