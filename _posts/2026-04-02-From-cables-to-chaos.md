@@ -5,8 +5,8 @@ date: 2026-04-02 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [ENIAC, IAS, IBM704, LGP30, Computing, Charney, Phillips, Lorenz, Frankel, FORTRAN]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-four-machines.jpg
+  overlay_image: /assets/images/header-four-machines.jpg
   overlay_filter: "0.6"
 excerpt: "From a 30-ton room of cables to an 800-pound desk, four machines turned weather prediction from a dream into a science. This is their story -- and the story of the people who built them."
 ---

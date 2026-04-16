@@ -5,8 +5,8 @@ date: 2026-04-10 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [IBM701, Watson, Rochester, Haddad, Oppenheimer, Cressman, Shuman, Samuel, Dostert, Backus, JNWPU, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-ibm701.jpg
+  overlay_image: /assets/images/header-ibm701.jpg
   overlay_filter: "0.6"
 excerpt: "In a Poughkeepsie tie factory with tar dripping from the roof, 150 engineers built the machine that transformed IBM from a punch-card tabulator company into the company that defined computing. It ran the first machine translation, the first machine learning program, and the first operational weather forecast in the United States. Almost everyone has forgotten it."
 ---

@@ -5,8 +5,8 @@ date: 2026-04-13 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Smagorinsky, Manabe, GFDL, Nobel, ClimateScience, GCM, ENIAC, Computing, CO2]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-climate.jpg
+  overlay_image: /assets/images/header-climate.jpg
   overlay_filter: "0.6"
 excerpt: "In 1950, a young weather observer from New York City helped run the first computer forecast on the ENIAC. He founded a laboratory, recruited a village doctor's son from Japan, and that recruit's climate model won the Nobel Prize 71 years later. This is the chain from ENIAC to Stockholm."
 ---

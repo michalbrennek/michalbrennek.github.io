@@ -5,8 +5,8 @@ date: 2026-04-16 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Frankel, LGP30, ENIAC, Lorenz, Chaos, LosAlamos, Oppenheimer, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-chaos.jpg
+  overlay_image: /assets/images/header-chaos.jpg
   overlay_filter: "0.6"
 excerpt: "At Los Alamos, while critical bomb calculations waited, a young physicist sat alone in a room programming a tabulator to compute arctangents -- values everyone already had in printed tables. Richard Feynman called it 'the computer disease.' The man who caught it went on to design the machine that discovered chaos theory. Almost no one remembers his name."
 ---

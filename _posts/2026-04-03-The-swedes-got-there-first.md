@@ -5,8 +5,8 @@ date: 2026-04-03 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [BESK, Sweden, Rossby, Bolin, NWP, Operations, SMHI, Computing]
 header:
-  teaser: /assets/images/header-cyclone.jpg
-  overlay_image: /assets/images/header-cyclone.jpg
+  teaser: /assets/images/header-sweden.jpg
+  overlay_image: /assets/images/header-sweden.jpg
   overlay_filter: "0.6"
 excerpt: "In December 1954, Sweden began running the world's first routine numerical weather forecasts -- on a computer named after bitter schnapps, built because the Americans wouldn't sell them one."
 ---

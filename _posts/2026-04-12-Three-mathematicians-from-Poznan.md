@@ -5,8 +5,8 @@ date: 2026-04-12 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Enigma, Rejewski, Rozycki, Zygalski, Codebreakers, Poland, Turing, BletchleyPark, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-enigma.jpg
+  overlay_image: /assets/images/header-enigma.jpg
   overlay_filter: "0.6"
 excerpt: "In 1932, a 27-year-old Polish mathematician cracked the German Enigma cipher using abstract algebra. He and two colleagues handed their secrets to the British five weeks before the invasion. Their contribution was suppressed for forty years. This story is personal."
 ---

@@ -5,8 +5,8 @@ date: 2026-04-08 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [IAS, MANIAC, JOHNNIAC, ILLIAC, ORDVAC, WEIZAC, SILLIAC, BESM, vonNeumann, Metropolis, MonteCarlo, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-ias-clones.jpg
+  overlay_image: /assets/images/header-ias-clones.jpg
   overlay_filter: "0.6"
 excerpt: "Von Neumann refused to patent his computer. He published the blueprints and mailed them to anyone who asked. Teams on four continents built copies -- and each one discovered something different."
 ---

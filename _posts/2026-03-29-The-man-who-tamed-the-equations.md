@@ -5,8 +5,8 @@ date: 2026-03-29 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Charney, NWP, Richardson, ENIAC, QuasiGeostrophic, Climate]
 header:
-  teaser: /assets/images/header-eniac.jpg
-  overlay_image: /assets/images/header-eniac.jpg
+  teaser: /assets/images/header-charney.jpg
+  overlay_image: /assets/images/header-charney.jpg
   overlay_filter: "0.6"
 excerpt: "Richardson's equations were right but produced nonsense. Charney figured out why - they were too accurate. He filtered the noise and made weather prediction work."
 ---

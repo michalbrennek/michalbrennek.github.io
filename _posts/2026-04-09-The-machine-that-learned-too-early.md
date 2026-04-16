@@ -5,8 +5,8 @@ date: 2026-04-09 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Perceptron, Rosenblatt, Minsky, AI, NeuralNetworks, IBM704, DeepLearning, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-perceptron.jpg
+  overlay_image: /assets/images/header-perceptron.jpg
   overlay_filter: "0.6"
 excerpt: "In 1958, a psychologist taught an IBM 704 to learn from its mistakes. The Navy called it the future of intelligence. His high school classmate called it a dead end. He drowned on his 43rd birthday. Sixty years later, the world discovered he was right."
 ---

@@ -5,8 +5,8 @@ date: 2026-03-31 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Lorenz, Chaos, Butterfly, Predictability, Ensemble, Richardson]
 header:
-  teaser: /assets/images/header-cyclone.jpg
-  overlay_image: /assets/images/header-cyclone.jpg
+  teaser: /assets/images/header-butterfly.jpg
+  overlay_image: /assets/images/header-butterfly.jpg
   overlay_filter: "0.6"
 excerpt: "In 1961, Edward Lorenz rounded a number from 0.506127 to 0.506. The weather changed completely. He had discovered that prediction has a fundamental limit - and it's not about computing power."
 ---

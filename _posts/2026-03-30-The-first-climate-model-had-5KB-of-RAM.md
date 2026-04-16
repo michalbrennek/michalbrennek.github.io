@@ -5,8 +5,8 @@ date: 2026-03-30 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Phillips, GCM, Climate, IAS, Charney, GFDL]
 header:
-  teaser: /assets/images/header-eniac.jpg
-  overlay_image: /assets/images/header-eniac.jpg
+  teaser: /assets/images/header-phillips.jpg
+  overlay_image: /assets/images/header-phillips.jpg
   overlay_filter: "0.6"
 excerpt: "In 1956, Norman Phillips simulated the entire atmosphere on a computer with 5 KB of RAM. It produced jet streams, fronts, and realistic weather - from an atmosphere initially at rest."
 ---

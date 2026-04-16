@@ -5,8 +5,8 @@ date: 2026-04-17 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [IBM7090, IBM7094, CDC6600, NWP, TIROS, Shuman, Cressman, SeymourCray, DaisyBell, Computing]
 header:
-  teaser: /assets/images/header-cray2.jpg
-  overlay_image: /assets/images/header-cray2.jpg
+  teaser: /assets/images/header-1960s.jpg
+  overlay_image: /assets/images/header-1960s.jpg
   overlay_filter: "0.6"
 excerpt: "The 1950s had been a decade of disappointment for numerical weather prediction. The models were too slow, the computers too fragile, the forecasts too bad. Then the transistor arrived, satellites saw the atmosphere from above, and a quiet man named Shuman built the model that finally worked."
 ---

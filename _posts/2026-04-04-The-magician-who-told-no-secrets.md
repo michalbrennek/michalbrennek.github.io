@@ -5,8 +5,8 @@ date: 2026-04-04 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Beurling, Cryptography, Sweden, FRA, BESK, Enigma, Poland, Geheimschreiber]
 header:
-  teaser: /assets/images/header-cyclone.jpg
-  overlay_image: /assets/images/header-cyclone.jpg
+  teaser: /assets/images/header-cipher.jpg
+  overlay_image: /assets/images/header-cipher.jpg
   overlay_filter: "0.6"
 excerpt: "In 1940, a Swedish mathematician cracked the German Geheimschreiber cipher in two weeks with pen and paper. When asked how, he replied: 'A magician does not reveal his secrets.' His work created the signals intelligence agency that needed BESK built in the first place."
 ---
