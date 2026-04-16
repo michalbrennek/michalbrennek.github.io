@@ -17,7 +17,7 @@ Richard Feynman was sent to investigate. He found the problem immediately: **Sta
 
 Arctangent values. Values that everyone already had in printed mathematical tables. Values that were, in Feynman's word, "absolutely useless."
 
-Feynman later told the story in his famous "Los Alamos From Below" talk, and again in *Surely You're Joking, Mr. Feynman!* He diagnosed Frankel's condition with an affection that did not quite conceal his exasperation. Frankel, he said, had caught "the computer disease -- the delight you get from seeing how much you can make a machine do."
+Feynman later told the story in his famous "Los Alamos From Below" talk, and again in *Surely You're Joking, Mr. Feynman!* He diagnosed Frankel's condition with an affection that did not quite conceal his exasperation. Frankel, he said, had caught "the computer disease" -- the irresistible delight of seeing how much you can make a machine do.
 
 The critical calculations waited. The war waited. Frankel was entranced.
 
@@ -65,7 +65,7 @@ Teller had proposed a design for a thermonuclear weapon -- the "Super" -- and th
 
 The ENIAC was barely operational. It filled an entire room at the Moore School -- 40 panels, 17468 vacuum tubes, 70000 resistors, 10000 capacitors. Programming it meant physically rewiring its patch cables and setting its function table switches by hand. There was no stored program. Every new problem required a new physical configuration of the machine.
 
-Frankel and Metropolis learned the system, designed the program, and in November 1945 ran the calculation. It was the **first nuclear physics computation ever performed on an all-electronic computer**. A million punch cards of data flowed through the machine. The program ran for weeks. The results were available by December.
+Frankel and Metropolis learned the system, designed the program, and in November 1945 ran the calculation. It was the **first nuclear physics computation ever performed on an all-electronic computer**. Roughly half a million punch cards of data flowed through the machine. The program ran for weeks. The results were available by December.
 
 The answers were not what Teller wanted to hear. The ENIAC calculations revealed several fundamental flaws in the Super design -- problems that showed the proposed weapon would fail to achieve sustained thermonuclear burning. Teller incorporated the results into his spring 1946 report. The hydrogen bomb, as he had conceived it, would not work. It would take another six years, and a completely different design by Stanislaw Ulam and Teller -- the radiation implosion concept -- before a workable thermonuclear weapon was achieved in 1952.
 
@@ -81,7 +81,7 @@ He was doing important work. He was good at it. He was building a career at the 
 
 Then the Red Scare found him.
 
-In the early 1950s, Stanley Frankel lost his security clearance. The precise reasons are not well documented in public sources, but the effect was absolute. He was cut off from the national laboratory system. He could not work at Los Alamos. He could not work at any government-funded research facility. He could not contribute to the computational physics programs that were reshaping Cold War science.
+In early 1949, Stanley Frankel lost his security clearance. The precise reasons are not well documented in public sources, but the effect was absolute. He was cut off from the national laboratory system. He could not work at Los Alamos. He could not work at any government-funded research facility. He could not contribute to the computational physics programs that were reshaping Cold War science.
 
 His mentor suffered the same fate. On December 21, 1953, the Atomic Energy Commission suspended **J. Robert Oppenheimer's** security clearance. The hearings that followed, in April 1954, were a national spectacle. On June 29, 1954, Oppenheimer's clearance was permanently revoked. The father of the atomic bomb was declared a security risk by the government he had served.
 
