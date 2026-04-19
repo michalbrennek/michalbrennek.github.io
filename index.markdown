@@ -10,5 +10,5 @@ header:
     - label: "About Me"
       url: "/about/"
   caption: "Two women wiring the ENIAC, 1946. Public Domain: U.S. Army / ARL Technical Library."
-excerpt: "Michał Brennek's blog on weather, HPC, the history of numerical weather prediction, and the occasional 3D printing disaster."
+excerpt: "Weather, HPC, history of science, and the occasional 3D printing disaster."
 ---
