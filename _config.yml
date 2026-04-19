@@ -3,18 +3,42 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
 
 title: "I'm about to kernel panic."
-subtitle: "Weather, HPC, and the occasional 3D printing disaster."
-name: "Micha&#322; Brennek"
-description: "Atmospheric physics, HPC, history of science, and maker projects."
+subtitle: "Michał Brennek. Vorticity, vacuum tubes, and a 3D printer that hates me."
+name: "Michał Brennek"
+description: "Michał Brennek's blog on atmospheric physics, HPC, the history of numerical weather prediction, and 3D printing disasters. Researcher at the Institute of Geophysics, Polish Academy of Sciences."
 url: "https://michalbrennek.github.io"
 baseurl: ""
 future: true
+locale: "en-US"
+logo: "/assets/images/header-fortran.jpg"
+search: true
+
+# SEO Related (jekyll-seo-tag)
+twitter:
+  username: michalbrennek
+social:
+  type: Person
+  name: "Michał Brennek"
+  links:
+    - "https://linkedin.com/in/michalbrennek"
+    - "https://github.com/michalbrennek"
+    - "https://bsky.app/profile/michalbrennek"
+    - "https://brennek.com"
+
+# Google Search Console / Analytics (fill in once verified)
+google_site_verification: ""
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-XXXXXXXXXX"
+#     anonymize_ip: false
 
 # Author
 author:
-  name: "Micha&#322; Brennek"
+  name: "Michał Brennek"
   # avatar: "/assets/images/bio-photo.jpg"  # Add your photo here
   bio: "Meteorologist, oceanographer, Python solvem probler, experimenter, Raspberry Pi tinkerer, geek dad, manager, space enthusiast, ham radio lover, science columnist, ADHDer, synthetic intellect curious, linux admin cosplayer."
+  location: "Poland"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -41,6 +65,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Pagination
 paginate: 6

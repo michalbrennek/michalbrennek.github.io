@@ -1,5 +1,6 @@
 ---
 layout: home
+title: "Michał Brennek"
 author_profile: true
 header:
   overlay_color: "#1a1d24"
@@ -9,5 +10,5 @@ header:
     - label: "About Me"
       url: "/about/"
   caption: "Two women wiring the ENIAC, 1946. Public Domain: U.S. Army / ARL Technical Library."
-excerpt: "Weather, HPC, history of science, and the occasional 3D printing disaster."
+excerpt: "Michał Brennek's blog on weather, HPC, the history of numerical weather prediction, and the occasional 3D printing disaster."
 ---
