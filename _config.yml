@@ -3,7 +3,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
 
 title: "I'm about to kernel panic."
-subtitle: "Cyclones, compilers, and a 3D printer that eats well."
+subtitle: "Vorticity, compilers, and a bench full of side quests."
 name: "Michał Brennek"
 description: "Weather, HPC, the history of numerical weather prediction, and 3D printing disasters. By Michał Brennek, researcher at the Institute of Geophysics, Polish Academy of Sciences."
 url: "https://michalbrennek.github.io"
