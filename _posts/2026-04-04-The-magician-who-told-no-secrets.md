@@ -28,17 +28,17 @@ This is the story of the man who created the need for Swedish code-breaking comp
 
 His great-grandfather, Pehr Henrik Beurling, had founded a prestigious clock factory in Stockholm in 1783. Precision instruments ran in the blood.
 
-Beurling studied mathematics at Uppsala University. He proved the Denjoy conjecture -- a significant open problem in complex analysis -- in **1929**. While hunting alligators in Panama. With his father. His doctoral thesis was then delayed by **five years** because the hunting expedition to South America and compulsory military service got in the way. Lars Ahlfors, his future closest friend, independently proved the same conjecture and published first. When Beurling finally submitted his thesis in 1933, it was recognized as "not a mere collection of interesting results, but one of the most influential mathematical publications in recent times." The alligator detour hadn't dulled anything.
+Beurling studied mathematics at Uppsala University. He proved the Denjoy conjecture -- a significant open problem in complex analysis -- in **1929**. While hunting alligators in Panama. With his father. His doctoral thesis was then delayed by **five years** because the hunting expedition to South America and compulsory military service got in the way. Lars Ahlfors, his future closest friend, independently proved the same conjecture and published first. When Beurling finally submitted his thesis in 1933, it was recognized as "not a mere collection of interesting results, but one of the most influential mathematical publications in recent times."[^1] The alligator detour hadn't dulled anything.
 
-His approach to mathematics was unlike anyone else's. Colleagues noted that "he had a dimension to his thinking that was not logical but guided by intuition, feeling and aesthetics." For Beurling, "the world of mathematics seemed to be integrated with the real world and with life itself." **Yngve Domar**, one of his students, put it plainly: "If the label of genius is to be put on anybody, then the right thing is to put it on Beurling. He never based his results on what others did, but attacked new problems with fresh methods."
+His approach to mathematics was unlike anyone else's. Colleagues noted that "he had a dimension to his thinking that was not logical but guided by intuition, feeling and aesthetics."[^1] For Beurling, "the world of mathematics seemed to be integrated with the real world and with life itself."[^1] **Yngve Domar**, one of his students, put it plainly: "If the label of genius is to be put on anybody, then the right thing is to put it on Beurling. He never based his results on what others did, but attacked new problems with fresh methods."[^1]
 
-He was charismatic, generous with his friends, and loyal to a fault. He was also, by all accounts, impossible. He had "no sense for public relations" and an explosive temperament inherited from his father -- a man described as "a small hot-tempered man who often used to dress in knickerbockers" and who, "when he fell out with someone, would tell them about the people he had shot." The apple did not fall far from the mast.
+He was charismatic, generous with his friends, and loyal to a fault. He was also, by all accounts, impossible. He had "no sense for public relations"[^1] and an explosive temperament inherited from his father -- a man described as "a small hot-tempered man who often used to dress in knickerbockers" and who, "when he fell out with someone, would tell them about the people he had shot."[^1] The apple did not fall far from the mast.
 
-Beurling did not publish his results until every detail was perfect, which meant that much of his work was never published during his lifetime. Paradoxically, "his readiness to share his ideas was unselfish in the extreme" -- he would talk freely about his mathematics with anyone who cared to listen. He just wouldn't write it down. **Lennart Carleson**, his most famous student, explained: "He took pride in presenting his results so that the way he discovered them was completely hidden."
+Beurling did not publish his results until every detail was perfect, which meant that much of his work was never published during his lifetime. Paradoxically, "his readiness to share his ideas was unselfish in the extreme"[^1] -- he would talk freely about his mathematics with anyone who cared to listen. He just wouldn't write it down. **Lennart Carleson**, his most famous student, explained: "He took pride in presenting his results so that the way he discovered them was completely hidden."[^1]
 
-His neighbours at Uppsala could observe his working habits. They would describe how "he walked back and forth... sometimes stopped!" -- the stopping being the alarming part, as it suggested he was so deep in thought that even his habitual pacing had frozen.
+His neighbours at Uppsala could observe his working habits. They would describe how "he walked back and forth... sometimes stopped!"[^1] -- the stopping being the alarming part, as it suggested he was so deep in thought that even his habitual pacing had frozen.
 
-At Harvard, where he was a visiting professor in 1948-49, he told his students: **"You Harvard men seem to be afraid of integral signs."**
+At Harvard, where he was a visiting professor in 1948-49, he told his students: **"You Harvard men seem to be afraid of integral signs."**[^1]
 
 A magician, in other words. In every sense.
 
@@ -74,7 +74,7 @@ The first intercepted T52 traffic arrived on **25 May 1940**. Beurling sat down 
 
 Alone. With pen and paper. In two weeks.
 
-David Kahn, the dean of cryptographic historians, called it **"quite possibly the finest feat of cryptanalysis"** performed by the Swedes. Friedrich Bauer called it **"one of the most magnificent achievements of cryptanalysis."** Bengt Beckman, later head of FRA's cryptanalytical section, wrote that it was **"every bit as impressive as the breaking of the Enigma code."**
+David Kahn, the dean of cryptographic historians, called it **"quite possibly the finest feat of cryptanalysis"**[^2] performed by the Swedes. Friedrich Bauer called it **"one of the most magnificent achievements of cryptanalysis."**[^3] Bengt Beckman, later head of FRA's cryptanalytical section, wrote that it was **"every bit as impressive as the breaking of the Enigma code."**[^4]
 
 And here's the comparison that matters: at Bletchley Park, cracking the related **Lorenz SZ40/42** cipher (codenamed "Tunny") required a team of brilliant mathematicians working for months, plus the construction of **Colossus** -- the world's first programmable electronic computer. Bill Tutte performed the theoretical break; Tommy Flowers built the machine to make it operational. It was a monumental team effort across years.
 
@@ -86,9 +86,9 @@ Beurling did something comparable. Alone. In a fortnight. With a pencil.
 
 In later years, when colleagues and historians asked Beurling how he had accomplished the feat, he gave his legendary reply:
 
-> **"A magician does not reveal his secrets."**
+> **"A magician does not reveal his secrets."**[^4]
 
-He never explained his method. Not in writing, not in conversation, not on his deathbed. His approach apparently combined linguistic analysis (identifying high-frequency German words in the underlying plaintext) with systematic mathematical hypothesis testing, guided by what colleagues described as "an almost preternatural intuition."
+He never explained his method. Not in writing, not in conversation, not on his deathbed. His approach apparently combined linguistic analysis (identifying high-frequency German words in the underlying plaintext) with systematic mathematical hypothesis testing, guided by what colleagues described as "an almost preternatural intuition."[^4]
 
 He took the secret to his grave.
 
@@ -106,7 +106,7 @@ The intelligence was extraordinary. In the spring of 1941, Sweden became **the f
 
 FRA -- the Försvarets radioanstalt, formally established on 1 July 1942 -- built an entire operational infrastructure around Beurling's breakthrough. And when the T52 was upgraded to more secure versions (the T52c, T52ca, T52d), Swedish cryptanalysts -- building on Beurling's foundation -- cracked several of these too. In **April 1943**, FRA even broke the **Lorenz SZ40** -- the same family of cipher that Bletchley Park needed Colossus to crack.
 
-The secret eventually leaked through two channels -- a Soviet agent named Allan Nyblad, and a Finnish colonel named Stewen who told the Germans. FRA intercepted a German message that read, with chilling clarity: **"These messages are decrypted in Sweden."** By late 1943, the Germans had changed their methods and the window closed.
+The secret eventually leaked through two channels -- a Soviet agent named Allan Nyblad, and a Finnish colonel named Stewen who told the Germans. FRA intercepted a German message that read, with chilling clarity: **"These messages are decrypted in Sweden."**[^4] By late 1943, the Germans had changed their methods and the window closed.
 
 But Beurling himself was not there to see the end of it. In spring 1942, his explosive temperament caught up with him. Conflicts with FRA management led to his dismissal from the code-breaking effort. The magician was shown the door.
 
@@ -130,23 +130,23 @@ He accepted. He moved to New Jersey. And eventually, he moved into **Albert Eins
 
 Think about that for a moment. The man who cracked the Geheimschreiber with a pencil, sitting in the office where Einstein had worked out general relativity. Two minds that saw the world differently from everyone else, separated by a generation, connected by a room.
 
-At Princeton, Beurling continued his mathematical work -- the deep, structural kind that few people in the world could follow. With **Paul Malliavin** during 1960-61, he proved the **Beurling-Malliavin theorem**, solving a problem in harmonic analysis that had resisted decades of attack. Malliavin described their working method: "We devoted half of the academic year to this problem; very often I stayed at Beurling's house for a full night of cooperative work." Karin Beurling, Arne's second wife -- herself a distinguished biochemist -- prepared meals during these marathon sessions. The result has been called "one of the most celebrated results of 20th-century harmonic analysis."
+At Princeton, Beurling continued his mathematical work -- the deep, structural kind that few people in the world could follow. With **Paul Malliavin** during 1960-61, he proved the **Beurling-Malliavin theorem**, solving a problem in harmonic analysis that had resisted decades of attack. Malliavin described their working method: "We devoted half of the academic year to this problem; very often I stayed at Beurling's house for a full night of cooperative work."[^5] Karin Beurling, Arne's second wife -- herself a distinguished biochemist -- prepared meals during these marathon sessions. The result has been called "one of the most celebrated results of 20th-century harmonic analysis."[^5]
 
-Beurling never returned to cryptography. He never needed to. His mathematical legacy -- the Beurling-Lax theorem on invariant subspaces, Beurling generalized primes, the Beurling-Ahlfors theorem on quasiconformal mappings, the Dirichlet spaces theory with Deny -- was more than enough for one lifetime. Malliavin offered a paradox about Beurling's approach: though he always started with "hard concrete problems" and sought "elementary and transparent" proofs, he repeatedly uncovered "basic general principles of universal applicability." The man who refused to generalize kept discovering the general.
+Beurling never returned to cryptography. He never needed to. His mathematical legacy -- the Beurling-Lax theorem on invariant subspaces, Beurling generalized primes, the Beurling-Ahlfors theorem on quasiconformal mappings, the Dirichlet spaces theory with Deny -- was more than enough for one lifetime. Malliavin offered a paradox about Beurling's approach: though he always started with "hard concrete problems" and sought "elementary and transparent" proofs, he repeatedly uncovered "basic general principles of universal applicability."[^5] The man who refused to generalize kept discovering the general.
 
 ### The Friendship
 
 Beurling's closest friend was **Lars Ahlfors**, the Finnish Fields Medal winner -- one of the first two ever awarded, in 1936.
 
-Their friendship spanned half a century, from a 1934 meeting at the Scandinavian Congress of Mathematicians to Ahlfors' eulogy at Beurling's memorial. The deepest moment came during wartime. When Ahlfors fled Finland in 1944, Finnish exit regulations allowed him to take only ten Swedish kronor -- not enough for train fare from Stockholm to Kungsbacka on the west coast, where his family waited. In desperation, Ahlfors **pawned his Fields Medal**. In his own words: "I smuggled out my Fields Medal, and I pawned it in the pawn shop and got enough money. I had no other way." He added: **"I'm sure that it's the only Fields Medal that has been in a pawn shop."**
+Their friendship spanned half a century, from a 1934 meeting at the Scandinavian Congress of Mathematicians to Ahlfors' eulogy at Beurling's memorial. The deepest moment came during wartime. When Ahlfors fled Finland in 1944, Finnish exit regulations allowed him to take only ten Swedish kronor -- not enough for train fare from Stockholm to Kungsbacka on the west coast, where his family waited. In desperation, Ahlfors **pawned his Fields Medal**. In his own words: "I smuggled out my Fields Medal, and I pawned it in the pawn shop and got enough money. I had no other way."[^6] He added: **"I'm sure that it's the only Fields Medal that has been in a pawn shop."**[^6]
 
 Beurling immediately arranged a position for Ahlfors at Uppsala, providing housing, office space, and teaching duties. With the Uppsala salary, Ahlfors recovered the medal.
 
-Then tragedy struck. While in Sweden, Ahlfors' young son Christoffer died from an electric shock while playing at home. Ahlfors was on a lecture visit to Uppsala and heard the news first from Beurling. He later wrote: "Never in my life have I witnessed anybody handle such a difficult assignment with greater tact and compassion. It seemed to me that Arne's extraordinary sensitivity had raised our friendship to a level that I had not experienced before."
+Then tragedy struck. While in Sweden, Ahlfors' young son Christoffer died from an electric shock while playing at home. Ahlfors was on a lecture visit to Uppsala and heard the news first from Beurling. He later wrote: "Never in my life have I witnessed anybody handle such a difficult assignment with greater tact and compassion. It seemed to me that Arne's extraordinary sensitivity had raised our friendship to a level that I had not experienced before."[^1]
 
-Forty years later, when Beurling died in 1986, Ahlfors opened his eulogy with the words: **"Arne Beurling was the best friend I ever had."** And: "There was a streak of genius in everything he did."
+Forty years later, when Beurling died in 1986, Ahlfors opened his eulogy with the words: **"Arne Beurling was the best friend I ever had."**[^1] And: "There was a streak of genius in everything he did."[^1]
 
-Beurling's most famous student, **Lennart Carleson**, won the **Abel Prize** in 2006 -- mathematics' equivalent of the Nobel. Carleson said: **"It was my great fortune to have been introduced to mathematics by Arne Beurling."**
+Beurling's most famous student, **Lennart Carleson**, won the **Abel Prize** in 2006 -- mathematics' equivalent of the Nobel. Carleson said: **"It was my great fortune to have been introduced to mathematics by Arne Beurling."**[^1]
 
 ### The Thread to BESK
 
@@ -176,11 +176,20 @@ In Poland, three other magicians are waiting for their story to be told properly
 
 ---
 
-### References
+## Footnotes
+[^1]: Ahlfors, L. & Carleson, L. (1988). "Arne Beurling in memoriam." *Acta Mathematica*, 161. [PDF](https://projecteuclid.org/journals/acta-mathematica/volume-161/issue-none/Arne-Beurling-in-memoriam/10.1007/BF02392292.pdf).
+[^2]: Kahn, D. (1996). *The Codebreakers* (revised ed.). Scribner, pp. 484-485.
+[^3]: Bauer, F. L. (2003). Review of *Codebreakers: Arne Beurling and the Swedish Crypto Program During World War II*. *Notices of the AMS*, 50(8), 929-933. [PDF](https://www.ams.org/notices/200308/rev-bauer.pdf).
+[^4]: Beckman, B. (2002). *Codebreakers: Arne Beurling and the Swedish Crypto Program During World War II*. American Mathematical Society.
+[^5]: Malliavin, P. (1997). "Arne Beurling -- a mathematician's sorcerer." Memorial tribute. Reprinted in Beurling's *Collected Works*. See also Ahlfors & Carleson (1988), *Acta Mathematica*, 161.
+[^6]: Lehto, O. (1998). *Mathematics Without Borders: A History of the International Mathematical Union*. Springer. Ahlfors' own telling of the pawnshop anecdote is also recorded in the interview "Interview with Lars V. Ahlfors," in *Mathematical People*, ed. Albers & Alexanderson, Birkhauser, 1985.
 
+## References
 **Beurling:**
 * Beckman, B. (2002). *Codebreakers: Arne Beurling and the Swedish Crypto Program During World War II*. AMS. [Bookstore](https://bookstore.ams.org/SWCRY)
 * Ahlfors, L. & Carleson, L. (1988). Arne Beurling in memoriam. *Acta Mathematica*, 161. [PDF](https://projecteuclid.org/journals/acta-mathematica/volume-161/issue-none/Arne-Beurling-in-memoriam/10.1007/BF02392292.pdf)
+* Malliavin, P. (1997). "Arne Beurling -- a mathematician's sorcerer." Tribute reprinted in Beurling's *Collected Works*, Birkhauser.
+* Lehto, O. (1998). *Mathematics Without Borders: A History of the International Mathematical Union*. Springer.
 * Uppsala University. [Arne Beurling](https://www.uu.se/en/about-uu/history/prominent-people/arne-beurling)
 * Institute for Advanced Study. [Arne K. Beurling](https://www.ias.edu/scholars/arne-k-beurling)
 * IVA. Arne Beurling memorial publication (2022). [PDF](https://www.iva.se/contentassets/e8436f25872e4bca8be92207871a0456/ivas-minnesskrift-2022-arne-beurling.pdf)

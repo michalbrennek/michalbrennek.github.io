@@ -53,7 +53,7 @@ The Section started in Suitland, Maryland, near the [JNWPU](/weather/hpc/history
 
 The unit was renamed the General Circulation Research Laboratory in 1959, then the **Geophysical Fluid Dynamics Laboratory (GFDL)** in 1963. In 1968, GFDL moved to **Princeton's Forrestal Campus**, drawn by the university's computing resources and the proximity of the Institute for Advanced Study -- the intellectual home of von Neumann and Charney. GFDL was a federal laboratory under what would become NOAA, not part of Princeton, but the collaboration was deep: Princeton created the Atmospheric and Oceanic Sciences program in 1968 specifically for this partnership.
 
-Smagorinsky ran GFDL for **28 years** (1955-1983). His colleague Jerry Mahlman described his "almost relentless pursuit of excellence." Smagorinsky had no interest in counting publications. He wanted to solve significant problems. He shielded his researchers from government bureaucracy. And he repeatedly secured the world's fastest computers for the lab -- the IBM Stretch, the CDC 6600 -- through what colleagues described as unexplained influence in competitive resource allocation.
+Smagorinsky ran GFDL for **28 years** (1955-1983). His colleague Jerry Mahlman described his "almost relentless pursuit of excellence."[^1] Smagorinsky had no interest in counting publications. He wanted to solve significant problems. He shielded his researchers from government bureaucracy. And he repeatedly secured the world's fastest computers for the lab -- the IBM Stretch, the CDC 6600 -- through what colleagues described as unexplained influence in competitive resource allocation.
 
 ### The 1963 Paper
 
@@ -71,7 +71,7 @@ But the most consequential thing Smagorinsky ever did was not a paper. It was a 
 
 **Syukuro Manabe** was born on September 21, 1931, in Shinritsu Village, Ehime Prefecture, Japan. His grandfather and father were physicians who ran the village's only clinic. He was expected to follow the family tradition. He chose not to.
 
-"Whenever there's an emergency, the blood rushes to my head," he later explained. He had a terrible memory and was physically clumsy. As a child he preferred "to gaze at the sky and get lost in thoughts." In elementary school he "usually stayed at home, laid down and thought about something endlessly."
+"Whenever there's an emergency, the blood rushes to my head," he later explained.[^2] He had a terrible memory and was physically clumsy. As a child he preferred "to gaze at the sky and get lost in thoughts."[^2] In elementary school he "usually stayed at home, laid down and thought about something endlessly."[^2]
 
 He studied meteorology at the University of Tokyo, earning his D.Sc. in 1958. Japan was still rebuilding from the war. There were no jobs in atmospheric science. There were no computers worth running a climate model on.
 
@@ -79,11 +79,11 @@ Then Smagorinsky read one of Manabe's papers and invited him to the United State
 
 Manabe arrived in Washington, D.C. in 1958 and formally joined the General Circulation Research Section in 1959. His American salary was **25 times** what he had earned in Japan. He had free access to the world's fastest supercomputer. And he had a boss who would protect him from bureaucracy for the next 24 years.
 
-Manabe later described the complementarity: "Smagorinsky's and my role were complementary. He had the ambitious plan, and my job was to make it work. The computer was so feeble at the time... if we put everything into the model at once, the computer couldn't handle it."
+Manabe later described the complementarity: "Smagorinsky's and my role were complementary. He had the ambitious plan, and my job was to make it work. The computer was so feeble at the time... if we put everything into the model at once, the computer couldn't handle it."[^2]
 
-Why did Manabe stay in America? He was remarkably frank. "In Japan, if you ask a question you get 'yes' or 'no.' However, when the Japanese say 'yes' it doesn't necessarily mean 'yes.' It could mean 'no.'" He found Japanese academic culture stifling: too much coordination, too many committees, too little directness. "Japanese people don't want to say no. But in science this is not a very good thing -- you have to say very clearly you disagree with each other."
+Why did Manabe stay in America? He was remarkably frank. "In Japan, if you ask a question you get 'yes' or 'no.' However, when the Japanese say 'yes' it doesn't necessarily mean 'yes.' It could mean 'no.'"[^2] He found Japanese academic culture stifling: too much coordination, too many committees, too little directness. "Japanese people don't want to say no. But in science this is not a very good thing -- you have to say very clearly you disagree with each other."[^2]
 
-His final verdict: "I don't want to go back to Japan, because I am not able to live harmoniously."
+His final verdict: "I don't want to go back to Japan, because I am not able to live harmoniously."[^2]
 
 He briefly returned to Japan (1997-2001) to direct the Global Warming Research Division, then came back to Princeton in 2002. He has been there ever since.
 
@@ -141,7 +141,7 @@ On October 5, 2021, the Royal Swedish Academy of Sciences awarded one half of th
 
 Manabe was 90 years old. He had spent 63 years at GFDL and Princeton. When told about the prize, he responded with characteristic understatement:
 
-> **"I did these experiments out of pure scientific curiosity. I never realized that it would become a problem of such wide-ranging concern for all of human society."**
+> **"I did these experiments out of pure scientific curiosity. I never realized that it would become a problem of such wide-ranging concern for all of human society."**[^3]
 
 His Nobel lecture at Stockholm acknowledged Smagorinsky explicitly. The chain was complete.
 
@@ -168,14 +168,21 @@ Seventy-one years from vacuum tubes to Stockholm. Two men from opposite sides of
 
 They could. And they did. And the planet is warmer by exactly the amount they said it would be.
 
-"Curiosity is the thing which drives all my research activity," Manabe said.
+"Curiosity is the thing which drives all my research activity," Manabe said.[^2]
 
 The most important forecast in the history of science started with curiosity. It ended with a Nobel Prize. And it began -- as everything in this series begins -- with a computer and a dream of predicting the weather.
 
 ---
 
-### References
+## Footnotes
 
+[^1]: Mahlman, J. D., et al. "Smagorinsky's GFDL: Building the Team." *Bulletin of the American Meteorological Society*, 89(9), 2008. [AMS](https://journals.ametsoc.org/view/journals/bams/89/9/2008bams2599_1.xml).
+[^2]: Manabe, S. Interview with Syukuro Manabe, March 2022, The Nobel Prize. [Nobel Prize](https://www.nobelprize.org/prizes/physics/2021/manabe/185163-manabe-interview-march-2022/). See also Manabe biographical, The Nobel Prize, 2021. [Nobel](https://www.nobelprize.org/prizes/physics/2021/manabe/biographical/).
+[^3]: Manabe, S., remarks upon the announcement of the 2021 Nobel Prize in Physics, October 5, 2021, The Nobel Prize. [Nobel Prize](https://www.nobelprize.org/prizes/physics/2021/manabe/biographical/).
+
+---
+
+## References
 **Smagorinsky:**
 * Smagorinsky, J. (1963). General Circulation Experiments with the Primitive Equations: I. The Basic Experiment. *Monthly Weather Review*, 91(3), 99-164. [AMS](https://journals.ametsoc.org/view/journals/mwre/91/3/1520-0493_1963_091_0099_gcewtp_2_3_co_2.xml)
 * Princeton News (2005). Pioneering Meteorologist Smagorinsky Dies. [Princeton](https://www.princeton.edu/news/2005/09/29/pioneering-meteorologist-smagorinsky-dies)

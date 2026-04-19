@@ -102,8 +102,7 @@ That's not a failure of computation. It's a reminder that some of the most impor
 
 ---
 
-### References
-
+## References
 * Petterssen, S. (1936). Contribution to the Theory of Frontogenesis. *Geofysiske Publikationer*, 11(6), 1-27.
 * Renard, R. J. & Clarke, L. C. (1965). Experiments in Numerical Objective Frontal Analysis. *Mon. Wea. Rev.*, 93, 547-556. [AMS](https://journals.ametsoc.org/view/journals/mwre/93/9/1520-0493_1965_093_0547_einofa_2_3_co_2.xml)
 * Hoskins, B. J., Draghici, I. & Davies, H. C. (1978). A new look at the omega-equation. *Q. J. R. Meteorol. Soc.*, 104, 31-38. [DOI](https://doi.org/10.1002/qj.49710443903)

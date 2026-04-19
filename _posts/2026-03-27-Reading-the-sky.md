@@ -34,7 +34,7 @@ There's a term for the two flavors of front that this analysis reveals: an **ana
 
 ### Then Came the Satellites
 
-In the 1970s and 1980s, **Keith Browning** at the Met Office revolutionized how we read cyclones by developing the **conveyor belt model** (Browning, 1986). Browning was, in the words of his colleagues, a man with "intuitive understanding of complex three-dimensional meteorological processes" who had a gift for distilling them into conceptual models.
+In the 1970s and 1980s, **Keith Browning** at the Met Office revolutionized how we read cyclones by developing the **conveyor belt model** (Browning, 1986). Browning was, in the words of his colleagues, a man with "intuitive understanding of complex three-dimensional meteorological processes"[^1] who had a gift for distilling them into conceptual models.
 
 Instead of thinking about fronts as static lines on a map, Browning described three-dimensional **rivers of air** flowing through cyclones:
 
@@ -58,7 +58,7 @@ The conveyor belt model was transformative because it connected the **Norwegian 
 
 British satellite meteorology became a tradition in itself - forecasters who could read the atmosphere from a single water vapor image the way a radiologist reads an X-ray. The conveyor belt model gave them a theoretical framework; the satellite gave them the picture. Together, they transformed operational forecasting.
 
-As the **EUMeTrain** satellite manual notes: "The conveyor belt theory shows a higher variety of possible developments and clearly indicates that the Occlusion process as described by the Norwegian model only represents a special case."
+As the **EUMeTrain** satellite manual notes: "The conveyor belt theory shows a higher variety of possible developments and clearly indicates that the Occlusion process as described by the Norwegian model only represents a special case."[^2]
 
 The Norwegian model drawn in an attic in 1919. The conveyor belts described at the Met Office in the 1970s-80s. The satellite images beamed down every 15 minutes. Three generations of understanding, layered on top of each other - and still, at the center of it all, a human being looking at patterns and deciding: **that's a front**.
 
@@ -66,8 +66,14 @@ Tomorrow: [why the models still can't do what the human does](/weather/hpc/histo
 
 ---
 
-### References
+## Footnotes
+[^1]: Hoskins, B. J. et al. (2024). Keith Anthony Browning, 1938-2023. *Q. J. R. Meteorol. Soc.*, memorial tribute. [RMetS obituary](https://www.rmets.org/obituary/professor-keith-browning).
 
+[^2]: EUMeTrain. Conveyor Belt Model. [resources.eumetrain.org](https://resources.eumetrain.org/satmanu/conveyor_belt_model/index.html).
+
+---
+
+## References
 * Browning, K. A. (1986). Conceptual Models of Precipitation Systems. *Weather and Forecasting*, 1(1), 23-41. [AMS](https://journals.ametsoc.org/view/journals/wefo/1/1/1520-0434_1986_001_0023_cmops_2_0_co_2.xml)
 * Harrold, T. W. (1973). Mechanisms influencing the distribution of precipitation within baroclinic disturbances. *Q. J. R. Meteorol. Soc.*, 99, 232-251. [DOI](https://doi.org/10.1002/qj.49709942003)
 * Dacre, H. (2020). A review of extratropical cyclones: observations and conceptual models over the past 100 years. *Weather*, 75(4). [RMetS](https://rmets.onlinelibrary.wiley.com/doi/10.1002/wea.3653)

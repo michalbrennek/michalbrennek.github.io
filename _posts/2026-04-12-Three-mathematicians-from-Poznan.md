@@ -59,15 +59,15 @@ He called this invariant the **"characteristic"** (charakterystyka).
 
 There was one more piece he needed: the wiring of the rotors themselves. This is where intelligence came in. **Gustave Bertrand**, a French military intelligence officer, had been receiving Enigma documents from **Hans-Thilo Schmidt**, a German spy codenamed "Asche" who worked in the German cipher office. Schmidt had been selling secrets to the French since 1931, motivated by resentment and debts. Bertrand passed Schmidt's documents -- operating manuals, monthly key tables for September and October 1932 -- to the Poles.
 
-Armed with the permutation theory and Schmidt's documents, Rejewski made one final assumption: that the military Enigma's entry drum was wired in simple alphabetical order (ABCDEFG...). This seemed too obvious. Dilly Knox at the British Government Code and Cypher School had considered and rejected the same possibility. As Knox's colleague Peter Twinn later said: "It was such an obvious thing to do, rather a silly thing to do, that nobody -- not Dilly Knox or Tony Kendrick or Alan Turing -- ever thought it worthwhile trying."
+Armed with the permutation theory and Schmidt's documents, Rejewski made one final assumption: that the military Enigma's entry drum was wired in simple alphabetical order (ABCDEFG...). This seemed too obvious. Dilly Knox at the British Government Code and Cypher School had considered and rejected the same possibility. As Knox's colleague Peter Twinn later said: "It was such an obvious thing to do, rather a silly thing to do, that nobody -- not Dilly Knox or Tony Kendrick or Alan Turing -- ever thought it worthwhile trying."[^1]
 
 Rejewski tried it. It worked.
 
-In his own words: "From my pencil, as by magic, began to issue numbers designating the connections in rotor N."
+In his own words: "From my pencil, as by magic, began to issue numbers designating the connections in rotor N."[^2]
 
 By the end of 1932, Rejewski had recovered the wiring of all three rotors and the reflector. He was reading German military Enigma traffic. He was 27 years old, and he had just broken what the entire Western intelligence establishment considered unbreakable.
 
-Cipher historian Cipher A. Deavours called the underlying theorem **"the theorem that won World War II."**
+Cipher historian Cipher A. Deavours called the underlying theorem **"the theorem that won World War II."**[^3]
 
 ---
 
@@ -107,13 +107,13 @@ On **July 25-26, 1939** -- five weeks before Germany invaded Poland -- a secret 
 
 The British were stunned. They had been working on Enigma for years with limited success. The Poles had solved it **seven years earlier**.
 
-Knox's reaction was complex. He was "furious that the solution was one he had rejected" -- the alphabetical entry drum wiring -- yet he "grasped everything very quickly, almost quick as lightning." He was, in the words of one observer, "chagrined -- but grateful."
+Knox's reaction was complex. He was "furious that the solution was one he had rejected"[^5] -- the alphabetical entry drum wiring -- yet he "grasped everything very quickly, almost quick as lightning."[^5] He was, in the words of one observer, "chagrined -- but grateful."[^5]
 
 Gordon Welchman, who would build Bletchley Park's Hut 6 Ultra operation, wrote later:
 
-> **"Hut 6 Ultra would never have got off the ground if we had not learned from the Poles, in the nick of time, the details both of the German military version of the commercial Enigma machine, and of the operating procedures that were in use."**
+> **"Hut 6 Ultra would never have got off the ground if we had not learned from the Poles, in the nick of time, the details both of the German military version of the commercial Enigma machine, and of the operating procedures that were in use."**[^4]
 
-The RUSI described the Pyry disclosure as "the most consequential intelligence-sharing arrangement of World War Two."
+The RUSI described the Pyry disclosure as "the most consequential intelligence-sharing arrangement of World War Two."[^6]
 
 Alan Turing visited the Polish cryptologists at PC Bruno in France in January 1940, bringing completed sets of Zygalski sheets. On January 17, 1940, the Poles made the first break into wartime Enigma traffic. Turing's Bombe -- the electromechanical device that would break Enigma at industrial scale -- was developed from the Polish bomba and took its name from the Polish original. But Turing's key innovation was a change of method: where the Polish bomba had exploited the indicator repetition procedure (the Germans' habit of enciphering the message key twice), Turing's Bombe used **cribs** -- guesses of known plaintext phrases like "WETTERVORHERSAGE" (weather forecast). This made it robust against the procedural changes that had killed the Polish bomba in 1938. Gordon Welchman then added the **diagonal board**, which exploited the reciprocal property of the plugboard and dramatically reduced false stops. More than 340 Bombes were eventually built -- 211 British and 131 American. The Polish foundation made Bletchley Park possible.
 
@@ -139,7 +139,7 @@ After the fall of Vichy France in November 1942, Rejewski and Zygalski fled thro
 
 In Britain, the two men who had cracked Enigma seven years before Bletchley Park existed were inducted as **privates** in the Polish Armed Forces. They were assigned to a Polish signals unit at Stanmore Park and set to work cracking low-grade German hand ciphers.
 
-British cryptanalyst Alan Stripp later said: **"Setting them to work on the Doppelkassetten system was like using racehorses to pull wagons."**
+British cryptanalyst Alan Stripp later said: **"Setting them to work on the Doppelkassetten system was like using racehorses to pull wagons."**[^7]
 
 They were never brought to Bletchley Park.
 
@@ -177,7 +177,7 @@ Why was the Polish contribution hidden for four decades?
 
 **Churchill's secrecy ban (1945):** All Enigma intelligence (Ultra) was classified. Enigma-type machines were still in use by former colonies after the war, and GCHQ wanted to keep reading their traffic.
 
-**Winterbotham's distortion (1974):** F.W. Winterbotham's *The Ultra Secret*, the first major English disclosure, attributed the original Enigma solution to information from a "Polish employee of the cipher machine factory" -- a fiction. As David Kahn wrote in the *New York Times*: the book **"cheats the Poles of credit for one of the great cipher solutions of history."**
+**Winterbotham's distortion (1974):** F.W. Winterbotham's *The Ultra Secret*, the first major English disclosure, attributed the original Enigma solution to information from a "Polish employee of the cipher machine factory" -- a fiction. As David Kahn wrote in the *New York Times*: the book **"cheats the Poles of credit for one of the great cipher solutions of history."**[^8]
 
 **The Cold War:** Poland was behind the Iron Curtain. Polish scholars had limited access to Western publications. Western scholars had limited access to Polish sources. Rejewski was silenced not only by British classification but by the practical danger of attracting the attention of Poland's Soviet-controlled security services.
 
@@ -193,7 +193,7 @@ In 2007, a monument was unveiled in Poznan -- the city where three young mathema
 
 The inscription reads:
 
-> **"To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany."**
+> **"To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany."**[^9]
 
 Contributed. The word is too modest. They made it possible. As Welchman said: without the Poles, Bletchley Park would never have gotten off the ground. The Bombe was named after the bomba. The methods were Polish. The mathematics was Polish. The foundation was Polish.
 
@@ -205,8 +205,18 @@ This story is personal. I am Polish. And I do not forget.
 
 ---
 
-### References
+## Footnotes
+[^1]: Twinn, P. (1993). "The Abwehr Enigma." In Hinsley, F. H. & Stripp, A. (eds.), *Codebreakers: The Inside Story of Bletchley Park*. Oxford University Press, p. 125.
+[^2]: Rejewski, M. (1981). "How Polish Mathematicians Deciphered the Enigma." *IEEE Annals of the History of Computing*, 3(3), 213-234. [IEEE](https://ieeexplore.ieee.org/document/4639752).
+[^3]: Deavours, C. A. (1980s). Writings in *Cryptologia* on the Polish contribution to breaking Enigma. See also Deavours, C. A. & Kruh, L. (1985), *Machine Cryptography and Modern Cryptanalysis*, Artech House.
+[^4]: Welchman, G. (1982). *The Hut Six Story: Breaking the Enigma Codes*. McGraw-Hill. Republished 1997 by M & M Baldwin with corrections.
+[^5]: Kozaczuk, W. (1984). *Enigma: How the German Machine Cipher Was Broken, and How It Was Read by the Allies in World War Two*. Trans. C. Kasparek. University Publications of America. Knox's reactions to the Pyry disclosure are recorded in Kozaczuk's account of the Polish-French-British meeting.
+[^6]: Royal United Services Institute (RUSI). Historical analyses of the Pyry conference and the Anglo-Polish-French intelligence-sharing arrangement. See RUSI journal articles on WWII signals intelligence.
+[^7]: Stripp, A. (1993). "The Enigma Machine: Its Mechanism and Use." In Hinsley, F. H. & Stripp, A. (eds.), *Codebreakers: The Inside Story of Bletchley Park*. Oxford University Press.
+[^8]: Kahn, D. (1974). Review of F. W. Winterbotham's *The Ultra Secret*. *New York Times Book Review*, December 29, 1974.
+[^9]: Enigma Cipher Centre, Poznan. Inscription on the Enigma Codebreakers Monument (unveiled 2007). [centrum-szyfrow.pl](https://centrum-szyfrow.pl/en/).
 
+## References
 **Primary Sources:**
 * Rejewski, M. (1981). How Polish Mathematicians Deciphered the Enigma. *IEEE Annals of the History of Computing*, 3(3), 213-234. (Posthumous.) [IEEE](https://ieeexplore.ieee.org/document/4639752)
 * Rejewski, M. (1980). An Application of the Theory of Permutations in Breaking the Enigma Cipher. *Applicationes Mathematicae*, 16(4), 543-559.
@@ -218,6 +228,10 @@ This story is personal. I am Polish. And I do not forget.
 * Singh, S. (1999). *The Code Book*. Fourth Estate. (Chapter on Polish contribution.)
 * Hodges, A. (1983). *Alan Turing: The Enigma*. Simon & Schuster.
 * Kahn, D. (1996). *The Codebreakers* (revised ed.). Scribner.
+* Welchman, G. (1982). *The Hut Six Story: Breaking the Enigma Codes*. McGraw-Hill. (Republished 1997, M & M Baldwin.)
+* Hinsley, F. H. & Stripp, A., eds. (1993). *Codebreakers: The Inside Story of Bletchley Park*. Oxford University Press.
+* Deavours, C. A. & Kruh, L. (1985). *Machine Cryptography and Modern Cryptanalysis*. Artech House.
+* Kahn, D. (1974). Review of *The Ultra Secret* by F. W. Winterbotham. *New York Times Book Review*, December 29, 1974.
 
 **Articles and Online Sources:**
 * GCHQ. The Pyry Conference. [GCHQ](https://www.gchq.gov.uk/information/pyry-conference)

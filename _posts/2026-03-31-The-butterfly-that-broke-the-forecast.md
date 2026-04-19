@@ -23,27 +23,27 @@ That date matters. Jule Charney - the man who led the [ENIAC forecast](/hpc/rasp
 
 But they were opposites in almost every way.
 
-Charney was charismatic, a force of nature. David Randall described being in a room with him as "like being in the room with a tiger, a very friendly tiger." Charney showed that the atmosphere **could** be predicted numerically.
+Charney was charismatic, a force of nature. David Randall described being in a room with him as "like being in the room with a tiger, a very friendly tiger."[^1] Charney showed that the atmosphere **could** be predicted numerically.
 
-Lorenz was quiet, humble, soft-spoken, shy. Kerry Emanuel said he was "as far from being a self-promoter as you could possibly imagine. He didn't go off giving scientific talks a lot." Lorenz showed that this predictability has **fundamental limits**.
+Lorenz was quiet, humble, soft-spoken, shy. Kerry Emanuel said he was "as far from being a self-promoter as you could possibly imagine. He didn't go off giving scientific talks a lot."[^1] Lorenz showed that this predictability has **fundamental limits**.
 
 Charney's department foil. The quiet one who broke the universe.
 
 ### The Mathematician Who Chased Weather
 
-Lorenz was a math kid. He said it himself: "As a boy I was always interested in doing things with numbers, and was also fascinated by changes in the weather."
+Lorenz was a math kid. He said it himself: "As a boy I was always interested in doing things with numbers, and was also fascinated by changes in the weather."[^2]
 
 He got his A.B. in mathematics from Dartmouth in 1938, then a master's in mathematics from Harvard in 1940. His first published paper was a generalization of the Dirac equations. He was on the pure-math track. If WWII had not intervened, he might have spent his career in abstract algebra and we would not be having this conversation.
 
 But the war came, and the Army Air Corps needed people who could do math to forecast weather. Lorenz volunteered. And somewhere between calculating wind patterns for bomber runs, he fell in love with the atmosphere.
 
-"With my mathematical background, I naturally found dynamic meteorology to my liking."
+"With my mathematical background, I naturally found dynamic meteorology to my liking."[^2]
 
 After the war, he went to MIT for graduate work in meteorology. He got his doctorate in 1948. And then he just... stayed. His **entire career** was at MIT - assistant meteorologist, meteorologist, professor, head of department, professor emeritus. Fifty years in the same building.
 
 He was also, by all accounts, a remarkable human being. He won the meteorology department's teaching award so many times that eventually the award was discontinued because nobody else ever won it. He was an avid hiker and cross-country skier who made it a point to visit mountain trails near every scientific meeting he attended. He could imitate coyote calls well enough to wake actual coyotes and have a "conversation" with them.
 
-Charney called him "a genius with a soul of an artist."
+Charney called him "a genius with a soul of an artist."[^2]
 
 ### The Machine: 800 Pounds of Desk
 
@@ -105,7 +105,7 @@ That is all it took. Three coupled, nonlinear ordinary differential equations th
 
 He published it in March 1963 in the *Journal of the Atmospheric Sciences*: **"Deterministic Nonperiodic Flow."**
 
-> "Two states differing by imperceptible amounts may eventually evolve into two considerably different states ... [meaning] an acceptable prediction of an instantaneous state in the distant future may well be impossible."
+> "Two states differing by imperceptible amounts may eventually evolve into two considerably different states ... [meaning] an acceptable prediction of an instantaneous state in the distant future may well be impossible."[^3]
 
 Read that sentence again. That is the death certificate of the Cartesian universe, written in the passive voice, in a meteorology journal, by a quiet man from Connecticut.
 
@@ -123,7 +123,7 @@ The trajectory loops around one lobe, then switches to the other. Then back. The
 
 Lorenz had a beautiful way of describing this. He wrote that the attractor IS the climate, while any individual trajectory is the weather:
 
-> "For one special complicated chaotic system - the global weather - the attractor is simply the climate, that is, the set of weather patterns that have at least some chance of occasionally occurring."
+> "For one special complicated chaotic system - the global weather - the attractor is simply the climate, that is, the set of weather patterns that have at least some chance of occasionally occurring."[^4]
 
 The climate is the shape. The weather is the path. The butterfly wings are the boundaries of the possible.
 
@@ -133,7 +133,7 @@ Here is a fact that surprised me: **Lorenz did not coin the phrase "butterfly ef
 
 His original metaphor was a **seagull**. In a 1963 paper for the New York Academy of Sciences, he wrote:
 
-> "One meteorologist remarked that if the theory were correct, one flap of a sea gull's wings would be enough to alter the course of the weather forever. The controversy has not yet been settled, but the most recent evidence seems to favor the sea gulls."
+> "One meteorologist remarked that if the theory were correct, one flap of a sea gull's wings would be enough to alter the course of the weather forever. The controversy has not yet been settled, but the most recent evidence seems to favor the sea gulls."[^5]
 
 The butterfly arrived nine years later, in 1972, when Lorenz was asked to give a talk at the American Association for the Advancement of Science. He failed to submit a title. So **Philip Merilees**, the session organizer, made one up for him:
 
@@ -143,15 +143,15 @@ Merilees knew about the seagull metaphor, but he thought a butterfly sounded bet
 
 The talk was never formally published as a journal paper. Its text survived as Appendix 1 of Lorenz's 1993 book *The Essence of Chaos*. But the title - the title someone else wrote - became the most famous phrase in nonlinear dynamics.
 
-In a tongue-in-cheek study, a scholar tracked the butterfly's movements through subsequent retellings: from Brazil to Peking to Rio, back to Peking, then Switzerland, Paris, England, Venezuela, New York. When he graphed the butterfly's peregrinations, the resulting pattern looked like the Lorenz attractor. "The significance or meaning of any of this," he concluded, "has yet to be determined."
+In a tongue-in-cheek study, Robert C. Hilborn tracked the butterfly's movements through subsequent retellings: from Brazil to Peking to Rio, back to Peking, then Switzerland, Paris, England, Venezuela, New York. When he graphed the butterfly's peregrinations, the resulting pattern looked like the Lorenz attractor. "The significance or meaning of any of this," he concluded, "has yet to be determined."[^6]
 
 Even the metaphor is chaotic.
 
 Lorenz himself, asked late in life whether a butterfly can really cause a tornado, was characteristically honest:
 
-"Even today I am unsure of the proper answer."
+"Even today I am unsure of the proper answer."[^7]
 
-But he did note something important in the original talk: "If the flap of a butterfly's wings can be instrumental in generating a tornado, it can equally well be instrumental in **preventing** a tornado."
+But he did note something important in the original talk: "If the flap of a butterfly's wings can be instrumental in generating a tornado, it can equally well be instrumental in **preventing** a tornado."[^7]
 
 ### The Two-Week Wall
 
@@ -170,7 +170,7 @@ Charney and colleagues found a 5-day doubling time in 1966. Lorenz found a more 
 
 Even a hypothetical computer that modeled every molecule of the atmosphere would still hit this wall, because the initial conditions can never be known with infinite precision. It is not a technology problem. It is a **physics** problem.
 
-> "An immediate consequence of sensitive dependence in any system is the impossibility of making perfect predictions."
+> "An immediate consequence of sensitive dependence in any system is the impossibility of making perfect predictions."[^4]
 
 As of today, reliable weather forecasts extend to about 9-10 days for daily weather in the mid-latitudes. We have gotten better - dramatically better - at squeezing every drop of predictability out of those two weeks. But the wall is still there. Lorenz proved it is always there.
 
@@ -210,15 +210,15 @@ Every time a weather app shows you a "probability of rain" rather than a binary 
 
 Lorenz left us the most elegant definition of chaos ever written. One sentence. No jargon. Perfect.
 
-> "Chaos: When the present determines the future, but the approximate present does not approximately determine the future."
+> "Chaos: When the present determines the future, but the approximate present does not approximately determine the future."[^4]
 
 Read it once more. The present **determines** the future - the system is deterministic, not random. But the **approximate** present does not **approximately** determine the future - a close-enough starting point does not give you a close-enough result.
 
 That is the whole thing. That is the revolution. Determinism without predictability. A universe that follows rules but cannot be forecast.
 
-Steven Strogatz at Cornell put it this way: "It was philosophically very shocking. Determinism was equated with predictability before Lorenz. After Lorenz, we came to see that determinism might give you short-term predictability, but in the long run, things could be unpredictable. That's what we associate with the word 'chaos.'"
+Steven Strogatz at Cornell put it this way: "It was philosophically very shocking. Determinism was equated with predictability before Lorenz. After Lorenz, we came to see that determinism might give you short-term predictability, but in the long run, things could be unpredictable. That's what we associate with the word 'chaos.'"[^1]
 
-Kerry Emanuel went further: "History may well record that Ed Lorenz had hammered the last nail into the coffin of the Cartesian universe."
+Kerry Emanuel went further: "History may well record that Ed Lorenz had hammered the last nail into the coffin of the Cartesian universe."[^1]
 
 ### The Quiet Ending
 
@@ -234,8 +234,18 @@ All of it - from 0.506 to 0.506127.
 
 ---
 
-### References
+## Footnotes
+[^1]: MIT News (2008). Edward Lorenz, father of chaos theory and butterfly effect, dies at 90. [MIT News](https://news.mit.edu/2008/obit-lorenz-0416). Source for the Randall, Emanuel, and Strogatz quotes in the obituary coverage.
+[^2]: Emanuel, K. (2008). Edward Norton Lorenz 1917-2008. *National Academy of Sciences Biographical Memoir*. [NAS](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/lorenz-edward.pdf). Source for Lorenz's autobiographical remarks and Charney's characterization.
+[^3]: Lorenz, E. N. (1963). Deterministic Nonperiodic Flow. *Journal of the Atmospheric Sciences*, 20(2), 130-141. [AMS](https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml).
+[^4]: Lorenz, E. N. (1993). *The Essence of Chaos*. University of Washington Press. [Publisher](https://uwapress.uw.edu/book/9780295975146/the-essence-of-chaos/).
+[^5]: Lorenz, E. N. (1963). The predictability of hydrodynamic flow. *Transactions of the New York Academy of Sciences*, Series II, 25(4), 409-432.
+[^6]: Hilborn, R. C. (2004). Sea gulls, butterflies, and grasshoppers: A brief history of the butterfly effect in nonlinear dynamics. *American Journal of Physics*, 72(4), 425-427.
+[^7]: Lorenz, E. N. (1972). Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas? 139th AAAS meeting; reprinted as Appendix 1 of Lorenz (1993). [PDF at MIT](http://eaps4.mit.edu/research/Lorenz/Butterfly_1972.pdf).
 
+---
+
+## References
 * Lorenz, E. N. (1963). Deterministic Nonperiodic Flow. *Journal of the Atmospheric Sciences*, 20(2), 130-141. [AMS](https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml)
 * Lorenz, E. N. (1969). Three Approaches to Atmospheric Predictability. *Bull. Amer. Meteor. Soc.*, 50, 345-349.
 * Lorenz, E. N. (1972). Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas? 139th AAAS meeting. [PDF at MIT](http://eaps4.mit.edu/research/Lorenz/Butterfly_1972.pdf)

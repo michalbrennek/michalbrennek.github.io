@@ -101,7 +101,7 @@ This conversion was the conceptual bridge between the ENIAC and the IAS machine.
 The ENIAC proved three things:
 
 1. **Electronic computing works.** Despite the engineering consensus that a machine with thousands of vacuum tubes would be too unreliable, Eckert's discipline -- running tubes at 50-80% of rated voltage, testing every component before installation -- made it run (Kleiman, 2022).
-2. **The atmosphere can be predicted by machine.** Charney's forecast wasn't great. But three of the four cases beat persistence -- predicting that tomorrow looks like today (Charney, Fjortoft & von Neumann, 1950). And Charney said the rest was "purely a technological problem."
+2. **The atmosphere can be predicted by machine.** Charney's forecast wasn't great. But three of the four cases beat persistence -- predicting that tomorrow looks like today.[^1] And Charney said the rest was "purely a technological problem."[^2]
 3. **Electronic computers could be converted from special-purpose to general-purpose.** The 1948 stored-program conversion showed that the future lay in flexible, programmable machines -- not hardwired calculators.
 
 But even in its converted form, the ENIAC had a fatal limitation: its internal memory held only **20 numbers**. Everything else lived on punch cards, shuttled in and out by operators. You couldn't load a complex program into memory and let it run. You couldn't iterate. You couldn't explore.
@@ -158,7 +158,7 @@ It was elegant. It was fast (access time measured in microseconds, not the milli
 
 Phillips, who ran his [general circulation experiment](/weather/hpc/history/2026/03/30/The-first-climate-model-had-5KB-of-RAM.html) on this machine, described the programming experience in terms that would make a modern developer weep:
 
-> "Code was written in what would now be called 'machine language' except that it was one step lower -- the 40 bits of an instruction word (two instructions) were written by us in a 16-character (hexadecimal) alphabet."
+> "Code was written in what would now be called 'machine language' except that it was one step lower -- the 40 bits of an instruction word (two instructions) were written by us in a 16-character (hexadecimal) alphabet."[^3]
 
 No compiler. No assembler. No DO-loops. Raw hexadecimal, hand-coded. Each instruction was a pattern of hex digits specifying an operation code and a memory address. If you wanted a loop, you wrote the loop counter explicitly. If you wanted a subroutine, you manually stored the return address.
 
@@ -498,8 +498,14 @@ With 60 operations per second.
 
 ---
 
-### References
+## Footnotes
+[^1]: Charney, J. G., Fjortoft, R. & von Neumann, J. (1950). Numerical integration of the barotropic vorticity equation. *Tellus*, 2, 237-254. [PDF](https://maths.ucd.ie/~plynch/eniac/CFvN-1950.pdf).
+[^2]: Charney, J. G. (1955). Address to the National Academy of Sciences, as quoted in Phillips, N. A. (1995), "Jule Gregory Charney 1917-1981: A Biographical Memoir," *NAS Biographical Memoirs*, 66, 80-113. [PDF](https://www.nasonline.org/wp-content/uploads/2024/06/charney-jule-g.pdf).
+[^3]: Phillips, N. A. (1990). Dispersion Processes in Large-Scale Weather Prediction. Sixth IMO Lecture, WMO No. 700, World Meteorological Organization, Geneva.
 
+---
+
+## References
 **ENIAC:**
 * Goldstine, H. H. (1972). *The Computer from Pascal to von Neumann*. Princeton University Press. [WorldCat](https://www.worldcat.org/title/563131)
 * Kleiman, K. (2022). *Proving Ground: The Untold Story of the Six Women Who Programmed the World's First Modern Computer*. Grand Central Publishing. [Publisher](https://www.grandcentralpublishing.com/titles/kathy-kleiman/proving-ground/9781538718292/)

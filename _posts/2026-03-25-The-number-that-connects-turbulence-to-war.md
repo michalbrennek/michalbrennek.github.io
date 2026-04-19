@@ -27,12 +27,12 @@ Richardson spent his career watching air move. Not casually - obsessively. He me
 
 What he noticed was a pattern. Turbulence doesn't just happen at one scale. It cascades. A massive atmospheric disturbance breaks into smaller eddies, which break into smaller eddies still, passing energy down the chain until - at the very bottom - friction between individual molecules absorbs what is left.
 
-He captured this in what might be the most elegant piece of scientific verse ever written. In his 1922 book *Weather Prediction by Numerical Process*, he reworked Augustus De Morgan's poem about fleas - itself a riff on Jonathan Swift - into four lines of scientific prophecy (Richardson, 1922, p. 66):
+He captured this in what might be the most elegant piece of scientific verse ever written. In his 1922 book *Weather Prediction by Numerical Process*, he reworked Augustus De Morgan's poem about fleas - itself a riff on Jonathan Swift - into four lines of scientific prophecy:
 
 > *"Big whirls have little whirls*
 > *that feed on their velocity,*
 > *and little whirls have lesser whirls,*
-> *and so on to viscosity."*
+> *and so on to viscosity."*[^1]
 
 It reads like a nursery rhyme. It describes one of the most fundamental processes in physics. The turbulent cascade - energy flowing from large scales to small scales - is the foundation of modern fluid dynamics. Andrey Kolmogorov would formalize it mathematically in the 1940s, but Richardson had seen it first, through the smoke and the dandelions (Vulpiani, 2014).
 
@@ -40,7 +40,7 @@ It reads like a nursery rhyme. It describes one of the most fundamental processe
 
 But seeing turbulence is one thing. Predicting it is another.
 
-Richardson had noticed something specific during his observations at Eskdalemuir Observatory in Scotland, that bleak and remote place he described as a land of "bleak and humid solitude" (Hayes, 2001). Wind fluctuations at different heights seemed to depend on two competing forces:
+Richardson had noticed something specific during his observations at Eskdalemuir Observatory in Scotland, that bleak and remote place he described as a land of "bleak and humid solitude."[^2] Wind fluctuations at different heights seemed to depend on two competing forces:
 
 **Force 1: Temperature.** When the ground is warm and the air above is cold, the atmosphere is unstable. Warm air rises, cold air sinks, everything churns. Buoyancy wants to create turbulence.
 
@@ -89,11 +89,11 @@ And then Richardson discovered that his work on atmospheric diffusion - understa
 
 Richardson was a Quaker. A pacifist. A man who had driven ambulances through the mud of the Western Front rather than carry a rifle.
 
-As Giles Foden wrote in *Turbulence*, his novel inspired by Richardson's life, Richardson's equation "dramatizes the relationship between wind and heat." But for Richardson, the horror was that the same equation could dramatize the relationship between wind and death (Berreby, 2014).
+As Giles Foden wrote in *Turbulence*, his novel inspired by Richardson's life, Richardson's equation "dramatizes the relationship between wind and heat."[^3] But for Richardson, the horror was that the same equation could dramatize the relationship between wind and death.
 
 Think about what that means for a moment.
 
-Richardson had been in the trenches. He had driven ambulances through artillery bombardments, carried bleeding soldiers down roads cratered by shells. He had watched men choking on gas, clawing at their throats, drowning in their own lungs. One of his adopted children would later recall Richardson **screaming in terror at sudden loud noises** years after the war, and explaining that he had "shell shock" - what we now call PTSD (Berreby, 2014).
+Richardson had been in the trenches. He had driven ambulances through artillery bombardments, carried bleeding soldiers down roads cratered by shells. He had watched men choking on gas, clawing at their throats, drowning in their own lungs. One of his adopted children would later recall Richardson **screaming in terror at sudden loud noises** years after the war, and explaining that he had "shell shock" - what we now call PTSD.[^3]
 
 This was not a man who had studied war from a library. He had *smelled* it.
 
@@ -101,7 +101,7 @@ And now his own mathematics - his elegant theory of how particles diffuse throug
 
 Richardson's response was absolute.
 
-He **destroyed his unpublished findings** on atmospheric diffusion. Burned them. Not shelved, not classified, not handed off to someone else. Destroyed. He then resigned from the Meteorological Office in 1920, when it was absorbed into the Air Ministry - the military branch that controlled the Royal Air Force. As he wrote to the Norwegian meteorologist Vilhelm Bjerknes: **"I do not like preparations for war"** (Gleditsch, 2020). Yes, *that* Bjerknes - the same man whose published observations Richardson used for his 1910 forecast on the pile of hay, and the father of the Bergen School of Meteorology that gave us the very concept of weather "fronts." A story for another post, but the farewell letter went to the one colleague who understood exactly what Richardson was giving up.
+He **destroyed his unpublished findings** on atmospheric diffusion. Burned them. Not shelved, not classified, not handed off to someone else. Destroyed. He then resigned from the Meteorological Office in 1920, when it was absorbed into the Air Ministry - the military branch that controlled the Royal Air Force. As he wrote to the Norwegian meteorologist Vilhelm Bjerknes: **"I do not like preparations for war"**.[^4] Yes, *that* Bjerknes - the same man whose published observations Richardson used for his 1910 forecast on the pile of hay, and the father of the Bergen School of Meteorology that gave us the very concept of weather "fronts." A story for another post, but the farewell letter went to the one colleague who understood exactly what Richardson was giving up.
 
 His most cited paper to this day - "Atmospheric Diffusion" (1926), with over a thousand citations - was work he had already completed before the realization. Everything that came after it, he burned.
 
@@ -113,7 +113,7 @@ And he turned his mathematical mind toward the question that had haunted him sin
 
 Richardson approached war the way he had approached the atmosphere - as a physicist. Not with opinions. Not with ideology. With **data and equations**.
 
-His ambulance unit colleagues remembered him explaining his new research. "Let *x* be the will to hate," he would say, reducing the most explosive human emotions to a variable in a differential equation. "It beat me!" recalled one of his less equation-oriented friends (Berreby, 2014).
+His ambulance unit colleagues remembered him explaining his new research. "Let *x* be the will to hate,"[^3] he would say, reducing the most explosive human emotions to a variable in a differential equation. "It beat me!"[^3] recalled one of his less equation-oriented friends.
 
 Richardson's arms race model was elegant and disturbing. He set up differential equations governing how nations build weapons, taking into account:
 
@@ -139,11 +139,11 @@ And he organized them the way a geologist organizes earthquakes: **on a logarith
 - **Magnitude 5:** A major war (~100,000 deaths)
 - **Magnitude 7:** A world war (~10,000,000 deaths)
 
-His philosophy, as David Berreby put it in *Nautilus*, was that "counting is an antiseptic against prejudice" (Berreby, 2014). Richardson deliberately ignored who was a "terrorist" and who was a "freedom fighter." He ignored whether a military action was "justified." He ignored ideology entirely.
+His philosophy, as David Berreby put it in *Nautilus*, was that "counting is an antiseptic against prejudice."[^3] Richardson deliberately ignored who was a "terrorist" and who was a "freedom fighter." He ignored whether a military action was "justified." He ignored ideology entirely.
 
 He simply counted the dead.
 
-For two decades before his death in 1953, Richardson painstakingly collected data on every conflict he could find. "He was all the time compiling statistics about conflicts around the world," recalled his great-nephew Lord Julian Hunt. "Letters would keep pouring in from friends and colleagues and relatives. He had these deep ideas, but he was all the time looking at data" (Berreby, 2014).
+For two decades before his death in 1953, Richardson painstakingly collected data on every conflict he could find. "He was all the time compiling statistics about conflicts around the world," recalled his great-nephew Lord Julian Hunt. "Letters would keep pouring in from friends and colleagues and relatives. He had these deep ideas, but he was all the time looking at data."[^3]
 
 ### Wars and Earthquakes
 
@@ -159,17 +159,17 @@ Richardson found that for each tenfold increase in severity, the frequency of co
 
 This was deeply unsettling. Because the power law meant that giant wars were not freakish, unpredictable outliers - unique events caused by uniquely evil leaders or uniquely unfortunate circumstances. They were **statistically inevitable**. Rare, yes. But as predictable, in the aggregate, as giant earthquakes.
 
-As Richardson put it in *Statistics of Deadly Quarrels*: **"What has happened often is likely to happen again, whether we wish it or not"** (Richardson, 1960).
+As Richardson put it in *Statistics of Deadly Quarrels*: **"What has happened often is likely to happen again, whether we wish it or not"**.[^5]
 
 The political eddies in the international atmosphere followed the same mathematics as the physical eddies in the real one.
 
 ### The Turbulence We Live In
 
-Richardson saw the connection that most people miss. We experience political turbulence the same way a fish experiences ocean turbulence - from the inside, we see only local events. A skirmish here. A treaty there. An assassination. An armistice. What Richardson called "the eddying view of a wind" (Richardson, 1960).
+Richardson saw the connection that most people miss. We experience political turbulence the same way a fish experiences ocean turbulence - from the inside, we see only local events. A skirmish here. A treaty there. An assassination. An armistice. What Richardson called "the eddying view of a wind."[^5]
 
 But if you step back - if you plot the data, apply the math, and look at the whole system - you see the cascade. Big whirls of geopolitical power feeding energy into smaller conflicts, which cascade down to individual acts of violence.
 
-As David Berreby wrote, closing his account of Richardson's life: "War, Richardson taught us, can be as out of our control as a summer thunderstorm. The least we might do is check the forecast" (Berreby, 2014).
+As David Berreby wrote, closing his account of Richardson's life: "War, Richardson taught us, can be as out of our control as a summer thunderstorm. The least we might do is check the forecast."[^3]
 
 ### From Dandelion Seeds to Flight Safety to World Peace
 
@@ -189,8 +189,20 @@ But both are running, right now, as you read this.
 
 ---
 
-### References
+## Footnotes
+[^1]: Richardson, L. F. (1922). *Weather Prediction by Numerical Process.* Cambridge University Press, p. 66. [Internet Archive](https://archive.org/details/weatherpredictio00richrich).
 
+[^2]: Hayes, B. (2001). The Weatherman. *American Scientist*, 89(1), 10. [DOI](https://doi.org/10.1511/2001.14.10).
+
+[^3]: Berreby, D. (2014). Cloudy With a Chance of War. *Nautilus*, Issue 15. [nautil.us](https://nautil.us/cloudy-with-a-chance-of-war-234998).
+
+[^4]: Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences.* Springer. [Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4).
+
+[^5]: Richardson, L. F. (1960). *Statistics of Deadly Quarrels.* Ed. Q. Wright & C. C. Lienau. Boxwood Press.
+
+---
+
+## References
 * Richardson, L. F. (1920). The Supply of Energy from and to Atmospheric Eddies. *Proc. Roy. Soc. London A*, 97, 354-373. [DOI](https://doi.org/10.1098/rspa.1920.0039) / [ADS](https://ui.adsabs.harvard.edu/abs/1920RSPSA..97..354R)
 * Richardson, L. F. (1922). *Weather Prediction by Numerical Process*. Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich)
 * Richardson, L. F. (1939). *Generalized Foreign Politics*. Cambridge University Press.

@@ -27,13 +27,13 @@ This is the story of where fronts came from. Tomorrow, [how we read them](/weath
 
 The story starts with a letter that should feel familiar by now.
 
-Remember **Vilhelm Bjerknes** - the man whose published observations from May 20, 1910 Richardson used for his famous pencil-on-hay forecast? The man Richardson wrote his farewell letter to when he abandoned meteorology - "I do not like preparations for war"?
+Remember **Vilhelm Bjerknes** - the man whose published observations from May 20, 1910 Richardson used for his famous pencil-on-hay forecast? The man Richardson wrote his farewell letter to when he abandoned meteorology - "I do not like preparations for war"?[^1]
 
 Bjerknes was not just a data collector. In **1904**, in a seven-page paper that would reshape meteorology forever, he had proposed something radical: weather forecasting should be treated as a **physics problem**. An initial value problem. Measure the state of the atmosphere, plug it into the equations of motion, integrate forward in time, and out comes tomorrow's weather (Bjerknes, 1904).
 
 His famous opening:
 
-> *"If it is true, as every scientist believes, that subsequent atmospheric states develop from the preceding ones according to physical law, then it is apparent that the necessary and sufficient conditions for the rational solution of forecasting problems are the following: (1) A sufficiently accurate knowledge of the state of the atmosphere at the initial time, and (2) A sufficiently accurate knowledge of the laws according to which one state of the atmosphere develops from another."*
+> *"If it is true, as every scientist believes, that subsequent atmospheric states develop from the preceding ones according to physical law, then it is apparent that the necessary and sufficient conditions for the rational solution of forecasting problems are the following: (1) A sufficiently accurate knowledge of the state of the atmosphere at the initial time, and (2) A sufficiently accurate knowledge of the laws according to which one state of the atmosphere develops from another."*[^2]
 
 He identified **seven variables** that defined the atmospheric state at any point - pressure, temperature, density, humidity, and three velocity components - and listed the equations governing their evolution: the gas laws, the continuity equation, the Navier-Stokes equations, the thermodynamic energy equation, and the water continuity equation. This was the blueprint Richardson would later try to execute by hand.
 
@@ -64,7 +64,7 @@ He and his colleagues borrowed the word from the war that was still echoing thro
 
 Bergeron himself had a knack for observing nature. During the winter of 1922, while walking through the woods, he noticed that on days when the temperature was below freezing, the stratus cloud deck covering the hillside **stopped at the top of the tree canopy** instead of extending to the ground. He realized that ice crystals on the branches were scavenging moisture from the supercooled cloud droplets - a process now known as the **Wegener-Bergeron-Findeisen process**, which explains how most mid-latitude rain forms.
 
-But it was Jacob who had given the Bergen School its core insight - the cyclone model that tied all of it together. Fronts, air masses, occlusion, precipitation - they were all parts of a single three-dimensional machine, and Jacob had drawn the blueprint. As Arnt Eliassen, his biographer, wrote: "More than any other atmospheric scientist, Jack Bjerknes managed to create order and system in a seemingly disorderly atmosphere."
+But it was Jacob who had given the Bergen School its core insight - the cyclone model that tied all of it together. Fronts, air masses, occlusion, precipitation - they were all parts of a single three-dimensional machine, and Jacob had drawn the blueprint. As Arnt Eliassen, his biographer, wrote: "More than any other atmospheric scientist, Jack Bjerknes managed to create order and system in a seemingly disorderly atmosphere."[^3]
 
 ### A School of Thought, Not a Building
 
@@ -88,8 +88,16 @@ Tomorrow: [how synopticists and satellites actually read fronts](/weather/hpc/hi
 
 ---
 
-### References
+## Footnotes
+[^1]: Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences.* Springer. [Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4).
 
+[^2]: Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416).
+
+[^3]: Eliassen, A. (1990). Jacob Aall Bonnevie Bjerknes, 1897-1975. *Biographical Memoirs of the National Academy of Sciences*, 61. National Academies Press. [NAS](https://www.nasonline.org/wp-content/uploads/2024/10/bjerknes-jacob.pdf).
+
+---
+
+## References
 * Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416)
 * Bjerknes, J. (1919). On the Structure of Moving Cyclones. *Geofysiske Publikationer*, 1(2), 1-8. [Internet Archive](https://archive.org/details/onstructureofmov00bjerrich)
 * Bjerknes, J. & Solberg, H. (1922). Life Cycle of Cyclones and the Polar Front Theory. *Geofysiske Publikationer*, 3(1). [PDF](https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/BjsijerknesSolberg22.pdf)

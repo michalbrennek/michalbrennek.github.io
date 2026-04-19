@@ -72,7 +72,7 @@ And then, because Los Alamos in the 1950s was that kind of place, someone decide
 
 ![The JOHNNIAC at the Computer History Museum, Mountain View, California. The art-deco styled cabinet -- unusual for a scientific instrument -- shows the internal circuitry through glass panels. Photo by Indolences, public domain.](/assets/images/JOHNNIAC_RAND.jpg)
 
-**Willis Ware** had been an engineer on von Neumann's original IAS machine at Princeton. When RAND Corporation in Santa Monica decided it needed a computer, Ware took charge of building one from the IAS blueprints. The result, operational in 1954, was named the **JOHNNIAC** -- John von Neumann Numerical Integrator and Automatic Computer. Von Neumann protested the honor. Engineer John Williams overruled him: "There are lots of Johns in the world."
+**Willis Ware** had been an engineer on von Neumann's original IAS machine at Princeton. When RAND Corporation in Santa Monica decided it needed a computer, Ware took charge of building one from the IAS blueprints. The result, operational in 1954, was named the **JOHNNIAC** -- John von Neumann Numerical Integrator and Automatic Computer. Von Neumann protested the honor. Engineer John Williams overruled him: "There are lots of Johns in the world."[^1]
 
 ### The Selectron Saga
 
@@ -92,9 +92,9 @@ To build Logic Theorist, the team also developed **IPL** (Information Processing
 
 ### JOSS -- The Friendly Computer
 
-In 1963, Cliff Shaw gave the JOHNNIAC one more trick: **JOSS** (JOHNNIAC Open Shop System), one of the earliest interactive time-sharing systems. Instead of submitting programs on paper tape and waiting, users could sit at a typewriter terminal and have a conversation with the machine. Shaw described it as "an exploration into continuous and intimate contact between a human user and a computer." By 1966, JOSS supported 10 simultaneous users.
+In 1963, Cliff Shaw gave the JOHNNIAC one more trick: **JOSS** (JOHNNIAC Open Shop System), one of the earliest interactive time-sharing systems. Instead of submitting programs on paper tape and waiting, users could sit at a typewriter terminal and have a conversation with the machine. Shaw described it as "an exploration into continuous and intimate contact between a human user and a computer."[^1] By 1966, JOSS supported 10 simultaneous users.
 
-Willis Ware himself had predicted this. In a 1959 memo, he wrote that future computers would have "a multiplicity of personal input-output stations, so that many people can interact with the machine at the same time." The JOHNNIAC was already making it happen.
+Willis Ware himself had predicted this. In a 1959 memo, he wrote that future computers would have "a multiplicity of personal input-output stations, so that many people can interact with the machine at the same time."[^2] The JOHNNIAC was already making it happen.
 
 When JOHNNIAC was retired on February 18, 1966, after 51 349 hours of operation, its last program -- written in JOSS -- counted down the seconds until the machine would be turned off.
 
@@ -142,7 +142,7 @@ Of all the IAS clones, WEIZAC has the most improbable origin story.
 
 **Chaim Leib Pekeris** was a mathematician at the Weizmann Institute of Science in Rehovot, Israel. He had spent time at the Institute for Advanced Study in Princeton and had seen von Neumann's machine being designed. He came home with a single consuming ambition: solve **Laplace's tidal equations** for the world's oceans. The calculation was too complex for any human. He needed a computer.
 
-Israel in 1952 was seven years old. There were no computers in the entire Middle East. There were barely any electronic components in the country. When von Neumann was told that Pekeris wanted to build an IAS clone in Israel, he responded: **"Don't worry about that problem. If nobody else uses the computer, Pekeris will use it full time!"**
+Israel in 1952 was seven years old. There were no computers in the entire Middle East. There were barely any electronic components in the country. When von Neumann was told that Pekeris wanted to build an IAS clone in Israel, he responded: **"Don't worry about that problem. If nobody else uses the computer, Pekeris will use it full time!"**[^3]
 
 ### Building from Nothing
 
@@ -227,7 +227,7 @@ But look at the architecture:
 
 Every major design choice was different. Fixed-point versus floating-point. Single-address versus three-address instructions. Williams tubes versus ferrite cores. Even the word length was different by one bit.
 
-As historian Boris Malinovsky wrote: "None of Lebedev's designs was based on close copying of foreign machines and, given some fundamental differences (such as working with Soviet-made components), what he might have gotten from abroad would have been of limited use."
+As historian Boris Malinovsky wrote: "None of Lebedev's designs was based on close copying of foreign machines and, given some fundamental differences (such as working with Soviet-made components), what he might have gotten from abroad would have been of limited use."[^4]
 
 Lebedev had arrived at the stored-program concept -- the big idea -- either independently or with only the vaguest knowledge that others were pursuing it. But the engineering was entirely his own. BESM was not a clone. It was a parallel invention.
 
@@ -266,8 +266,13 @@ Von Neumann would not have minded. He had already given it away.
 
 ---
 
-### References
+## Footnotes
+[^1]: Gruenberger, F. (1968). *The History of the JOHNNIAC*. RAND Corporation Memorandum RM-5654-PR. [RAND](https://www.rand.org/pubs/research_memoranda/RM5654.html).
+[^2]: Ware, W. H. (1959). "RAND's Role in the Evolution of Computing." RAND internal memorandum; reproduced and discussed in Ware, W. H. (2008), *RAND and the Information Evolution: A History in Essays and Vignettes*, RAND Corporation.
+[^3]: IEEE Milestone. WEIZAC Computer, 1955. [ETHW](https://ethw.org/Milestones:WEIZAC_Computer,_1955). See also Estrin, G. (1991), "The WEIZAC Years (1954-1963)," *IEEE Annals of the History of Computing*, 13(4), 317-339.
+[^4]: Malinovsky, B. N. (2010). *Pioneers of Soviet Computing* (2nd ed., English trans.). Available online; also cited in Crowe, G. D. & Goodman, S. E. (1994), "S. A. Lebedev and the Birth of Soviet Computing," *IEEE Annals of the History of Computing*, 16(1), 4-24.
 
+## References
 **The IAS Design and Its Distribution:**
 * Burks, A.W., Goldstine, H.H. & von Neumann, J. (1946). Preliminary Discussion of the Logical Design of an Electronic Computing Instrument. IAS Report. [PDF](https://www.ias.edu/sites/default/files/library/Prelim_Disc_Logical_Design.pdf)
 * Dyson, G. (2012). *Turing's Cathedral: The Origins of the Digital Universe*. Pantheon. [Publisher](https://www.penguinrandomhouse.com/books/44425/turings-cathedral-by-george-dyson/)
@@ -297,6 +302,7 @@ Von Neumann would not have minded. He had already given it away.
 * Australian Computer Society. ACS Heritage Project, Chapter 19. [ACS](https://50years.acs.org.au/heritage-projects/acs-heritage-project--chapter-19.html)
 
 **BESM:**
+* Malinovsky, B. N. (2010). *Pioneers of Soviet Computing* (English ed.).
 * IEEE. S.A. Lebedev and the Birth of Soviet Computing. [IEEE Annals](https://ieeexplore.ieee.org/document/251852/)
 * Science Museum Group. BESM-6 Supercomputer. [Collection](https://collection.sciencemuseumgroup.org.uk/objects/co8357980/besm-6-supercomputer-1968-1987)
 * Russian Virtual Computer Museum. BESM-6. [Museum](https://www.computer-museum.ru/english/besm6.htm)

@@ -13,7 +13,7 @@ excerpt: "In a Poughkeepsie tie factory with tar dripping from the roof, 150 eng
 
 In the summer of 1951, in a former necktie factory on the third floor of a building in Poughkeepsie, New York, about 150 engineers were building the machine that would change IBM forever.
 
-The roof leaked. On hot days, tar dripped down onto their drawings. "We had to scrape it off to keep working," remembered project manager Clarence Frizzell. Jerrier Haddad, the managing engineer, later joked: "Maybe that's why we did things so fast. We didn't have schedules to slow us down."
+The roof leaked. On hot days, tar dripped down onto their drawings. "We had to scrape it off to keep working," remembered project manager Clarence Frizzell.[^1] Jerrier Haddad, the managing engineer, later joked: "Maybe that's why we did things so fast. We didn't have schedules to slow us down."[^1]
 
 They were building something IBM had never sold before. Not a punch-card tabulator. Not a room-filling accounting machine. A real, stored-program, electronic computer. Inside the company they called it the **Defense Calculator**. To the outside world it would become the **IBM 701**.
 
@@ -35,7 +35,7 @@ In 1950, IBM sold punch-card tabulators. Electromechanical machines with clatter
 
 When the ENIAC was unveiled in 1944, Watson Sr. was furious. He convened his top engineers and demanded that IBM build "a better machine within eight months." The result was the **Selective Sequence Electronic Calculator (SSEC)** of 1948 -- a one-off hybrid of electromechanical and electronic parts, installed behind a big plate-glass window at IBM's headquarters on Madison Avenue, where passers-by could gawk at the flashing lights. It was a publicity stunt, not a product.
 
-A year earlier, in 1947, Watson Sr.'s old rivals **J. Presper Eckert** and **John Mauchly** -- the builders of ENIAC -- had won a contract from Prudential to build them a computer. IBM's internal project to respond died because Watson Sr. refused to approve magnetic-tape storage. His son, **Thomas Watson Jr.**, wrote later in his autobiography *Father, Son & Co.*: "My father initially thought the electronic computer would have no impact on the way IBM did business, because to him punch-card machines and giant computers belonged in totally separate realms."
+A year earlier, in 1947, Watson Sr.'s old rivals **J. Presper Eckert** and **John Mauchly** -- the builders of ENIAC -- had won a contract from Prudential to build them a computer. IBM's internal project to respond died because Watson Sr. refused to approve magnetic-tape storage. His son, **Thomas Watson Jr.**, wrote later in his autobiography *Father, Son & Co.*: "My father initially thought the electronic computer would have no impact on the way IBM did business, because to him punch-card machines and giant computers belonged in totally separate realms."[^2]
 
 But Watson Jr. -- born 1914, MIT-educated, a wartime bomber pilot -- saw what his father could not. He saw that electronic computing was not going to be a sideshow. It was going to be everything. And he was about to get the chance to prove it.
 
@@ -53,15 +53,15 @@ Watson Jr. dispatched two lieutenants to find out exactly what defense agencies 
 
 Birkenstock's pitch, as he later remembered it:
 
-> "It dawned on us that while all of them had different requirements they varied not that much. Probably one scientific computer wouldn't answer one hundred percent of the problems of each agency, but it would solve ninety percent of them. I was particularly anti doing anything that required giving away all our rights and data to the government and not having a solid patent position. I said to Tom, 'Why not build a production lot with IBM's own money?' Tom said it was a big gamble; a three-million-dollar gamble seemed awfully big."
+> "It dawned on us that while all of them had different requirements they varied not that much. Probably one scientific computer wouldn't answer one hundred percent of the problems of each agency, but it would solve ninety percent of them. I was particularly anti doing anything that required giving away all our rights and data to the government and not having a solid patent position. I said to Tom, 'Why not build a production lot with IBM's own money?' Tom said it was a big gamble; a three-million-dollar gamble seemed awfully big."[^3]
 
 Three million dollars a year. Ten times the cost of the SSEC. **The most expensive single project in IBM's history.**
 
-Watson Jr. signed off in January 1951. The internal name was carefully chosen: **Defense Calculator**. It was political cover. Wrapping the project in the flag made it harder for the punch-card old guard and the cost-conscious finance people to kill it. IBM's own Product Planning Department fought the decision all through 1950. Hurd later complained: "They told me throughout 1950 that no computer could ever be marketed at a price of more than $1,000 per month." The Defense Calculator would need to rent for eight or fifteen times that.
+Watson Jr. signed off in January 1951. The internal name was carefully chosen: **Defense Calculator**. It was political cover. Wrapping the project in the flag made it harder for the punch-card old guard and the cost-conscious finance people to kill it. IBM's own Product Planning Department fought the decision all through 1950. Hurd later complained: "They told me throughout 1950 that no computer could ever be marketed at a price of more than $1,000 per month."[^3] The Defense Calculator would need to rent for eight or fifteen times that.
 
 Watson Jr. sided with Hurd and Birkenstock against his own planners. His reasoning, which he later quoted to anyone who asked:
 
-> "We thought in those early days that we either had to win this one or fail as a company -- and that's why I think everybody put such effort into it."
+> "We thought in those early days that we either had to win this one or fail as a company -- and that's why I think everybody put such effort into it."[^2]
 
 Win or fail. No middle ground.
 
@@ -85,7 +85,7 @@ For memory, the team chose **Williams tubes** -- cathode-ray tubes repurposed as
 
 Another critical design decision: every component box was sized so that it would **fit through an ordinary door and into a standard elevator**. This sounds trivial. It was not. Early computers were shipped in pieces so large they had to be hoisted through specially cut holes in ceilings, lowered into basements by crane. The IBM 701 could be delivered through the front lobby of any office building in the United States. This made it dramatically easier to sell.
 
-The machine was designed to be manufacturable. Smith Holman, the Poughkeepsie factory general manager, told production manager Richard Halen in 1952: "Layout the department so it looks like a manufacturing set-up. It's the first one in the world... I can't tell you how to do it. But customers will be coming to visit us, so you've got to make it look like we know how to build computers."
+The machine was designed to be manufacturable. Smith Holman, the Poughkeepsie factory general manager, told production manager Richard Halen in 1952: "Layout the department so it looks like a manufacturing set-up. It's the first one in the world... I can't tell you how to do it. But customers will be coming to visit us, so you've got to make it look like we know how to build computers."[^1]
 
 They did. Eventually.
 
@@ -103,9 +103,9 @@ He got eighteen.
 
 He described the moment a year later, at the IBM annual stockholders' meeting on April 28, 1953:
 
-> "IBM had developed a paper plan for such a machine and took this paper plan across the country to some 20 concerns that we thought could use such a machine. As a result of our trip, on which we expected to get orders for five machines, we came home with orders for 18."
+> "IBM had developed a paper plan for such a machine and took this paper plan across the country to some 20 concerns that we thought could use such a machine. As a result of our trip, on which we expected to get orders for five machines, we came home with orders for 18."[^4]
 
-Watson Jr. later admitted, in *Father, Son & Co.*, that he was in "total amazement." As he put it: **"Customers wanted computers so badly that we could double the price and still not drive people away."**
+Watson Jr. later admitted, in *Father, Son & Co.*, that he was in "total amazement." As he put it: **"Customers wanted computers so badly that we could double the price and still not drive people away."**[^2]
 
 The "five, eighteen" line is the real origin of one of computing's most famous misquotations. The apocryphal line "I think there is a world market for maybe five computers," attributed for decades to Thomas Watson Sr., has never been found in any contemporary source. Wikipedia's IBM 701 article makes the correction explicit: the misquote almost certainly stems from **Watson Jr.'s 1953 remark about the sales trip**, garbled and back-projected onto his father. Watson Sr. never predicted anything about the computer market. His son did -- and he got it hilariously wrong in the other direction.
 
@@ -131,7 +131,7 @@ He had exactly eight months left. On **December 21, 1953**, the Atomic Energy Co
 
 But on April 7, 1953, he stood in the ground floor of IBM World Headquarters, in front of the machine that had been directly inspired by his own Institute's computer in Princeton, and he gave what would be the most famous single sentence ever spoken about the IBM 701.
 
-He called the 701 **"a tribute to the mind's high splendor."**
+He called the 701 **"a tribute to the mind's high splendor."**[^5]
 
 Herman Goldstine, who had been a principal architect of the IAS machine and who was in the room, preserved the quote in his 1972 book *The Computer from Pascal to von Neumann*. It is the only statement Oppenheimer ever made about the IBM 701 that has survived. Four days after it was said, on April 11, the first customer 701 was fully operational at Los Alamos. Seven months later, Oppenheimer was on his way out.
 
@@ -151,7 +151,7 @@ Speedcode gave you what the hardware refused to: floating-point add, multiply, a
 
 Backus presented Speedcode at the ACM meeting in September 1953 and published the paper in the *Journal of the ACM* the next year. His key economic argument -- one of the first defenses of high-level programming languages ever made -- was a single sentence that explains why software ate the world:
 
-> "Programming and testing cost often comprise between 50 and 75% of the total cost of operating a computing installation. Since Speedcoding reduces coding and testing time considerably, and is fairly fast in operation, it will often be the more economical way of solving a problem."
+> "Programming and testing cost often comprise between 50 and 75% of the total cost of operating a computing installation. Since Speedcoding reduces coding and testing time considerably, and is fairly fast in operation, it will often be the more economical way of solving a problem."[^6]
 
 Backus was just getting started. Three years later, on the 701's successor the **IBM 704** -- which would finally have hardware floating-point and real index registers -- he would lead the team that built **FORTRAN**, the language that made scientific computing possible for the next 70 years.
 
@@ -185,7 +185,7 @@ Richard Sutton, the modern father of reinforcement learning, would later credit 
 
 The most famous quote attributed to Samuel -- "the field of study that gives computers the ability to learn without being explicitly programmed" -- does not appear verbatim in any of his writings. It is a universally-cited paraphrase. The actual sentence from his 1959 paper is more cautious and more important:
 
-> "Enough work has been done to verify the fact that a computer can be programmed so that it will learn to play a better game of checkers than can be played by the person who wrote the program."
+> "Enough work has been done to verify the fact that a computer can be programmed so that it will learn to play a better game of checkers than can be played by the person who wrote the program."[^7]
 
 A computer that learns to play better than its programmer. That was the 701, in 1956.
 
@@ -219,11 +219,11 @@ The three sentences that would be reproduced in every newspaper the next morning
 
 More than 60 sentences were translated in total, across seven fields: politics, law, mathematics, chemistry, metallurgy, communications, and military affairs. The *New York Times* ran the story on the front page the next day, January 8, 1954: **"Russian is turned into English by a fast electronic translator."** The *Christian Science Monitor* headline was **"Robot translates nimbly."** The *Jamestown Post-Journal* simply said **"Electronic Brain Translates."**
 
-Here was the trick. The system used a vocabulary of **250 words** and **six grammar rules**. That was it. The rules were mechanical operations on integer-coded dictionary entries: Rule 1 (reverse word order in some cases), Rule 2 (pick English equivalent I or II based on following word code), Rule 3 (same but with rearrangement), Rule 4 (choose based on preceding word), Rule 5 (insert an English word with no Russian counterpart), Rule 6 (drop a Russian word without translation). There was no morphological analyzer. No parser. No understanding of meaning in any form. It was, as the historian **John Hutchins** later put it, "a clever proof-of-concept engineered to make the 701 look miraculous to reporters."
+Here was the trick. The system used a vocabulary of **250 words** and **six grammar rules**. That was it. The rules were mechanical operations on integer-coded dictionary entries: Rule 1 (reverse word order in some cases), Rule 2 (pick English equivalent I or II based on following word code), Rule 3 (same but with rearrangement), Rule 4 (choose based on preceding word), Rule 5 (insert an English word with no Russian counterpart), Rule 6 (drop a Russian word without translation). There was no morphological analyzer. No parser. No understanding of meaning in any form. It was, as the historian **John Hutchins** later put it, "a clever proof-of-concept engineered to make the 701 look miraculous to reporters."[^8]
 
 And yet the hype was enormous. Dostert himself, quoted in the IBM press release of January 8, 1954, made a prediction that would follow him for the rest of his life:
 
-> "Five, perhaps three years hence, interlingual meaning conversion by electronic process in important functional areas of several languages may well be an accomplished fact."
+> "Five, perhaps three years hence, interlingual meaning conversion by electronic process in important functional areas of several languages may well be an accomplished fact."[^9]
 
 Five years. Three years. Maybe.
 
@@ -231,7 +231,7 @@ Behind the scenes, the project had a patron the press never mentioned. Historian
 
 And then, twelve years later, it all collapsed.
 
-In November 1966, the **Automatic Language Processing Advisory Committee (ALPAC)**, chaired by Bell Labs executive **John R. Pierce**, published a report titled "Language and Machines: Computers in Translation and Linguistics." It was devastating. The committee concluded that "we do not have useful machine translation and there is no immediate or predictable prospect of useful machine translation." It singled out Georgetown for still requiring heavy human post-editing after eight years of funding. It recommended that federal money be redirected away from end-to-end MT and toward human translator tools.
+In November 1966, the **Automatic Language Processing Advisory Committee (ALPAC)**, chaired by Bell Labs executive **John R. Pierce**, published a report titled "Language and Machines: Computers in Translation and Linguistics." It was devastating. The committee concluded that "we do not have useful machine translation and there is no immediate or predictable prospect of useful machine translation."[^10] It singled out Georgetown for still requiring heavy human post-editing after eight years of funding. It recommended that federal money be redirected away from end-to-end MT and toward human translator tools.
 
 U.S. government machine translation funding **collapsed for roughly twenty years**. Dostert had already left Georgetown -- the CIA cut its funding in 1963, and he went back to his alma mater at Occidental College. The first AI winter, when it came in the early 1970s, had already begun for machine translation in 1966.
 
@@ -253,7 +253,7 @@ In early 1954, the Joint Chiefs had commissioned a comparative trial between the
 
 The Swedes had already beaten them by a year.
 
-In December 1954, on Rossby's BESK computer in Stockholm, **Sweden had run the world's first operational numerical weather forecasts** -- three times a week for the North Atlantic, using a simple barotropic model that was producing, in Rossby's words, "tremendously successful" results. The Americans absolutely knew about it. **Norman Phillips** had been personally invited to Stockholm by Rossby in 1953 to port the ENIAC/IAS code to BESK. **Philip Thompson** had run a U.S. Air Force research presence in Stockholm. **Bert Bolin** had been at IAS with Charney and von Neumann and then returned to Sweden to help run the BESK forecasts. **Aksel Wiin-Nielsen** and **Geirmundur Arnason** walked directly from Rossby's Stockholm group to JNWPU in Suitland.
+In December 1954, on Rossby's BESK computer in Stockholm, **Sweden had run the world's first operational numerical weather forecasts** -- three times a week for the North Atlantic, using a simple barotropic model that was producing, in Rossby's words, "tremendously successful" results.[^13] The Americans absolutely knew about it. **Norman Phillips** had been personally invited to Stockholm by Rossby in 1953 to port the ENIAC/IAS code to BESK. **Philip Thompson** had run a U.S. Air Force research presence in Stockholm. **Bert Bolin** had been at IAS with Charney and von Neumann and then returned to Sweden to help run the BESK forecasts. **Aksel Wiin-Nielsen** and **Geirmundur Arnason** walked directly from Rossby's Stockholm group to JNWPU in Suitland.
 
 Sweden had been the pilot project. JNWPU was going to be the factory.
 
@@ -263,9 +263,9 @@ It was, by Cressman's own admission, disappointing.
 
 **Fred Shuman** -- the JNWPU's chief modeler, a 1951 MIT doctorate who would eventually succeed Cressman as director of the National Meteorological Center -- put it bluntly in his 1989 retrospective:
 
-> "Within three years three agencies of the United States Government jointly created a numerical weather prediction service, but it was quickly discovered that **current models had very serious defects**. After considerable research, the first operationally effective model was achieved in 1958."
+> "Within three years three agencies of the United States Government jointly created a numerical weather prediction service, but it was quickly discovered that **current models had very serious defects**. After considerable research, the first operationally effective model was achieved in 1958."[^11]
 
-Three years of bad forecasts. The Environmental Modeling Center history page is even blunter: "When the model began running operationally later in 1955, the results were very disappointing and not usable by forecasters."
+Three years of bad forecasts. The Environmental Modeling Center history page is even blunter: "When the model began running operationally later in 1955, the results were very disappointing and not usable by forecasters."[^12]
 
 What went wrong? Several things. The three-level quasi-geostrophic model was too crude a vertical discretization to capture the jet stream structure properly. Its quasi-geostrophic assumptions broke down near the equator, where the Coriolis parameter approaches zero -- the 500 mb forecast had a garbage "tropical belt" problem that contaminated the rest of the solution every run. There was no objective analysis until Cressman's 1959 paper introduced one; before then, the input fields were hand-drawn. And the IBM 701's **mean time between failures was about 30 minutes**. A single 24-hour forecast run often took longer than that, which meant the forecast failed mid-computation and had to be restarted. The operational cycle was a race against the 701's Williams tubes -- which were, by this point, nearing the end of their useful life as computer memory.
 
@@ -293,7 +293,7 @@ Above all, it proved Watson Jr. right. In 1950, IBM had been a punch-card tabula
 
 The 701 did that. Or rather, the 150 engineers in the tar-roofed Poughkeepsie tie factory did it, pushed by a young IBM president who had made his own father a promise:
 
-> "We thought in those early days that we either had to win this one or fail as a company."
+> "We thought in those early days that we either had to win this one or fail as a company."[^2]
 
 They won.
 
@@ -315,8 +315,22 @@ That was the 701. That was the machine that built IBM. And that was the machine 
 
 ---
 
-### References
+## Footnotes
+[^1]: Bashe, C. J., Johnson, L. R., Palmer, J. H. & Pugh, E. W. (1986). *IBM's Early Computers*. MIT Press. See also Hurd, C. C., ed. (1983), Special Issue: The IBM 701 Thirtieth Anniversary, *Annals of the History of Computing*, 5(2).
+[^2]: Watson, T. J. Jr. with Petre, P. (1990). *Father, Son & Co.: My Life at IBM and Beyond*. Bantam Books.
+[^3]: Hurd, C. C., ed. (1983). Special Issue: The IBM 701 Thirtieth Anniversary. *Annals of the History of Computing*, 5(2). Birkenstock's recollection and Hurd's complaint are both preserved in this oral-history issue.
+[^4]: Watson, T. J. Jr. (1953). Remarks at IBM annual stockholders' meeting, April 28, 1953. Quoted in Bashe et al. (1986), *IBM's Early Computers*, and in Watson & Petre (1990), *Father, Son & Co.*
+[^5]: Goldstine, H. H. (1972). *The Computer from Pascal to von Neumann*. Princeton University Press, p. 332. [Internet Archive](https://archive.org/details/computerfrompasc00herm).
+[^6]: Backus, J. W. (1954). "The IBM 701 Speedcoding System." *Journal of the ACM*, 1(1), 4-6. [CHM PDF](https://archive.computerhistory.org/resources/text/Fortran/102663108.05.01.acc.pdf).
+[^7]: Samuel, A. L. (1959). "Some Studies in Machine Learning Using the Game of Checkers." *IBM Journal of Research and Development*, 3(3), 210-229. [PDF](https://www.cs.virginia.edu/~evans/greatworks/samuel.pdf).
+[^8]: Hutchins, W. J. (2004). "The Georgetown-IBM experiment demonstrated in January 1954." In *Machine Translation: From Real Users to Research*, AMTA 2004. [PDF](https://aclanthology.org/www.mt-archive.info/00/AMTA-2004-Hutchins.pdf).
+[^9]: IBM press release (January 8, 1954). Reproduced in the MT Archive. [PDF](https://mt-archive.net/IBM-1954.pdf).
+[^10]: ALPAC (1966). *Language and Machines: Computers in Translation and Linguistics*. National Academy of Sciences, Publication 1416. [PDF](https://www.mt-archive.net/50/ALPAC-1966.pdf).
+[^11]: Shuman, F. G. (1989). "History of Numerical Weather Prediction at the National Meteorological Center." *Weather and Forecasting*, 4(3), 286-296. [AMS](https://journals.ametsoc.org/view/journals/wefo/4/3/1520-0434_1989_004_0286_honwpa_2_0_co_2.xml).
+[^12]: Environmental Modeling Center (NCEP/EMC). History. [EMC](https://www.emc.ncep.noaa.gov/emc/pages/ourhistory.php).
+[^13]: Persson, A. (2005). "Early Operational Numerical Weather Prediction Outside the USA." *Meteorological Applications*, 12. [Wiley](https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1017/S1350482705001593).
 
+## References
 **The IBM 701, Watson Jr., and the Defense Calculator:**
 * Watson, T.J. Jr. with Petre, P. (1990). *Father, Son & Co.: My Life at IBM and Beyond*. Bantam Books. [Penguin Random House](https://www.penguinrandomhouse.com/books/187404/father-son-and-co-by-thomas-j-watson/)
 * Bashe, C.J., Johnson, L.R., Palmer, J.H. & Pugh, E.W. (1986). *IBM's Early Computers*. MIT Press.

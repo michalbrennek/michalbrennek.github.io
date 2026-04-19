@@ -13,13 +13,13 @@ excerpt: "The 1950s had been a decade of disappointment for numerical weather pr
 
 The first operational computer weather forecast in the United States was issued on [May 6, 1955](/weather/hpc/history/2026/04/10/The-machine-that-built-IBM.html), from an IBM 701 at the Joint Numerical Weather Prediction Unit in Suitland, Maryland. It was, by the admission of everyone involved, disappointing.
 
-The IBM 701's Williams tube memory failed roughly every 30 minutes. The three-level quasi-geostrophic model blew up near the equator, where the Coriolis parameter approaches zero and the quasi-geostrophic approximation (which assumes the atmosphere is in near-geostrophic balance between pressure gradient and Coriolis force) breaks down entirely. The tropical belt problem contaminated the rest of the solution on every run. The forecasts, as the Environmental Modeling Center's own history page puts it, were "very disappointing and not usable by forecasters."
+The IBM 701's Williams tube memory failed roughly every 30 minutes. The three-level quasi-geostrophic model blew up near the equator, where the Coriolis parameter approaches zero and the quasi-geostrophic approximation (which assumes the atmosphere is in near-geostrophic balance between pressure gradient and Coriolis force) breaks down entirely. The tropical belt problem contaminated the rest of the solution on every run. The forecasts, as the Environmental Modeling Center's own history page puts it, were "very disappointing and not usable by forecasters."[^1]
 
 The IBM 704, which replaced the 701 in 1957, improved things substantially -- its magnetic core memory lasted hours instead of minutes, and its hardware floating-point unit made the arithmetic tolerable. But even the 704 was barely fast enough. A 24-hour forecast over the Northern Hemisphere consumed most of the operational day to compute. By the time the chart reached a forecaster's desk, much of the lead time had been eaten by the computer itself.
 
 The revolution that Charney, von Neumann, and the [Princeton group](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) had promised was stalling. The theory was right. The computers were not ready.
 
-[Fred Shuman](/weather/hpc/history/2026/04/10/The-machine-that-built-IBM.html) -- the JNWPU's first employee, the man who sat at the IBM 701 console every day, restarting the forecast when the Williams tubes crashed -- would later write the honest verdict. "Within three years three agencies of the United States Government jointly created a numerical weather prediction service," he said in his 1989 retrospective, "but it was quickly discovered that current models had very serious defects. After considerable research, the first operationally effective model was achieved in 1958." Three years of bad forecasts before anything useful came out the other end.
+[Fred Shuman](/weather/hpc/history/2026/04/10/The-machine-that-built-IBM.html) -- the JNWPU's first employee, the man who sat at the IBM 701 console every day, restarting the forecast when the Williams tubes crashed -- would later write the honest verdict. "Within three years three agencies of the United States Government jointly created a numerical weather prediction service," he said in his 1989 retrospective, "but it was quickly discovered that current models had very serious defects. After considerable research, the first operationally effective model was achieved in 1958."[^2] Three years of bad forecasts before anything useful came out the other end.
 
 But by 1958, the improved barotropic model on the IBM 704 was finally showing skill. The S1 scores -- a measure where 70 is worthless and 20 is near-perfect -- were dropping. The question shifted from "does this work at all?" to "how much faster can we go?"
 
@@ -51,7 +51,7 @@ The 7090 was not just a weather machine. It was the workhorse of the early 1960s
 
 On **February 20, 1962**, John Glenn climbed into the Friendship 7 capsule atop an Atlas rocket at Cape Canaveral. Four hours later he had orbited the Earth three times -- the first American to do so. The computing load for the mission was carried by **two IBM 7090s at the Goddard Space Flight Center** in Greenbelt, Maryland, backed up by an older IBM 709 in Bermuda. The 7090s computed the trajectory parameters, tracked Glenn's real-time position, and predicted where the capsule would go next. Data flowed in at 1000 bits per second -- a torrential rate for 1962 -- and the machines kept up.
 
-Katherine Johnson, whose story was told in *Hidden Figures* (2016), famously hand-checked the 7090's orbital calculations before Glenn would agree to fly. "Get the girl to check the numbers," Glenn allegedly said, referring to Johnson, the Black mathematician at NASA Langley whose manual trajectory calculations had proven flawlessly reliable. The film placed a 7090 front and center at NASA Langley. The machine had become a movie star -- and, more importantly, a symbol of the moment when human computers and electronic computers worked side by side.
+Katherine Johnson, whose story was told in *Hidden Figures* (2016), famously hand-checked the 7090's orbital calculations before Glenn would agree to fly. "Get the girl to check the numbers," Glenn allegedly said, referring to Johnson, the Black mathematician at NASA Langley whose manual trajectory calculations had proven flawlessly reliable.[^3] The film placed a 7090 front and center at NASA Langley. The machine had become a movie star -- and, more importantly, a symbol of the moment when human computers and electronic computers worked side by side.
 
 After Mercury came Gemini, and three IBM 7094s replaced the 7090s at Goddard. The Jet Propulsion Laboratory had three more 7094s in the Space Flight Operations Facility, plus two 7094/7044 direct-coupled systems. One 7094 was retained even during the Apollo program to run flight planning software that had never been ported to the newer System/360. The machine was too important to retire.
 
@@ -107,9 +107,9 @@ As NWP improved through the early 1960s, a tension emerged that would persist fo
 
 The British meteorologist **Reginald Sutcliffe**, who directed NWP research at the UK Met Office, had already articulated the anxiety in 1956:
 
-> "We are taught to look for the day when machines will calculate the future weather with a monotonous degree of success, but if that day comes one satisfying profession will be lost to man and we must look elsewhere."
+> "We are taught to look for the day when machines will calculate the future weather with a monotonous degree of success, but if that day comes one satisfying profession will be lost to man and we must look elsewhere."[^4]
 
-Sutcliffe declared himself a forecaster first: "I am happy to claim membership in the forecasters group, once a forecaster always a forecaster."
+Sutcliffe declared himself a forecaster first: "I am happy to claim membership in the forecasters group, once a forecaster always a forecaster."[^4]
 
 The nuanced truth, as it emerged by the mid-1960s, was more interesting than either the enthusiasts or the skeptics had predicted. **NWP beat humans at the 500 mb level** -- the large-scale flow of the upper atmosphere at roughly 5500 meters altitude, on time scales of 24 to 72 hours. At this scale, the equations of motion dominate, the flow is approximately geostrophic (balanced between pressure gradient and Coriolis force), and a decent model with decent initial conditions will outperform any human's ability to extrapolate from pattern recognition.
 
@@ -141,13 +141,13 @@ Cray was a quiet, meticulous engineer from Chippewa Falls, Wisconsin -- a small 
 
 The **CDC 6600**, first delivered in **1964**, was his masterpiece -- and it was the fastest computer in the world. It executed roughly **3 000 000 instructions per second** -- nearly ten times faster than anything else available. It used approximately **400 000 transistors**, silicon rather than germanium, cooled by Freon refrigerant. The clock cycle was 100 nanoseconds -- 10 megahertz. Its architecture was revolutionary: a single fast central processor supported by ten smaller 12-bit peripheral processors that handled all I/O, freeing the main CPU to do nothing but compute. Cray had, in effect, invented the modern concept of offloading I/O to dedicated hardware. The central processor had multiple functional units that could operate in parallel -- a precursor to the pipelining that would define all subsequent supercomputer design.
 
-The CDC 6600 was so fast that when IBM learned of it, **Thomas Watson Jr.** reportedly fired off an angry memo lamenting that IBM had lost "our industry leadership position" to a lab of "34 people, including the janitor." The janitor line may be apocryphal. The fury was real. IBM responded by announcing the System/360 Model 91, explicitly aimed at recapturing the scientific computing market. It was too late. Cray had already won.
+The CDC 6600 was so fast that when IBM learned of it, **Thomas Watson Jr.** reportedly fired off an angry memo lamenting that IBM had lost "our industry leadership position" to a lab of "34 people, including the janitor."[^5] The janitor line may be apocryphal. The fury was real. IBM responded by announcing the System/360 Model 91, explicitly aimed at recapturing the scientific computing market. It was too late. Cray had already won.
 
 NMC got its CDC 6600, and **Fred Shuman** finally had the machine he needed. Shuman had been thinking about this problem for over a decade. He had worked at the Institute for Advanced Study in Princeton from 1952 to 1954, attending lectures by J. Robert Oppenheimer and running test models on one of the IAS-class machines. He had been the JNWPU's first employee in 1954. He had diagnosed the failures of the three-level quasi-geostrophic model on the IBM 701. He had built the improved barotropic model that finally showed skill in 1958. He had developed the Shuman smoother -- the finite-difference filtering technique that removed spurious short-wave noise without distorting the meteorologically significant scales. Every step had been building toward this: solving the real equations on a machine fast enough to handle them.
 
 In **mid-1966**, the **six-layer primitive equation model** went operational. Shuman and his colleague **John Hovermale** published the definitive description in 1968: "An Operational Six-Layer Primitive Equation Model" in the *Journal of Applied Meteorology*. The model integrated the full hydrostatic primitive equations over six vertical levels, covering the Northern Hemisphere. No more quasi-geostrophic approximation. No more filtering out the physics that mattered.
 
-The results, in Shuman and Hovermale's own words, produced **"highly significant improvements"** in NMC's forecast products in its first fourteen months of operational use. The six-layer PE model was the first operational model anywhere in the world to use the full primitive equations. West Germany began running a primitive-equation model the same year, but NMC's was the benchmark. And by June 1966, NMC had also achieved its first global forecast run -- no longer just the Northern Hemisphere, but the entire planet.
+The results, in Shuman and Hovermale's own words, produced **"highly significant improvements"** in NMC's forecast products in its first fourteen months of operational use.[^6] The six-layer PE model was the first operational model anywhere in the world to use the full primitive equations. West Germany began running a primitive-equation model the same year, but NMC's was the benchmark. And by June 1966, NMC had also achieved its first global forecast run -- no longer just the Northern Hemisphere, but the entire planet.
 
 The CDC 6600 could produce a numerical forecast for all of North America out to 48 hours in less than 30 seconds. It was, by one estimate, roughly **50 000 times more powerful** than the IBM 701 that had struggled through those first disappointing forecasts just eleven years earlier. Cray's machine ran at NMC until it was replaced by the even faster **CDC 7600** -- Cray's second masterpiece, five to ten times faster still, which held the title of world's fastest computer from 1969 to 1975.
 
@@ -171,7 +171,7 @@ Consider the arc.
 
 In **1950**, Charney and his team had run the first weather forecast on the ENIAC at Aberdeen. The calculation took 24 hours to produce a 24-hour forecast -- it was slower than the weather itself.
 
-In **1955**, the IBM 701 at JNWPU produced forecasts that were "very disappointing and not usable by forecasters."
+In **1955**, the IBM 701 at JNWPU produced forecasts that were "very disappointing and not usable by forecasters."[^1]
 
 In **1958**, the barotropic model on the IBM 704 finally showed skill.
 
@@ -195,8 +195,18 @@ The weather forecast is invisible infrastructure. When it works, nobody notices.
 
 ---
 
-### References
+## Footnotes
 
+[^1]: Environmental Modeling Center (EMC) History. NCEP. [EMC](https://www.emc.ncep.noaa.gov/emc/pages/ourhistory.php).
+[^2]: Shuman, F. G. "History of Numerical Weather Prediction at the National Meteorological Center." *Weather and Forecasting*, 4(3), 1989, 286-296. [AMS](https://journals.ametsoc.org/view/journals/wefo/4/3/1520-0434_1989_004_0286_honwpa_2_0_co_2.xml).
+[^3]: Shetterly, M. L. *Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race*, William Morrow/HarperCollins, 2016. See also "Katherine Johnson, Hidden Figures, and John Glenn's Flight," National Air and Space Museum. [NASM](https://airandspace.si.edu/stories/editorial/glenn-johnson-hidden-figures).
+[^4]: Sutcliffe, R. C. Presidential Address, Royal Meteorological Society, 1956. *Quarterly Journal of the Royal Meteorological Society*, 82 (1956).
+[^5]: Watson, T. J., Jr., internal IBM memo, 1963, as recounted in CDC 6600 corporate and Computer History Museum histories. [CHM](https://www.computerhistory.org/revolution/supercomputers/10/33).
+[^6]: Shuman, F. G. and Hovermale, J. B. "An Operational Six-Layer Primitive Equation Model." *Journal of Applied Meteorology*, 7(4), 1968, 525-547. [AMS](https://journals.ametsoc.org/view/journals/apme/7/4/1520-0450_1968_007_0525_aoslpe_2_0_co_2.xml).
+
+---
+
+## References
 **The IBM 7090/7094:**
 * IBM 7090. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/IBM_7090)
 * IBM 709. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/IBM_709)

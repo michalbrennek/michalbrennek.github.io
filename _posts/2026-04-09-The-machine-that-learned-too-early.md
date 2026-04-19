@@ -25,7 +25,7 @@ What if the machine could teach itself?
 
 **Frank Rosenblatt** was born on July 11, 1928, in New Rochelle, New York. He was, by every account, a genius -- but not the narrow kind. He played classical piano on a grand piano he bought for his house in Brooktondale (though he had a weakness for improvising endlessly on "Three Blind Mice"). He built a personal observatory on a hilltop behind his house, doing most of the masonry himself, and housed a 12-inch Cassegrain telescope inside it. He pursued SETI research. He was active in Eugene McCarthy's 1968 presidential campaign and protested the Vietnam War. He studied psychology, mathematics, neurophysiology, astronomy, computing, and music.
 
-His colleague George Nagy said it best: "During my career I got to know some very bright persons. Knowing Frank made me appreciate the difference between 'very bright' and 'genius.'"
+His colleague George Nagy said it best: "During my career I got to know some very bright persons. Knowing Frank made me appreciate the difference between 'very bright' and 'genius.'"[^1]
 
 In 1946, Rosenblatt graduated from the **Bronx High School of Science** in New York City. The class of 1945 -- one year ahead of him -- included another brilliant student named **Marvin Minsky**. The two knew each other. They would spend the next two decades on opposite sides of the most consequential argument in the history of computing.
 
@@ -77,9 +77,9 @@ On July 7, 1958, the Office of Naval Research held a press conference in Washing
 
 ![The New York Times coverage of the Perceptron, July 1958. The Navy's promise of a machine that could "walk, talk, see, write, reproduce itself and be conscious of its existence" would haunt AI for decades.](/assets/images/NYT_perceptron_1958.jpg)
 
-The Times reported the perceptron to be "the embryo of an electronic computer that the Navy expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."
+The Times reported the perceptron to be "the embryo of an electronic computer that the Navy expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."[^2]
 
-Rosenblatt himself was bold but not quite that reckless. He called it "the first machine which is capable of having an original idea." He said future perceptrons would be able to recognize people and call out their names. He even said that "in principle, it would be possible to have perceptrons that would reproduce themselves on an assembly line and that would be conscious of their existence."
+Rosenblatt himself was bold but not quite that reckless. He called it "the first machine which is capable of having an original idea."[^2] He said future perceptrons would be able to recognize people and call out their names. He even said that "in principle, it would be possible to have perceptrons that would reproduce themselves on an assembly line and that would be conscious of their existence."[^2]
 
 The caveats -- "in principle," "future," "possible" -- disappeared in the headlines. The Cold War was on. Sputnik had launched nine months earlier. The military was hungry for technological miracles to parade before the press, and a machine that could learn sounded like the future.
 
@@ -107,7 +107,7 @@ In 1969, Minsky and his MIT colleague **Seymour Papert** published a book called
 
 What it proved was technically correct. A single-layer perceptron cannot compute the **XOR function** -- cannot learn to distinguish inputs that are "one or the other but not both." More broadly, single-layer perceptrons can only classify patterns that are **linearly separable** -- that can be divided by a straight line (or a flat plane, in higher dimensions). Many interesting problems are not linearly separable.
 
-What the book implied was devastating. Minsky and Papert wrote that adding hidden layers might help, but then added: "Virtually nothing is known about the computational capabilities of this latter kind of machine. We believe that it can do little more than can a low order perceptron."
+What the book implied was devastating. Minsky and Papert wrote that adding hidden layers might help, but then added: "Virtually nothing is known about the computational capabilities of this latter kind of machine. We believe that it can do little more than can a low order perceptron."[^3]
 
 This was a prediction. It turned out to be spectacularly wrong.
 
@@ -117,9 +117,9 @@ Rosenblatt protested. He had already addressed multilayer networks in his 1962 b
 
 The field called it the **XOR problem**. It would take 17 years to solve.
 
-Researcher H.D. Block called the Minsky-Papert book "seriously misleading." Bernard Widrow complained they had defined perceptrons too narrowly. Jordan Pollack observed that "what was a small proof concerning a global issue not being detectable by local detectors was interpreted by the community as a rather successful attempt to bury the whole idea."
+Researcher H.D. Block called the Minsky-Papert book "seriously misleading."[^4] Bernard Widrow complained they had defined perceptrons too narrowly.[^4] Jordan Pollack observed that "what was a small proof concerning a global issue not being detectable by local detectors was interpreted by the community as a rather successful attempt to bury the whole idea."[^4]
 
-Minsky himself later compared his book to Lovecraft's *Necronomicon*: "a book known to many, but read only by a few."
+Minsky himself later compared his book to Lovecraft's *Necronomicon*: "a book known to many, but read only by a few."[^5]
 
 ---
 
@@ -127,7 +127,7 @@ Minsky himself later compared his book to Lovecraft's *Necronomicon*: "a book kn
 
 The timing was catastrophic.
 
-In 1966, the **ALPAC report** had already killed U.S. funding for machine translation, after the Georgetown-IBM experiment on the [IBM 701](/weather/hpc/history/2026/04/08/The-blueprint-von-Neumann-gave-away.html) had overpromised and underdelivered. In 1973, Sir James Lighthill -- Lucasian Professor of Mathematics at Cambridge, the chair once held by Newton -- published a report for the British government that savaged the entire field of AI. He wrote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
+In 1966, the **ALPAC report** had already killed U.S. funding for machine translation, after the Georgetown-IBM experiment on the [IBM 701](/weather/hpc/history/2026/04/08/The-blueprint-von-Neumann-gave-away.html) had overpromised and underdelivered. In 1973, Sir James Lighthill -- Lucasian Professor of Mathematics at Cambridge, the chair once held by Newton -- published a report for the British government that savaged the entire field of AI. He wrote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."[^6]
 
 The British government gutted AI funding at all but two universities. DARPA followed suit. The **Mansfield Amendment** of 1969 required all DARPA-funded research to have direct military applications, and neural network research had none to show.
 
@@ -161,7 +161,7 @@ The technique had actually been invented earlier -- by Paul Werbos in 1974 and S
 
 Then came the revolution.
 
-In 2012, **Alex Krizhevsky**, **Ilya Sutskever**, and **Geoffrey Hinton** entered the ImageNet visual recognition challenge with **AlexNet** -- a deep neural network with eight layers. Every other team used hand-crafted feature engineering. AlexNet used learning. It crushed the competition: 15.3% error versus the runner-up's 26.2%. Yann LeCun called it "an unequivocal turning point in the history of computer vision."
+In 2012, **Alex Krizhevsky**, **Ilya Sutskever**, and **Geoffrey Hinton** entered the ImageNet visual recognition challenge with **AlexNet** -- a deep neural network with eight layers. Every other team used hand-crafted feature engineering. AlexNet used learning. It crushed the competition: 15.3% error versus the runner-up's 26.2%. Yann LeCun called it "an unequivocal turning point in the history of computer vision."[^7]
 
 AlexNet was trained on two Nvidia GPUs in Krizhevsky's bedroom at his parents' house. The machine that learned had come a long way from 400 photocells and electric motors.
 
@@ -187,8 +187,16 @@ The quiet psychologist with the grand piano and the telescope had been right all
 
 ---
 
-### References
+## Footnotes
+[^1]: Nagy, G. (2011). "Frank Rosenblatt: A Personal Recollection." In the Cornell eCommons Frank Rosenblatt Memorial volume. [PDF](https://ecommons.cornell.edu/server/api/core/bitstreams/9722f83a-1386-4956-a576-06d29b41c197/content).
+[^2]: *New York Times* (1958, July 8). "New Navy Device Learns by Doing," p. 25. [AITopics archive](https://aitopics.org/doc/news:C85C11EF). Rosenblatt's own quoted remarks are from his Office of Naval Research press conference reported in the same article.
+[^3]: Minsky, M. & Papert, S. (1969). *Perceptrons: An Introduction to Computational Geometry*. MIT Press, p. 232.
+[^4]: Olazaran, M. (1996). "A Sociological Study of the Official History of the Perceptrons Controversy." *Social Studies of Science*, 26(3), 611-659.
+[^5]: Crevier, D. (1993). *AI: The Tumultuous History of the Search for Artificial Intelligence*. Basic Books, p. 105. Minsky's own remarks on the book's reception also appear in the expanded 1988 edition of *Perceptrons*, prologue.
+[^6]: Lighthill, J. (1973). "Artificial Intelligence: A General Survey." In *Artificial Intelligence: A Paper Symposium*, Science Research Council.
+[^7]: LeCun, Y. (2019). Interview quoted in Metz, C., "Turing Award Won by 3 Pioneers in Artificial Intelligence," *New York Times*, March 27, 2019. [NYT](https://www.nytimes.com/2019/03/27/technology/turing-award-ai.html).
 
+## References
 **Rosenblatt and the Perceptron:**
 * Cornell Chronicle (2019). Professor's Perceptron Paved the Way for AI -- 60 Years Too Soon. [Cornell](https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon)
 * Rosenblatt, F. (1958). The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain. *Psychological Review*, 65(6), 386-408.

@@ -17,7 +17,7 @@ Richard Feynman was sent to investigate. He found the problem immediately: **Sta
 
 Arctangent values. Values that everyone already had in printed mathematical tables. Values that were, in Feynman's word, "absolutely useless."
 
-Feynman later told the story in his famous "Los Alamos From Below" talk, and again in *Surely You're Joking, Mr. Feynman!* He diagnosed Frankel's condition with an affection that did not quite conceal his exasperation. Frankel, he said, had caught "the computer disease" -- the irresistible delight of seeing how much you can make a machine do.
+Feynman later told the story in his famous "Los Alamos From Below" talk, and again in *Surely You're Joking, Mr. Feynman!* He diagnosed Frankel's condition with an affection that did not quite conceal his exasperation. Frankel, he said, had caught "the computer disease" -- the irresistible delight of seeing how much you can make a machine do.[^1]
 
 The critical calculations waited. The war waited. Frankel was entranced.
 
@@ -191,8 +191,13 @@ The arctangent table was useless. The computer disease was incurable. The connec
 
 ---
 
-### References
+## Footnotes
 
+[^1]: Feynman, R. P. "Los Alamos From Below." Caltech Archives. [Caltech](https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.htm). See also Feynman, R. P., *Surely You're Joking, Mr. Feynman!*, W. W. Norton, 1985.
+
+---
+
+## References
 **Stanley Frankel:**
 * Stan Frankel. Wikipedia. [Wikipedia](https://en.wikipedia.org/wiki/Stan_Frankel)
 * Stan Frankel. Atomic Heritage Foundation / National Museum of Nuclear Science and History. [Nuclear Museum](https://ahf.nuclearmuseum.org/ahf/profile/stan-frankel/)

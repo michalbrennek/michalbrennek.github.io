@@ -41,7 +41,7 @@ Here is the image you need to hold in your mind.
 
 It's 1916. Somewhere behind the front lines in France, between ambulance runs through shelled roads, a mathematician sits down in his "office."
 
-His office, in his own words, was **"a heap of hay in a cold rest billet."**
+His office, in his own words, was **"a heap of hay in a cold rest billet."**[^1]
 
 No desk. No calculator. No computer. No electricity for the purpose. Just Richardson, his papers, his pencil, and the equations of atmospheric motion.
 
@@ -137,7 +137,7 @@ Here's where Richardson transcends mere genius and enters the realm of prophecy.
 
 In Chapter 11 of his book -after hundreds of pages of equations, grid definitions, and atmospheric physics -he pauses and writes:
 
-> *"After so much hard reasoning, may one play with a fantasy?"*
+> *"After so much hard reasoning, may one play with a fantasy?"*[^1]
 
 What follows is the most extraordinary vision in the history of computing, written **decades before computers existed**.
 
@@ -145,11 +145,11 @@ Richardson imagined an **enormous theater-like hall**, roughly twenty stories hi
 
 Inside this hall, **64,000 human computers** would work simultaneously, each responsible for solving one equation or part of an equation for their assigned patch of the Earth. They would use **slide rules and mechanical calculators**.
 
-Coordinating them all from a central pillar: a **director of operations**, whom Richardson described as resembling *"the conductor of an orchestra in which the instruments are slide-rules and calculating machines."* Instead of a baton, the conductor would use a **spotlight** -shining **rosy light** on regions computing too fast, **blue light** on those lagging behind.
+Coordinating them all from a central pillar: a **director of operations**, whom Richardson described as resembling *"the conductor of an orchestra in which the instruments are slide-rules and calculating machines."*[^1] Instead of a baton, the conductor would use a **spotlight** -shining **rosy light** on regions computing too fast, **blue light** on those lagging behind.
 
 Pneumatic tubes would ferry documents between stations. A "quiet room" would collect and encode the final forecasts for radio transmission.
 
-And -because Richardson was, at his core, a deeply humane man -he specified that those computing the weather **"should breathe of it freely,"** and imagined playing fields, houses, mountains, and lakes surrounding the factory.
+And -because Richardson was, at his core, a deeply humane man -he specified that those computing the weather **"should breathe of it freely,"**[^1] and imagined playing fields, houses, mountains, and lakes surrounding the factory.
 
 Read that description again. Now replace "64,000 human computers" with "64,000 processor cores." Replace "slide rules" with "floating point units." Replace "pneumatic tubes" with "MPI message passing." Replace the spotlight conductor with a **load balancer**.
 
@@ -193,8 +193,12 @@ And honestly? Next time GeoTOP gives me a runtime that insults my ancestors, I'm
 
 ---
 
-### References
+## Footnotes
+[^1]: Richardson, L. F. (1922). *Weather Prediction by Numerical Process.* Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich).
 
+---
+
+## References
 * Richardson, L. F. (1922). *Weather Prediction by Numerical Process*. Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich) / [Cambridge](https://www.cambridge.org/core/books/weather-prediction-by-numerical-process/209AB84257409CF1BB624F97EC9CCA79)
 * Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biographical Memoirs of Fellows of the Royal Society*, 9, 217-235. [Royal Society](https://royalsocietypublishing.org/rsbm/article/9/1/216/34536/Lewis-Fry-Richardson-1881-1953)
 * Lynch, P. (1992). Richardson's Barotropic Forecast: A Reappraisal. *Bull. Amer. Meteor. Soc.*, 73, 35-47. [DOI](https://doi.org/10.1175/1520-0477(1992)073<0035:RBFAR>2.0.CO;2)

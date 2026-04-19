@@ -35,9 +35,9 @@ And then he went home.
 
 The Swedish government created a personal professorship at Stockholm University to lure him back. Rossby accepted. He became the first professor at the newly established **Department of Meteorology (MISU)** and created the **International Meteorological Institute (IMI)** -- a research centre funded by the Swedish Parliament, designed to attract leading scientists from around the world.
 
-Why did he leave? The Chicago department was in turmoil. Chester Newton recalled that "when Rossby was in town, the department was in tumult... it was exciting but exhausting." But more than that, Rossby wanted to build something international. He had spent two decades constructing American meteorology. Now he wanted to construct **world** meteorology.
+Why did he leave? The Chicago department was in turmoil. Chester Newton recalled that "when Rossby was in town, the department was in tumult... it was exciting but exhausting."[^1] But more than that, Rossby wanted to build something international. He had spent two decades constructing American meteorology. Now he wanted to construct **world** meteorology.
 
-He did not fully abandon the US. He divided his time between Stockholm, Chicago, and Woods Hole. As he said: **"Communications are the alpha and omega of meteorology."**
+He did not fully abandon the US. He divided his time between Stockholm, Chicago, and Woods Hole. As he said: **"Communications are the alpha and omega of meteorology."**[^2]
 
 But Stockholm became his base. And Stockholm had a problem.
 
@@ -55,7 +55,7 @@ So Sweden built its own.
 
 ### BARK and BESK: Bitter Machines
 
-The first machine was **BARK** -- the *Binär Automatisk Relä-Kalkylator* (Binary Automatic Relay Calculator). It used 8 000 telephone relays and 80 kilometres of cable. It was already obsolete when completed in April 1950 -- similar relay machines had existed a decade earlier. Howard Aiken reportedly visited and said: "This is the first computer I have seen outside Harvard that actually works."
+The first machine was **BARK** -- the *Binär Automatisk Relä-Kalkylator* (Binary Automatic Relay Calculator). It used 8 000 telephone relays and 80 kilometres of cable. It was already obsolete when completed in April 1950 -- similar relay machines had existed a decade earlier. Howard Aiken reportedly visited and said: "This is the first computer I have seen outside Harvard that actually works."[^3]
 
 The BARK team had wanted to call it **CONIAC** -- *Conny Integrator And Calculator*, after project leader **Conny Palm**. Officials blocked the name. Too close to "cognac." Too alcoholic for a government project.
 
@@ -65,7 +65,7 @@ So when the electronic successor needed a name, the team chose **BESK** -- *Bin�
 
 ![Conny Palm standing before BARK, Sweden's first computer, which he designed using 8 000 telephone relays. Palm died in December 1951 at the age of 44, just as work on BESK was beginning. Photo: Tekniska museet, CC BY 2.0.](/assets/images/Conny_Palm_BARK.jpg)
 
-**Conrad "Conny" Palm** was the driving force behind Swedish computing. A brilliant statistician at L.M. Ericsson, he had made foundational contributions to queueing theory -- the mathematics of waiting lines, telephone traffic, and network congestion. His thesis advisor characterized him as "a bohemian and brilliant statistician." An anecdote captures him perfectly: his Ericsson salary was withheld unless he passed monthly exams -- he typically appeared days before payday requesting oral examinations.
+**Conrad "Conny" Palm** was the driving force behind Swedish computing. A brilliant statistician at L.M. Ericsson, he had made foundational contributions to queueing theory -- the mathematics of waiting lines, telephone traffic, and network congestion. His thesis advisor characterized him as "a bohemian and brilliant statistician."[^3] An anecdote captures him perfectly: his Ericsson salary was withheld unless he passed monthly exams -- he typically appeared days before payday requesting oral examinations.
 
 In 1947, Palm organized a study mission to America. Five young Swedish engineers were sent across the Atlantic: two to **von Neumann at Princeton** (including **Erik Stemme** and **Carl-Erik Fröberg**), two to **Howard Aiken at Harvard**, and one to IBM. They came back with drawings, ideas, and the conviction that Sweden could build its own electronic computer.
 
@@ -79,7 +79,7 @@ Palm drove the project forward -- BARK first, then the electronic BESK. But on *
 
 The machine BESK became was shaped by that 1947 American study mission. **Erik Stemme**, one of the five engineers, worked in Jan Rajchman's group at the RCA laboratory near Princeton on the **Selectron tube** -- the memory technology von Neumann originally wanted for the IAS machine. When the Selectron proved impractical, Stemme pivoted: he read a 1948 paper on Williams tube memory, visited **Frederic Williams** in Manchester, England, and had a Williams tube working by 1949.
 
-Stemme became, without formal appointment, the de facto leader of BESK's hardware construction. He designed the binary adder with an innovation: the carry flag between each of the 40 stages "went through the whole way without inversion," making BESK's adder faster than the IAS machine's.
+Stemme became, without formal appointment, the de facto leader of BESK's hardware construction. He designed the binary adder with an innovation: the carry flag between each of the 40 stages "went through the whole way without inversion,"[^3] making BESK's adder faster than the IAS machine's.
 
 **Carl-Erik Fröberg**, the other Princeton visitor, returned to Lund University and later built **SMIL** -- a simplified BESK derivative. He also founded what may be the world's first university course in numerical analysis (spring 1956) and created the journal **BIT Numerical Mathematics** in 1961.
 
@@ -106,7 +106,7 @@ At the time, Swedish officials seriously debated whether the country needed **tw
 
 In its early days, BESK averaged about **five minutes** of continuous operation before a vacuum tube failed. Programs had to be designed with breakpoints so computation could resume after repairs, rather than starting from scratch.
 
-By 1954, reliability improved dramatically. The Williams tube memory required 30-minute daily calibration. In 1956, it was replaced by **ferrite core memory** -- the same technology Jay Forrester had invented for [Whirlwind](/weather/hpc/history/2026/04/02/From-cables-to-chaos.html). The core memory was built by engineer **Carl-Ivar Bergman**, who had only weeks to deliver. To meet the deadline, he hired **"housewives with knitting experience"** (*hemmafruar med erfarenhet av att sticka*) to thread the tiny ferrite cores. The dexterity needed to weave hair-thin wires through hundreds of cores was, it turned out, analogous to knitting. When one bit failed in the finished memory, it was "easily cut out and replaced."
+By 1954, reliability improved dramatically. The Williams tube memory required 30-minute daily calibration. In 1956, it was replaced by **ferrite core memory** -- the same technology Jay Forrester had invented for [Whirlwind](/weather/hpc/history/2026/04/02/From-cables-to-chaos.html). The core memory was built by engineer **Carl-Ivar Bergman**, who had only weeks to deliver. To meet the deadline, he hired **"housewives with knitting experience"** (*hemmafruar med erfarenhet av att sticka*)[^3] to thread the tiny ferrite cores. The dexterity needed to weave hair-thin wires through hundreds of cores was, it turned out, analogous to knitting. When one bit failed in the finished memory, it was "easily cut out and replaced."[^3]
 
 ### Rossby and the Weather
 
@@ -118,7 +118,7 @@ He approached **SMHI** -- the Swedish Meteorological and Hydrological Institute,
 
 Rossby, being Rossby, went around them.
 
-He found **Oskar Herlin**, head of the **Military Weather Central** under the Royal Swedish Air Force. Herlin was "a practical man" who had observed stagnation in conventional forecasting techniques. The cost was modest compared to military budgets. Herlin said yes. The Swedish Air Force would fund operational NWP.
+He found **Oskar Herlin**, head of the **Military Weather Central** under the Royal Swedish Air Force. Herlin was "a practical man"[^1] who had observed stagnation in conventional forecasting techniques. The cost was modest compared to military budgets. Herlin said yes. The Swedish Air Force would fund operational NWP.
 
 ### The Bridge Figure: Bert Bolin
 
@@ -138,7 +138,7 @@ In **September 1954**, 45 000 Swedish troops conducted military exercises in cen
 
 Rossby's group produced real-time NWP forecasts during the six-week exercise, running the barotropic model on BESK.
 
-The results were dramatic: **the NWP forecasts were tremendously successful compared to subjective human forecasts.**
+The results were dramatic: **the NWP forecasts were tremendously successful compared to subjective human forecasts.**[^1]
 
 This was the validation moment. Not a research experiment in a university. Not a printout compared after the fact. Real forecasts, for real troops, in real time, that were **better** than what human forecasters could produce.
 
@@ -162,7 +162,7 @@ BESK was not dedicated to weather. It also calculated wing profiles for the Saab
 
 The **Joint Numerical Weather Prediction Unit (JNWPU)** opened in Suitland, Maryland, in 1954 -- the same year the Swedes began their exercises. An **IBM 701** was installed in March 1955. The first routine American operational forecast was produced on **6 May 1955**.
 
-And it was **"very disappointing and not usable by forecasters."**
+And it was **"very disappointing and not usable by forecasters."**[^1]
 
 Let that sink in. Sweden had been running useful forecasts since December 1954. The first American operational forecasts, produced five months later on a much more expensive machine, were disappointing.
 
@@ -208,7 +208,7 @@ In 1957, **Hans Riesel** used BESK during nights and weekends to hunt for large 
 
 In 1960, engineers at Nordisk ADB realised they had all the coordinates for a planned Stockholm motorway. They created what may be the **world's first computer-generated film** -- a 30-second driver's-eye-view animation at 110 km/h, captured frame by frame from a specially designed digital oscilloscope. It was broadcast on Swedish television on 9 November 1961. The surviving copy at Tekniska museet bears the inscription: "the first computer-drawn film in the world."
 
-And always, at night, the code-breaking. FRA's classified cryptanalysis sessions, personally supervised by Stig Comet, continuing the tradition of **Arne Beurling** -- the legendary Swedish mathematician who, in 1940, single-handedly deciphered the German Geheimschreiber cipher **in two weeks using only pen and paper**. Beurling's cryptanalysis was considered more complex than cracking Enigma. When asked how he did it, he replied: **"A magician does not reveal his secrets."** Beurling later moved to the Institute for Advanced Study in Princeton, where he took over **Einstein's old office**. He was not directly involved in BESK -- but the signals intelligence agency his wartime work had created was BESK's most urgent customer.
+And always, at night, the code-breaking. FRA's classified cryptanalysis sessions, personally supervised by Stig Comet, continuing the tradition of **Arne Beurling** -- the legendary Swedish mathematician who, in 1940, single-handedly deciphered the German Geheimschreiber cipher **in two weeks using only pen and paper**. Beurling's cryptanalysis was considered more complex than cracking Enigma. When asked how he did it, he replied: **"A magician does not reveal his secrets."**[^4] Beurling later moved to the Institute for Advanced Study in Princeton, where he took over **Einstein's old office**. He was not directly involved in BESK -- but the signals intelligence agency his wartime work had created was BESK's most urgent customer.
 
 ### The BESK Boys
 
@@ -238,8 +238,15 @@ The two-week wall that [Lorenz](/weather/hpc/history/2026/03/31/The-butterfly-th
 
 ---
 
-### References
+## Footnotes
+[^1]: Persson, A. (2005). Early operational Numerical Weather Prediction outside the USA: an historical introduction. Part 1: Internationalism and engineering NWP in Sweden, 1952-69. *Meteorological Applications*, 12, 135-159. [Cambridge Core](https://www.cambridge.org/core/journals/meteorological-applications/article/abs/early-operational-numerical-weather-prediction-outside-the-usa-an-historical-introduction-part-1-internationalism-and-engineering-nwp-in-sweden-195269/62B132A2DB529EA0C02AD169EB678938).
+[^2]: Carl-Gustaf Rossby: Theorist, institution builder, bon vivant. *Physics Today*. [Link](https://physicstoday.aip.org/features/carl-gustaf-rossby-theorist-institution-builder-bon-vivant).
+[^3]: Lundin, P., ed. (2006). *Att arbeta med 1950-talets matematikmaskiner* (Working with the Computing Machines of the 1950s). KTH. [PDF](http://kth.diva-portal.org/smash/get/diva2:10842/FULLTEXT01.pdf).
+[^4]: Beckman, B. (2002). *Codebreakers: Arne Beurling and the Swedish Crypto Program During World War II*. American Mathematical Society.
 
+---
+
+## References
 **Swedish NWP:**
 * Persson, A. (2005). Early operational Numerical Weather Prediction outside the USA: an historical Introduction. Part 1: Internationalism and engineering NWP in Sweden, 1952-69. *Meteorological Applications*, 12, 135-159. [Cambridge Core](https://www.cambridge.org/core/journals/meteorological-applications/article/abs/early-operational-numerical-weather-prediction-outside-the-usa-an-historical-introduction-part-1-internationalism-and-engineering-nwp-in-sweden-195269/62B132A2DB529EA0C02AD169EB678938)
 * Staff Members, Institute of Meteorology, University of Stockholm (1954). Results of forecasting with the barotropic model on an electronic computer (BESK). *Tellus*, 6, 139-149.

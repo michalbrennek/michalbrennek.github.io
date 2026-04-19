@@ -25,9 +25,9 @@ The first demonstration that day had been led by two of the six women programmer
 
 The photographs circulated. The captions stuck. The women became invisible.
 
-In the mid-1980s, a Harvard undergraduate named **Kathy Kleiman** was looking for female role models in computing. She found old photographs of ENIAC showing both men and women. The men were identified. The women were not. When Kleiman asked computer historians who the women were, she was told they were **"Refrigerator Ladies"** -- models hired to pose in front of the machine to make it look good in publicity shots.
+In the mid-1980s, a Harvard undergraduate named **Kathy Kleiman** was looking for female role models in computing. She found old photographs of ENIAC showing both men and women. The men were identified. The women were not. When Kleiman asked computer historians who the women were, she was told they were **"Refrigerator Ladies"** -- models hired to pose in front of the machine to make it look good in publicity shots.[^1]
 
-But Kleiman noticed something. In photo after photo, the women were not posing. They were working. "It looked like they knew what they were doing," she said.
+But Kleiman noticed something. In photo after photo, the women were not posing. They were working. "It looked like they knew what they were doing," she said.[^1]
 
 She made it her mission to find out who they were. She tracked them down. She interviewed them. She recorded their stories. What she discovered was not a footnote. It was the missing chapter of computing history -- a story of six women who programmed the first general-purpose electronic computer, and a wider story of women across the early computing world who did foundational work and were systematically written out of the record.
 
@@ -51,7 +51,7 @@ Born on February 12, 1921, in Creeslough, County Donegal, Ireland -- on the nigh
 
 She graduated from Chestnut Hill College in 1942 with a mathematics degree -- one of only a few math majors in a class of 92 women. Hired at the Moore School as a human computer at $1620 a year, she computed artillery trajectories on desk calculators before being selected for ENIAC. In the summer of 1945, she trained at Aberdeen Proving Ground on IBM punched card equipment. Her key contribution: she invented the **subroutine** to solve capacity constraints during trajectory computations -- the idea of breaking a program into reusable components, a concept that would become foundational to all programming.
 
-She later married John Mauchly himself, ENIAC's co-creator, in 1948 -- "against the wishes of her parents." They had five children. She survived him by 26 years and spent her later life giving lectures and interviews promoting recognition of the ENIAC programmers. In 2019, the Irish Centre for High-End Computing named their primary supercomputer "Kay" in her honor. She died of cancer in Wyndmoor, Pennsylvania, on April 20, 2006.
+She later married John Mauchly himself, ENIAC's co-creator, in 1948 -- "against the wishes of her parents."[^1] They had five children. She survived him by 26 years and spent her later life giving lectures and interviews promoting recognition of the ENIAC programmers. In 2019, the Irish Centre for High-End Computing named their primary supercomputer "Kay" in her honor. She died of cancer in Wyndmoor, Pennsylvania, on April 20, 2006.
 
 ### Betty Jean Jennings Bartik (1924-2011)
 
@@ -70,7 +70,7 @@ Bartik became the most vocal advocate for recognition. After ENIAC, she contribu
   <figcaption>Betty Holberton. She invented the breakpoint, designed the UNIVAC console, helped write the COBOL and FORTRAN standards, and changed the color of computers from black to gray-beige. Photo: U.S. Army.</figcaption>
 </figure>
 
-Born March 7, 1917, in Philadelphia. She studied journalism at the University of Pennsylvania because "its curriculum let her travel far afield." On her first day in a mathematics course, her professor asked whether she "wouldn't be better off at home raising children."
+Born March 7, 1917, in Philadelphia. She studied journalism at the University of Pennsylvania because "its curriculum let her travel far afield."[^1] On her first day in a mathematics course, her professor asked whether she "wouldn't be better off at home raising children."[^1]
 
 Of the six, Holberton had the most distinguished post-ENIAC career -- and it is not close. She **invented the breakpoint**: to make a program stop at a certain point, a cable was simply removed. That removal became the "breakpoint," a concept that remains fundamental to every programmer's workflow today. She designed the **sort-merge generator** for UNIVAC I, using a deck of playing cards to develop the decision tree for the binary sort function. She redesigned the UNIVAC control console and created the C-10 instruction code that allowed control of UNIVAC by keyboarded commands rather than dials and switches. She **changed the computer's exterior color from black to gray-beige** -- a practical choice for office environments that became the industry standard for decades. She collaborated with Grace Hopper on the development of COBOL and FORTRAN standards. She worked on FORTRAN 77 and Fortran 90 revisions at the National Bureau of Standards.
 
@@ -142,7 +142,7 @@ She was not a housewife for long. And she was not a grasshopper.
 
 After Pearl Harbor, Klara secured the position of Head of Statistical Computing Group at Princeton -- her first foray into computational work. She had no formal mathematical training beyond her gymnasium education. She was essentially self-taught as a programmer, learning through project work rather than through courses or manuals. Then came the ENIAC, and she became one of the first people in the world to write code for a stored-program computer.
 
-In April 1948, a team including John and Klara von Neumann and Nick Metropolis ran the first computerized Monte Carlo simulations on ENIAC. Klara wrote the code. These were not only the first Monte Carlo calculations by computer -- they were among the first code written in the modern stored-program paradigm ever to be executed. Her team discovered they had been "testing the conveniency of the H-bomb." The simulations were for thermonuclear weapon feasibility studies.
+In April 1948, a team including John and Klara von Neumann and Nick Metropolis ran the first computerized Monte Carlo simulations on ENIAC. Klara wrote the code. These were not only the first Monte Carlo calculations by computer -- they were among the first code written in the modern stored-program paradigm ever to be executed. Her team discovered they had been "testing the conveniency of the H-bomb."[^2] The simulations were for thermonuclear weapon feasibility studies.
 
 In 1950, Jule Charney, Agnar Fjortoft, and John von Neumann ran the [first computer-generated weather forecast](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) on ENIAC -- the founding moment of numerical weather prediction, the event that this entire blog series has been building toward. Klara coded it. In the published paper, the authors thanked "Mrs. K. von Neumann for instruction in the technique of coding for the ENIAC and for checking the final code." She worked for 32 days on the project, managing 100 000 punch cards. A 2021 Smithsonian correction later clarified that her primary contribution was writing and checking the code and training the meteorologists to program the ENIAC -- she was not merely a punch-card operator, as earlier accounts had implied. She was the programmer.
 
@@ -154,7 +154,7 @@ John von Neumann was diagnosed with metastatic cancer in 1955. The cancer spread
 
 She spent six years preserving her famous late husband's story and legacy. Then she turned to something of her own. She sat down and put her own remarkable story on paper -- an autobiography titled **"A Grasshopper in Very Tall Grass."**
 
-The title tells you everything about what this world did to her. A figure skating champion, a coder of the first weather forecast, a programmer of Monte Carlo simulations and hydrogen bomb calculations -- and she thought of herself as a grasshopper in very tall grass. The memoir was to be divided into eight chapters and a postscript. She completed drafts for six of them, typewritten in English, with some produced multiple times as she edited them by hand in the margins. She submitted the manuscript for publication. She was told it was **"not marketable."**
+The title tells you everything about what this world did to her. A figure skating champion, a coder of the first weather forecast, a programmer of Monte Carlo simulations and hydrogen bomb calculations -- and she thought of herself as a grasshopper in very tall grass. The memoir was to be divided into eight chapters and a postscript. She completed drafts for six of them, typewritten in English, with some produced multiple times as she edited them by hand in the margins. She submitted the manuscript for publication. She was told it was **"not marketable."**[^3]
 
 A memoir by the woman who had coded the first weather forecast, programmed the first Monte Carlo simulations, and written the first programs for MANIAC I -- the woman who had witnessed the birth of computing from inside the machine room and the death of its chief architect from inside the hospital -- was not marketable. The publisher wanted the story of the husband. Not the wife.
 
@@ -162,7 +162,7 @@ In 1958, she married oceanographer and physicist Carl Eckart -- her fourth marri
 
 On the night of November 10, 1963, Klara drove from her La Jolla home to the beach. Her body was found washed up on the shore at 6:45 in the morning. A neighbor identified her. The coroner's report noted a blood alcohol level of 0.18%. Cause of death: asphyxia by drowning. The San Diego coroner's office ruled it suicide. Her prior diagnosis was recorded as "anxiety depression with neuroses."
 
-**Her dress had been weighed down with 15 pounds of wet sand.**
+**Her dress had been weighed down with 15 pounds of wet sand.**[^3]
 
 She was 52 years old.
 
@@ -224,15 +224,15 @@ In 1951, she married physicist Marshall Rosenbluth. At Los Alamos, she learned t
 
 The seminal 1953 paper "Equation of State Calculations by Fast Computing Machines" lists five authors: Nicholas Metropolis, Arianna W. Rosenbluth, Marshall N. Rosenbluth, Augusta H. Teller, and Edward Teller. The paper describes what is now called the Metropolis algorithm -- the foundation of Markov chain Monte Carlo methods, used across physics, statistics, biology, finance, machine learning, and climate science.
 
-**Arianna Rosenbluth wrote the entire code.** She coded it in assembly language, one level of abstraction above machine language. She later recounted that Augusta Teller had started the computer work, but that Arianna herself took it over and wrote the code from scratch. In an oral history recorded shortly before his death, **Marshall Rosenbluth** credited Edward Teller with posing the original problem, himself with solving it, and Arianna with programming the computer. At a 2003 conference at Los Alamos marking the 50th anniversary of the publication, **Marshall Rosenbluth stated that Metropolis "played no role in the development other than providing computer time."**
+**Arianna Rosenbluth wrote the entire code.** She coded it in assembly language, one level of abstraction above machine language. She later recounted that Augusta Teller had started the computer work, but that Arianna herself took it over and wrote the code from scratch. In an oral history recorded shortly before his death, **Marshall Rosenbluth** credited Edward Teller with posing the original problem, himself with solving it, and Arianna with programming the computer. At a 2003 conference at Los Alamos marking the 50th anniversary of the publication, **Marshall Rosenbluth stated that Metropolis "played no role in the development other than providing computer time."**[^4]
 
 The algorithm is universally called the "Metropolis algorithm" or the "Metropolis-Hastings algorithm." It is named for the first author -- the man who, by multiple accounts, contributed only computer time. Arianna Rosenbluth was the first person to ever implement the Markov chain Monte Carlo method. The algorithm she wrote has been cited tens of thousands of times and forms the backbone of modern computational statistics.
 
-After the birth of her first child, Rosenbluth left research to focus on raising her family. She and Marshall had four children. They divorced in 1978. Her daughter Jean later said: **"She was not the happiest person while we were growing up,"** suggesting that "part of it was that she missed her work, because it meant a lot to her."
+After the birth of her first child, Rosenbluth left research to focus on raising her family. She and Marshall had four children. They divorced in 1978. Her daughter Jean later said: **"She was not the happiest person while we were growing up,"**[^4] suggesting that "part of it was that she missed her work, because it meant a lot to her."[^4]
 
 Arianna shared little about the algorithm before her death. She died on December 28, 2020, in the greater Los Angeles area, of complications from COVID-19. She was 93.
 
-As the statistician Andrew Gelman wrote on his blog: **"Maybe we should've called it Arianna."**
+As the statistician Andrew Gelman wrote on his blog: **"Maybe we should've called it Arianna."**[^5]
 
 Maybe we should have. The Metropolis algorithm is one of the ten most important algorithms of the twentieth century. It runs inside every Bayesian inference engine, every protein folding simulation, every climate model ensemble. The woman who wrote the code is a footnote at best, unknown to most practitioners. The man who provided the computer time is immortalized in the name.
 
@@ -242,7 +242,7 @@ Maybe we should have. The Metropolis algorithm is one of the ten most important 
 
 In 1956, the original memory of [BESK](/weather/hpc/history/2026/04/03/The-swedes-got-there-first.html) -- Sweden's first electronic computer, briefly the fastest in the world -- was found to be insufficient. Engineer **Carl-Ivar Bergman** was given just a few weeks to build and install a ferrite core memory. The deadline was impossibly tight.
 
-**To complete the work before the deadline, they hired housewives with knitting experience to thread the ferrite cores and assemble the memory.**
+**To complete the work before the deadline, they hired housewives with knitting experience to thread the ferrite cores and assemble the memory.**[^6]
 
 The tiny ferrite cores had to be threaded with fine wire by hand, using magnifying glasses. The work required extraordinary manual dexterity and precision -- skills that women with knitting and textile experience already possessed.
 
@@ -250,7 +250,7 @@ Their names are not recorded.
 
 This is not an accident. This is the pattern. Their labor was essential, but their identities were not considered worth preserving. The BESK memory worked. The computer ran. The weather forecasts were computed. And the women who had built the memory with their hands disappeared from the record.
 
-The same practice extended to the other side of the Atlantic. The core rope memory for the **Apollo Guidance Computer** was manufactured by women at Raytheon in Waltham, Massachusetts. Many were hired from the local textile industry for their sewing skills. Others came from the Waltham Watch Company. The engineers called the manufacturing process the **"LOL" method -- "Little Old Ladies."** Margaret Hamilton herself used this term. One named worker identified in the records is Mary Lou Rogers. A 1975 NASA report on the Apollo missions praised the computing systems but mentioned none of the women who built them. Among the weavers at Raytheon were also Navajo women, whose contributions have been similarly erased.
+The same practice extended to the other side of the Atlantic. The core rope memory for the **Apollo Guidance Computer** was manufactured by women at Raytheon in Waltham, Massachusetts. Many were hired from the local textile industry for their sewing skills. Others came from the Waltham Watch Company. The engineers called the manufacturing process the **"LOL" method -- "Little Old Ladies."**[^7] Margaret Hamilton herself used this term. One named worker identified in the records is Mary Lou Rogers. A 1975 NASA report on the Apollo missions praised the computing systems but mentioned none of the women who built them. Among the weavers at Raytheon were also Navajo women, whose contributions have been similarly erased.
 
 The term "LOL memory" has been criticized for erasing both the skill required and the diversity of the women who did the work. But the term stuck. The names did not.
 
@@ -324,8 +324,19 @@ They were not Refrigerator Ladies. They were the programmers.
 
 ---
 
-### References
+## Footnotes
 
+[^1]: Kleiman, K. *Proving Ground: The Untold Story of the Six Women Who Programmed the World's First Modern Computer*, Grand Central Publishing, 2022. See also Kleiman, K., ENIAC Programmers Project. [eniacprogrammers.org](https://eniacprogrammers.org/).
+[^2]: Haigh, T. "Klara von Neumann, a 'Lost Woman of Science.'" [Tom and Maria](https://www.tomandmaria.com/Tom/node/30). See also Witman, S. "Meet the Computer Scientist You Should Thank for Your Smartphone's Weather App." *Smithsonian Magazine*, 2017 (updated 2021). [Smithsonian](https://www.smithsonianmag.com/science-nature/meet-computer-scientist-you-should-thank-your-phone-weather-app-180963716/).
+[^3]: Hafner, K. *Lost Women of Science* podcast, Season 2: "A Grasshopper in Very Tall Grass," 2022. [Lost Women of Science](https://www.lostwomenofscience.org/klara-dan-von-neumann).
+[^4]: "Obituary: Arianna Rosenbluth 1927-2020." *Institute of Mathematical Statistics*, 2021. [IMS](https://imstat.org/2021/02/23/obituary-arianna-rosenbluth-1927-2020/).
+[^5]: Gelman, A. "Maybe we should've called it Arianna." *Statistical Modeling, Causal Inference, and Social Policy*, 2021. [Blog](https://statmodeling.stat.columbia.edu/2021/02/09/maybe-we-shouldve-called-it-arianna/).
+[^6]: Lundin, P. *BESK: Sweden's First Electronic Digital Computer*, KTH Royal Institute of Technology, 2006. See also Persson, A. "Early Operational Numerical Weather Prediction Outside the USA." 2005.
+[^7]: "Core memory weavers and Navajo women made the Apollo missions possible." *Science News*, 2019. [Science News](https://www.sciencenews.org/article/core-memory-weavers-navajo-apollo-raytheon-computer-nasa).
+
+---
+
+## References
 **Books:**
 * Kleiman, K. (2022). *Proving Ground: The Untold Story of the Six Women Who Programmed the World's First Modern Computer.* Grand Central Publishing.
 * Bartik, J.J. (2013). *Pioneer Programmer: Jean Jennings Bartik and the Computer that Changed the World.* Truman State University Press. (Posthumous.)

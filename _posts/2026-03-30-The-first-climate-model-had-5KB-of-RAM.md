@@ -53,11 +53,11 @@ For context: the phone in your pocket has **millions of times** more memory. A c
 
 And the programming experience? Let Phillips tell you himself:
 
-> "Code was written in what would now be called 'machine language' except that it was one step lower -- the 40 bits of an instruction word (two instructions) were written by us in a 16-character (hexadecimal) alphabet 0, 1, ..., 9, A, B, C, D, E, F instead of writing a series of 0's and 1's."
+> "Code was written in what would now be called 'machine language' except that it was one step lower -- the 40 bits of an instruction word (two instructions) were written by us in a 16-character (hexadecimal) alphabet 0, 1, ..., 9, A, B, C, D, E, F instead of writing a series of 0's and 1's."[^1]
 
 No high-level language. No compiler. No debugger. Raw hexadecimal, hand-coded, one instruction at a time.
 
-> "There was no automatic indexing -- what we now call a 'DO-LOOP' was programmed explicitly with actual counting. Subroutines were used, but calls to them had to be programmed using explicitly stored return addresses."
+> "There was no automatic indexing -- what we now call a 'DO-LOOP' was programmed explicitly with actual counting. Subroutines were used, but calls to them had to be programmed using explicitly stored return addresses."[^1]
 
 If you've ever been frustrated by a Python script that won't import a library, imagine hand-coding every loop counter in hex on a machine that stores its memory in cathode-ray tubes. That's the level of suffering we're talking about. This is like playing a souls-like game where the controller is also on fire.
 
@@ -69,7 +69,7 @@ The idea was audacious. Instead of starting with observed weather and forecastin
 
 The model was almost absurdly simple. John Lewis, writing the definitive retrospective in 1998, described it as exhibiting:
 
-> "an almost irreverent disregard for the complexities of the real atmosphere."
+> "an almost irreverent disregard for the complexities of the real atmosphere."[^2]
 
 Here's what Phillips built:
 
@@ -106,7 +106,7 @@ From an atmosphere that started at rest - no winds, no storms, no structure - th
 
 **The correct surface wind pattern.** Easterlies at subtropical latitudes, westerlies in the midlatitudes, easterlies again near the "pole." The classic three-belt pattern that every introductory meteorology textbook shows. It emerged spontaneously from 500 numbers and simple heating.
 
-**A realistic cyclone.** A baroclinic wave developed with a wavelength of about 6,000 km, moving eastward at 21 m/s (1,800 km per day). The flow tilted westward with height - exactly as real extratropical cyclones do. It started as a warm low and gradually evolved to look, in Phillips' words, "very much like those of an occluded cyclone."
+**A realistic cyclone.** A baroclinic wave developed with a wavelength of about 6,000 km, moving eastward at 21 m/s (1,800 km per day). The flow tilted westward with height - exactly as real extratropical cyclones do. It started as a warm low and gradually evolved to look, in Phillips' words, "very much like those of an occluded cyclone."[^3]
 
 **A three-cell meridional circulation.** Two direct cells (Hadley-type) near the equatorial and polar boundaries, and one indirect cell (Ferrel cell) in the middle latitudes. The real atmosphere has exactly this structure. Phillips' 500 numbers found it.
 
@@ -116,9 +116,9 @@ And then - the result that made Rossby's jaw drop.
 
 Phillips wrote:
 
-> "Definite indications of something similar to cold and warm fronts are to be seen in the 1,000-mb contours, with the main temperature gradient occurring on the cold side of the 'frontal troughs'."
+> "Definite indications of something similar to cold and warm fronts are to be seen in the 1,000-mb contours, with the main temperature gradient occurring on the cold side of the 'frontal troughs'."[^3]
 
-On some days, the fronts were "so pronounced as almost to force a kinking of the contour lines."
+On some days, the fronts were "so pronounced as almost to force a kinking of the contour lines."[^3]
 
 If you've been following this series - from the [Bergen School](/weather/hpc/history/2026/03/26/The-line-that-models-cannot-draw.html) inventing the concept of fronts, to [human forecasters](/weather/hpc/history/2026/03/27/Reading-the-sky.html) learning to read them from satellites, to the [models struggling](/weather/hpc/history/2026/03/28/The-ghost-in-the-grid.html) to reproduce them - you know why this matters. **Fronts are emergent phenomena.** No equation in Phillips' model contained the word "front." There was no frontal parameterization. There was no frontal boundary condition. There were just the quasi-geostrophic equations, differential heating, and friction.
 
@@ -126,7 +126,7 @@ And fronts appeared anyway. Out of 500 numbers. On 5 KB of RAM.
 
 Phillips, characteristically modest, summed up:
 
-> "Considering the simplicity of the model, these modest successes are quite gratifying."
+> "Considering the simplicity of the model, these modest successes are quite gratifying."[^3]
 
 Modest successes. The man simulated the general circulation of the atmosphere from scratch and called it "modest successes." I can't even get a Docker container to start on the first try.
 
@@ -138,7 +138,7 @@ After about 25-26 days of simulated time, the model began to fall apart. The fie
 
 Phillips wrote in his abstract:
 
-> "Truncation errors eventually put an end to the forecast by producing a large fictitious increase in energy."
+> "Truncation errors eventually put an end to the forecast by producing a large fictitious increase in energy."[^3]
 
 He tried adding lateral diffusion to smooth things out. It helped a little, but not enough. The model was dying, and he didn't fully understand why.
 
@@ -156,35 +156,35 @@ The reactions from the meteorological community tell you everything you need to 
 
 **Carl-Gustaf Rossby**, one of the most influential meteorologists of the twentieth century, had a conversation with Phillips in Stockholm in early 1956 (reconstructed by Wiin-Nielsen):
 
-> R: "Norman, do you really think there are fronts there?"
+> R: "Norman, do you really think there are fronts there?"[^4]
 >
-> P: "Yes, look at the temperature fields packed up very nicely."
+> P: "Yes, look at the temperature fields packed up very nicely."[^4]
 >
-> R: "But Norman, what's the process that creates these fronts? Where do they come from?"
+> R: "But Norman, what's the process that creates these fronts? Where do they come from?"[^4]
 >
-> P: "Well, they come out of a very simple dynamics."
+> P: "Well, they come out of a very simple dynamics."[^4]
 >
-> R: "And what is that?"
+> R: "And what is that?"[^4]
 >
-> P: "I have very simple linear heating between the equator and pole, simple dissipation, but of course there is no water vapor or no precipitation, no clouds, totally dry model."
+> P: "I have very simple linear heating between the equator and pole, simple dissipation, but of course there is no water vapor or no precipitation, no clouds, totally dry model."[^4]
 >
-> R: "Yes, Norman, and it should be that! Because here we are getting this front -- and it has nothing to do with clouds/rising motion, it is a sheer dynamic effect that comes as a result of the development."
+> R: "Yes, Norman, and it should be that! Because here we are getting this front -- and it has nothing to do with clouds/rising motion, it is a sheer dynamic effect that comes as a result of the development."[^4]
 
 Think about what Rossby grasped in that moment. Fronts - those sharp boundaries where air masses collide, the lines that forecasters draw on weather maps, the features that the Bergen School had spent decades studying - were not caused by moisture or clouds or precipitation. They were a **pure dynamical consequence** of differential heating and baroclinic instability. Phillips' dry, cloudless, mountainless, featureless model proved it.
 
 **Eric Eady** said at the Napier Shaw lecture in 1956:
 
-> "I think Dr. Phillips has presented a really brilliant paper which deserves detailed study from many different aspects."
+> "I think Dr. Phillips has presented a really brilliant paper which deserves detailed study from many different aspects."[^5]
 
 Eady added something profound about the experimental design:
 
-> "An experiment which merely attempted to ape the real atmosphere would have been very poorly designed and very much less informative."
+> "An experiment which merely attempted to ape the real atmosphere would have been very poorly designed and very much less informative."[^5]
 
 In other words: the simplicity was the point. By stripping away everything except the essential dynamics, Phillips revealed what the atmosphere does when nothing else gets in the way.
 
 **Joseph Smagorinsky** - readers who follow this series [already know him](/hpc/raspberry-pi/weather/3d-printing/2026/01/10/Chasing-the-spin.html) from the ENIAC team - who would go on to found GFDL:
 
-> "A new era had been opened."
+> "A new era had been opened."[^6]
 
 And **von Neumann** himself recognized the significance immediately. When Phillips showed him the results in 1955, von Neumann moved on two fronts simultaneously. He organized a conference at Princeton in October 1955 - "The Application of Numerical Integration Techniques to the Problem of General Circulation." And he drafted a proposal, dated August 1, 1955, to the Weather Bureau, Air Force, and Navy for a new joint project dedicated to simulating the general circulation.
 
@@ -206,7 +206,7 @@ The line runs straight: Phillips' 500 numbers on 5 KB of RAM -> von Neumann's pr
 
 As Steve Easterbrook wrote in his 2019 memorial for Phillips:
 
-> "The best means we have of anticipating changes is through Earth System Models; the direct descendants of the simple two-layer model used with such effect by Norman Phillips in 1956."
+> "The best means we have of anticipating changes is through Earth System Models; the direct descendants of the simple two-layer model used with such effect by Norman Phillips in 1956."[^7]
 
 ### What Comes Next
 
@@ -218,11 +218,24 @@ That's a story for next time.
 
 ---
 
-### References
+## Footnotes
+[^1]: Phillips, N. A. (1990). Dispersion Processes in Large-Scale Weather Prediction. Sixth IMO Lecture, WMO No. 700, World Meteorological Organization, Geneva. Phillips' retrospective on IAS-machine-era programming.
+[^2]: Lewis, J. M. (1998). Clarifying the Dynamics of the General Circulation: Phillips's 1956 Experiment. *Bull. Amer. Meteor. Soc.*, 79(1), 39-60. [PDF](https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/Lewis-on-Phillips98.pdf).
+[^3]: Phillips, N. A. (1956). The general circulation of the atmosphere: a numerical experiment. *Q. J. R. Meteorol. Soc.*, 82(352), 123-164. [PDF](https://hannahlab.org/papers/Phillips_1956_QJRMS.pdf).
+[^4]: Wiin-Nielsen, A. (1997). The birth of numerical weather prediction. *Tellus A*, 49(5), 36-48. Reconstruction of the 1956 Stockholm conversation between Rossby and Phillips.
+[^5]: Eady, E. T. (1956). Discussion contribution to N. A. Phillips, "The general circulation of the atmosphere: a numerical experiment," Napier Shaw Memorial Lecture. *Q. J. R. Meteorol. Soc.*, 82(352), 535-539.
+[^6]: Smagorinsky, J. (1983). The beginnings of numerical weather prediction and general circulation modeling. *Advances in Geophysics*, 25, 3-37. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0065268708603286).
+[^7]: Easterbrook, S. (2019). In memory of Norman Phillips. [Blog](https://www.easterbrook.ca/steve/2019/05/in-memory-of-norman-phillips/).
 
+---
+
+## References
 * Phillips, N. A. (1956). The general circulation of the atmosphere: a numerical experiment. *Q. J. R. Meteorol. Soc.*, 82(352), 123-164. [PDF](https://hannahlab.org/papers/Phillips_1956_QJRMS.pdf) / [Wiley](https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.49708235202)
 * Phillips, N. A. (1959). An example of non-linear computational instability. In *The Atmosphere and the Sea in Motion* (Rossby Memorial Volume), B. Bolin, Ed., Rockefeller Press, 501-504.
 * Lewis, J. M. (1998). Clarifying the Dynamics of the General Circulation: Phillips's 1956 Experiment. *Bull. Amer. Meteor. Soc.*, 79(1), 39-60. [PDF](https://empslocal.ex.ac.uk/people/staff/gv219/classics.d/Lewis-on-Phillips98.pdf)
+* Wiin-Nielsen, A. (1997). The birth of numerical weather prediction. *Tellus A*, 49(5), 36-48.
+* Phillips, N. A. (1990). Dispersion Processes in Large-Scale Weather Prediction. Sixth IMO Lecture, WMO No. 700, World Meteorological Organization, Geneva.
+* Eady, E. T. (1956). Discussion contribution to Phillips' Napier Shaw Memorial Lecture. *Q. J. R. Meteorol. Soc.*, 82(352), 535-539.
 * Smagorinsky, J. (1983). The beginnings of numerical weather prediction and general circulation modeling. *Advances in Geophysics*, 25, 3-37. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0065268708603286)
 * Franklin Institute. [Norman Phillips - 2003 Bower Award](https://www.fi.edu/en/laureates/norman-a-phillips)
 * MIT News (2019). Norman Phillips, former meteorology department head, dies at 95. [MIT](https://news.mit.edu/2019/norman-phillips-former-meteorology-department-dead-dies-0516)
