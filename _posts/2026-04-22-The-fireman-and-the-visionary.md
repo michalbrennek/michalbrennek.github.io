@@ -1,9 +1,11 @@
 ---
 layout: single
-title: "The Fireman and the Brooklyn Romantic"
+title: "The Fireman and the Visionary"
 date: 2026-04-22 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [Arakawa, Mintz, UCLA, GCM, Phillips, Bjerknes, Randall, Schubert, NumericalMethods, Computing]
+redirect_from:
+  - /weather/hpc/history/2026/04/22/The-fireman-and-the-brooklyn-romantic.html
 header:
   teaser: /assets/images/header-arakawa.jpg
   overlay_image: /assets/images/header-arakawa.jpg
@@ -35,9 +37,9 @@ Arakawa read Phillips 1959 in Tokyo. He began to think about the problem.
 
 ---
 
-## The Brooklyn Romantic
+## The Visionary
 
-Yale Mintz was born in Manhattan, not Brooklyn, on March 30, 1916. I call him a Brooklyn romantic in the title of this post because by temperament and self-presentation he belonged to a type that New Yorkers of a certain era exported to the West Coast: humanistically educated, politically liberal, religiously observant, confident, talkative, and given to pronouncements.
+Yale Mintz was born in Manhattan on March 30, 1916. I call him the visionary of this story because that is exactly how Arakawa, in every interview he gave in the forty years after Mintz's death, described him: the partner with the physical intuition, the grand plan, and the willingness to begin a project that the senior faculty of the department had called too ambitious for a single person to attempt. Mintz was humanistically educated, politically liberal, religiously observant, confident, talkative, and given to pronouncements. He was also the one who decided, in the late 1950s, that UCLA would build a general circulation model of the atmosphere whether or not anyone thought it was a good idea.
 
 He did not start out as a meteorologist. He took a bachelor's degree in general humanistic studies at Dartmouth College in 1937, and a master's degree in geology at Columbia University in 1942, during the early years of the Second World War. His eventual arrival at meteorology was roundabout. What drew him west, in the mid-1940s, was the new Department of Meteorology that Jacob Bjerknes had founded at UCLA in 1940. Bjerknes -- the Norwegian son of Vilhelm Bjerknes, whose Bergen School cyclone theory I wrote about in the [Bergen School posts](/weather/hpc/history/2026/03/26/The-line-that-models-cannot-draw.html) -- had come to California to lead American meteorology out of its descriptive prewar stage into something more mathematical. Mintz enrolled in Bjerknes's programme, took the doctoral coursework, and wrote a dissertation on the general circulation of the atmosphere. He defended his PhD in 1949. His was the second doctorate the UCLA Department of Meteorology ever awarded.[^4]
 
@@ -57,7 +59,7 @@ He decided to build a GCM anyway. He just needed somebody to handle the numerica
 
 In 1961, through a set of recommendations from atmospheric scientists at the University of Tokyo, Mintz brought Akio Arakawa to UCLA on a two-year fellowship.
 
-The details are worth pausing on. Arakawa was then thirty-three years old, still with the Japan Meteorological Agency, recently married, with a four-year-old son. He had never lived outside Japan. His English, he later said, was serviceable for reading scientific papers but not for conversation. He arrived at a meteorology department whose senior figure -- Jacob Bjerknes -- was Norwegian, whose chair was a Brooklyn-born evangelist for numerical modelling, and whose operational computer was being accessed on weekends on borrowed time from the UCLA Business School's IBM 709.
+The details are worth pausing on. Arakawa was then thirty-three years old, still with the Japan Meteorological Agency, recently married, with a four-year-old son. He had never lived outside Japan. His English, he later said, was serviceable for reading scientific papers but not for conversation. He arrived at a meteorology department whose senior figure -- Jacob Bjerknes -- was Norwegian, whose chair was a Manhattan-born evangelist for numerical modelling, and whose operational computer was being accessed on weekends on borrowed time from the UCLA Business School's IBM 709.
 
 The collaboration worked. Mintz was voluble, broad, enthusiastic. "He was very outgoing, aggressive," Arakawa said in 1997, "very active in many, many ways." Arakawa was the opposite: quiet, rigorous, patient with detail, slow to publish but obsessive about correctness. They spent, by Arakawa's own account, about an hour a day for the next two decades discussing science together.[^7] In those conversations Mintz would offer, as his colleague Mort Wurtele later put it, several new ideas every day, of which Arakawa would reject most but keep a few. Mintz, in turn, provided the physical intuition ("using his intuitive understanding of air flow," he would "suggest where an error lurked" in Arakawa's code[^8]), the scientific framing, the grants, the political cover within UCLA, and the department's access to its limited computing resources. They never, in thirty years of partnership, co-authored a single paper. Mintz published the early UCLA GCM reports under his own name. Arakawa published the technical and numerical papers under his. In their everyday work they were inseparable; in the scientific record they appear as parallel authors.
 
@@ -195,7 +197,7 @@ It is useful, if you are interested in the topic of this blog -- the history of 
 
 If the machines had been available without the physics, they would have produced nothing. If the physics had been worked out without the machines, they would have produced only papers. If the machines and the physics had come together without the numerical methods, the simulations would have run for thirty simulated days and then exploded, as Phillips's did in 1956. The reason the ECMWF IFS can today produce a ten-day forecast whose 500-hectopascal geopotential height fields verify against observations at a correlation of 0.90 is that all three legs -- machine, physics, and numerics -- got built.
 
-Arakawa built the third leg. Mintz made it possible for him to do so. The first two legs we have covered in other posts of this series and will cover again. For today, it is enough to say that the most consequential partnership in the history of atmospheric numerical methods was between a Brooklyn-born Dartmouth humanist who never learned to program and a Tokyo-born former wartime fireman who, after his first thermometer was lost on the Pacific floor, spent the next seventy years making sure nothing else he built would break under pressure.
+Arakawa built the third leg. Mintz made it possible for him to do so. The first two legs we have covered in other posts of this series and will cover again. For today, it is enough to say that the most consequential partnership in the history of atmospheric numerical methods was between a Manhattan-born Dartmouth humanist who never learned to program and a Tokyo-born former wartime fireman who, after his first thermometer was lost on the Pacific floor, spent the next seventy years making sure nothing else he built would break under pressure.
 
 ---
 

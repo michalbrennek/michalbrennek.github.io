@@ -66,6 +66,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Pagination
 paginate: 6
