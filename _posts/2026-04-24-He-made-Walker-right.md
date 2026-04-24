@@ -1,14 +1,16 @@
 ---
 layout: single
-title: "The Man Who Coupled the Pacific"
+title: "He Made Walker Right"
 date: 2026-04-24 08:00:00 +0100
 categories: [Weather, HPC, History]
 tags: [JacobBjerknes, VilhelmBjerknes, Walker, ENSO, ElNino, UCLA, BergenSchool, ClimateDynamics]
+redirect_from:
+  - /weather/hpc/history/2026/04/24/The-man-who-coupled-the-pacific.html
 header:
   teaser: /assets/images/header-enso.jpg
   overlay_image: /assets/images/header-enso.jpg
   overlay_filter: "0.6"
-excerpt: "In July 1939 Jacob Bjerknes took his wife and two children to California on what was supposed to be an eight-month lecture tour. Norway was invaded nine months later. He never went home. Thirty years after that, at the University of California Los Angeles, he figured out that the atmosphere and the ocean of the tropical Pacific are the same machine."
+excerpt: "Gilbert Walker identified a statistical see-saw in tropical Pacific pressure in the 1920s and was dismissed as an empiricist without a theory. He died in November 1958 without seeing his discovery explained. Eleven years later, in a paper four paragraphs long, Jacob Bjerknes gave it to him."
 ---
 
 On the morning of April 9, 1940, the German battleship *Blucher* was sunk by Norwegian shore guns at the entrance to Oslofjord, on its way to seize the capital of a country that had believed, until a few hours earlier, that its neutrality would be respected. The Blucher's loss was a Norwegian victory that lasted about six hours. By that evening the Wehrmacht held Oslo. Within two months it held all of Norway. The invasion of the country that had, twenty years earlier, produced the single most important school of thought in the young science of meteorology -- the Bergen School I wrote about in the [Bergen School trilogy](/weather/hpc/history/2026/03/26/The-line-that-models-cannot-draw.html) -- was over before anyone in the school had the chance to think through what it meant for them.
