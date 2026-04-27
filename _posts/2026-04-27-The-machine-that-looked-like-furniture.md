@@ -23,7 +23,10 @@ This post is about that machine, and about the man who designed it, and about th
 
 ## The Hermit of Chippewa Falls
 
-![Seymour Cray, designer of the Cray-1 and arguably the most influential computer architect of the late twentieth century. He worked, in his own description, with a number-three Ticonderoga pencil, a pad of graph paper, and an absolutely quiet office in rural Wisconsin. Photo: NOAA, public domain.](/assets/images/Seymour_Cray_portrait.jpg)
+<figure class="align-center" style="width: 90%;">
+  <img src="/assets/images/Seymour_Cray_portrait.jpg" alt="Seymour Cray, designer of the Cray-1 and the most influential computer architect of the late twentieth century.">
+  <figcaption>Seymour Cray, designer of the Cray-1 and arguably the most influential computer architect of the late twentieth century. He worked, in his own description, with a number-three Ticonderoga pencil, a pad of graph paper, and an absolutely quiet office in rural Wisconsin. Photo: NOAA, public domain.</figcaption>
+</figure>
 
 Seymour Roger Cray was born on September 28, 1925, in Chippewa Falls, Wisconsin -- a small town on the Chippewa River about ninety minutes east of Minneapolis-Saint Paul. His father, also Seymour, was the city civil engineer; his mother Lillian kept house for the family. The elder Seymour was a builder of bridges and water mains. His son was, from the age of about eight, a builder of automatic telegraph machines from Erector Sets, and -- by the age when other boys were playing baseball -- a builder of a punched-tape-to-Morse-code device that won him a high-school science prize.[^4]
 
@@ -63,7 +66,10 @@ This is the architectural lesson that, in retrospect, separated Cray from his co
 
 ## The Shape
 
-![A Cray-1 on display at the Computer History Museum in Mountain View, California. The C-shaped cabinet is structural: every chassis bay is wired to its neighbours through twisted-pair cables that have been individually cut to specific lengths to equalise signal-propagation times. The leather-padded bench around the base hides the power supplies and the Freon cooling system. Photo: Wikimedia Commons, CC BY-SA 4.0.](/assets/images/Cray_1_museum.jpg)
+<figure class="align-center" style="width: 90%;">
+  <img src="/assets/images/Cray_1_museum.jpg" alt="A Cray-1 on display at the Computer History Museum in Mountain View, California.">
+  <figcaption>A Cray-1 on display at the Computer History Museum in Mountain View, California. The C-shaped cabinet is structural: every chassis bay is wired to its neighbours through twisted-pair cables that have been individually cut to specific lengths to equalise signal-propagation times. The leather-padded bench around the base hides the power supplies and the Freon cooling system. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
 
 The Cray-1's distinctive shape -- a C-shaped vertical cabinet bent around an inner court, two metres tall and three metres across at the base, surrounded by a leather-padded bench -- was not industrial-design whimsy. It was a structural choice that came directly from the timing constraints.
 
@@ -89,7 +95,10 @@ By the time the Freon problem was resolved, NCAR -- whose serial number 3 had be
 
 ## The Mesa Laboratory
 
-![The NCAR Mesa Laboratory, designed by I.M. Pei in 1961-67 as the home of NCAR's research program, sits below the Flatirons sandstone cliffs above Boulder, Colorado. Pei based the design on the Anasazi cliff dwellings of Mesa Verde. The Cray-1 lived in the basement of this building for almost twelve years. Photo: NCAR / UCAR, public domain.](/assets/images/NCAR_Mesa_Lab.jpg)
+<figure class="align-center" style="width: 90%;">
+  <img src="/assets/images/NCAR_Mesa_Lab.jpg" alt="The NCAR Mesa Laboratory, designed by I.M. Pei.">
+  <figcaption>The NCAR Mesa Laboratory, designed by I.M. Pei in 1961-67 as the home of NCAR's research program, sits below the Flatirons sandstone cliffs above Boulder, Colorado. Pei based the design on the Anasazi cliff dwellings of Mesa Verde. The Cray-1 lived in the basement of this building for almost twelve years. Photo: NCAR / UCAR, public domain.</figcaption>
+</figure>
 
 The building NCAR's serial number 3 went into is itself worth a paragraph.
 
