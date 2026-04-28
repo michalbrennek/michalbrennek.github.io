@@ -57,7 +57,7 @@ It could perform roughly **60 calculations per second**.
 
 For comparison: the ENIAC that ran [Charney's forecast](/hpc/raspberry-pi/weather/3d-printing/2026/01/10/Chasing-the-spin.html) had 17,468 vacuum tubes, weighed 30 tons, and filled a room the size of a tennis court. The LGP-30 was a desk. A very heavy, very loud, very expensive desk - **$47,000** in 1956 dollars, about $560,000 today - but a desk.
 
-For further comparison: the phone in your pocket does roughly **15 billion** calculations per second. The LGP-30 would need about **8,000 years** to match what your phone does in one second.
+For further comparison: the phone in your pocket does roughly **15 billion** calculations per second. The LGP-30 would need about **8 years** to match what your phone does in one second.
 
 But that 800-pound desk changed science forever.
 
@@ -97,7 +97,7 @@ He discovered a law.
 
 Lorenz spent the next two years working out what he had found. He wanted the simplest possible system that would exhibit the same behavior - sensitivity to initial conditions producing wildly different outcomes from nearly identical starting points.
 
-He drew on work by his student Barry Saltzman, who had modeled thermal convection - a fluid heated from below and cooled from above. Lorenz performed what mathematicians call a "severe truncation" - stripping the equations down to the absolute minimum.
+He drew on work by his colleague Barry Saltzman, who had modeled thermal convection - a fluid heated from below and cooled from above. Lorenz performed what mathematicians call a "severe truncation" - stripping the equations down to the absolute minimum.
 
 Three equations. Three variables. Three constants.
 
@@ -269,7 +269,7 @@ All of it - from 0.506 to 0.506127.
 **Current status:**
 - The butterfly: Still flapping. Still breaking forecasts.
 - The LGP-30: 800 pounds, 60 calculations per second, and it changed everything.
-- My cluster: 0.54 TFLOPS across 7 Raspberry Pi CM5s. Lorenz's LGP-30 did 60 operations per second. That's 9×10⁹ times faster. I still can't predict next Tuesday.
+- My cluster: 0.54 TFLOPS across 7 Raspberry Pi CM5s. Lorenz's LGP-30 did 60 operations per second. That's 9 x 10^9 times faster. I still can't predict next Tuesday.
 - The two-week wall: Still standing. No amount of FLOPS will knock it down.
 
 Yours Truly

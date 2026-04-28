@@ -42,11 +42,11 @@ The computer at the IAS was built under the direction of John von Neumann betwee
 Here are the specs. Try not to laugh.
 
 - **Internal memory**: 1,024 words of 40 binary digits each - approximately **5 kilobytes of RAM**
-- **Drum memory**: 2,048 words - approximately **10 kilobytes** (later upgraded to 16,384 words)
-- **Add time**: 42 microseconds
+- **Drum memory**: 2,048 words - approximately **10 kilobytes** (later upgraded to 12,288 words)
+- **Add time**: 62 microseconds
 - **Multiply time**: 700 microseconds
-- **Speed**: roughly 24,000 additions per second
-- **Construction**: 3,430 vacuum tubes, 2,091 transistors, 915 diodes
+- **Speed**: roughly 16,000 additions per second
+- **Construction**: about 2,300 vacuum tubes (logic plus memory drivers) and several thousand diodes; 40 Williams cathode-ray tubes for memory
 - **Power consumption**: 61 kilowatts
 
 For context: the phone in your pocket has **millions of times** more memory. A cheap USB stick from a gas station has more storage. A modern smartwatch could run circles around this thing. Your Wi-Fi router probably has more computing power.
@@ -194,7 +194,7 @@ That proposal was accepted the following month. Smagorinsky was asked to lead th
 
 The lineage from Phillips' experiment to modern climate science is direct and unbroken.
 
-Phillips' results convinced von Neumann to create the General Circulation Research Section. Smagorinsky built it up, first in collaboration with von Neumann and Charney, then independently. In 1963, Smagorinsky published the next major step - a GCM using the full primitive equations instead of Phillips' quasi-geostrophic approximation. In 1965, the research unit was formally established as the **Geophysical Fluid Dynamics Laboratory (GFDL)** in Princeton.
+Phillips' results convinced von Neumann to create the General Circulation Research Section. Smagorinsky built it up, first in collaboration with von Neumann and Charney, then independently. In 1963, Smagorinsky published the next major step - a GCM using the full primitive equations instead of Phillips' quasi-geostrophic approximation. In 1963, the research unit was renamed the **Geophysical Fluid Dynamics Laboratory (GFDL)**; it relocated to Princeton in 1968.
 
 At GFDL, a young Japanese scientist named **Syukuro Manabe** was building on the foundation Phillips had laid. In 1967, Manabe and Wetherald published the seminal paper on CO2 and climate sensitivity. In 1969, Manabe and Bryan coupled an atmospheric GCM to an ocean model - the first coupled climate model.
 
@@ -207,14 +207,6 @@ The line runs straight: Phillips' 500 numbers on 5 KB of RAM -> von Neumann's pr
 As Steve Easterbrook wrote in his 2019 memorial for Phillips:
 
 > "The best means we have of anticipating changes is through Earth System Models; the direct descendants of the simple two-layer model used with such effect by Norman Phillips in 1956."[^7]
-
-### What Comes Next
-
-Phillips proved something that nobody had proved before: **the atmosphere could be simulated from first principles**. You didn't need to observe the weather to reproduce it. You just needed the right physics, enough patience, and a machine that could count to 500 without catching fire.
-
-But there was a catch nobody saw coming. Phillips' model blew up after 25 days, and while he eventually figured out why, the fix revealed a deeper problem - one that would haunt every climate model built after his. The atmosphere is chaotic. Small errors grow. And the very nonlinearity that makes the weather interesting is the same nonlinearity that makes it impossible to predict beyond a certain horizon.
-
-That's a story for next time.
 
 ---
 

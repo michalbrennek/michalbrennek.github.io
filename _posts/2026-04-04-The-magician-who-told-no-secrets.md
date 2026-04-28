@@ -52,7 +52,7 @@ The T52 was not the Enigma. It was **worse**.
 
 The Enigma was a portable, manual cipher machine -- an operator typed a letter, a lamp lit up, you wrote down the encrypted letter. Three or four rotors, a plugboard. Complex, but fundamentally a souped-up substitution cipher.
 
-The T52 was an **online teleprinter cipher**. It encrypted messages automatically during transmission at roughly 66 words per minute. It used **ten cipher wheels** (not three), each with a different coprime number of pins (from 47 to 73), creating a keyspace of approximately 10^18 combinations per wheel setting -- and roughly **10^27** total possible configurations. The encryption operated in two stages: first an XOR substitution, then a conditional transposition of bit pairs controlled by a plugboard. This two-stage process meant that even knowing the plaintext didn't directly reveal the key.
+The T52 was an **online teleprinter cipher**. It encrypted messages automatically during transmission at roughly 66 words per minute. It used **ten cipher wheels** (not three), each with a different coprime number of pins (from 47 to 73), creating a total keyspace of approximately **893 quadrillion** -- close to 10^18 -- combinations. The encryption operated in two stages: first an XOR substitution, then a conditional transposition of bit pairs controlled by a plugboard. This two-stage process meant that even knowing the plaintext didn't directly reveal the key. Later T52d/T52e variants (introduced from 1942) added irregular wheel stepping that pushed the keyspace to roughly **10^27** -- and Beurling never tackled those; Bletchley Park failed to break them either.
 
 The British codenamed it **"Sturgeon."** Bletchley Park would struggle with it for years.
 
@@ -120,7 +120,7 @@ The Biuro Szyfrów made one revolutionary decision that enabled all of this: the
 
 The parallels with Beurling are haunting. Small countries. Pure mathematics. Pencils before machines. And both stories were buried for decades -- overshadowed by Bletchley Park, which got all the credit.
 
-But that is a story that deserves its own post. The Polish codebreakers -- Rejewski, Różycki, Zygalski -- and the price they paid for being right too early and too quietly. That one is personal for me. It's coming.
+The Polish codebreakers -- Rejewski, Różycki, Zygalski -- and the price they paid for being right too early and too quietly: that story is personal for me.
 
 ### From Ciphers to Computers
 
@@ -171,8 +171,6 @@ There is a memorial to him in Uppsala. There is a short opera about him (*Krypto
 But mostly, there is silence. The magician does not reveal his secrets. And the world has mostly not asked.
 
 Some magicians are forgotten. Some are remembered too late. And some -- like Beurling -- changed the world with a pencil and were thanked with silence.
-
-In Poland, three other magicians are waiting for their story to be told properly. Soon.
 
 ---
 

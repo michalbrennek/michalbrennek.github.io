@@ -185,7 +185,7 @@ By **1969**, the 72-hour 500 mb forecast was reliably beating human forecasters,
 
 Five generations of computers. Nineteen years. A data revolution from satellites. And the stubbornness of people who kept running the model every single day even when the forecasts were bad, because the only way to find the problems was to face them operationally.
 
-The next step would be Seymour Cray's purpose-built supercomputers -- machines that would push NWP from hemispheric to global, from six layers to dozens, from deterministic to ensemble. But that is a story for a future post.
+The next step would be Seymour Cray's purpose-built supercomputers -- machines that would push NWP from hemispheric to global, from six layers to dozens, from deterministic to ensemble.
 
 The decade the forecast got good was the 1960s. And the people who made it happen -- Cressman the institution-builder, Shuman the modeler, Cray the architect -- never got the fame of the astronauts whose orbits their machines also tracked.
 

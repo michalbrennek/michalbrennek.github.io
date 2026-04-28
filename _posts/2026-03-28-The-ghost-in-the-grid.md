@@ -78,7 +78,7 @@ None of these fields IS a front. They're clues. Fingerprints. The front itself r
 
 ### The Machine Tries to Learn
 
-In the last few years, **machine learning** has entered the frontal analysis game. This deserves its own deep dive in a future post, but here's the landscape:
+In the last few years, **machine learning** has entered the frontal analysis game. Here's the landscape:
 
 **Biard & Kunkel (2019)** trained a deep convolutional neural network (DL-FRONT) on five years of human-drawn fronts from the NWS Weather Prediction Center, using surface fields of temperature, specific humidity, pressure, and wind. It detected about **90% of manually analyzed fronts** over North America.
 
@@ -86,7 +86,7 @@ In the last few years, **machine learning** has entered the frontal analysis gam
 
 **FrontFinder AI** (Justin, McGovern & Allen, 2025) went further with a **UNET3+ architecture**, processing 4D input (space, height, variables). It detects cold, warm, stationary, and occluded fronts plus drylines, and has been **deployed operationally at NOAA's Weather Prediction Center**. Its binary CSI (Critical Success Index) reached **0.71** - a significant step, but still below human performance.
 
-The fundamental problem? **Humans are still better.** Different human analysts disagree on frontal positions by **100-200 km** on average, and this inter-analyst variability sets a **fundamental ceiling** for verification. An algorithm can't be verified to be better than human when the "truth" is itself a judgment call that varies between experts. ML tools are guidance, not replacement - at least for now. We'll dig deeper into the ML revolution in a future post.
+The fundamental problem? **Humans are still better.** Different human analysts disagree on frontal positions by **100-200 km** on average, and this inter-analyst variability sets a **fundamental ceiling** for verification. An algorithm can't be verified to be better than human when the "truth" is itself a judgment call that varies between experts. ML tools are guidance, not replacement - at least for now.
 
 ### From an Attic to an Algorithm
 

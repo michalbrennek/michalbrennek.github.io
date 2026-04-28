@@ -128,8 +128,6 @@ By 1954, the dream was no longer a research project. It was a **daily routine**.
 
 The **Joint Numerical Weather Prediction Unit (JNWPU)** was formally established on July 1, 1954 - a joint project of the U.S. Weather Bureau, the U.S. Air Force, and the U.S. Navy, located in Suitland, Maryland, under George Cressman. An **IBM 701** was installed in March 1955, and by May 1955, the first routine real-time operational numerical weather forecasts began. They used Charney's Princeton three-level quasi-geostrophic model, issuing forecasts twice daily.
 
-(Though the Americans were not quite the first to get there. Rossby had gone home to Stockholm, and he had plans of his own. But that is a story for another day.)
-
 Here's what I find remarkable: Charney's simple barotropic vorticity equation - the one from the ENIAC run - "continued to provide useful guidance for almost a decade."[^4] More complex baroclinic models actually performed **worse** at first. The simple model, born of necessity and brilliant filtering, refused to be outclassed.
 
 It wasn't until 1966 that forecasts based on the full **primitive equations** - the unfiltered equations that had defeated Richardson - began in the U.S. and West Germany. By then, computers were fast enough, and **initialization techniques** had been developed to handle the gravity wave problem from the data side rather than the equation side. Three approaches to the same problem: filter the equations (Charney), filter the data (initialization), or brute-force it with tiny time steps (wait for faster computers). Eventually, all three came together.
@@ -179,12 +177,6 @@ He died of lung cancer on June 16, 1981, at age 64. Both the American Meteorolog
 A garment worker's son who found a calculus book at 14. Who filtered the noise from the equations. Who led the team that made the first computer weather forecast work. Who wrote 22 pages in 1979 that told us exactly what CO2 would do to the planet.
 
 And we're still catching up.
-
-### What Comes Next
-
-Charney tamed the equations by simplifying them - throwing away the gravity waves to let the weather signal through. But what if you didn't just predict tomorrow's weather? What if you ran the equations forward for decades, centuries? What if you simulated the **whole atmosphere** - not to forecast next Tuesday, but to understand how the entire climate system responds to a doubled CO2?
-
-That's where we're going next.
 
 ---
 

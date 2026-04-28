@@ -51,7 +51,7 @@ But the instinct that had led Frankel to sit alone with a tabulating machine, pr
 
 ---
 
-## A Million Punch Cards
+## Half a Million Punch Cards
 
 The war ended in August 1945. Within weeks, Frankel and **Nicholas Metropolis** -- another Los Alamos theorist -- traveled to the Moore School of Electrical Engineering at the University of Pennsylvania. Their destination was the **ENIAC**: the Electronic Numerical Integrator and Computer, the world's first general-purpose electronic computer. Thirty tons of vacuum tubes and patch cables filling an entire room.
 

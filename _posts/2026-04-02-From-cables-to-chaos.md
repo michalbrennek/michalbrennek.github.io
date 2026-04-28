@@ -78,7 +78,7 @@ The H-bomb calculation ran for several weeks and consumed about a million punch 
 
 Then came **Monte Carlo methods**. Stan Ulam, recovering from encephalitis in 1946, had the insight that random sampling could solve problems in neutron diffusion (how neutrons bounce around inside a nuclear weapon). He and Metropolis implemented it on the ENIAC. The method was named "Monte Carlo" after the casino, because Ulam's uncle had a gambling habit. It is now one of the most widely used computational techniques in all of science -- from particle physics to financial modeling to weather ensemble forecasting. Readers who have followed this series will recognize ensemble forecasting as [Lorenz's legacy](/weather/hpc/history/2026/03/31/The-butterfly-that-broke-the-forecast.html) made operational.
 
-And then came the weather. In March 1950, readers of this series already know what happened: [Charney, Fjortoft, and their team](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) spent 33 days and nights at Aberdeen Proving Ground, cycling through 14 punch-card operations per time step, punching roughly 100 000 IBM cards, to produce the first numerical weather forecast. A 24-hour forecast in 24 hours. The barotropic vorticity equation, on a 19 × 16 grid, at 736 km spacing.
+And then came the weather. In March 1950, readers of this series already know what happened: [Charney, Fjortoft, and their team](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) spent 33 days and nights at Aberdeen Proving Ground, cycling through 14 punch-card operations per time step, punching roughly 100 000 IBM cards, to produce the first numerical weather forecast. A 24-hour forecast in 24 hours. The barotropic vorticity equation, on a 19 x 16 grid, at 736 km spacing.
 
 The actual ENIAC programming for the weather forecast was done by **Klara Dan von Neumann** -- John von Neumann's wife, a mathematician in her own right who had learned to code the ENIAC and checked the final program. Without her, the 100 000 punch cards would not have been in the right order.
 
@@ -110,7 +110,7 @@ For that, you needed a machine designed around a different principle entirely.
 
 ### The Missing Link: EDVAC
 
-Before the IAS machine, there was the **EDVAC** -- the Electronic Discrete Variable Automatic Computer. Where the ENIAC was decimal, EDVAC was **binary**. Where the ENIAC stored its program in patch cables, EDVAC would store it in **memory**. Where the ENIAC used 17 468 vacuum tubes, EDVAC needed only about 3 500 -- because binary arithmetic is inherently simpler than decimal.
+Before the IAS machine, there was the **EDVAC** -- the Electronic Discrete Variable Automatic Computer. Where the ENIAC was decimal, EDVAC was **binary**. Where the ENIAC stored its program in patch cables, EDVAC would store it in **memory**. Where the ENIAC used 17 468 vacuum tubes, EDVAC needed only about 6 000 -- because binary arithmetic is inherently simpler than decimal.
 
 Von Neumann laid out the EDVAC's design in his famous "First Draft of a Report on the EDVAC" (June 1945) -- the document that introduced the stored-program concept to the world. But here's the irony: EDVAC itself was **plagued by delays**. Eckert and Mauchly left the Moore School in March 1946, bitter over patent disputes with von Neumann. The remaining team struggled. Construction dragged on for years.
 
@@ -180,7 +180,7 @@ In 1955-56, **Norman Phillips** -- readers who follow this series [already know 
 
 I've told that story already. What I haven't told you is how the machine's limitations shaped the experiment.
 
-Phillips' entire model -- the atmospheric state, the program code, everything -- had to fit in 1 024 words of memory. His atmosphere was described by roughly 500 numbers. The program occupied the rest. There was **no room** for a more complex model even if he had wanted one. The two-layer, 17 × 16 grid wasn't just a scientific choice. It was the maximum the hardware could hold.
+Phillips' entire model -- the atmospheric state, the program code, everything -- had to fit in 1 024 words of memory. His atmosphere was described by roughly 500 numbers. The program occupied the rest. There was **no room** for a more complex model even if he had wanted one. The two-layer, 17 x 16 grid wasn't just a scientific choice. It was the maximum the hardware could hold.
 
 The IAS machine's drum memory (an auxiliary storage device, slower than the Williams tubes but more reliable) held 2 048 words initially, later upgraded to 16 384. Phillips used it for intermediate results that wouldn't fit in main memory. Every drum access meant waiting for the cylinder to rotate to the right position -- slowing the calculation by orders of magnitude compared to a pure Williams-tube computation.
 
@@ -200,7 +200,7 @@ This was a deliberate philosophical choice. Von Neumann believed that computing 
 - **ORDVAC** -- Aberdeen Proving Ground. Built for the Army. Replaced the ENIAC for ballistic calculations.
 - **WEIZAC** -- Weizmann Institute of Science, Israel. The first computer in the Middle East. Von Neumann personally helped the Israeli team.
 - **SILLIAC** -- University of Sydney, Australia. Named with characteristic Australian irreverence.
-- **BESM** -- Moscow. The Soviet Union built their own version, drawing on the published IAS design. Computing, like physics, respects no borders.
+- **BESM** -- Moscow. Sergei Lebedev's team built a stored-program machine roughly contemporaneously, with substantial independent design choices (floating point, three-address instructions, ferrite-core memory). Computing, like physics, respects no borders.
 
 Each clone was slightly different -- tweaked for local needs, improved by local engineers. But they all descended from von Neumann's architecture. They all stored their programs in memory. They all used binary arithmetic. They all spoke the same fundamental language.
 
@@ -309,7 +309,7 @@ And it's still here. The ECMWF's Integrated Forecasting System, the model that p
 
 In my [Charney post](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html), I mentioned that the **Joint Numerical Weather Prediction Unit (JNWPU)** was established in 1954 in Suitland, Maryland. An **IBM 701** was installed in March 1955, and by May of that year, the first routine real-time operational numerical weather forecasts in the United States began.
 
-But were the Americans really first? Rossby had returned to Stockholm. He had access to a computer. And he was not the kind of man who waited for someone else to go first. More on that soon.
+But were the Americans really first? Rossby had returned to Stockholm. He had access to a computer. And he was not the kind of man who waited for someone else to go first.
 
 It was the **IBM 704** that turned American operational NWP from a struggle into a system. With 144 kilobytes of reliable core memory, hardware floating point, and eventually FORTRAN, the JNWPU could run more complex models, add more vertical levels, increase the resolution, and -- crucially -- **run twice daily on a schedule that never slipped**.
 
@@ -426,7 +426,7 @@ Lorenz later upgraded to the **Royal McBee RPC-4000**, a transistorized machine 
 
 Stan Frankel designed those too.
 
-Oh, and the name "Royal McBee" on Lorenz's machine? Librascope was acquired by **Royal McBee**, which was a **typewriter company**. A typewriter company sold the computer that discovered one of the most important principles in all of physics. The universe has a sense of humor.
+Oh, and the name "Royal McBee" on Lorenz's machine? Librascope partnered with **Royal McBee**, a division of the Royal Typewriter Company, to market the machine. A typewriter company sold the computer that discovered one of the most important principles in all of physics. The universe has a sense of humor.
 
 ### The Person to Remember: Stan Frankel
 
@@ -482,13 +482,13 @@ And the unnamed women -- the six ENIAC programmers, the core rope threaders, the
 
 The progression is staggering.
 
-In 1945, predicting the weather required a machine that weighed **30 tons**, consumed enough power to light a neighborhood, and needed a team of specialists to operate. The forecast took 24 hours to compute 24 hours ahead. One forecast. One level of the atmosphere. 19 × 16 grid points. Barely keeping pace with the weather.
+In 1945, predicting the weather required a machine that weighed **30 tons**, consumed enough power to light a neighborhood, and needed a team of specialists to operate. The forecast took 24 hours to compute 24 hours ahead. One forecast. One level of the atmosphere. 19 x 16 grid points. Barely keeping pace with the weather.
 
 In 1956 -- eleven years later -- a quiet man sat at an **800-pound desk** plugged into a wall outlet, watched numbers clack out one line per minute, and discovered that weather prediction has a mathematical ceiling that no amount of computing power will ever break through.
 
 The machines got smaller. The science got bigger.
 
-And on my own desk, seven Raspberry Pi CM5s push **0.54 TFLOPS** -- roughly 9×10⁹ times faster than Lorenz's LGP-30. Richardson's 64 000 human computers, the ENIAC, the IAS machine, the IBM 704, the LGP-30, the Cray supercomputers, the massively parallel clusters -- all of them compressed into a box with a Noctua fan.
+And on my own desk, seven Raspberry Pi CM5s push **0.54 TFLOPS** -- roughly 9 x 10^9 times faster than Lorenz's LGP-30. Richardson's 64 000 human computers, the ENIAC, the IAS machine, the IBM 704, the LGP-30, the Cray supercomputers, the massively parallel clusters -- all of them compressed into a box with a Noctua fan.
 
 But the two-week wall is still standing.
 
@@ -579,6 +579,6 @@ With 60 operations per second.
 - The IAS Machine: Decommissioned in 1958. Von Neumann's architecture lives in every device with a processor.
 - The IBM 704: Replaced by the 709, then the 7090, then everything. FORTRAN lives on.
 - The LGP-30: 800 pounds, 60 operations per second, one Nobel-Prize-worthy discovery. Per pound, perhaps the most productive computer ever built.
-- My cluster: 9×10⁹ times faster than the LGP-30. Still can't predict next Tuesday.
+- My cluster: 9 x 10^9 times faster than the LGP-30. Still can't predict next Tuesday.
 
 Yours Truly

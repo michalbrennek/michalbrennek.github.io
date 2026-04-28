@@ -169,7 +169,7 @@ Richardson was a Quaker. A pacifist. A man who drove ambulances instead of carry
 
 He **destroyed his unpublished findings** and **abandoned meteorology entirely**.
 
-He spent the rest of his career applying mathematics to **peace research** -modeling arms races (the Richardson arms race equations are still studied today), measuring the statistical patterns of deadly conflicts, and even stumbling onto the **coastline paradox** (Portugal and Spain couldn't agree on their shared border length -987 km vs 1,214 km -because the answer depends on your ruler's resolution). Benoit Mandelbrot would later connect Richardson's observations to **fractal geometry**.
+He spent the rest of his career applying mathematics to **peace research** -modeling arms races (the Richardson arms race equations are still studied today), measuring the statistical patterns of deadly conflicts, and even stumbling onto the **coastline paradox** (Portugal and Spain couldn't agree on their shared border length -987 km vs 1214 km -because the answer depends on your ruler's resolution). Benoit Mandelbrot would later connect Richardson's observations to **fractal geometry**.
 
 A man who helped invent modern weather forecasting walked away from it because it could be used to kill. That takes a kind of moral courage that no equation can capture.
 

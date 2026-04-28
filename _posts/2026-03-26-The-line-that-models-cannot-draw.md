@@ -80,7 +80,7 @@ The forecasts worked. Fishermen and farmers got better warnings. And the concept
 
 Initially, the international community was skeptical - the British meteorologist William Napier Shaw called it "humbug." But the forecasting results were too good to ignore. By the 1920s, the Bergen School's methods had spread across Scandinavia. By the 1930s, Rossby had exported them to America. The United States didn't formally draw fronts on their surface analyses until **late 1942** - but once they started, they never stopped.
 
-The lines on your weather map? They come from a 21-year-old in Norway who borrowed the vocabulary of war to describe the atmosphere. Jacob Bjerknes later emigrated to the US, founded the UCLA meteorology department, served as a colonel in the Air Force helping determine optimal dates for the atomic bombings of Japan, and in 1969 was the first to connect **El Nino to global oscillation patterns** (ENSO) - arguably the most important climate discovery of the 20th century (Bjerknes, 1969).
+The lines on your weather map? They come from a 21-year-old in Norway who borrowed the vocabulary of war to describe the atmosphere. Jacob Bjerknes later emigrated to the US, founded the UCLA meteorology department, served as a wartime consultant to the US Army Air Forces, and in 1969 was the first to connect **El Nino to global oscillation patterns** (ENSO) - arguably the most important climate discovery of the 20th century (Bjerknes, 1969).
 
 Not bad for a kid who started in an attic.
 
@@ -93,7 +93,7 @@ Tomorrow: [how synopticists and satellites actually read fronts](/weather/hpc/hi
 
 [^2]: Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416).
 
-[^3]: Eliassen, A. (1990). Jacob Aall Bonnevie Bjerknes, 1897-1975. *Biographical Memoirs of the National Academy of Sciences*, 61. National Academies Press. [NAS](https://www.nasonline.org/wp-content/uploads/2024/10/bjerknes-jacob.pdf).
+[^3]: Eliassen, A. (1995). Jacob Aall Bonnevie Bjerknes, 1897-1975. *Biographical Memoirs of the National Academy of Sciences*, 68, 17-46. National Academies Press. [NAS](https://www.nasonline.org/wp-content/uploads/2024/10/bjerknes-jacob.pdf).
 
 ---
 

@@ -34,7 +34,7 @@ There's a term for the two flavors of front that this analysis reveals: an **ana
 
 ### Then Came the Satellites
 
-In the 1970s and 1980s, **Keith Browning** at the Met Office revolutionized how we read cyclones by developing the **conveyor belt model** (Browning, 1986). Browning was, in the words of his colleagues, a man with "intuitive understanding of complex three-dimensional meteorological processes"[^1] who had a gift for distilling them into conceptual models.
+In the 1970s and 1980s, **Keith Browning** at the Met Office revolutionized how we read cyclones by developing the **conveyor belt model** (Browning, 1986). Browning was known among colleagues for his intuitive grasp of complex three-dimensional meteorological processes -- his gift for distilling them into clear conceptual models.
 
 Instead of thinking about fronts as static lines on a map, Browning described three-dimensional **rivers of air** flowing through cyclones:
 
@@ -67,8 +67,6 @@ Tomorrow: [why the models still can't do what the human does](/weather/hpc/histo
 ---
 
 ## Footnotes
-[^1]: Hoskins, B. J. et al. (2024). Keith Anthony Browning, 1938-2023. *Q. J. R. Meteorol. Soc.*, memorial tribute. [RMetS obituary](https://www.rmets.org/obituary/professor-keith-browning).
-
 [^2]: EUMeTrain. Conveyor Belt Model. [resources.eumetrain.org](https://resources.eumetrain.org/satmanu/conveyor_belt_model/index.html).
 
 ---
