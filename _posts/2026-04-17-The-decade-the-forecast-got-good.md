@@ -127,7 +127,7 @@ There was also the problem of **public communication**. A computer produces a gr
 
 ## Shuman's Primitive Equations
 
-![The CDC 6600, designed by Seymour Cray. First delivered in 1964, it was the fastest computer in the world for five years. At NMC, it ran the first operational primitive-equation model in 1966. Photo: Computer History Museum via Wikimedia Commons.](/assets/images/CDC_6600.jpg)
+![The CDC 6600, designed by Seymour Cray. First delivered in 1964, it was the fastest computer in the world for five years. At NMC, it ran the first operational primitive-equation model in 1966. Photo: Jitze Couperus at the Computer History Museum, via Wikimedia Commons (CC BY 2.0).](/assets/images/CDC_6600.jpg)
 
 All through the late 1950s and early 1960s, [Fred Shuman](/weather/hpc/history/2026/04/10/The-machine-that-built-IBM.html) -- the JNWPU's first employee, the man who had been at the IBM 701 console in 1955 -- had been working toward a goal. He wanted to solve the **full primitive equations** of atmospheric motion.
 

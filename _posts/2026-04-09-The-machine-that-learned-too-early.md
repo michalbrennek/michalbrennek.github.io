@@ -21,7 +21,7 @@ What if the machine could teach itself?
 
 ## Frank Rosenblatt
 
-![Frank Rosenblatt with the Mark I Perceptron at the Cornell Aeronautical Laboratory. Cornell University photo.](/assets/images/Rosenblatt_portrait.jpg)
+![Frank Rosenblatt as a young researcher, ca. 1950. Photo: Heinz Nixdorf MuseumsForum via Wikimedia Commons (CC BY-SA 4.0).](/assets/images/Rosenblatt_portrait.jpg)
 
 **Frank Rosenblatt** was born on July 11, 1928, in New Rochelle, New York. He was, by every account, a genius -- but not the narrow kind. He played classical piano on a grand piano he bought for his house in Brooktondale (though he had a weakness for improvising endlessly on "Three Blind Mice"). He built a personal observatory on a hilltop behind his house, doing most of the masonry himself, and housed a 12-inch Cassegrain telescope inside it. He pursued SETI research. He was active in Eugene McCarthy's 1968 presidential campaign and protested the Vietnam War. He studied psychology, mathematics, neurophysiology, astronomy, computing, and music.
 
@@ -53,7 +53,7 @@ No one had programmed it to distinguish left from right. It had **learned** the 
 
 But Rosenblatt wasn't satisfied with a simulation. He wanted to build the thing in metal.
 
-![The Mark I Perceptron -- 400 photocells, 512 association units, and electric motors that turned potentiometers to learn. Now in the Smithsonian. Photo: Smithsonian National Museum of American History.](/assets/images/Mark_I_Perceptron.jpg)
+![The Mark I Perceptron -- 400 photocells, 512 association units, and electric motors that turned potentiometers to learn. Now in the Smithsonian. Photo: U.S. Navy, 1960, via Wikimedia Commons (public domain).](/assets/images/Mark_I_Perceptron.jpg)
 
 The **Mark I Perceptron**, constructed in 1960 with funding from the Office of Naval Research, was an extraordinary object:
 
@@ -75,7 +75,7 @@ On July 7, 1958, the Office of Naval Research held a press conference in Washing
 
 **"NEW NAVY DEVICE LEARNS BY DOING: Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser"**
 
-![The New York Times coverage of the Perceptron, July 1958. The Navy's promise of a machine that could "walk, talk, see, write, reproduce itself and be conscious of its existence" would haunt AI for decades.](/assets/images/NYT_perceptron_1958.jpg)
+![The New York Times coverage of the Perceptron, July 1958. The Navy's promise of a machine that could "walk, talk, see, write, reproduce itself and be conscious of its existence" would haunt AI for decades. Source: *The New York Times*, July 8, 1958, p. 25 (fair use, historical documentation).](/assets/images/NYT_perceptron_1958.jpg)
 
 The Times reported the perceptron to be "the embryo of an electronic computer that the Navy expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."[^2]
 

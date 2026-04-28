@@ -67,7 +67,7 @@ But the most consequential thing Smagorinsky ever did was not a paper. It was a 
 
 ## The Village Doctor's Son
 
-![Syukuro "Suki" Manabe (born 1931). He left Japan for the United States in 1958, quantified the greenhouse effect in 1967, and won the Nobel Prize in Physics in 2021. Princeton University/Wikimedia.](/assets/images/Manabe_portrait.jpg)
+![Syukuro "Suki" Manabe (born 1931). He left Japan for the United States in 1958, quantified the greenhouse effect in 1967, and won the Nobel Prize in Physics in 2021. Photo: Japan Academy via Wikimedia Commons (CC BY 4.0).](/assets/images/Manabe_portrait.jpg)
 
 **Syukuro Manabe** was born on September 21, 1931, in Shinritsu Village, Ehime Prefecture, Japan. His grandfather and father were physicians who ran the village's only clinic. He was expected to follow the family tradition. He chose not to.
 

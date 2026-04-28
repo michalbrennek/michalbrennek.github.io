@@ -71,7 +71,7 @@ Win or fail. No middle ground.
 
 Construction began in February 1951, in IBM's **Poughkeepsie electronics laboratory**, housed in a former Kenyon Neckwear Company factory that IBM had taken over during World War II for munitions work. The third floor was given over to the Defense Calculator team. It started with a handful of engineers. Within a year it had 150.
 
-![The IBM 701 Electronic Data Processing Machine. Roughly 10 tons of vacuum tubes, Williams tubes, and magnetic drums, designed to fit through ordinary doors. Photo: IBM Archives via Wikimedia Commons.](/assets/images/IBM_701_frame.jpg)
+![The IBM 701 Electronic Data Processing Machine. Roughly 10 tons of vacuum tubes, Williams tubes, and magnetic drums, designed to fit through ordinary doors. Photo: IBM Archives via Wikimedia Commons (CC BY-SA 2.0).](/assets/images/IBM_701_frame.jpg)
 
 The chief architect was **Nathaniel Rochester** (1919-2001), an MIT-trained electrical engineer who had spent World War II at the MIT Rad Lab working on radar. He had joined IBM in 1948 and was, by all accounts, one of the most practical people in the building. Alongside him, **Jerrier Haddad** served as managing engineer, with **Ralph Palmer** overseeing the whole Poughkeepsie electronics operation. Rochester would design the arithmetic unit (for which he later received IBM's Outstanding Invention Award) and write the first symbolic assembler the machine ever had. Haddad kept the schedule, organized the team, and made sure the pieces fit together.
 
@@ -79,7 +79,7 @@ The machine they built was, for its time, enormous. Ten tons. 1071 vacuum tubes.
 
 For memory, the team chose **Williams tubes** -- cathode-ray tubes repurposed as electrostatic memory, each tube storing 1024 bits as patterns of charge on its phosphor face. Rochester's deputy Philip Fox had been studying Williams tubes since 1948, so IBM already had the in-house expertise. The final 706 Electrostatic Storage Unit held 72 Williams tubes of 3-inch diameter, giving the machine 2048 words of 36 bits -- about 9 kilobytes in modern terms. Memory cycle time was 12 microseconds. Every add instruction took five cycles, and two of them were pure refresh overhead to keep the Williams tube bits from fading away.
 
-![A Williams tube from an IBM 701. Each 3-inch CRT stored 1024 bits as patterns of charge on its phosphor face. 72 of these tubes together provided the 701's entire main memory: 2048 words, roughly 9 kilobytes. Photo: Computer History Museum via Wikimedia Commons.](/assets/images/Williams_tube.jpg)
+![A Williams tube from an IBM 701. Each 3-inch CRT stored 1024 bits as patterns of charge on its phosphor face. 72 of these tubes together provided the 701's entire main memory: 2048 words, roughly 9 kilobytes. Photo: Computer History Museum via Wikimedia Commons (CC BY-SA 3.0).](/assets/images/Williams_tube.jpg)
 
 **John von Neumann** -- whose Princeton IAS machine was the direct architectural ancestor of the 701 -- weighed in with one crucial piece of advice: add a magnetic drum for secondary storage. He had seen the I/O bottleneck on his own machine, and he knew the 701 would hit the same wall. IBM listened. The result was the **IBM 731 Magnetic Drum Reader/Recorder**, one of the first drum storage units in commercial computing.
 
@@ -269,7 +269,7 @@ Three years of bad forecasts. The Environmental Modeling Center history page is 
 
 What went wrong? Several things. The three-level quasi-geostrophic model was too crude a vertical discretization to capture the jet stream structure properly. Its quasi-geostrophic assumptions broke down near the equator, where the Coriolis parameter approaches zero -- the 500 mb forecast had a garbage "tropical belt" problem that contaminated the rest of the solution every run. There was no objective analysis until Cressman's 1959 paper introduced one; before then, the input fields were hand-drawn. And the IBM 701's **mean time between failures was about 30 minutes**. A single 24-hour forecast run often took longer than that, which meant the forecast failed mid-computation and had to be restarted. The operational cycle was a race against the 701's Williams tubes -- which were, by this point, nearing the end of their useful life as computer memory.
 
-![A close-up of an IBM 701 console and control panel. The operator at the console had to keep the Williams tube memory refreshed, watch for parity errors, and restart the forecast when the machine crashed -- which happened roughly every half hour. Photo: Wikimedia Commons.](/assets/images/IBM_701_console.jpg)
+![A close-up of an IBM 701 console and control panel. The operator at the console had to keep the Williams tube memory refreshed, watch for parity errors, and restart the forecast when the machine crashed -- which happened roughly every half hour. Photo: Wikimedia Commons (CC BY 2.0).](/assets/images/IBM_701_console.jpg)
 
 In 1957, the 701 was replaced at JNWPU by the **IBM 704** -- the same machine we have met elsewhere in this series, with its magnetic core memory, hardware floating-point, and 7-to-9-hour mean time between failures. With the 704, and with the improved barotropic model of 1958, JNWPU finally began producing forecasts that beat the human competition. By 1960, numerical weather prediction was consistently outperforming subjective forecasts at 72 hours.
 

@@ -17,7 +17,7 @@ It is February 15, 1946. The U.S. Army is unveiling ENIAC -- the Electronic Nume
 
 But there are women in the photograph, too. They are not posing. They are working -- manipulating cables, setting switches, interacting with the machine in ways that suggest they know exactly what they are doing. The caption does not name them.
 
-![Two of the ENIAC programmers at work on the machine. They are operating the function tables and programming cables that made ENIAC compute. For decades, nobody asked who they were. U.S. Army photograph.](/assets/images/ENIAC_women_programming.jpg)
+![Two of the ENIAC programmers at work on the machine. They are operating the function tables and programming cables that made ENIAC compute. For decades, nobody asked who they were. U.S. Army photograph, public domain.](/assets/images/ENIAC_women_programming.jpg)
 
 For nearly fifty years, nobody did ask.
 
@@ -55,7 +55,7 @@ She later married John Mauchly himself, ENIAC's co-creator, in 1948 -- "against 
 
 ### Betty Jean Jennings Bartik (1924-2011)
 
-![Jean Bartik at the ENIAC. She was 21 years old when she helped program the machine. She spent the rest of her life fighting for the story to be told. U.S. Army photograph.](/assets/images/Jean_Bartik_ENIAC.jpg)
+![Jean Bartik at the ENIAC. She was 21 years old when she helped program the machine. She spent the rest of her life fighting for the story to be told. U.S. Army photograph, public domain.](/assets/images/Jean_Bartik_ENIAC.jpg)
 
 Born December 27, 1924, in Alanthus Grove, Gentry County, Missouri. A farm girl. Sixth of seven children. She attended a one-room school and was known locally for her softball arm. She graduated from Northwest Missouri State Teachers College in 1945 with a B.S. in mathematics -- the **only mathematics graduate** in her entire class.
 
@@ -67,7 +67,7 @@ Bartik became the most vocal advocate for recognition. After ENIAC, she contribu
 
 <figure style="width: 200px" class="align-right">
   <img src="/assets/images/Betty_Holberton.jpg" alt="Betty Holberton at her desk">
-  <figcaption>Betty Holberton. She invented the breakpoint, designed the UNIVAC console, helped write the COBOL and FORTRAN standards, and changed the color of computers from black to gray-beige. Photo: U.S. Army.</figcaption>
+  <figcaption>Betty Holberton. She invented the breakpoint, designed the UNIVAC console, helped write the COBOL and FORTRAN standards, and changed the color of computers from black to gray-beige. Photo: U.S. Army, public domain.</figcaption>
 </figure>
 
 Born March 7, 1917, in Philadelphia. She studied journalism at the University of Pennsylvania because "its curriculum let her travel far afield."[^1] On her first day in a mathematics course, her professor asked whether she "wouldn't be better off at home raising children."[^1]

@@ -27,7 +27,7 @@ Today: the Polish voice. And I will tell you now that I am Polish, and this stor
 
 The **Enigma** was an electromechanical cipher machine that looked like a typewriter in a wooden box. You pressed a key, electric current flowed through a **plugboard** (which swapped pairs of letters), then through three (later four) rotating **wheels** that substituted each letter, then through a **reflector** that sent the current back through the wheels along a different path, and finally through the plugboard again. A lamp lit up showing the enciphered letter. Each key press advanced the rightmost wheel by one position, changing the substitution for the next letter. The number of possible configurations was astronomical -- on the order of 10^23 for the three-rotor military Enigma.
 
-![A military Enigma I machine with its plugboard cables visible at the front. The three rotors sit under the lid. Each rotor contained 26 contacts, and the plugboard added another layer of substitution. Photo: Museo Scienza e Tecnologia, Milan, via Wikimedia Commons.](/assets/images/Enigma_machine.jpg)
+![A military Enigma I machine with its plugboard cables visible at the front. The three rotors sit under the lid. Each rotor contained 26 contacts, and the plugboard added another layer of substitution. Photo: Museo Scienza e Tecnologia, Milan, via Wikimedia Commons (CC BY-SA 4.0).](/assets/images/Enigma_machine.jpg)
 
 The German military adopted Enigma in the late 1920s, believing it was unbreakable. Most Western cryptanalysts agreed. The machine was too complex, the keyspace too vast, the daily settings too ephemeral. Even if you cracked today's key, tomorrow's was completely different.
 
@@ -91,7 +91,7 @@ The Zygalski sheets were, in effect, a **physical algorithm**: a Boolean AND ope
 
 In October 1938, Rejewski designed something more ambitious: the **bomba kryptologiczna** -- an electromechanical device that automated the search for Enigma daily settings. Six replicas of the Enigma machine were wired together and driven by electric motors, cycling through the 17 576 possible positions of three rotors. Each bomba "took the place of some one hundred workers." Six were built by the AVA Radio Manufacturing Company in Warsaw.
 
-![A 3D reconstruction of the Polish bomba kryptologiczna. Six Enigma-replica rotor sets cycled through 17 576 positions automatically. The physical devices were destroyed before the German invasion. Image via Wikimedia Commons.](/assets/images/Bomba_Polish.jpg)
+![A 3D reconstruction of the Polish bomba kryptologiczna. Six Enigma-replica rotor sets cycled through 17 576 positions automatically. The physical devices were destroyed before the German invasion. Image: Szymon Pilecki and Szymon Dąbrowski, via Wikimedia Commons (CC BY-SA 4.0).](/assets/images/Bomba_Polish.jpg)
 
 The bomba was not a computer in the modern sense. It was a special-purpose electromechanical search engine. But it was a **precursor** to Turing's Bombe at Bletchley Park, which was directly inspired by the Polish device -- and named after it.
 
@@ -187,7 +187,7 @@ Why was the Polish contribution hidden for four decades?
 
 ## The Monument
 
-![The Enigma Codebreakers Monument in Poznan, unveiled in 2007. Three bronze pillars for three mathematicians. The inscription reads: "To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany." Photo: Wikimedia Commons.](/assets/images/Poznan_monument.jpg)
+![The Enigma Codebreakers Monument in Poznan, unveiled in 2007. Three bronze pillars for three mathematicians. The inscription reads: "To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany." Photo: Radomil via Wikimedia Commons (GFDL 1.2).](/assets/images/Poznan_monument.jpg)
 
 In 2007, a monument was unveiled in Poznan -- the city where three young mathematicians attended a secret cryptology course in 1929. Three bronze pillars, triangular in cross-section, each bearing the name of one of the three. The Poznan Enigma Cipher Centre now stands nearby, telling their story.
 
