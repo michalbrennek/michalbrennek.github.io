@@ -12,3 +12,12 @@
 .page {
   padding-left: 2em;
 }
+
+/* All post-body images: white background and a white frame.
+   Ensures transparent PNG/SVG schematics render legibly against the dark
+   skin, and gives every image a small visible margin from body text. */
+.page__content img {
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+}
