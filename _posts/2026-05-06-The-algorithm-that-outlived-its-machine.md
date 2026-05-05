@@ -28,7 +28,7 @@ This is the story of the machine that ran the algorithm; of the people who desig
 
 ## The Watson memo and the Jenny Lake retreat
 
-The story properly begins where the previous post left off: with **Thomas J. Watson Jr.**, chairman and chief executive of IBM, dictating his "thirty-four people including the janitor" memo on 28 August 1963 in response to the 22 August 1963 announcement of the CDC 6600. The memo asked, in its concluding sentence, why IBM with several thousand engineers had been beaten to the world's most powerful computer by a company in Wisconsin with a thirty-four-person engineering laboratory.[^4]
+Remember **Thomas J. Watson Jr.**'s "thirty-four people including the janitor" memo? IBM's chairman and chief executive dictated it on 28 August 1963, six days after Control Data Corporation announced the 6600, asking why IBM with several thousand engineers had been beaten to the world's most powerful computer by a thirty-four-person engineering laboratory in Wisconsin.[^4]
 
 The memo travelled inside IBM through early September 1963 and reached the company's annual senior-management retreat at Jenny Lake Wyoming during the second week of that month. The Jenny Lake meeting that year was unusually consequential. By the time the senior IBM executives flew home it had committed the corporation to two large architectural projects.
 
