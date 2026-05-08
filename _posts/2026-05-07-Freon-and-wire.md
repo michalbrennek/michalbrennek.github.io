@@ -1,9 +1,11 @@
 ---
 layout: single
-title: "Twelve Years on the Mesa"
+title: "Freon and Wire"
 date: 2026-05-07 08:00:00 +0100
 categories: [Weather, HPC, History]
-tags: [CDC, CDC7600, Cray, Davis, Norris, NCAR, Kasahara, Washington, LLNL, CERN, Mesa, Pipelining, Computing]
+tags: [CDC, CDC7600, Cray, Davis, Norris, NCAR, Kasahara, Washington, LLNL, CERN, Pipelining, Freon, Computing]
+redirect_from:
+  - /weather/hpc/history/2026/05/07/Twelve-years-on-the-mesa.html
 header:
   teaser: /assets/images/header-cdc7600.jpg
   overlay_image: /assets/images/header-cdc7600.jpg
