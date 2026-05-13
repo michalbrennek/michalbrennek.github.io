@@ -1,6 +1,3 @@
-<!--
-TITLE: "Thirty-Eight Years on the Sphere" -- chosen by author. Counts NCEP's spectral GFS operational run (1980 - 12 June 2019). Concrete and specific; the duration is the post's central claim.
--->
 ---
 layout: single
 title: "Thirty-Eight Years on the Sphere"
