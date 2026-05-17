@@ -52,7 +52,7 @@ The T52 was not the Enigma. It was **worse**.
 
 The Enigma was a portable, manual cipher machine -- an operator typed a letter, a lamp lit up, you wrote down the encrypted letter. Three or four rotors, a plugboard. Complex, but fundamentally a souped-up substitution cipher.
 
-The T52 was an **online teleprinter cipher**. It encrypted messages automatically during transmission at roughly 66 words per minute. It used **ten cipher wheels** (not three), each with a different coprime number of pins (from 47 to 73), creating a total keyspace of approximately **893 quadrillion** -- close to 10^18 -- combinations. The encryption operated in two stages: first an XOR substitution, then a conditional transposition of bit pairs controlled by a plugboard. This two-stage process meant that even knowing the plaintext didn't directly reveal the key. Later T52d/T52e variants (introduced from 1942) added irregular wheel stepping that pushed the keyspace to roughly **10^27** -- and Beurling never tackled those; Bletchley Park failed to break them either.
+The T52 was an **online teleprinter cipher**. It encrypted messages automatically during transmission at roughly 66 words per minute. It used **ten cipher wheels** (not three), each with a different coprime number of pins (from 47 to 73), creating a total keyspace of approximately **893 quadrillion** -- close to 10^18 -- combinations. The encryption operated in two stages: first an XOR substitution, then a conditional transposition of bit pairs controlled by a plugboard. This two-stage process meant that even knowing the plaintext didn't directly reveal the key. Later variants -- T52c in July 1942, T52d in 1943, T52e in late 1944 -- added irregular wheel stepping that pushed the keyspace to roughly **10^27**. Beurling never tackled those; Bletchley Park first cracked T52d only in June 1944 ("Halibut"), and never broke T52e at all.
 
 The British codenamed it **"Sturgeon."** Bletchley Park would struggle with it for years.
 
@@ -106,7 +106,7 @@ The intelligence was extraordinary. In the spring of 1941, Sweden became **the f
 
 FRA -- the Försvarets radioanstalt, formally established on 1 July 1942 -- built an entire operational infrastructure around Beurling's breakthrough. And when the T52 was upgraded to more secure versions (the T52c, T52ca, T52d), Swedish cryptanalysts -- building on Beurling's foundation -- cracked several of these too. In **April 1943**, FRA even broke the **Lorenz SZ40** -- the same family of cipher that Bletchley Park needed Colossus to crack.
 
-The secret eventually leaked through two channels -- a Soviet agent named Allan Nyblad, and a Finnish colonel named Stewen who told the Germans. FRA intercepted a German message that read, with chilling clarity: **"These messages are decrypted in Sweden."**[^4] By late 1943, the Germans had changed their methods and the window closed.
+The secret eventually leaked through two channels -- a Soviet agent named Allan Nyblad, and a Finnish colonel named Stewen who told the Germans. FRA intercepted a German message that read, with chilling clarity: **"These messages are decrypted in Sweden."**[^4] By mid-1943, the Germans had upgraded the machine beyond Swedish reach and the window closed.
 
 But Beurling himself was not there to see the end of it. In spring 1942, his explosive temperament caught up with him. Conflicts with FRA management led to his dismissal from the code-breaking effort. The magician was shown the door.
 
@@ -126,11 +126,11 @@ The Polish codebreakers -- Rejewski, Różycki, Zygalski -- and the price they p
 
 After his dismissal from FRA, Beurling continued his mathematical career at Uppsala. In 1948-49 he was a visiting professor at Harvard. Then, in 1954, the Institute for Advanced Study at Princeton offered him a permanent professorship.
 
-He accepted. He moved to New Jersey. And eventually, he moved into **Albert Einstein's former office -- Room 115**.
+He accepted. He moved to New Jersey. And eventually, he moved into **Albert Einstein's former office**.
 
 Think about that for a moment. The man who cracked the Geheimschreiber with a pencil, sitting in the office where Einstein had worked out general relativity. Two minds that saw the world differently from everyone else, separated by a generation, connected by a room.
 
-At Princeton, Beurling continued his mathematical work -- the deep, structural kind that few people in the world could follow. With **Paul Malliavin** during 1960-61, he proved the **Beurling-Malliavin theorem**, solving a problem in harmonic analysis that had resisted decades of attack. Malliavin described their working method: "We devoted half of the academic year to this problem; very often I stayed at Beurling's house for a full night of cooperative work."[^5] Karin Beurling, Arne's second wife -- herself a distinguished biochemist -- prepared meals during these marathon sessions. The result has been called "one of the most celebrated results of 20th-century harmonic analysis."[^5]
+At Princeton, Beurling continued his mathematical work -- the deep, structural kind that few people in the world could follow. With **Paul Malliavin** during 1960-61, he proved the **Beurling-Malliavin theorem**, solving a problem in harmonic analysis that had resisted decades of attack. Malliavin described their working method: "We devoted half of the academic year to this problem; very often I stayed at Beurling's house for a full night of cooperative work."[^5] Karin Beurling, Arne's second wife -- herself an accomplished Uppsala PhD who worked in a biochemistry lab at Princeton -- prepared meals during these marathon sessions. The result has been called "one of the most celebrated results of 20th-century harmonic analysis."[^5]
 
 Beurling never returned to cryptography. He never needed to. His mathematical legacy -- the Beurling-Lax theorem on invariant subspaces, Beurling generalized primes, the Beurling-Ahlfors theorem on quasiconformal mappings, the Dirichlet spaces theory with Deny -- was more than enough for one lifetime. Malliavin offered a paradox about Beurling's approach: though he always started with "hard concrete problems" and sought "elementary and transparent" proofs, he repeatedly uncovered "basic general principles of universal applicability."[^5] The man who refused to generalize kept discovering the general.
 
@@ -219,7 +219,7 @@ Some magicians are forgotten. Some are remembered too late. And some -- like Beu
 - The Geheimschreiber: Cracked in two weeks. With a pencil. By one man.
 - The Enigma: Cracked by three Polish mathematicians in 1932. That story is coming.
 - Bletchley Park: Built Colossus and the Bombe. Got all the credit. As usual.
-- The magician: Died in Einstein's office. Room 115. Still not explaining how he did it.
+- The magician: Died in Einstein's office. Still not explaining how he did it.
 - My cluster: Still can't crack anything. But it runs weather models. And that's Beurling's fault too.
 
 Yours Truly
