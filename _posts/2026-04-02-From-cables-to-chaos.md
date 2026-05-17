@@ -22,9 +22,9 @@ Today: the four machines. What each one added to the world. What science it made
 | | ENIAC (1945) | IAS Machine (1952) | IBM 704 (1955) | LGP-30 (1956) |
 |---|---|---|---|---|
 | **Weight** | 30 tons | ~1 ton | ~10 tons | 800 lbs |
-| **Vacuum tubes** | 17 468 | ~3 400 | ~4 000 | **113** |
+| **Vacuum tubes** | 17 468 | ~2 000 | ~4 000 | **113** |
 | **Memory** | 20 numbers | ~5 KB | ~144 KB | ~16 KB |
-| **Speed** | ~5 000 add/s | ~24 000 add/s | ~40 000 add/s | ~60 add/s |
+| **Speed** | ~5 000 add/s | ~16 000 add/s | ~40 000 add/s | ~60 add/s |
 | **Cost** | ~$500K | ~$800K | ~$2M+ | **$47K** |
 | **Programming** | Rewiring cables | Machine code (hex) | **FORTRAN** | Machine code |
 | **Operator** | Team of specialists | Research group | Computing center | **One scientist** |
@@ -78,7 +78,7 @@ The H-bomb calculation ran for several weeks and consumed about a million punch 
 
 Then came **Monte Carlo methods**. Stan Ulam, recovering from encephalitis in 1946, had the insight that random sampling could solve problems in neutron diffusion (how neutrons bounce around inside a nuclear weapon). He and Metropolis implemented it on the ENIAC. The method was named "Monte Carlo" after the casino, because Ulam's uncle had a gambling habit. It is now one of the most widely used computational techniques in all of science -- from particle physics to financial modeling to weather ensemble forecasting. Readers who have followed this series will recognize ensemble forecasting as [Lorenz's legacy](/weather/hpc/history/2026/03/31/The-butterfly-that-broke-the-forecast.html) made operational.
 
-And then came the weather. In March 1950, readers of this series already know what happened: [Charney, Fjortoft, and their team](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) spent 33 days and nights at Aberdeen Proving Ground, cycling through 14 punch-card operations per time step, punching roughly 100 000 IBM cards, to produce the first numerical weather forecast. A 24-hour forecast in 24 hours. The barotropic vorticity equation, on a 19 x 16 grid, at 736 km spacing.
+And then came the weather. In March 1950, readers of this series already know what happened: [Charney, Fjortoft, and their team](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) spent 33 days and nights at Aberdeen Proving Ground, cycling through 14 punch-card operations per time step, punching roughly 100 000 IBM cards, to produce the first numerical weather forecast. A 24-hour forecast in 24 hours. The barotropic vorticity equation, on a 15 x 18 grid (270 points), at 736 km spacing.
 
 The actual ENIAC programming for the weather forecast was done by **Klara Dan von Neumann** -- John von Neumann's wife, a mathematician in her own right who had learned to code the ENIAC and checked the final program. Without her, the 100 000 punch cards would not have been in the right order.
 
@@ -114,7 +114,7 @@ Before the IAS machine, there was the **EDVAC** -- the Electronic Discrete Varia
 
 Von Neumann laid out the EDVAC's design in his famous "First Draft of a Report on the EDVAC" (June 1945) -- the document that introduced the stored-program concept to the world. But here's the irony: EDVAC itself was **plagued by delays**. Eckert and Mauchly left the Moore School in March 1946, bitter over patent disputes with von Neumann. The remaining team struggled. Construction dragged on for years.
 
-EDVAC's memory was another innovation: **mercury delay lines**. The idea was almost absurdly physical -- electrical signals were converted to sound pulses, sent through a tube filled with liquid mercury, received at the other end, converted back to electrical signals, and recirculated in a loop. Data literally traveled as sound waves through heavy metal. Each tube was about five feet long and held roughly 1 000 bits. It worked, but it was slow (serial access only) and required precise temperature control -- the speed of sound in mercury changes with temperature.
+EDVAC's memory was another innovation: **mercury delay lines**. The idea was almost absurdly physical -- electrical signals were converted to sound pulses, sent through a tube filled with liquid mercury, received at the other end, converted back to electrical signals, and recirculated in a loop. Data literally traveled as sound waves through heavy metal. Each tube was about five feet long and held eight 44-bit words -- roughly 384 bits. With 128 such tanks, EDVAC had its full 1 024 words of memory. It worked, but it was slow (serial access only) and required precise temperature control -- the speed of sound in mercury changes with temperature.
 
 By the time EDVAC finally became operational at Aberdeen in **1951**, other machines inspired by its design had already beaten it into service. Most famously, **EDSAC** at Cambridge University (built by Maurice Wilkes) ran its first program on **May 6, 1949** -- becoming the first practical stored-program computer in the world. Wilkes had attended the Moore School Lectures in the summer of 1946, gone home to England, and built his own version faster than the original team could finish theirs.
 
@@ -182,7 +182,7 @@ I've told that story already. What I haven't told you is how the machine's limit
 
 Phillips' entire model -- the atmospheric state, the program code, everything -- had to fit in 1 024 words of memory. His atmosphere was described by roughly 500 numbers. The program occupied the rest. There was **no room** for a more complex model even if he had wanted one. The two-layer, 17 x 16 grid wasn't just a scientific choice. It was the maximum the hardware could hold.
 
-The IAS machine's drum memory (an auxiliary storage device, slower than the Williams tubes but more reliable) held 2 048 words initially, later upgraded to 16 384. Phillips used it for intermediate results that wouldn't fit in main memory. Every drum access meant waiting for the cylinder to rotate to the right position -- slowing the calculation by orders of magnitude compared to a pure Williams-tube computation.
+The IAS machine's drum memory (an auxiliary storage device, slower than the Williams tubes but more reliable) held 2 048 words initially, later upgraded to about 12 000 words. Phillips used it for intermediate results that wouldn't fit in main memory. Every drum access meant waiting for the cylinder to rotate to the right position -- slowing the calculation by orders of magnitude compared to a pure Williams-tube computation.
 
 The 31 simulated days of Phillips' experiment took **11 to 12 hours** on the IAS machine.
 
@@ -236,7 +236,7 @@ In the early 1950s, a question hung over the computing world: was this a curiosi
 
 IBM answered it.
 
-The **IBM 701**, announced in April 1952 and delivered from December of that year, was IBM's first commercial scientific computer. It was designed under **Nathaniel Rochester**, who had previously designed radar systems at MIT. The 701 used electrostatic memory (Williams tubes, like the IAS machine) and could perform about 16 000 additions per second. It cost roughly $15 000 per month to rent -- IBM didn't sell, they leased -- and it was built to a production standard. If something broke, IBM sent a technician. If you needed a manual, IBM printed one.
+The **IBM 701**, announced on May 21, 1952 and delivered from December of that year, was IBM's first commercial scientific computer. It was designed under **Nathaniel Rochester**, who had previously designed radar systems at MIT. The 701 used electrostatic memory (Williams tubes, like the IAS machine) and could perform about 16 000 additions per second. It cost roughly $15 000 per month to rent -- IBM didn't sell, they leased -- and it was built to a production standard. If something broke, IBM sent a technician. If you needed a manual, IBM printed one.
 
 IBM expected to sell five units. They got **eighteen orders**. (This is the real story behind the famous misquote "I think there is a world market for maybe five computers," which I've [debunked before](/hpc/raspberry-pi/weather/3d-printing/2026/01/10/Chasing-the-spin.html).)
 
@@ -482,7 +482,7 @@ And the unnamed women -- the six ENIAC programmers, the core rope threaders, the
 
 The progression is staggering.
 
-In 1945, predicting the weather required a machine that weighed **30 tons**, consumed enough power to light a neighborhood, and needed a team of specialists to operate. The forecast took 24 hours to compute 24 hours ahead. One forecast. One level of the atmosphere. 19 x 16 grid points. Barely keeping pace with the weather.
+In 1945, predicting the weather required a machine that weighed **30 tons**, consumed enough power to light a neighborhood, and needed a team of specialists to operate. The forecast took 24 hours to compute 24 hours ahead. One forecast. One level of the atmosphere. 15 x 18 grid points. Barely keeping pace with the weather.
 
 In 1956 -- eleven years later -- a quiet man sat at an **800-pound desk** plugged into a wall outlet, watched numbers clack out one line per minute, and discovered that weather prediction has a mathematical ceiling that no amount of computing power will ever break through.
 
