@@ -44,10 +44,10 @@ Here are the specs. Try not to laugh.
 - **Internal memory**: 1,024 words of 40 binary digits each - approximately **5 kilobytes of RAM**
 - **Drum memory**: 2,048 words - approximately **10 kilobytes** (later upgraded to 12,288 words)
 - **Add time**: 62 microseconds
-- **Multiply time**: 700 microseconds
+- **Multiply time**: 713 microseconds
 - **Speed**: roughly 16,000 additions per second
-- **Construction**: about 2,300 vacuum tubes (logic plus memory drivers) and several thousand diodes; 40 Williams cathode-ray tubes for memory
-- **Power consumption**: 61 kilowatts
+- **Construction**: about 1,700 vacuum tubes in the logic core (~2,000 including all subsystems and memory drivers); 40 Williams cathode-ray tubes for memory, plus 1 monitoring CRT
+- **Power consumption**: tens of kilowatts
 
 For context: the phone in your pocket has **millions of times** more memory. A cheap USB stick from a gas station has more storage. A modern smartwatch could run circles around this thing. Your Wi-Fi router probably has more computing power.
 
