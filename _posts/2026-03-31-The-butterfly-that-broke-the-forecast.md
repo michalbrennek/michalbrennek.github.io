@@ -63,6 +63,14 @@ But that 800-pound desk changed science forever.
 
 Every minute, it would clack out a line of numbers on its Flexowriter printer - a row of digits representing the predicted evolving weather pattern. Different from the previous line. Different from the one before that. The weather, computing itself forward in time, at 60 operations per second.
 
+### The People at the Keyboard
+
+Lorenz did not run the LGP-30 alone. Two women programmed the machine for him -- and for decades they were uncredited.
+
+**Margaret Hamilton** arrived at MIT in summer 1959 with a fresh math degree from Earlham and zero programming experience. She wrote and debugged Lorenz's code, sometimes editing binary instructions on paper tape with a pencil. (She would later lead the flight software for Apollo at MIT Draper Lab. Yes, that Margaret Hamilton.) In summer 1961 she trained her replacement, **Ellen Fetter** of Mount Holyoke. It was Fetter, almost certainly, who typed in the truncated numbers on the day Lorenz discovered chaos. She also produced the first hand-plotted figures of the strange attractor.
+
+Asked late in life what their role would be called today, Lorenz answered without hesitation: "Every one of them would say that if this were going on today... they'd be a co-author!"
+
 ### The Cup of Coffee
 
 Winter 1961. Lorenz's office at MIT.
@@ -131,7 +139,7 @@ The climate is the shape. The weather is the path. The butterfly wings are the b
 
 Here is a fact that surprised me: **Lorenz did not coin the phrase "butterfly effect."**
 
-His original metaphor was a **seagull**. In a 1963 paper for the New York Academy of Sciences, he wrote:
+His original metaphor was a **seagull**. In his 1963 paper "The mechanics of vacillation" in the *Journal of the Atmospheric Sciences*, he wrote:
 
 > "One meteorologist remarked that if the theory were correct, one flap of a sea gull's wings would be enough to alter the course of the weather forever. The controversy has not yet been settled, but the most recent evidence seems to favor the sea gulls."[^5]
 
@@ -239,7 +247,7 @@ All of it - from 0.506 to 0.506127.
 [^2]: Emanuel, K. (2008). Edward Norton Lorenz 1917-2008. *National Academy of Sciences Biographical Memoir*. [NAS](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/lorenz-edward.pdf). Source for Lorenz's autobiographical remarks and Charney's characterization.
 [^3]: Lorenz, E. N. (1963). Deterministic Nonperiodic Flow. *Journal of the Atmospheric Sciences*, 20(2), 130-141. [AMS](https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml).
 [^4]: Lorenz, E. N. (1993). *The Essence of Chaos*. University of Washington Press. [Publisher](https://uwapress.uw.edu/book/9780295975146/the-essence-of-chaos/).
-[^5]: Lorenz, E. N. (1963). The predictability of hydrodynamic flow. *Transactions of the New York Academy of Sciences*, Series II, 25(4), 409-432.
+[^5]: Lorenz, E. N. (1963). The mechanics of vacillation. *Journal of the Atmospheric Sciences*, 20(4), 448-464. The seagull line is on p. 461. [AMS](https://journals.ametsoc.org/view/journals/atsc/20/5/1520-0469_1963_020_0448_tmov_2_0_co_2.xml)
 [^6]: Hilborn, R. C. (2004). Sea gulls, butterflies, and grasshoppers: A brief history of the butterfly effect in nonlinear dynamics. *American Journal of Physics*, 72(4), 425-427.
 [^7]: Lorenz, E. N. (1972). Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas? 139th AAAS meeting; reprinted as Appendix 1 of Lorenz (1993). [PDF at MIT](http://eaps4.mit.edu/research/Lorenz/Butterfly_1972.pdf).
 
