@@ -58,10 +58,10 @@ That is the Richardson number. It tells you who is winning.
 
 In 1920, Richardson published this in *Proceedings of the Royal Society of London* in a paper titled "The Supply of Energy from and to Atmospheric Eddies" (Richardson, 1920). He had extended Osborne Reynolds' earlier work on turbulence to account for the gravitational effects of a heated atmosphere.
 
-The key result - confirmed independently by Miles (1961) and Howard (1961) decades later - comes down to a single threshold:
+The key result -- given rigorous mathematical proof by Miles (1961) and Howard (1961) decades later as the Miles-Howard theorem -- comes down to a single threshold:
 
-- **Ri > 0.25** - Stability wins. Buoyancy suppresses the shear. The atmosphere stays calm. Smooth ride.
-- **Ri < 0.25** - Shear wins. The atmosphere tears itself apart. Turbulence.
+- **Ri > 0.25** -- Stability wins. Buoyancy suppresses the shear. The atmosphere stays calm. Smooth ride.
+- **Ri < 0.25** -- Shear can win. The atmosphere can tear itself apart. Turbulence becomes possible.
 
 That is it. One number. One threshold. It doesn't matter whether you are looking at a kitchen pot, a jet stream over the Atlantic, or a deep ocean current. **Below 0.25, things get violent.**
 
@@ -101,7 +101,7 @@ And now his own mathematics - his elegant theory of how particles diffuse throug
 
 Richardson's response was absolute.
 
-He **destroyed his unpublished findings** on atmospheric diffusion. Burned them. Not shelved, not classified, not handed off to someone else. Destroyed. He then resigned from the Meteorological Office in 1920, when it was absorbed into the Air Ministry - the military branch that controlled the Royal Air Force. As he wrote to the Norwegian meteorologist Vilhelm Bjerknes: **"I do not like preparations for war"**.[^4] Yes, *that* Bjerknes - the same man whose published observations Richardson used for his 1910 forecast on the pile of hay, and the father of the Bergen School of Meteorology that gave us the very concept of weather "fronts." The farewell letter went to the one colleague who understood exactly what Richardson was giving up.
+He **destroyed his unpublished findings** on atmospheric diffusion. Burned them. Not shelved, not classified, not handed off to someone else. Destroyed. He then resigned from the Meteorological Office in 1920, when it was absorbed into the Air Ministry - the military branch that controlled the Royal Air Force. Reflecting later on his resignation, Richardson said he "did not like preparations for war."[^4] His pacifism would not allow him to work under military auspices, and one of the colleagues he reached out to in this period was the Norwegian meteorologist Vilhelm Bjerknes -- yes, *that* Bjerknes, the same man whose published observations Richardson used for his 1910 forecast on the pile of hay, and the father of the Bergen School of Meteorology, whose researchers gave us the very concept of weather "fronts."
 
 His most cited paper to this day - "Atmospheric Diffusion" (1926), with over a thousand citations - was work he had already completed before the realization. Everything that came after it, he burned.
 
@@ -139,7 +139,7 @@ And he organized them the way a geologist organizes earthquakes: **on a logarith
 - **Magnitude 5:** A major war (~100,000 deaths)
 - **Magnitude 7:** A world war (~10,000,000 deaths)
 
-His philosophy, as David Berreby put it in *Nautilus*, was that "counting is an antiseptic against prejudice."[^3] Richardson deliberately ignored who was a "terrorist" and who was a "freedom fighter." He ignored whether a military action was "justified." He ignored ideology entirely.
+"Counting is an antiseptic against prejudice," Richardson said.[^3] He deliberately ignored who was a "terrorist" and who was a "freedom fighter." He ignored whether a military action was "justified." He ignored ideology entirely.
 
 He simply counted the dead.
 
@@ -183,7 +183,7 @@ Today, the Richardson number keeps pilots safe at 35,000 feet. His arms race equ
 
 And his poem about whirls is still, after more than a century, the most beautiful two-sentence summary of turbulence ever written.
 
-Richardson died quietly in his sleep on September 30, 1953, in Kilmun, Scotland. One year before the first operational computer weather forecast. He never saw either of his dreams come true - neither the numerical weather prediction nor the mathematical science of peace.
+Richardson died quietly in his sleep on September 30, 1953, in Kilmun, Scotland. Eighteen months before the Joint Numerical Weather Prediction Unit produced its first operational forecast in May 1955.[^6] He never saw either of his dreams come true -- neither the numerical weather prediction nor the mathematical science of peace.
 
 But both are running, right now, as you read this.
 
@@ -196,9 +196,11 @@ But both are running, right now, as you read this.
 
 [^3]: Berreby, D. (2014). Cloudy With a Chance of War. *Nautilus*, Issue 15. [nautil.us](https://nautil.us/cloudy-with-a-chance-of-war-234998).
 
-[^4]: Gleditsch, N. P., ed. (2020). *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences.* Springer. [Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4).
+[^4]: Paraphrased from biographical material in Gleditsch, N. P., ed. (2020), *Lewis Fry Richardson: His Intellectual Legacy and Influence in the Social Sciences*, Springer ([Open Access CC BY 4.0](https://doi.org/10.1007/978-3-030-31589-4)), and Ashford, O. M. (1985), *Prophet -- Or Professor? The Life and Work of Lewis Fry Richardson*, Adam Hilger. The exact wording and recipient are not consistently sourced across the literature.
 
 [^5]: Richardson, L. F. (1960). *Statistics of Deadly Quarrels.* Ed. Q. Wright & C. C. Lienau. Boxwood Press.
+
+[^6]: The Joint Numerical Weather Prediction Unit (US Weather Bureau, Air Force, Navy) issued its first operational numerical forecast on 15 May 1955. See Harper, K. C. (2008). *Weather by the Numbers*. MIT Press.
 
 ---
 
@@ -218,6 +220,7 @@ But both are running, right now, as you read this.
 * SKYbrary Aviation Safety. [Richardson Number](https://skybrary.aero/articles/richardson-number)
 * NOAA Aviation Weather Center. [Graphical Turbulence Guidance](https://aviationweather.gov/gfa/)
 * Miles, J. W. (1961). On the stability of heterogeneous shear flows. *J. Fluid Mech.*, 10, 496-508. [DOI](https://doi.org/10.1017/S0022112061000305)
+* Howard, L. N. (1961). Note on a paper of John W. Miles. *J. Fluid Mech.*, 10, 509-512. [DOI](https://doi.org/10.1017/S0022112061000317)
 * MacTutor History of Mathematics. [Lewis Fry Richardson](https://mathshistory.st-andrews.ac.uk/Biographies/Richardson/)
 
 ---
