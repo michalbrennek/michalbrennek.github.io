@@ -145,8 +145,8 @@ including history, physics, and geology." Graduated 1938.
 **Harvard University, AM in Mathematics (1938-1940).** Entered the Harvard
 maths graduate school in 1938 "delighting in being able to focus exclusively
 on math." Studied group theory, set theory, combinatorial topology under
-Saunders Mac Lane, Marshall Stone, and James Van Vleck (the last later a
-Nobel laureate in physics). His master's thesis advisor was **George
+Saunders Mac Lane, Marshall Stone, and John Hasbrouck Van Vleck (the last later a
+1977 Nobel laureate in physics). [Verified 2026-05-17: Emanuel's 2011 NAS Biographical Memoir of Lorenz writes "James Van Vleck" -- this is an error in the primary source; the 1977 Nobel laureate is John H. Van Vleck.] His master's thesis advisor was **George
 Birkhoff**, the eminent mathematician best known for his proof of
 Poincaré's Last Geometric Theorem. The thesis itself was not on dynamical
 systems but on a problem in Riemannian geometry. AM awarded 1940.
