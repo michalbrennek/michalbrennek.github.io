@@ -112,7 +112,7 @@ Charney was characteristically understated in his later interview with Platzman:
 
 And then came the quote that gives me chills every time I read it. Addressing the National Academy of Sciences in 1955, Charney said:
 
-> "It mattered little that the twenty-four-hour prediction was twenty-four hours in the making. That was purely a technological problem. Two years later we were able to make the same prediction on our own machine in five minutes."[^1]
+> "It mattered little that the twenty-four-hour prediction was twenty-four hours in the making. That was purely a technological problem. Two years later we were able to make the same prediction on our own machine in five minutes."[^9]
 
 **Purely a technological problem.** Five words that contain the entire trajectory of HPC for the next 75 years. He knew. He absolutely knew that the speed issue would solve itself. What mattered was that the method worked.
 
@@ -170,9 +170,9 @@ One more thing about Charney the person, because the science doesn't exist witho
 
 He was, by all accounts, extraordinary at poker. A colleague recalled him as "the only scientist who could play poker nightly with the ship's crew, win their money consistently, and never engender the slightest ill will."[^1] His lectures were reportedly halting - but his mentorship was legendary. Richard Goody said at his memorial: "As a teacher Jule molded the thoughts of several generations of students. We shall be completing his thoughts and building upon them for a long time to come."[^1]
 
-He co-founded the Universities National Antiwar Fund in 1970 after the Cambodia invasion and Kent State, raising roughly $250,000 for antiwar candidates. He organized **GARP** - the Global Atmospheric Research Program - "the most ambitious international effort in weather research ever undertaken."[^1] He proposed the **Charney hypothesis** for Sahel desertification - a feedback loop where vegetation loss increases surface reflectivity, which reduces rainfall, which kills more vegetation.
+He co-founded the Universities National Antiwar Fund in 1970 after the Cambodia invasion and Kent State, raising roughly $250,000 for antiwar candidates. He organized **GARP** -- the Global Atmospheric Research Program -- and led the National Academy of Sciences committee that planned the first global weather observing experiment. He proposed the **Charney hypothesis** for Sahel desertification -- a feedback loop where vegetation loss increases surface reflectivity, which reduces rainfall, which kills more vegetation.
 
-He died of lung cancer on June 16, 1981, at age 64. Both the American Meteorological Society's Jule Charney Medal and the American Geophysical Union's Jule Charney Lecture bear his name. The AGU's citation from 1976 reads: Charney "guided the postwar evolution of modern meteorology more than any other living figure."[^1]
+He died of lung cancer on June 16, 1981, at age 64. Both the American Meteorological Society's Jule Charney Medal and the American Geophysical Union's Jule Charney Lecture bear his name. The AGU's citation from 1976 reads: Charney "guided the postwar evolution of modern meteorology more than any other living figure."[^10]
 
 A garment worker's son who found a calculus book at 14. Who filtered the noise from the equations. Who led the team that made the first computer weather forecast work. Who wrote 22 pages in 1979 that told us exactly what CO2 would do to the planet.
 
@@ -188,7 +188,9 @@ And we're still catching up.
 [^5]: Charney, J. G., Fjortoft, R. & von Neumann, J. (1950). Numerical integration of the barotropic vorticity equation. *Tellus*, 2, 237-254. [PDF](https://maths.ucd.ie/~plynch/eniac/CFvN-1950.pdf).
 [^6]: Platzman, G. W. (1990). Charney's Recollections (interview with Jule Charney). In *The Atmosphere -- a Challenge: The Science of Jule Gregory Charney*, R. S. Lindzen, E. N. Lorenz & G. W. Platzman, Eds., American Meteorological Society, 11-82.
 [^7]: Charney, J. G. et al. (1979). *Carbon Dioxide and Climate: A Scientific Assessment*. National Academy of Sciences, 22 pp. [PDF](https://geosci.uchicago.edu/~archer/warming_papers/charney.1979.report.pdf).
-[^8]: Manabe, S. (2022). Nobel Prize interview, as recounted in: Somerville, R. C. J. (2019), "The Charney Report: 40 Years Ago, Scientists Accurately Predicted Climate Change," Phys.org. [Link](https://phys.org/news/2019-07-charney-years-scientists-accurately-climate.html).
+[^8]: As quoted in Wikipedia, "Climate sensitivity," citing Manabe's 2004 retrospective: "Charney chose 0.5 deg C as a reasonable margin of error, subtracted it from Manabe's number, and added it to Hansen's." See [https://en.wikipedia.org/wiki/Climate_sensitivity](https://en.wikipedia.org/wiki/Climate_sensitivity).
+[^9]: Charney, J. G. (1955), address to the National Academy of Sciences, as quoted in Lynch (2008), "The ENIAC Forecasts: A Re-creation," *Bull. Amer. Meteor. Soc.*, 89, 45-55.
+[^10]: American Geophysical Union, William Bowie Medal citation (1976), as preserved in Anonymous (1979), *EOS Trans. AGU*, 60, 539. See also the [AGU William Bowie Medal honors archive](https://en.wikipedia.org/wiki/William_Bowie_Medal).
 
 ---
 
