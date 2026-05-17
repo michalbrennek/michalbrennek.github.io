@@ -59,7 +59,7 @@ He called this invariant the **"characteristic"** (charakterystyka).
 
 There was one more piece he needed: the wiring of the rotors themselves. This is where intelligence came in. **Gustave Bertrand**, a French military intelligence officer, had been receiving Enigma documents from **Hans-Thilo Schmidt**, a German spy codenamed "Asche" who worked in the German cipher office. Schmidt had been selling secrets to the French since 1931, motivated by resentment and debts. Bertrand passed Schmidt's documents -- operating manuals, monthly key tables for September and October 1932 -- to the Poles.
 
-Armed with the permutation theory and Schmidt's documents, Rejewski made one final assumption: that the military Enigma's entry drum was wired in simple alphabetical order (ABCDEFG...). This seemed too obvious. Dilly Knox at the British Government Code and Cypher School had considered and rejected the same possibility. As Knox's colleague Peter Twinn later said: "It was such an obvious thing to do, rather a silly thing to do, that nobody -- not Dilly Knox or Tony Kendrick or Alan Turing -- ever thought it worthwhile trying."[^1]
+Armed with the permutation theory and Schmidt's documents, Rejewski made one final assumption: that the military Enigma's entry drum was wired in simple alphabetical order (ABCDEFG...). This seemed too obvious. Dilly Knox at the British Government Code and Cypher School had considered and rejected the same possibility. As Knox's colleague Peter Twinn later said: "It was such an obvious thing to do, really a silly thing to do, that nobody -- not Dilly Knox or Tony Kendrick or Alan Turing -- ever thought it worthwhile trying."[^1]
 
 Rejewski tried it. It worked.
 
@@ -115,7 +115,7 @@ Gordon Welchman, who would build Bletchley Park's Hut 6 Ultra operation, wrote l
 
 The RUSI described the Pyry disclosure as "the most consequential intelligence-sharing arrangement of World War Two."[^6]
 
-Alan Turing visited the Polish cryptologists at PC Bruno in France in January 1940, bringing completed sets of Zygalski sheets. On January 17, 1940, the Poles made the first break into wartime Enigma traffic. Turing's Bombe -- the electromechanical device that would break Enigma at industrial scale -- was developed from the Polish bomba and took its name from the Polish original. But Turing's key innovation was a change of method: where the Polish bomba had exploited the indicator repetition procedure (the Germans' habit of enciphering the message key twice), Turing's Bombe used **cribs** -- guesses of known plaintext phrases like "WETTERVORHERSAGE" (weather forecast). This made it robust against the procedural changes that had killed the Polish bomba in 1938. Gordon Welchman then added the **diagonal board**, which exploited the reciprocal property of the plugboard and dramatically reduced false stops. More than 340 Bombes were eventually built -- 211 British and 131 American. The Polish foundation made Bletchley Park possible.
+Alan Turing visited the Polish cryptologists at PC Bruno in France in January 1940, bringing completed sets of Zygalski sheets. On January 17, 1940, the Poles made the first break into wartime Enigma traffic. Turing's Bombe -- the electromechanical device that would break Enigma at industrial scale -- was developed from the Polish bomba and took its name from the Polish original. But Turing's key innovation was a change of method: where the Polish bomba had exploited the indicator repetition procedure (the Germans' habit of enciphering the message key twice), Turing's Bombe used **cribs** -- guesses of known plaintext phrases like the daily weather report ("WETTERBERICHT") or the predictable opening "AN X." This made it robust against the procedural changes that had killed the Polish bomba in 1938. Gordon Welchman then added the **diagonal board**, which exploited the reciprocal property of the plugboard and dramatically reduced false stops. Approximately 340 Bombes were eventually built -- 211 British and 121 American (US Navy), with a smaller US Army contribution. The Polish foundation made Bletchley Park possible.
 
 ---
 
@@ -187,9 +187,9 @@ Why was the Polish contribution hidden for four decades?
 
 ## The Monument
 
-![The Enigma Codebreakers Monument in Poznan, unveiled in 2007. Three bronze pillars for three mathematicians. The inscription reads: "To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany." Photo: Radomil via Wikimedia Commons (GFDL 1.2).](/assets/images/Poznan_monument.jpg)
+![The Enigma Codebreakers Monument in Poznan, unveiled in 2007. A single bronze triangular prism, with one name engraved on each of its three faces. The inscription reads: "To the memory of Marian Rejewski, Jerzy Rozycki, Henryk Zygalski -- mathematicians, Polish Army officers, who by breaking Enigma ciphers contributed to the victory over Nazi Germany." Photo: Radomil via Wikimedia Commons (GFDL 1.2).](/assets/images/Poznan_monument.jpg)
 
-In 2007, a monument was unveiled in Poznan -- the city where three young mathematicians attended a secret cryptology course in 1929. Three bronze pillars, triangular in cross-section, each bearing the name of one of the three. The Poznan Enigma Cipher Centre now stands nearby, telling their story.
+In 2007, a monument was unveiled in Poznan -- the city where three young mathematicians attended a secret cryptology course in 1929. A bronze prism, triangular in cross-section, with each face bearing the name of one of the three. The Poznan Enigma Cipher Centre now stands nearby, telling their story.
 
 The inscription reads:
 
@@ -234,8 +234,8 @@ This story is personal. I am Polish. And I do not forget.
 * Kahn, D. (1974). Review of *The Ultra Secret* by F. W. Winterbotham. *New York Times Book Review*, December 29, 1974.
 
 **Articles and Online Sources:**
-* GCHQ. The Pyry Conference. [GCHQ](https://www.gchq.gov.uk/information/pyry-conference)
-* JSTOR Daily. The Polish Codebreakers Who Cracked the Enigma Machine. [JSTOR](https://daily.jstor.org/the-codebreakers-who-saved-the-world/)
+* GCHQ. The Pyry Forest Meeting. [GCHQ](https://www.gchq.gov.uk/information/the-pyry-forest-meeting)
+* Cryptologic Foundation. Poland's Overlooked Enigma Codebreakers. [Cryptologic Foundation](https://cryptologicfoundation.org/community/bytes/cryptologic-bytes---people.html/article/2014/07/07/poland-s-overlooked-enigma-codebreakers)
 * Bauer, F.L. (2003). Review of *Codebreakers*. *Notices of the AMS*. [PDF](https://www.ams.org/notices/200308/rev-bauer.pdf)
 * AMS Feature Column. Permutations and the Enigma Machine. [AMS](https://www.ams.org/publicoutreach/feature-column/fcarc-enigma)
 * Enigma Cipher Centre, Poznan. [centrum-szyfrow.pl](https://centrum-szyfrow.pl/en/)
