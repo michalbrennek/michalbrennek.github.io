@@ -39,7 +39,7 @@ He identified **seven variables** that defined the atmospheric state at any poin
 
 But Bjerknes himself never got to the computation. What he did instead was something equally revolutionary.
 
-In **1917**, with World War I raging and Norway cut off from continental European weather data by the German blockade (the scarce winter of 1916-17 became known as the *Kohlrubenwinter* - the turnip winter), Bjerknes moved to the University of Bergen and founded the **Geophysical Institute**. He convinced the Norwegian government that meteorology mattered for the country's farming and fishing industries, and through sheer persuasion **increased the number of weather observation stations in western Norway tenfold** (Atlas Obscura).
+In **1917**, with World War I raging and Norway cut off from continental European weather data by the German blockade, Bjerknes moved to the University of Bergen and founded the **Geophysical Institute**. (The same blockade triggered the German *Kohlrubenwinter* of 1916-17 -- the "turnip winter" -- and Norway, dependent on continental grain and coal, suffered its own food and fuel shortages.) He convinced the Norwegian government that meteorology mattered for the country's farming and fishing industries, and through sheer persuasion roughly **increased the number of weather observation stations in western Norway tenfold** (Atlas Obscura). By July 1918, the operational West Norwegian Weather Service was running out of the attic in the Bjerknes family home.
 
 The first office was, quite literally, **in the attic of the Bjerknes family home** (Encyclopedia.com).
 
@@ -70,15 +70,15 @@ But it was Jacob who had given the Bergen School its core insight - the cyclone 
 
 The Bergen School was **not a literal school but a school of thought** - born in an attic during wartime, staffed by a father, his son, and a handful of brilliant young Scandinavians.
 
-Picture the setup. It is **July 1918**. The war is still on. Norway is neutral but isolated - the Germans have cut off weather telegrams from the continent, and the brutal winter of 1916-17 (the *Kohlrubenwinter*, the turnip winter) has made the government finally listen to Vilhelm's argument that weather forecasting matters for food production and fishing safety. He has talked them into expanding the observation network tenfold. Now he needs people to actually analyze the data.
+Picture the setup. It is **July 1918**. The war is still on. Norway is neutral but isolated -- the Germans have cut off weather telegrams from the continent, and the brutal winter of 1916-17 (with its acute food and fuel shortages across northern Europe) has made the government finally listen to Vilhelm's argument that weather forecasting matters for food production and fishing safety. He has talked them into expanding the observation network roughly tenfold. Now he needs people to actually analyze the data.
 
-The "office" is the attic of the Bjerknes family home in Bergen. The "staff" is Jacob, barely out of his teens, plus a rotating cast of students and young researchers who show up, get handed surface observations, and are told: draw what you see. Tor Bergeron arrives from Sweden. Halvor Solberg joins. **Carl-Gustaf Rossby** passes through - he would later emigrate to America, found the MIT meteorology department, and reshape the entire US Weather Bureau on the Norwegian model. **Sverre Petterssen** comes too - he would eventually formalize frontogenesis mathematically, a function we'll meet in [Part 3](/weather/hpc/history/2026/03/28/The-ghost-in-the-grid.html).
+The "office" is the attic of the Bjerknes family home in Bergen. The "staff" is Jacob, barely out of his teens, plus a rotating cast of students and young researchers who show up, get handed surface observations, and are told: draw what you see. Tor Bergeron arrives from Sweden. Halvor Solberg joins. **Carl-Gustaf Rossby** passes through -- he would later emigrate to America, become the driving force behind the new MIT meteorology department (which he joined in 1928), and reshape the US Weather Bureau on the Norwegian model.
 
-They worked with what they had: **pencils, paper, surface observations telegraphed in from the expanded Norwegian network, and the Norwegian coastline as their laboratory**. No computers. No satellites. No upper-air soundings to speak of. Just a dense grid of surface stations and a group of young people who were inventing a new science in real time, arguing over weather maps spread across the attic floor.
+They worked with what they had: **pencils, paper, surface observations telegraphed in from the expanded Norwegian network, and the Norwegian coastline as their laboratory**. No computers. No satellites. No upper-air soundings to speak of. Just a dense grid of surface stations and a group of young people who were inventing a new science in real time, arguing over weather maps spread across the attic floor. **Sverre Petterssen** would arrive a few years later (1923), and eventually formalize frontogenesis mathematically -- a function we'll meet in [Part 3](/weather/hpc/history/2026/03/28/The-ghost-in-the-grid.html).
 
 The forecasts worked. Fishermen and farmers got better warnings. And the concepts kept coming - cyclone models, frontal life cycles, air mass classification - each one building on the last, each one tested against the next day's weather.
 
-Initially, the international community was skeptical - the British meteorologist William Napier Shaw called it "humbug." But the forecasting results were too good to ignore. By the 1920s, the Bergen School's methods had spread across Scandinavia. By the 1930s, Rossby had exported them to America. The United States didn't formally draw fronts on their surface analyses until **late 1942** - but once they started, they never stopped.
+Initially, the international community was skeptical -- one prominent British reaction reportedly dismissed the methods as "humbug." But the forecasting results were too good to ignore. By the 1920s, the Bergen School's methods had spread across Scandinavia. By the 1930s, Rossby had exported them to America. The United States didn't formally draw fronts on their surface analyses until **late 1942** - but once they started, they never stopped.
 
 The lines on your weather map? They come from a 21-year-old in Norway who borrowed the vocabulary of war to describe the atmosphere. Jacob Bjerknes later emigrated to the US, founded the UCLA meteorology department, served as a wartime consultant to the US Army Air Forces, and in 1969 was the first to connect **El Nino to global oscillation patterns** (ENSO) - arguably the most important climate discovery of the 20th century (Bjerknes, 1969).
 
@@ -93,7 +93,7 @@ Tomorrow: [how synopticists and satellites actually read fronts](/weather/hpc/hi
 
 [^2]: Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416).
 
-[^3]: Eliassen, A. (1995). Jacob Aall Bonnevie Bjerknes, 1897-1975. *Biographical Memoirs of the National Academy of Sciences*, 68, 17-46. National Academies Press. [NAS](https://www.nasonline.org/wp-content/uploads/2024/10/bjerknes-jacob.pdf).
+[^3]: Eliassen, A. (1995). Jacob Aall Bonnevie Bjerknes, 1897-1975. *Biographical Memoirs of the National Academy of Sciences*, 68, 17-46. National Academies Press. [NAS Biographical Memoirs](https://www.nasonline.org/publications/biographical-memoirs/).
 
 ---
 
