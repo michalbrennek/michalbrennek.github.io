@@ -25,7 +25,7 @@ What follows is the story of how Bryan built the ocean on a half-megabyte comput
 
 ## Woods Hole, 1951
 
-Kirk Bryan Jr. was born on July 21, 1929, into a family of field scientists. His grandfather Richard Bryan had been an astronomer on the disastrous 1871-73 Polaris expedition to the Arctic, during which his ship was lost and the crew rescued from an ice floe. His father Kirk Bryan Sr. was a Harvard geology professor who specialised in the erosion and hydrology of the American Southwest, and who died suddenly of a heart attack on a field trip in Colorado in August 1950 -- three months before his son started his senior year at Yale.[^1]
+Kirk Bryan Jr. was born on July 21, 1929, into a family of field scientists. His grandfather Richard Bryan had been an astronomer on the disastrous 1871-73 Polaris expedition to the Arctic, during which his ship was lost and the crew rescued from an ice floe. His father Kirk Bryan Sr. was a Harvard geology professor who specialised in the erosion and hydrology of the American Southwest, and who died suddenly of a heart attack on a field trip in Cody, Wyoming, in August 1950 -- three months before his son started his senior year at Yale.[^1]
 
 Bryan Jr. graduated from Yale in 1951 with a bachelor's degree and no particular idea of what to do with it. What he did, for reasons that his later oral history interviews do not entirely explain, was drive to Woods Hole, Massachusetts, on the Cape Cod coast, and talk his way into a junior research position at the Woods Hole Oceanographic Institution. He spent approximately two years there between 1951 and 1953. His principal scientific influence during those years was a man named **Henry Stommel**.[^2]
 
@@ -125,7 +125,7 @@ The 1969 *JCP* paper was reprinted in 1997 for the *Journal of Computational Phy
 
 The same year the *JCP* paper appeared, Bryan and Manabe published another paper -- in the *Journal of the Atmospheric Sciences*, April 1969, four pages long -- titled "Climate Calculations with a Combined Ocean-Atmosphere Model."[^15]
 
-Two paragraphs in, the paper explains what it is. "The experiments described in this note are made with a numerical model of the atmosphere and the world oceans coupled together." There was no previous model to compare it to. It was the first of its kind. The atmospheric component was Manabe's nine-level hemispheric GCM, the one that had produced the 1967 radiative-convective results that would lead, five decades later, to the 2021 Nobel Prize in Physics. The ocean component was Bryan's five-level model, running with a rigid lid and realistic North Pacific and North Atlantic geometry. The two components exchanged heat, moisture, and wind stress at the surface at every coupled time step.
+Two paragraphs in, the paper explains what it is. "The experiments described in this note are made with a numerical model of the atmosphere and the world oceans coupled together." There was no previous model to compare it to. It was the first of its kind. The atmospheric component was Manabe's nine-level hemispheric GCM, the one that had produced the 1967 radiative-convective results that would lead, five decades later, to the 2021 Nobel Prize in Physics. The ocean component was Bryan's five-level model, running with a rigid lid and an idealised sector geometry covering 120 degrees of longitude from the equator to the pole -- about one-sixth of the Earth's surface. The two components exchanged heat, moisture, and wind stress at the surface at every coupled time step.
 
 The computer was a **UNIVAC 1108** at Princeton. The UNIVAC 1108, introduced in 1964 and still in production in 1969, was a mid-range scientific mainframe: a 36-bit word size, a core memory of typically 262 144 words (about 1.1 megabytes), and a floating-point performance of roughly half a million operations per second. The GFDL machine was configured with about half a megabyte of available memory for the coupled run.[^16] Twenty minutes of CPU time produced one model day of atmosphere. A long integration -- several hundred simulated years, to allow the deep ocean to equilibrate -- consumed months of machine time, running at night and on weekends around the regular operational workload.
 
@@ -141,7 +141,7 @@ It is four pages. It ran on half a megabyte. It is the whole history of climate 
 
 I want to pause on Michael Cox, because he is the character in this story whose fate does not fit the others.
 
-Cox arrived at GFDL in the early 1960s as a computer operator. His job was to run the overnight batch queue: mount tapes, load card decks, check for errors, print output, hand the results back to the scientists the next morning. He had no scientific training and no PhD. He was a year older than Bryan, blue-collar in background, and more interested in machines than in equations.[^19]
+Cox arrived at GFDL in 1962 as a computer operator, his first job being on the IBM Stretch. His job was to run the overnight batch queue: mount tapes, load card decks, check for errors, print output, hand the results back to the scientists the next morning. He had no scientific training and no PhD. He was twelve years younger than Bryan, and more interested in machines than in equations.[^19]
 
 What Bryan noticed about Cox, over the first year or two of their working together, was that Cox read the code. The scientists he supported would turn in their Fortran, Cox would run it, see the output, and -- uncommonly for an operator -- open the deck and work through the logic. By 1966 or 1967, Cox had begun to make suggestions. By the time the Bryan-Cox 1967 *Tellus* paper appeared, he was a co-author. It was not a courtesy authorship. Cox was, by then, the principal implementer of the ocean code. Bryan designed the physics and the numerics. Cox wrote the Fortran.
 
@@ -175,7 +175,7 @@ This is called **asynchronous time-stepping** or **distorted physics**. It is no
 
 When Cox died in 1989, the GFDL ocean group had to decide what to do with the code base. Bryan was by then sixty years old, increasingly moving toward the senior-advisory role he would occupy for the rest of his career. The Ocean Division's next generation -- Ronald Pacanowski, Keith Dixon, Tony Rosati -- inherited the Bryan-Cox code and had to decide whether to continue patching it or to rewrite it.
 
-They rewrote it. The rewrite was released in December 1990 as **MOM1**, the first "Modular Ocean Model."[^27] MOM1 was still Fortran 77. It still used the rigid lid. It still used Bryan's finite-difference discretisation on an Arakawa B-grid. But it was refactored into modules, equipped with a proper conjugate-gradient elliptic solver, and designed to be adopted by external users. It worked. Within five years MOM1 and its successor MOM2 were running at every major climate-modelling centre outside the USSR.
+They rewrote it. The rewrite was released in 1991 as **MOM1**, the first "Modular Ocean Model."[^27] MOM1 was still Fortran 77. It still used the rigid lid. It still used Bryan's finite-difference discretisation on an Arakawa B-grid. But it was refactored into modules, equipped with a proper conjugate-gradient elliptic solver, and designed to be adopted by external users. It worked. Within five years MOM1 and its successor MOM2 were running at every major climate-modelling centre outside the USSR.
 
 The current version at GFDL is **MOM6**, released in 2019 by Alistair Adcroft and Robert Hallberg.[^28] MOM6 is the ocean component of GFDL's CMIP6-era climate models and of several operational weather and climate services. It has a free surface (implicit), an isopycnal coordinate option (the ocean surfaces are aligned with surfaces of constant density, not constant depth), support for unstructured grids, GPU offload for some kernels, and a substantially cleaner software architecture than MOM5. It is also, line by line, the direct descendant of Fortran Cox wrote in 1967.
 
@@ -208,7 +208,7 @@ Stommel died in 1992. Bryan has outlived him by more than three decades.
 
 ## Princeton, 2023
 
-Kirk Bryan accepted the Alexander Agassiz Medal from the National Academy of Sciences on April 30, 2023, at the academy's 160th annual meeting. He was ninety-three. The medal, awarded once every five years, is the highest American award in oceanography, and its recipients since 1913 include Walter Munk, Henry Stommel, Carl Wunsch, Jorge Sarmiento, and Manabe's old GFDL director Joseph Smagorinsky.[^30] Bryan attended the ceremony in person.
+Kirk Bryan accepted the Alexander Agassiz Medal from the National Academy of Sciences on April 30, 2023, at the academy's 160th annual meeting. He was ninety-three. The medal, awarded once every five years, is the highest American award in oceanography, and its recipients since 1913 include Walter Munk, Henry Stommel, Wallace Broecker, and Sallie Chisholm.[^30] Bryan attended the ceremony in person.
 
 In the GFDL announcement of the award, in January 2023, Bryan offered a single on-the-record sentence that I think summarises, better than anything else he has said, what he actually accomplished:
 
@@ -260,7 +260,7 @@ The thermohaline conveyor has been weakening measurably since 1980. We know this
 
 [^19]: Cox's early GFDL role is described in the GFDL MOM history paper (Griffies et al. 2015/2017) and in Bryan's 1991 tribute to him, [PDF at gfdl.noaa.gov](https://www.gfdl.noaa.gov/bibliography/related_files/kb9104.pdf).
 
-[^20]: Bryan, K., and Gill, A. E. (1971). "A note on the heat transport by fluctuating currents." An earlier joint paper on Southern Ocean dynamics with Adrian Gill during Gill's sabbatical at GFDL.
+[^20]: Gill, A. E., and Bryan, K. (1971). "Effects of geometry on the circulation of a three-dimensional southern-hemisphere ocean model." *Deep-Sea Research* 18, 685-721. Collaborative paper from Adrian Gill's sabbatical at GFDL.
 
 [^21]: Bryan, K., and Lewis, L. J. (1979). "A water mass model of the World Ocean." *Journal of Geophysical Research* 84(C5), 2503-2517.
 
