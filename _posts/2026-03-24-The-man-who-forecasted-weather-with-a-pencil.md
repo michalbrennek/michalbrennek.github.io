@@ -31,7 +31,7 @@ But then came the call-up. And this is where Richardson's character comes into s
 
 As a Quaker, he was a **conscientious objector**. He would not kill. But he would not hide either.
 
-In May 1916, Richardson resigned from the Met Office and volunteered for the **Friends' Ambulance Unit**, attached to the 16th French Infantry Division on the Western Front. He drove ambulances through the mud and shelling of France. He carried the wounded. He saw the worst that humanity could produce.
+In May 1916, Richardson resigned from the Met Office and volunteered for the **Friends' Ambulance Unit**, attached to the 16th French Infantry Division on the Western Front.[^2] He drove ambulances through the mud and shelling of France. He carried the wounded. He saw the worst that humanity could produce.
 
 And in between the horror, during whatever scraps of calm he could find, he did arithmetic.
 
@@ -65,7 +65,7 @@ Richardson laid out a grid of **25 squares** over a diamond-shaped region of Cen
 
 Every single arithmetic operation -every multiplication, every division, every addition of pressure tendencies across grid cells -was done by hand, with pencil, paper, a slide rule, and a table of logarithms. To guard against mistakes, he did everything twice (Richardson, 1922).
 
-It took him approximately **six weeks** of painstaking labor to produce a **six-hour forecast** for a single point.
+It took him approximately **six weeks** of painstaking labor to produce a **six-hour forecast** for a single point.[^3]
 
 Six weeks. For six hours. For one point.
 
@@ -91,7 +91,7 @@ And then, months later, it was found.
 
 I want you to imagine the emotional whiplash. You've spent six weeks -scraps of time between carrying wounded soldiers -doing arithmetic that nobody in the history of civilization has ever attempted. You write it all down. It disappears in the fog of battle. You grieve it. And then someone finds it under coal.
 
-The manuscript survived. Richardson survived. And in **1922**, Cambridge University Press published it as ***Weather Prediction by Numerical Process*** -for the princely sum of **30 shillings**. Only **750 copies** were printed. Not exactly a bestseller. Still in print 30 years later, though. The math ages well.
+The manuscript survived. Richardson survived. And in **1922**, Cambridge University Press published it as ***Weather Prediction by Numerical Process*** -- a slim hardback priced at thirty shillings, with reportedly only 750 copies printed in the first run.[^4] Not exactly a bestseller. Reprinted and reissued repeatedly over the next century. The math ages well.
 
 ### The Most Magnificent Failure in Meteorological History
 
@@ -121,7 +121,7 @@ It's the same problem that would plague the ENIAC team decades later. It's the s
 
 Richardson didn't live to see his vindication. He died in 1953, one year before the first operational NWP forecasts began.
 
-But decades later, meteorologist **Peter Lynch** at University College Dublin went back to Richardson's original numbers. He applied **digital filtering** -a technique to remove the high-frequency noise from the initial conditions, exactly the kind of smoothing Richardson never had access to.
+But decades later, meteorologist **Peter Lynch** at University College Dublin went back to Richardson's original numbers. He applied **digital filtering**[^5] -a technique to remove the high-frequency noise from the initial conditions, exactly the kind of smoothing Richardson never had access to.
 
 The result?
 
@@ -177,7 +177,7 @@ A man who helped invent modern weather forecasting walked away from it because i
 
 So here we are.
 
-Richardson sat on a pile of hay and computed for six weeks to produce one wrong number. Thirty-four years later, the ENIAC team plugged cables for days to produce one right forecast in 24 hours. In 2008, the Phoniac did the same calculation on a Nokia in under a second.
+Richardson sat on a pile of hay and computed for six weeks to produce one wrong number. Thirty-four years later, the ENIAC team plugged cables for days to produce one right forecast in 24 hours. In 2008, the Phoniac did the same calculation on a Nokia 6300 in under a second.[^6]
 
 And now I'm sitting here with seven Raspberry Pi CM5s strapped together with a Noctua fan, pushing **0.54 TFLOPS** of double-precision arithmetic -a machine that could run Richardson's entire forecast in a time period so short it's barely worth measuring. The 64,000 human computers he dreamed of? Replaced by a box the size of a lunchbox.
 
@@ -195,6 +195,11 @@ And honestly? Next time GeoTOP gives me a runtime that insults my ancestors, I'm
 
 ## Footnotes
 [^1]: Richardson, L. F. (1922). *Weather Prediction by Numerical Process.* Cambridge University Press. [Internet Archive](https://archive.org/details/weatherpredictio00richrich).
+[^2]: See MacTutor biography of Richardson and Gold, E. (1954). Lewis Fry Richardson, 1881-1953. *Biographical Memoirs of Fellows of the Royal Society*, 9, 217-235.
+[^3]: Estimates of the computation time vary. The Met Office centenary page cites "more than six weeks"; Lynch (2006, Ch. 7) describes the work as costing Richardson "some two years of arduous calculation" spread across his 1916-1918 ambulance service. Both numbers describe the same effort: roughly six weeks of full-time work distributed in fragments across nearly two calendar years of war-zone duty. See [Met Office, *Celebrating Lewis Fry Richardson*](https://www.metoffice.gov.uk/about-us/who-we-are/our-history/celebrating-100-years-of-scientific-forecasting) and [Lynch (2006), Ch. 7](https://maths.ucd.ie/~plynch/Dream/Book/CHAP07.pdf).
+[^4]: First-edition price and print-run figures as cited in the secondary literature; see Lynch, P. (2006). *The Emergence of Numerical Weather Prediction: Richardson's Dream*, Cambridge University Press.
+[^5]: Lynch, P. (1992). Richardson's Barotropic Forecast: A Reappraisal. *Bull. Amer. Meteor. Soc.*, 73, 35-47. [DOI](https://doi.org/10.1175/1520-0477(1992)073<0035:RBFAR>2.0.CO;2)
+[^6]: Lynch, P. & Lynch, O. (2008). Forecasts by PHONIAC. *Weather*, 63(11), 324-326. [HTML](https://maths.ucd.ie/~plynch/Publications/PHONIAC.html). The Nokia 6300 ran the barotropic forecast in under a second.
 
 ---
 
