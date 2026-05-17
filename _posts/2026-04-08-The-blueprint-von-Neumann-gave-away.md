@@ -29,11 +29,11 @@ Today: the rest of the family. Six machines, four continents, and the remarkable
 
 ### The Family
 
-| | MANIAC (1952) | JOHNNIAC (1954) | ILLIAC I (1952) | ORDVAC (1952) | WEIZAC (1955) | SILLIAC (1956) |
+| | MANIAC (1952) | JOHNNIAC (1953) | ILLIAC I (1952) | ORDVAC (1952) | WEIZAC (1955) | SILLIAC (1956) |
 |---|---|---|---|---|---|---|
 | **Location** | Los Alamos | Santa Monica | Urbana, IL | Aberdeen, MD | Rehovot, Israel | Sydney, Australia |
 | **Builder** | N. Metropolis | Willis Ware | R. Meagher | R. Meagher | G. Estrin | H. Messel |
-| **Tubes** | ~2500 | ~5000 | 2800 | ~2200 | ~2000 | 2768 |
+| **Tubes** | ~2500 | ~5000 | 2800 | 2718 | ~2000 | 2768 |
 | **Memory** | 1024 words | 1024 words | 1024 words | 1024 words | 1024 words | 1024 words |
 | **Science** | Monte Carlo | First AI | First computer music | Ballistics | Tidal physics | Ecology |
 | **Retired** | 1958 | 1966 | 1962 | 1962 | 1963 | 1968 |
@@ -52,7 +52,7 @@ Metropolis was a Greek-American physicist who had worked on the Manhattan Projec
 
 ### What MANIAC Found
 
-Its first job was the one you would expect from Los Alamos: **thermonuclear weapons calculations**. The hydrogen bomb needed numbers that no human could produce, and MANIAC delivered them. **Klara von Neumann** -- John's wife, and one of the first programmers to write code for both the ENIAC and the IAS machine -- wrote MANIAC's first programs.
+Its first job was the one you would expect from Los Alamos: **thermonuclear weapons calculations**. The hydrogen bomb needed numbers that no human could produce, and MANIAC delivered them. **Klara von Neumann** -- John's wife, and one of the first programmers to write code for both the ENIAC and MANIAC I -- wrote MANIAC's first programs.
 
 But the machine's most lasting contribution had nothing to do with weapons. In 1953, physicist **Arianna Rosenbluth** programmed the **Metropolis algorithm** -- a method for sampling configurations of particles using random numbers. The idea, conceived by Metropolis and **Stanislaw Ulam**, was to replace impossible integrals with statistical dice-rolling: generate random configurations, keep the ones that satisfy a criterion, repeat millions of times. The result converges on the correct answer.
 
@@ -68,11 +68,11 @@ And then, because Los Alamos in the 1950s was that kind of place, someone decide
 
 ---
 
-## JOHNNIAC -- The Machine That Invented AI (RAND Corporation, 1954)
+## JOHNNIAC -- The Machine That Invented AI (RAND Corporation, 1953)
 
 ![The JOHNNIAC at the Computer History Museum, Mountain View, California. The art-deco styled cabinet -- unusual for a scientific instrument -- shows the internal circuitry through glass panels. Photo by Indolences, public domain.](/assets/images/JOHNNIAC_RAND.jpg)
 
-**Willis Ware** had been an engineer on von Neumann's original IAS machine at Princeton. When RAND Corporation in Santa Monica decided it needed a computer, Ware took charge of building one from the IAS blueprints. The result, operational in 1954, was named the **JOHNNIAC** -- John von Neumann Numerical Integrator and Automatic Computer. Von Neumann protested the honor. Engineer John Williams overruled him: "There are lots of Johns in the world."[^1]
+**Willis Ware** had been an engineer on von Neumann's original IAS machine at Princeton. When RAND Corporation in Santa Monica decided it needed a computer, Ware took charge of building one from the IAS blueprints. The result, operational in 1953, was named the **JOHNNIAC** -- John von Neumann Numerical Integrator and Automatic Computer. Von Neumann protested the honor. Engineer John Williams overruled him: "There are lots of Johns in the world."[^1]
 
 ### The Selectron Saga
 
@@ -146,7 +146,7 @@ Israel in 1952 was seven years old. There were no computers in the entire Middle
 
 ### Building from Nothing
 
-**Gerald Estrin**, a research engineer from the IAS project, was chosen to lead the construction. He arrived in Israel in 1954 with his wife **Thelma Estrin**, also an electrical engineer. They discovered that there were **no parts, no tools, and no trained staff**. From vacuum tubes to soldering irons -- nothing was available locally.
+**Gerald Estrin**, a research engineer from the IAS project, was chosen to lead the construction. He arrived in Haifa on 26 December 1953 with his wife **Thelma Estrin**, also an electrical engineer. They discovered that there were **no parts, no tools, and no trained staff**. From vacuum tubes to soldering irons -- nothing was available locally.
 
 Components were ordered through a company called Landseas Import-Export and shipped to the ports of Haifa and Tel Aviv. Some assembly work was done in whatever facilities could be found. Thin copper strips -- precision components needed for the circuitry -- were sourced from **a local bicycle repair shop**.
 
@@ -233,7 +233,7 @@ Lebedev had arrived at the stored-program concept -- the big idea -- either inde
 
 ### The Principle of Water Pipe
 
-The BESM line continued for 35 years. BESM-2 went into production. BESM-4 was used to create the **first-ever computer animation**. And then came **BESM-6** (designed 1965, produced 1968-1987), one of the most successful Soviet computers ever built: **355 units** over 19 years. It used 60 000 transistors, ran at 9 MHz, and achieved 1 million instructions per second.
+The BESM line continued for 35 years. BESM-2 went into production. BESM-4 was used to create the **first-ever computer animation**. And then came **BESM-6** (designed 1965, produced 1968-1987), one of the most successful Soviet computers ever built: **355 units** over 19 years. It used 60 000 transistors, ran at 10 MHz, and achieved 1 million instructions per second.
 
 Lebedev introduced **instruction pipelining** to the BESM-6 -- the technique of overlapping the execution of multiple instructions, like an assembly line. He called it the **"Principle of Water Pipe."** The metaphor is perfect: data flows through the processor like water through a pipe, with new drops entering before old drops have exited.
 
