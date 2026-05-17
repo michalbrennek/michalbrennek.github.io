@@ -54,7 +54,7 @@ And here's the catch. A typical cold front is **50-100 km wide**. A sharp one ca
 - **Richardson's 200 km grid** (1917): Couldn't resolve a front. The feature was thinner than the grid.
 - **ENIAC's 736 km grid** (1950, 19x16 points): Hopeless. You could fit several fronts between grid points and the model would never know.
 - **ECMWF IFS at ~9 km** (today): Fronts begin to emerge as recognizable features - tight gradients in theta-e, wind shifts, convergence zones. But they're still smoothed compared to reality.
-- **WRF at 1-3 km**: Resolves frontal structure much better. Recent research shows that convection-permitting models produce **continuous cold fronts** while parameterized-convection models show broken, fragmented fronts (Crespo et al., 2023).
+- **WRF at 1-3 km**: Resolves frontal structure much better. Recent research shows that grid spacing and convection treatment shape the structure of detected fronts: a 2023 study comparing ECMWF and convection-permitting COSMO runs of Cyclone Vladiana found, at 850 hPa, a broken cold front in COSMO and a continuous one in ECMWF -- though the pattern reversed at 700 hPa, underscoring that convection-frontogenesis interactions are still poorly understood (Beckert et al., 2023).
 
 The gap between what the model produces and what a forecaster draws on a chart is still real. It's shrinking with every resolution increase, but it hasn't closed.
 
@@ -62,7 +62,7 @@ The gap between what the model produces and what a forecaster draws on a chart i
 
 So if models can't see fronts, how do we find them in the model output? Through **diagnostic fields** - quantities computed after the fact from the model's prognostic variables.
 
-**Petterssen Frontogenesis** (Petterssen, 1936; Keyser & Reeder, 1988): Measures the Lagrangian rate of change of the horizontal temperature gradient (in plain words: if you ride along with a parcel of air, is the temperature difference between that parcel and its neighbors getting sharper or softer over time?). Where the atmosphere is actively tightening the temperature gradient - squeezing isotherms together - that's frontogenesis. Where it's pulling them apart - frontolysis. The equation involves deformation, divergence, and tilting. It tells you not just where fronts are, but **where they're forming and dying**. Petterssen, by the way, was one of the Bergen School originals - trained in that attic.
+**Petterssen Frontogenesis** (Petterssen, 1936; Keyser, Reeder & Reed, 1988): Measures the Lagrangian rate of change of the horizontal temperature gradient (in plain words: if you ride along with a parcel of air, is the temperature difference between that parcel and its neighbors getting sharper or softer over time?). Where the atmosphere is actively tightening the temperature gradient - squeezing isotherms together - that's frontogenesis. Where it's pulling them apart - frontolysis. The equation involves deformation, divergence, and tilting. It tells you not just where fronts are, but **where they're forming and dying**. Petterssen, by the way, was one of the Bergen School originals - trained in that attic.
 
 **Thermal Front Parameter (TFP)** (Renard & Clarke, 1965; Hewson, 1998): The gradient of the gradient of temperature, resolved along the gradient direction. It sounds like a tongue-twister, but the concept is elegant: it finds the **inflection point** in the temperature field - the place where the thermal gradient changes most abruptly. The zero line of TFP marks the front position. Hewson operationalized this at ECMWF using **wet-bulb potential temperature (theta-w) at 850 hPa**, with threshold criteria to erase thermally weak features. It became the benchmark for automated frontal identification.
 
@@ -103,17 +103,17 @@ That's not a failure of computation. It's a reminder that some of the most impor
 ---
 
 ## References
-* Petterssen, S. (1936). Contribution to the Theory of Frontogenesis. *Geofysiske Publikationer*, 11(6), 1-27.
+* Petterssen, S. (1936). A Contribution to the Theory of Frontogenesis. *Geofysiske Publikationer*, 11(6), 1-27.
 * Renard, R. J. & Clarke, L. C. (1965). Experiments in Numerical Objective Frontal Analysis. *Mon. Wea. Rev.*, 93, 547-556. [AMS](https://journals.ametsoc.org/view/journals/mwre/93/9/1520-0493_1965_093_0547_einofa_2_3_co_2.xml)
 * Hoskins, B. J., Draghici, I. & Davies, H. C. (1978). A new look at the omega-equation. *Q. J. R. Meteorol. Soc.*, 104, 31-38. [DOI](https://doi.org/10.1002/qj.49710443903)
-* Keyser, D. & Reeder, M. J. (1988). A Generalization of Petterssen's Frontogenesis Function. *Mon. Wea. Rev.*, 116(3), 762-781. [AMS](https://journals.ametsoc.org/view/journals/mwre/116/3/1520-0493_1988_116_0762_agopff_2_0_co_2.xml)
+* Keyser, D., Reeder, M. J. & Reed, R. J. (1988). A Generalization of Petterssen's Frontogenesis Function and Its Relation to the Forcing of Vertical Motion. *Mon. Wea. Rev.*, 116(3), 762-780. [AMS](https://journals.ametsoc.org/view/journals/mwre/116/3/1520-0493_1988_116_0762_agopff_2_0_co_2.xml)
 * Hewson, T. D. (1998). Objective fronts. *Meteorological Applications*, 5(1), 37-65. [DOI](https://doi.org/10.1017/S1350482798000553)
-* Thomas, C. M. & Schultz, D. M. (2019). What are the best thermodynamic quantity and level for fronts? *Bull. Amer. Meteor. Soc.*, 100(5), 873-895. [AMS](https://journals.ametsoc.org/view/journals/bams/100/5/bams-d-18-0137.1.xml)
+* Thomas, C. M. & Schultz, D. M. (2019). What are the Best Thermodynamic Quantity and Function to Define a Front in Gridded Model Output? *Bull. Amer. Meteor. Soc.*, 100(5), 873-895. [AMS](https://journals.ametsoc.org/view/journals/bams/100/5/bams-d-18-0137.1.xml)
 * Biard, J. C. & Kunkel, K. E. (2019). Automated detection of weather fronts using a deep learning neural network. *ASCMO*, 5, 147-160. [Copernicus](https://ascmo.copernicus.org/articles/5/147/2019/)
 * Niebler, S. et al. (2022). Automated detection and classification of synoptic-scale fronts. *Weather Clim. Dynam.*, 3, 113-137. [CC BY 4.0](https://wcd.copernicus.org/articles/3/113/2022/)
-* Crespo, J. A. et al. (2023). 3D fronts and associated precipitation. *Geosci. Model Dev.*, 16, 4427-4450. [CC BY 4.0](https://gmd.copernicus.org/articles/16/4427/2023/)
+* Beckert, A. A., Eisenstein, L., Oertel, A., Hewson, T., Craig, G. C. & Rautenhaus, M. (2023). The three-dimensional structure of fronts in mid-latitude weather systems in numerical weather prediction models. *Geosci. Model Dev.*, 16, 4427-4450. [CC BY 4.0](https://gmd.copernicus.org/articles/16/4427/2023/)
 * Justin, T., McGovern, A. & Allen, J. T. (2025). FrontFinder AI. *AI for the Earth Systems*, 4(1). [AMS](https://journals.ametsoc.org/view/journals/aies/4/1/AIES-D-24-0043.1.xml)
-* Crespo, J. A. et al. (2024). Frontal climatologies. *Geosci. Model Dev.*, 17, 6137-6171. [CC BY 4.0](https://gmd.copernicus.org/articles/17/6137/2024/)
+* Sansom, P. G. & Catto, J. L. (2024). Objective identification of meteorological fronts and climatologies from ERA-Interim and ERA5. *Geosci. Model Dev.*, 17, 6137-6151. [CC BY 4.0](https://gmd.copernicus.org/articles/17/6137/2024/)
 * Bjerknes, V. (1904). Das Problem der Wettervorhersage. *Meteorologische Zeitschrift*, 21, 1-7. [English translation (2009)](https://doi.org/10.1127/0941-2948/2009/416)
 * Skamarock, W. C. et al. (2019). A Description of the Advanced Research WRF Model Version 4. *NCAR Technical Note* NCAR/TN-556+STR. [NCAR](https://doi.org/10.5065/1dfh-6p97)
 * Stull, R. (2017). *Practical Meteorology: An Algebra-based Survey of Atmospheric Science*. Ch. 20: NWP. [CC BY-NC-SA](https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Practical_Meteorology_(Stull)/20:_Numerical_Weather_Prediction_(NWP))
