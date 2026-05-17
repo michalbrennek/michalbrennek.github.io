@@ -142,9 +142,9 @@ She was not a housewife for long. And she was not a grasshopper.
 
 After Pearl Harbor, Klara secured the position of Head of Statistical Computing Group at Princeton -- her first foray into computational work. She had no formal mathematical training beyond her gymnasium education. She was essentially self-taught as a programmer, learning through project work rather than through courses or manuals. Then came the ENIAC, and she became one of the first people in the world to write code for a stored-program computer.
 
-In April 1948, a team including John and Klara von Neumann and Nick Metropolis ran the first computerized Monte Carlo simulations on ENIAC. Klara wrote the code. These were not only the first Monte Carlo calculations by computer -- they were among the first code written in the modern stored-program paradigm ever to be executed. Her team discovered they had been "testing the conveniency of the H-bomb."[^2] The simulations were for thermonuclear weapon feasibility studies.
+In April 1948, a team including John and Klara von Neumann and Nick Metropolis spent 32 days straight at Aberdeen running the first computerized Monte Carlo simulations on ENIAC. Klara had diagrammed and coded the Monte Carlo algorithm herself. These were not only the first Monte Carlo calculations by computer -- they were among the first code written in the modern stored-program paradigm ever to be executed. Her team discovered they had been "testing the conveniency of the H-bomb."[^2] The simulations were for thermonuclear weapon feasibility studies.
 
-In 1950, Jule Charney, Agnar Fjortoft, and John von Neumann ran the [first computer-generated weather forecast](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) on ENIAC -- the founding moment of numerical weather prediction, the event that this entire blog series has been building toward. Klara coded it. In the published paper, the authors thanked "Mrs. K. von Neumann for instruction in the technique of coding for the ENIAC and for checking the final code." She worked for 32 days on the project, managing 100 000 punch cards. A 2021 Smithsonian correction later clarified that her primary contribution was writing and checking the code and training the meteorologists to program the ENIAC -- she was not merely a punch-card operator, as earlier accounts had implied. She was the programmer.
+In 1950, Jule Charney, Agnar Fjortoft, and John von Neumann ran the [first computer-generated weather forecast](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) on ENIAC -- the founding moment of numerical weather prediction, the event that this entire blog series has been building toward. By then, Klara was the world's leading expert on ENIAC coding. The published paper thanked "Mrs. K. von Neumann for instruction in the technique of coding for the ENIAC and for checking the final code." Historians have debated the exact extent of her role on the day; what is certain is that no one outside Los Alamos understood ENIAC programming as deeply as she did, and the meteorologists learned to write code for the machine in a paradigm she had helped invent. She trained them, and she reviewed the code that made the first numerical forecast possible.
 
 At Los Alamos, she wrote the first programs for MANIAC I, the machine designed by her husband and Julian Bigelow. She was, by any reasonable accounting, one of the first programmers in the world. And yet, in the Charney-Fjortoft-von Neumann paper that established numerical weather prediction -- the founding document of the field I have been writing about for eighteen posts -- she appears only in the acknowledgments. "Mrs. K. von Neumann." Not even her first name.
 
@@ -168,7 +168,7 @@ She was 52 years old.
 
 The unfinished memoir now sits in the Library of Congress, part of the John Von Neumann and Klara Dan von Neumann papers collection. In 2022, the *Lost Women of Science* podcast devoted its entire second season to her story. Episode 5 is called "La Jolla."
 
-She coded the first weather forecast. She coded the Monte Carlo method. She wrote the first programs for MANIAC I. And her own story was "not marketable."
+She coded the first computerized Monte Carlo simulations. She trained and reviewed the team that ran the first weather forecast. She wrote the first programs for MANIAC I. And her own story was "not marketable."
 
 I have written about the 1950 ENIAC weather forecast in [Post 6](/weather/hpc/history/2026/03/29/The-man-who-tamed-the-equations.html) and [Post 7](/weather/hpc/history/2026/03/30/The-first-climate-model-had-5KB-of-RAM.html) of this series. I named Charney, Fjortoft, and von Neumann. I did not name Klara. That is the erasure at work, and I am correcting it now.
 
@@ -271,7 +271,7 @@ The delay between contribution and recognition tells the story:
 - **The ENIAC six:** programmed ENIAC in 1946, first formally recognized in 1997. Fifty-one years.
 - **Mary Tsingou:** programmed the FPUT experiment in 1953, name added to the problem in 2008. Fifty-five years.
 - **Arianna Rosenbluth:** wrote the Metropolis code in 1953, still largely unrecognized. Over seventy years.
-- **Klara von Neumann:** coded the 1950 weather forecast, first widely recognized in 2017. Sixty-seven years.
+- **Klara von Neumann:** coded the 1948 ENIAC Monte Carlo simulations and trained the meteorologists who ran the 1950 weather forecast, first widely recognized in 2017. Sixty-seven years.
 - **Margaret Hamilton:** led the Apollo software team in the 1960s, Presidential Medal of Freedom in 2016. Forty-seven years.
 
 Many of the women left computing to raise children -- Meltzer in 1947, Spence in 1947, Rosenbluth after 1953, Tsingou temporarily. Their departures were used to further diminish their contributions. The logic was circular: they were not credited because they were "just" programmers; they left because they were not credited; and their leaving was taken as evidence that the work had not mattered. Betty Holberton's professor had asked her on the first day of class whether she would not be "better off at home raising children." Many of the six were told the same thing, in different words, for the rest of their careers.
@@ -294,7 +294,7 @@ The women were also not invited to the ENIAC's 50th anniversary celebration in 1
 
 They programmed the first computer.
 
-They coded the first weather forecast.
+They trained the team that ran the first weather forecast.
 
 They wrote the first Monte Carlo simulation.
 
