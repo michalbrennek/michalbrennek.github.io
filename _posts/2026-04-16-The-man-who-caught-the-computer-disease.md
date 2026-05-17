@@ -25,27 +25,27 @@ It is an affectionate anecdote, not a damning one. Feynman understood the diseas
 
 That obsession would cost him. It would also, in ways no one could have predicted, change the world.
 
-![Stanley Frankel, Los Alamos badge photo, circa 1943. He was 24 years old when he arrived at the laboratory. Photo: Los Alamos National Laboratory, public domain.](/assets/images/Frankel_portrait.jpg)
+![Stanley Frankel, Los Alamos badge photo, circa 1943. He was 23 years old when he arrived at the laboratory. Photo: Los Alamos National Laboratory, public domain.](/assets/images/Frankel_portrait.jpg)
 
 ---
 
 ## The Bomb Factory
 
-Stanley Phillips Frankel was born on June 6, 1919, in Los Angeles. He studied physics at the University of Rochester, earned his Ph.D. at the University of California, Berkeley, and did post-doctoral work under **J. Robert Oppenheimer** -- who, in 1942, was assembling the team that would build the atomic bomb.
+Stanley Phillips Frankel was born in 1919 in Los Angeles. He studied physics at the University of Rochester, earned his Ph.D. at the University of California, Berkeley, and did post-doctoral work under **J. Robert Oppenheimer** -- who, in 1942, was assembling the team that would build the atomic bomb.
 
-Oppenheimer brought Frankel to Los Alamos in 1943. He was 24 years old. He had the unusual combination of a theorist's training and a builder's instincts -- the kind of person who could derive the equations and then figure out how to actually compute the answers. At Los Alamos, that combination was exactly what was needed.
+Oppenheimer brought Frankel to Los Alamos in early 1943. He was 23 years old. He had the unusual combination of a theorist's training and a builder's instincts -- the kind of person who could derive the equations and then figure out how to actually compute the answers. At Los Alamos, that combination was exactly what was needed.
 
 At the laboratory, Frankel was assigned to the Theoretical Division, where his job was not to solve the physics himself but to build the infrastructure that made solving it possible. Together with Eldred Nelson, he made early calculations on neutron diffusion -- the fundamental problem of determining whether a nuclear chain reaction would sustain itself. These calculations were essential: without them, there was no way to know how much fissile material the bomb would need, or whether the design would produce a sustained explosion or fizzle out.
 
 But Frankel's most distinctive contribution was organizational.
 
-Frankel created **Group T-5**: teams of women -- many of them scientists' wives, including his own wife, **Mary Frankel** -- organized into assembly-line workflows using Marchant and Friden desk calculators. Each person performed one step of a long calculation, passed the result to the next person, and so on down the line. The work was the complex, repetitive implosion hydrodynamics that would determine whether the plutonium bomb design could work.
+Frankel and Eldred Nelson helped organize the laboratory's desk-calculator pool -- **Group T-5**, led by Donald Flanders from the summer of 1943. Mary Frankel, who was a mathematician in her own right, set up the calculation sheets that the human computers (most of them scientists' wives, eventually supplemented by Women's Army Corps staff) executed step by step on Marchant and Friden desk calculators. Each person performed one step of a long calculation, passed the result to the next person, and so on down the line. The work was the complex, repetitive implosion hydrodynamics that would determine whether the plutonium bomb design could work.
 
 It was a human pipeline. Each calculator operator was a stage in a serial processor. The whole arrangement prefigured, in flesh and pencil and clattering desktop machines, the architecture of the electronic computers that were about to arrive.
 
-Frankel also recognized, earlier than almost anyone else at Los Alamos, that the IBM tabulating machines the laboratory had acquired could be programmed -- not just used as glorified adding machines, but given sequences of instructions that would let them execute complex calculations automatically. He designed a system, ordered IBM equipment, and set about making it work.
+Frankel also recognized, earlier than almost anyone else at Los Alamos, that the IBM tabulating machines the laboratory had acquired could be programmed -- not just used as glorified adding machines, but given sequences of instructions that would let them execute complex calculations automatically. He designed a system, ordered IBM equipment, and set about making it work. In September 1944, these IBM computations were formalized as **Group T-6**, spun off from Robert Serber's T-2 Diffusion Theory group, with Frankel and Nelson as co-leaders.
 
-Then he caught the computer disease. The arctangent episode followed. Feynman took over the IBM group, reorganized it into a parallel processing pipeline, and dramatically accelerated the output. Frankel was moved aside.
+Then he caught the computer disease. The arctangent episode followed. In January 1945, Frankel was moved out of T-6 entirely -- to Edward Teller's F-Division, where he began working on the thermonuclear Super. Feynman eventually took over the IBM operation (formally serving as acting T-6 group leader in April and May 1945, while Nelson was hospitalized after a skiing accident), reorganized it into a parallel processing pipeline, and dramatically accelerated the output. Frankel's move to F-Division looked at the time like a demotion. In retrospect it was the door that opened on the next chapter.
 
 But the instinct that had led Frankel to sit alone with a tabulating machine, programming it to do something useless but beautiful, was not a character flaw. It was a preview of everything he would do for the rest of his life.
 
@@ -65,7 +65,7 @@ Teller had proposed a design for a thermonuclear weapon -- the "Super" -- and th
 
 The ENIAC was barely operational. It filled an entire room at the Moore School -- 40 panels, 17468 vacuum tubes, 70000 resistors, 10000 capacitors. Programming it meant physically rewiring its patch cables and setting its function table switches by hand. There was no stored program. Every new problem required a new physical configuration of the machine.
 
-Frankel and Metropolis learned the system, designed the program, and in November 1945 ran the calculation. It was the **first nuclear physics computation ever performed on an all-electronic computer**. Roughly half a million punch cards of data flowed through the machine. The program ran for weeks. The results were available by December.
+Frankel and Metropolis learned the system, designed the program through the fall of 1945, and on December 10, 1945 the ENIAC was put to work on the Los Alamos problem -- the **first nuclear physics computation ever performed on an all-electronic computer**, and the first top-secret calculation ever run on an all-electronic machine. Roughly half a million punch cards of data flowed through the machine. The calculation ran through December 1945 and into January 1946. The results were available in time for Teller's spring 1946 report.
 
 The answers were not what Teller wanted to hear. The ENIAC calculations revealed several fundamental flaws in the Super design -- problems that showed the proposed weapon would fail to achieve sustained thermonuclear burning. Teller incorporated the results into his spring 1946 report. The hydrogen bomb, as he had conceived it, would not work. It would take another six years, and a completely different design by Stanislaw Ulam and Teller -- the radiation implosion concept -- before a workable thermonuclear weapon was achieved in 1952.
 
@@ -81,7 +81,7 @@ He was doing important work. He was good at it. He was building a career at the 
 
 Then the Red Scare found him.
 
-In early 1949, Stanley Frankel lost his security clearance. The precise reasons are not well documented in public sources, but the effect was absolute. He was cut off from the national laboratory system. He could not work at Los Alamos. He could not work at any government-funded research facility. He could not contribute to the computational physics programs that were reshaping Cold War science.
+In 1949 or the early 1950s, during the Red Scare, Stanley Frankel lost his security clearance. The precise reasons are not well documented in public sources, but the effect was absolute. He was cut off from the national laboratory system. He could not work at Los Alamos. He could not work at any government-funded research facility. He could not contribute to the computational physics programs that were reshaping Cold War science.
 
 His mentor suffered the same fate. On December 21, 1953, the Atomic Energy Commission suspended **J. Robert Oppenheimer's** security clearance. The hearings that followed, in April 1954, were a national spectacle. On June 29, 1954, Oppenheimer's clearance was permanently revoked. The father of the atomic bomb was declared a security risk by the government he had served.
 
@@ -123,7 +123,7 @@ The result was the **Librascope General Purpose 30**, or **LGP-30**, first manuf
 
 ![The Librascope LGP-30, circa 1957. Desk-sized, roughly 800 pounds, with a Flexowriter typewriter for input/output. It plugged into a standard wall socket and required no special cooling. Over 500 were sold. Photo: Computer History Museum, CC BY-SA 3.0.](/assets/images/LGP-30_with_skins.jpg)
 
-The specifications, by the standards of 1956, were modest. A magnetic drum 6.5 inches in diameter and 7 inches long provided 4096 words of 32-bit memory, organized as 64 tracks of 64 words each. The time between adjacent addresses was approximately 2.34 milliseconds -- glacial by mainframe standards. Input and output went through a Flexowriter typewriter with punched paper tape.
+The specifications, by the standards of 1956, were modest. A magnetic drum 6.5 inches in diameter and 7 inches long provided 4096 words of 31-bit memory, organized as 64 tracks of 64 words each (the drum stored 32 bits per word, but the 32nd was a spacer). The drum rotated at 3700 rpm, giving roughly 17 milliseconds maximum access time between addresses -- glacial by mainframe standards. Input and output went through a Flexowriter typewriter with punched paper tape.
 
 But the specifications that mattered were different. The LGP-30 was **desk-sized**. It weighed approximately **800 pounds** -- heavy, but it sat on a desk, not on a raised floor. It plugged into a **standard wall socket**. It required no special cooling, no dedicated power supply, no machine room. It was quiet. It was reliable. A single person could operate it without help.
 
