@@ -55,7 +55,7 @@ So Sweden built its own.
 
 ### BARK and BESK: Bitter Machines
 
-The first machine was **BARK** -- the *Binär Automatisk Relä-Kalkylator* (Binary Automatic Relay Calculator). It used 8 000 telephone relays and 80 kilometres of cable. It was already obsolete when completed in April 1950 -- similar relay machines had existed a decade earlier. Howard Aiken reportedly visited and said: "This is the first computer I have seen outside Harvard that actually works."[^3]
+The first machine was **BARK** -- the *Binär Aritmetisk Relä-Kalkylator* (Binary Arithmetic Relay Calculator). It used 8 000 telephone relays and 80 kilometres of cable. It was already obsolete when it became operational in April 1950 -- similar relay machines had existed a decade earlier. Howard Aiken reportedly visited and said: "This is the first computer I have seen outside Harvard that actually works."[^3]
 
 The BARK team had wanted to call it **CONIAC** -- *Conny Integrator And Calculator*, after project leader **Conny Palm**. Officials blocked the name. Too close to "cognac." Too alcoholic for a government project.
 
@@ -94,7 +94,7 @@ Stemme became, without formal appointment, the de facto leader of BESK's hardwar
 | **Addition time** | **56 μs** | 62 μs | 60 μs |
 | **Multiplication** | **350 μs** | 713 μs | 456 μs |
 | **Vacuum tubes** | 2 400 | ~3 400 | ~4 000 |
-| **Operational** | 1953 | 1952 | 1952 |
+| **Operational** | 1953[^5] | 1952 | 1952 |
 
 BESK was closely modelled on the IAS machine -- the Swedish team brought back drawings from Princeton -- but it was not a slavish copy. It was **faster**. For a few weeks in late 1953, BESK held the title of **fastest computer in the world**. A small neutral country, locked out of American technology by export controls, had built a machine that outperformed the original.
 
@@ -243,6 +243,7 @@ The two-week wall that [Lorenz](/weather/hpc/history/2026/03/31/The-butterfly-th
 [^2]: Carl-Gustaf Rossby: Theorist, institution builder, bon vivant. *Physics Today*. [Link](https://physicstoday.aip.org/features/carl-gustaf-rossby-theorist-institution-builder-bon-vivant).
 [^3]: Lundin, P., ed. (2006). *Att arbeta med 1950-talets matematikmaskiner* (Working with the Computing Machines of the 1950s). KTH. [PDF](http://kth.diva-portal.org/smash/get/diva2:10842/FULLTEXT01.pdf).
 [^4]: Beckman, B. (2002). *Codebreakers: Arne Beurling and the Swedish Crypto Program During World War II*. American Mathematical Society.
+[^5]: BESK was first powered up in late 1953 -- which is when it briefly held the title of fastest computer in the world. The formal inauguration came on 1 April 1954.
 
 ---
 
