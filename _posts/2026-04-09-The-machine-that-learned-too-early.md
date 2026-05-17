@@ -23,7 +23,7 @@ What if the machine could teach itself?
 
 ![Frank Rosenblatt as a young researcher, ca. 1950. Photo: Heinz Nixdorf MuseumsForum via Wikimedia Commons (CC BY-SA 4.0).](/assets/images/Rosenblatt_portrait.jpg)
 
-**Frank Rosenblatt** was born on July 11, 1928, in New Rochelle, New York. He was, by every account, a genius -- but not the narrow kind. He played classical piano on a grand piano he bought for his house in Brooktondale (though he had a weakness for improvising endlessly on "Three Blind Mice"). He built a personal observatory on a hilltop behind his house, doing most of the masonry himself, and housed a 12-inch Cassegrain telescope inside it. He pursued SETI research. He was active in Eugene McCarthy's 1968 presidential campaign and protested the Vietnam War. He studied psychology, mathematics, neurophysiology, astronomy, computing, and music.
+**Frank Rosenblatt** was born on July 11, 1928, in New Rochelle, New York. He was, by every account, a genius -- but not the narrow kind. He played classical piano on a grand piano he bought for his house in Brooktondale (though he had a weakness for improvising endlessly on "Three Blind Mice"). He built a personal observatory on a hilltop behind his house, doing most of the masonry himself, and housed a 12.5-inch Fecker Cassegrain telescope inside it. He pursued SETI research. He was active in Eugene McCarthy's 1968 presidential campaign and protested the Vietnam War. He studied psychology, mathematics, neurophysiology, astronomy, computing, and music.
 
 His colleague George Nagy said it best: "During my career I got to know some very bright persons. Knowing Frank made me appreciate the difference between 'very bright' and 'genius.'"[^1]
 
@@ -65,7 +65,7 @@ The **Mark I Perceptron**, constructed in 1960 with funding from the Office of N
 
 The machine literally turned knobs to learn. When it got an answer wrong, tiny motors adjusted the resistance on hundreds of potentiometers, changing the weights by fractions of an ohm. When it got an answer right, the motors stayed still. Over hundreds of trials, the dials settled into positions that encoded the correct pattern.
 
-It worked. The Mark I Perceptron achieved 99.8% accuracy distinguishing squares from circles, 100% on squares versus diamonds, and could classify the letters X and E with 100% accuracy after just 20 training examples. It sits today in the **Smithsonian National Museum of American History**.
+It worked. The Mark I Perceptron achieved 99.8% accuracy distinguishing squares from circles, 100% on squares versus diamonds, and 100% accuracy classifying the letters X and E (with limited rotation). It sits today in the **Smithsonian National Museum of American History**.
 
 ---
 
@@ -190,7 +190,7 @@ The quiet psychologist with the grand piano and the telescope had been right all
 ## Footnotes
 [^1]: Nagy, G. (2011). "Frank Rosenblatt: A Personal Recollection." In the Cornell eCommons Frank Rosenblatt Memorial volume. [PDF](https://ecommons.cornell.edu/server/api/core/bitstreams/9722f83a-1386-4956-a576-06d29b41c197/content).
 [^2]: *New York Times* (1958, July 8). "New Navy Device Learns by Doing," p. 25. [AITopics archive](https://aitopics.org/doc/news:C85C11EF). Rosenblatt's own quoted remarks are from his Office of Naval Research press conference reported in the same article.
-[^3]: Minsky, M. & Papert, S. (1969). *Perceptrons: An Introduction to Computational Geometry*. MIT Press, p. 232.
+[^3]: Minsky, M. & Papert, S. (1988). *Perceptrons: An Introduction to Computational Geometry*. Expanded edition, MIT Press. Prologue. (The passage originates from Minsky & Papert's 1971 *Report of Project MAC*, paraphrased into the 1988 expanded edition's prologue.)
 [^4]: Olazaran, M. (1996). "A Sociological Study of the Official History of the Perceptrons Controversy." *Social Studies of Science*, 26(3), 611-659.
 [^5]: Crevier, D. (1993). *AI: The Tumultuous History of the Search for Artificial Intelligence*. Basic Books, p. 105. Minsky's own remarks on the book's reception also appear in the expanded 1988 edition of *Perceptrons*, prologue.
 [^6]: Lighthill, J. (1973). "Artificial Intelligence: A General Survey." In *Artificial Intelligence: A Paper Symposium*, Science Research Council.
