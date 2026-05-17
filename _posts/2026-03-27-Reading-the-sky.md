@@ -34,13 +34,13 @@ There's a term for the two flavors of front that this analysis reveals: an **ana
 
 ### Then Came the Satellites
 
-In the 1970s and 1980s, **Keith Browning** at the Met Office revolutionized how we read cyclones by developing the **conveyor belt model** (Browning, 1986). Browning was known among colleagues for his intuitive grasp of complex three-dimensional meteorological processes -- his gift for distilling them into clear conceptual models.
+In the 1970s and 1980s, **Keith Browning** at the Met Office championed and synthesised the **conveyor belt model** of cyclones (Browning, 1986) -- a framework whose key elements had been introduced by Harrold (1973) and Carlson (1980). Browning was known among colleagues for his intuitive grasp of complex three-dimensional meteorological processes -- his gift for distilling them into clear conceptual models.
 
 Instead of thinking about fronts as static lines on a map, Browning described three-dimensional **rivers of air** flowing through cyclones:
 
-**The Warm Conveyor Belt (WCB)**: A coherent stream of moist, warm air rising from the surface to the upper troposphere along the frontal zone. This is what produces **most of the precipitation** in a mid-latitude cyclone. It originates in the low-level southwesterly flow ahead of the cold front, ascends vigorously (sometimes rising through 600 hPa of altitude), and on satellite imagery appears as the elongated cloud band above the warm front (Browning, 1986; Harrold, 1973).
+**The Warm Conveyor Belt (WCB)**: A coherent stream of moist, warm air rising from the surface to the upper troposphere along the frontal zone. This is what produces **most of the precipitation** in a mid-latitude cyclone. It originates in the low-level southwesterly flow ahead of the cold front and ascends vigorously -- the modern operational definition of a WCB trajectory is an ascent of at least 600 hPa of pressure (roughly 7-8 km of altitude) within 48 hours (Madonna et al., 2014). On satellite imagery it appears as the elongated cloud band above the warm front (Browning, 1986; Harrold, 1973).
 
-**The Cold Conveyor Belt (CCB)**: Flows from east to west beneath the warm conveyor belt, north of the warm front. Rises and turns as it goes. Its existence has been debated - David Schultz and others have questioned whether it truly represents a coherent airstream - but the concept remains useful for understanding the low-level flow north of warm fronts.
+**The Cold Conveyor Belt (CCB)**: Flows from east to west beneath the warm conveyor belt, north of the warm front. Rises and turns as it goes. Its structure has been debated -- David Schultz (2001) reexamined the CCB and showed that what appears as one airstream in some depictions is really two distinct paths (cyclonic and anticyclonic) -- but the concept remains useful for understanding the low-level flow north of warm fronts.
 
 **The Dry Intrusion (DI)**: Descends from the upper troposphere or even the stratosphere, bringing cold, dry air with high potential vorticity. On **water vapor imagery**, it shows up as the dark **"dry slot"** curling behind the cold front - one of the most recognizable features in satellite meteorology.
 
@@ -58,7 +58,7 @@ The conveyor belt model was transformative because it connected the **Norwegian 
 
 British satellite meteorology became a tradition in itself - forecasters who could read the atmosphere from a single water vapor image the way a radiologist reads an X-ray. The conveyor belt model gave them a theoretical framework; the satellite gave them the picture. Together, they transformed operational forecasting.
 
-As the **EUMeTrain** satellite manual notes: "The conveyor belt theory shows a higher variety of possible developments and clearly indicates that the Occlusion process as described by the Norwegian model only represents a special case."[^2]
+As the **EUMeTrain** satellite manual notes: "It shows a higher variety of possible developments and clearly indicates that the Occlusion process as described by the Norwegian model only represents a special case."[^2]
 
 The Norwegian model drawn in an attic in 1919. The conveyor belts described at the Met Office in the 1970s-80s. The satellite images beamed down every 15 minutes. Three generations of understanding, layered on top of each other - and still, at the center of it all, a human being looking at patterns and deciding: **that's a front**.
 
@@ -73,7 +73,10 @@ Tomorrow: [why the models still can't do what the human does](/weather/hpc/histo
 
 ## References
 * Browning, K. A. (1986). Conceptual Models of Precipitation Systems. *Weather and Forecasting*, 1(1), 23-41. [AMS](https://journals.ametsoc.org/view/journals/wefo/1/1/1520-0434_1986_001_0023_cmops_2_0_co_2.xml)
+* Carlson, T. N. (1980). Airflow through midlatitude cyclones and the comma cloud pattern. *Monthly Weather Review*, 108(10), 1498-1509.
 * Harrold, T. W. (1973). Mechanisms influencing the distribution of precipitation within baroclinic disturbances. *Q. J. R. Meteorol. Soc.*, 99, 232-251. [DOI](https://doi.org/10.1002/qj.49709942003)
+* Madonna, E., Wernli, H., Joos, H., & Martius, O. (2014). Warm conveyor belts in the ERA-Interim dataset (1979-2010). Part I: Climatology and potential vorticity evolution. *Journal of Climate*, 27(1), 3-26.
+* Schultz, D. M. (2001). Reexamining the Cold Conveyor Belt. *Monthly Weather Review*, 129(9), 2205-2225.
 * Dacre, H. (2020). A review of extratropical cyclones: observations and conceptual models over the past 100 years. *Weather*, 75(4). [RMetS](https://rmets.onlinelibrary.wiley.com/doi/10.1002/wea.3653)
 * EUMeTrain. [Conveyor Belt Model](https://resources.eumetrain.org/satmanu/conveyor_belt_model/index.html)
 * EUMeTrain. [Comma Cloud](https://resources.eumetrain.org/satmanu/CMs/Comma/print.htm)
