@@ -23,52 +23,22 @@ Start with a merchant's puzzle, because the whole idea is hiding inside it. You 
 
 That system is called balanced ternary. Ordinary counting uses ten digits; binary uses two, 0 and 1. Balanced ternary uses three digits, and here is the twist: they are not 0, 1, 2 but **-1, 0 and +1** -- weight in the far pan, weight in the box, weight with the goods. Each position in a numeral is a power of three instead of a power of two, and each digit says whether that power is added, ignored, or subtracted. Eight is written `+0-`: one nine, no threes, minus one. The digits have a name, coined by analogy with bits: trits.
 
-<figure class="align-center" style="width: 92%;">
-<svg viewBox="0 0 860 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Left: a two-pan balance weighing 8 kg using a 9 kg weight on one pan and the goods plus a 1 kg weight on the other. Right: a table of the numbers one to ten written in balanced ternary trits.">
-  <rect x="0" y="0" width="860" height="430" fill="#ffffff"/>
-  <text x="430" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1a2530">Balanced ternary: every digit adds, subtracts, or sits out</text>
-  <!-- balance -->
-  <g stroke="#1f3b57" stroke-width="3" fill="none">
-    <line x1="210" y1="90" x2="210" y2="300"/>
-    <line x1="80" y1="110" x2="340" y2="110"/>
-    <line x1="80" y1="110" x2="80" y2="170"/>
-    <line x1="340" y1="110" x2="340" y2="170"/>
-    <path d="M 30 170 Q 80 210 130 170"/>
-    <path d="M 290 170 Q 340 210 390 170"/>
-    <line x1="160" y1="300" x2="260" y2="300"/>
-  </g>
-  <g font-family="Georgia, serif" font-size="15" fill="#1a2530">
-    <rect x="50" y="140" width="40" height="30" fill="#e8f0fa" stroke="#1f3b57" stroke-width="2"/>
-    <text x="70" y="161" text-anchor="middle">9</text>
-    <rect x="296" y="140" width="52" height="30" fill="#f8e8e8" stroke="#8a3b3b" stroke-width="2"/>
-    <text x="322" y="161" text-anchor="middle">goods</text>
-    <rect x="352" y="140" width="30" height="30" fill="#e8f0fa" stroke="#1f3b57" stroke-width="2"/>
-    <text x="367" y="161" text-anchor="middle">1</text>
-    <text x="210" y="330" text-anchor="middle" font-size="17">8 kg of goods balance: 9 = 8 + 1</text>
-    <text x="210" y="358" text-anchor="middle" font-size="17">so 8 is written</text>
-    <text x="210" y="392" text-anchor="middle" font-family="monospace" font-size="26" fill="#1f3b57">+ 0 -</text>
-    <text x="210" y="416" text-anchor="middle" font-size="14" fill="#5a6570">(+1 x 9)   (0 x 3)   (-1 x 1)</text>
-  </g>
-  <!-- table -->
-  <g font-family="monospace" font-size="18" fill="#1a2530">
-    <text x="530" y="80" font-family="Georgia, serif" font-size="16" fill="#5a6570">decimal</text>
-    <text x="660" y="80" font-family="Georgia, serif" font-size="16" fill="#5a6570">balanced ternary</text>
-    <text x="550" y="112" text-anchor="end">1</text><text x="660" y="112">+</text>
-    <text x="550" y="140" text-anchor="end">2</text><text x="660" y="140">+-</text>
-    <text x="550" y="168" text-anchor="end">3</text><text x="660" y="168">+0</text>
-    <text x="550" y="196" text-anchor="end">4</text><text x="660" y="196">++</text>
-    <text x="550" y="224" text-anchor="end">5</text><text x="660" y="224">+--</text>
-    <text x="550" y="252" text-anchor="end">6</text><text x="660" y="252">+-0</text>
-    <text x="550" y="280" text-anchor="end">7</text><text x="660" y="280">+-+</text>
-    <text x="550" y="308" text-anchor="end">8</text><text x="660" y="308">+0-</text>
-    <text x="550" y="336" text-anchor="end">9</text><text x="660" y="336">+00</text>
-    <text x="550" y="364" text-anchor="end">10</text><text x="660" y="364">+0+</text>
-    <text x="530" y="400" font-family="Georgia, serif" font-size="15" fill="#5a6570">to negate a number, flip every + to -</text>
-    <text x="530" y="422" font-family="Georgia, serif" font-size="15" fill="#5a6570">and every - to +. That is the whole rule.</text>
-  </g>
-</svg>
-  <figcaption>Balanced ternary in one picture. Left: the merchant's two-pan balance, where a weight can oppose the goods, accompany them, or stay in the box -- three states per weight. Right: counting from one to ten in trits. The notation has no separate minus sign; negative numbers are first-class citizens of the system.</figcaption>
-</figure>
+Counting upward, the pattern looks like this:
+
+| decimal | balanced ternary | meaning |
+|--------:|:-----------------|:--------|
+| 1 | `+` | 1 |
+| 2 | `+-` | 3 - 1 |
+| 3 | `+0` | 3 |
+| 4 | `++` | 3 + 1 |
+| 5 | `+--` | 9 - 3 - 1 |
+| 6 | `+-0` | 9 - 3 |
+| 7 | `+-+` | 9 - 3 + 1 |
+| 8 | `+0-` | 9 - 1 |
+| 9 | `+00` | 9 |
+| 10 | `+0+` | 9 + 1 |
+
+The `-` in these numerals is a digit, not a sign. Negative numbers need no extra notation at all: they are written in the same three-symbol alphabet, first-class citizens of the system.
 
 Why would anyone bother? Because the bookkeeping that plagues binary machines simply evaporates. In binary, negative numbers are an awkward afterthought -- sign bits, two's complement, an asymmetric range with one extra negative value that has bitten generations of programmers. In balanced ternary there is no sign bit because the sign lives in the digits themselves. To negate a number you flip every trit: `+0-` (eight) becomes `-0+` (minus eight). Subtraction stops being a separate operation -- negate and add. Comparing two numbers works left to right, like alphabetical order, and the sign of a number is just the sign of its leading trit. Best of all, rounding is free: chop off the last trits of a number and what remains is automatically the *nearest* multiple, never a lopsided truncation toward zero, because the discarded tail is symmetric about zero. A machine that rounds by doing nothing at all.
 
